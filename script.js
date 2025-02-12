@@ -1,4 +1,4 @@
-import jsonData from 'questions.json' assert {type: 'D'}
+import jsonData from 'questions.json'
 
 alert(jsonData);
 
