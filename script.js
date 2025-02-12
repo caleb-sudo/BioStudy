@@ -1,6 +1,4 @@
-const jsonData = "hello"
-alert(jsonData);
-
+import jsonData from 'questions.json'
 function randomizeQuestions(){
     alert(jsonData);
     const type = Math.floor(Math.random()*2);
