@@ -1,5 +1,4 @@
-import jsonData from 'questions.json'
-
+const jsonData = "hello"
 alert(jsonData);
 
 function randomizeQuestions(){
