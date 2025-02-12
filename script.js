@@ -1,6 +1,7 @@
 import jsonData from 'questions.json' assert {type: 'D'}
 
 function randomizeQuestions(){
+    alert(jsonData);
     const type = Math.floor(Math.random()*2);
     const question = 0;
     switch (type) {
