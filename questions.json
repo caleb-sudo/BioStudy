@@ -1,0 +1,69 @@
+{
+    "HumanSytems": [{
+        "Written": [
+            {
+                "question":"What are the 3 Disaccharides?",
+                "possibleAns": [
+                    "Glucose",
+                    "Fructose",
+                    ""
+                ],
+                "writtenBoxes":"3",
+                "picture":""
+            },
+            {
+                "question":"What are the 3 Disaccharides?",
+                "possibleAns": [
+                    "",
+                    "",
+                    ""
+                ],
+                "writtenBoxes":"3",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            },
+            {
+                "question":"",
+                "possibleAns":"",
+                "picture":""
+            }
+        ],
+        "Choice": [
+
+        ]
+    }]
+}
