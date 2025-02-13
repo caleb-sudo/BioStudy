@@ -35,7 +35,7 @@ function build() {
     }
 }
 
-questions = {
+const questions = {
     "D": {
         "Written": {
             "1":{
