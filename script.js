@@ -1,3 +1,15 @@
+function fecthJSONdata() {
+    fetch('./questions.json').then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();  
+    })
+    .then(data => console.log(data))  
+    .catch(error => console.error('Failed to fetch data:', error));
+}
+fetchJSONdata();
+
 const type = 0;
 const question = 0;
 
@@ -96,7 +108,7 @@ questions = [
                     "The molecule(s) that assists enzymes to interacte with other molecules",
                     "The molecule(s) that changes when interacted with an enzyme",
                     "The molecule(s) that change the active site on an enzyme when interacting with the enzyme",
-                    "The molecule(s)"
+                    "The molecule(s) "
                 ],
                 "rightAns":"2"
             },
