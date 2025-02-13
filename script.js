@@ -8,13 +8,12 @@ function fecthJSONdata() {
     .then(data => console.log(data))  
     .catch(error => console.error('Failed to fetch data:', error));
 }
-fetchJSONdata();
+fecthJSONdata();
 
 const type = 0;
 const question = 0;
-
+alert(questions);
 function randomizeQuestions(){
-    alert(questions);
     type = Math.floor(Math.random()*2);
     switch (type) {
         case 0:
