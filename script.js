@@ -1,8 +1,11 @@
-import jsonData from 'questions.json'
+import jsonData from './questions.json'
+
+const type = 0;
+const question = 0;
+
 function randomizeQuestions(){
     alert(jsonData);
-    const type = Math.floor(Math.random()*2);
-    const question = 0;
+    type = Math.floor(Math.random()*2);
     switch (type) {
         case 0:
             question = Math.floor(Math.random()*3);
@@ -14,6 +17,12 @@ function randomizeQuestions(){
     }
 }
 
-function generateQuestion(){
+function build() {
+    switch (type) {
+        case 0:
+            break;
 
+        case 1:
+            break;
+    }
 }
