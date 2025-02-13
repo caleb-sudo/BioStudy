@@ -37,7 +37,7 @@ function build() {
     }
 }
 
-questions = [
+questions = {
     "D": {
         "Written": {
             {
@@ -124,4 +124,4 @@ questions = [
             }
         }
     }
-]
+}   
