@@ -40,7 +40,7 @@ function build() {
 questions = {
     "D": {
         "Written": {
-            {
+            "1":{
                 "question":"What are the 3 Monosaccharides?",
                 "possibleAns": [
                     "glucose",
@@ -50,7 +50,7 @@ questions = {
                 "writtenBoxes":"3",
                 "picture":""
             },
-            {
+            "2":{
                 "question":"What are the 3 Disaccharides?",
                 "possibleAns": [
                     "maltose",
@@ -60,7 +60,7 @@ questions = {
                 "writtenBoxes":"3",
                 "picture":""
             },
-            {
+            "3":{
                 "question":"What are the 3 Polysaccharides?",
                 "possibleAns":[
                     "starch",
@@ -72,7 +72,7 @@ questions = {
             }
         },
         "Choice": {
-            {
+            "1":{
                 "question":"What is Starch used for?",
                 "possibleAns":[
                     "Energy Storage",
@@ -82,7 +82,7 @@ questions = {
                 ],
                 "rightAns":"1"
             },
-            {
+            "2":{
                 "question":"What is not true about Vitamins?",
                 "possibleAns":[
                     "Can act as coenzymes",
@@ -92,7 +92,7 @@ questions = {
                 ],
                 "rightAns":"3"
             },
-            {
+            "3":{
                 "question":"What is not true about Minerals?",
                 "possibleAns":[
                     "Are inorganic ions or Elements",
@@ -102,7 +102,7 @@ questions = {
                 ],
                 "rightAns":"4"
             },
-            {
+            "4":{
                 "question":"What is a Substrate?",
                 "possibleAns":[
                     "The molecule(s) that assists enzymes to interacte with other molecules",
@@ -112,7 +112,7 @@ questions = {
                 ],
                 "rightAns":"2"
             },
-            {
+            "5":{
                 "question":"What is the difference between Competative and Non-Competative Inhibitors?",
                 "possibleAns":[
                     "",
@@ -124,4 +124,4 @@ questions = {
             }
         }
     }
-}   
+};
