@@ -1,6 +1,6 @@
 {
-    "D": [{
-        "Written": [
+    "D": {
+        "Written": {
             {
                 "question":"What are the 3 Monosaccharides?",
                 "possibleAns": [
@@ -31,8 +31,8 @@
                 "writtenBoxes":"3",
                 "picture":""
             }
-        ],
-        "Choice": [
+        },
+        "Choice": {
             {
                 "question":"What is Starch used for?",
                 "possibleAns":[
@@ -83,6 +83,6 @@
                 ],
                 "rightAns":""
             }
-        ]
-    }]
+        }
+    }
 }
