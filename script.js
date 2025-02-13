@@ -12,7 +12,6 @@ fecthJSONdata();
 
 const type = 0;
 const question = 0;
-alert(questions);
 function randomizeQuestions(){
     type = Math.floor(Math.random()*2);
     switch (type) {
@@ -124,3 +123,4 @@ questions = {
         }
     }
 };
+alert(questions);
