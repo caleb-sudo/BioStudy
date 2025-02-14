@@ -16,7 +16,7 @@ var question = 0;
 var topicBtn = document.getElementsByClassName('topicBtn');
 
 for (var i = 0; i < topicBtn.length; i++) {
-    topicBtn[i].addEventListener("click", questionFunc)
+    topicBtn[i].addEventListener("click", questionFunc);
 }
 
 function randomizeQuestions(){
