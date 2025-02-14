@@ -13,7 +13,7 @@ fecthJSONdata();
 var type = 0;
 var question = 0;
 
-document.getElementsByClassName('topicBtn').addEventListener("click", questionFunc());
+document.getElementsByClassName('topicBtn').addEventListener("click", questionFunc);
 
 function randomizeQuestions(){
     type = Math.floor(Math.random()*2);
