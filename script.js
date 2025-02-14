@@ -1,4 +1,4 @@
-function fecthJSONdata() {
+/*function fecthJSONdata() {
     fetch('./questions.json').then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -8,7 +8,7 @@ function fecthJSONdata() {
     .then(data => console.log(data))
     .catch(error => console.error('Failed to fetch data:', error));
 }
-fecthJSONdata();
+fecthJSONdata();*/
 
 var type = 1;
 var question = 0;
