@@ -13,6 +13,8 @@ fecthJSONdata();
 const type = 0;
 const question = 0;
 
+document.getElementsByClassName('topicBtn').addEventListener("click", questionFunc());
+
 function randomizeQuestions(){
     type = Math.floor(Math.random()*2);
     switch (type) {
@@ -24,6 +26,7 @@ function randomizeQuestions(){
             question = Math.floor(Math.random()*4);
             break;
     }
+    alert(type);
 }
 
 function build() {
@@ -41,10 +44,10 @@ function build() {
     }
 }
 
-document.getElementsByClassName('topicBtn').addEventListener("click", function(){
+function questionFunc() {
     randomizeQuestions();
     build();
-});
+}
 
 const questions = {
     "D": {
