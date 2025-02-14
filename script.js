@@ -38,7 +38,7 @@ function build() {
             const radio = document.createElement('input');
             radio.type = 'radio';
             for(var i = 0; i < 4; i++){
-                document.append(radio);
+                document.appendChild(radio);
             }
             break;
     }
@@ -54,33 +54,47 @@ const questions = {
         "Written": {
             "1":{
                 "question":"What are the 3 Monosaccharides?",
-                "possibleAns": [
+                "answers": [
                     "glucose",
                     "fructose",
                     "galactose"
                 ],
-                "writtenBoxes":"3",
+                "writtenBoxes":3,
                 "picture":""
             },
             "2":{
                 "question":"What are the 3 Disaccharides?",
-                "possibleAns": [
+                "answers": [
                     "maltose",
                     "sucrose",
                     "lactose"
                 ],
-                "writtenBoxes":"3",
+                "writtenBoxes":3,
                 "picture":""
             },
             "3":{
                 "question":"What are the 3 Polysaccharides?",
-                "possibleAns":[
+                "answers":[
                     "starch",
                     "cellulose",
                     "glycogen"
                 ],
-                "writtenBoxes":"3",
+                "writtenBoxes":3,
                 "picture":""
+            },
+            "4":{
+                "question":"",
+                "answers": [
+                    "esophagus",
+                    "stomach",
+                    "liver",
+                    "gallbladder",
+                    "duodenum",
+                    "pancreas",
+                    "small intestine",
+                    "large intestine"
+                ],
+                "writtenBoxes":4
             }
         },
         "Choice": {
