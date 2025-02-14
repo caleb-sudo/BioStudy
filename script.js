@@ -5,56 +5,39 @@ function fecthJSONdata() {
         }
         return response.json();  
     })
-    .then(data => console.log(data))  
+    .then(data => console.log(data))
     .catch(error => console.error('Failed to fetch data:', error));
 }
 fecthJSONdata();
 
-var type = 0;
+var type = 1;
 var question = 0;
 
 var topicBtn = document.getElementsByClassName('topicBtn');
 
-for (var i = 0; i < topicBtn.length; i++) {
-    topicBtn[i].addEventListener("click", questionFunc);
-}
-
-function randomizeQuestions(){
-    type = 1;//Math.floor(Math.random()*2);
-    switch (type) {
-        case 0:
-            question = Math.floor(Math.random()*3);
-            break;
-        
-        case 1:
-            question = Math.floor(Math.random()*4);
-            break;
-    }
-    alert(type);
-}
-
-function build() {
-    const submit = document.createElement('input');
-    submit.type = 'submit';
-    switch (type) {
-        case 0:
-            const reset = document.createElement('input');
-            const type = document.createElement('input');
-            break;
-
-        case 1:
-            const radio = document.createElement('input');
-            radio.type = 'radio';
-            for(var i = 0; i < 4; i++){
-                document.appendChild(radio);
-            }
-            break;
-    }
-}
-
-function questionFunc() {
-    randomizeQuestions();
-    build();
+for (var x = 0; x < topicBtn.length; x++) {
+    topicBtn[i].addEventListener("click", function(){
+        type = Math.floor(Math.random()*2);
+        const submit = document.createElement('input');
+        submit.type = 'submit';
+        switch (type) {
+            case 0:
+                question = Math.floor(Math.random()*3);
+                const reset = document.createElement('input');
+                const type = document.createElement('input');
+                break;
+            
+            case 1:
+                question = Math.floor(Math.random()*4);
+                const radio = document.createElement('input');
+                radio.type = 'radio';
+                for(var i = 0; i < 4; i++){
+                    document.appendChild(radio);
+                }
+                break;
+        }
+        alert(type);
+    });
 }
 
 const questions = {
