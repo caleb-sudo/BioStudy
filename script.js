@@ -10,6 +10,10 @@
 }
 fecthJSONdata();*/
 
+var score = localStorage.getItem('score');
+score = score ? parseInt(score) : 0;
+localStorage.setItem("score", score);
+
 var type = 1;
 var question = 0;
 
@@ -86,7 +90,8 @@ const questions = {
                     "small intestine",
                     "large intestine"
                 ],
-                "writtenBoxes":4
+                "writtenBoxes":8,
+                "pictureFile":"./image.jpg"
             }
         },
         "Choice": {
