@@ -10,8 +10,8 @@ function fecthJSONdata() {
 }
 fecthJSONdata();
 
-const type = 0;
-const question = 0;
+var type = 0;
+var question = 0;
 
 document.getElementsByClassName('topicBtn').addEventListener("click", questionFunc());
 
