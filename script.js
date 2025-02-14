@@ -12,6 +12,7 @@ fecthJSONdata();
 
 const type = 0;
 const question = 0;
+
 function randomizeQuestions(){
     type = Math.floor(Math.random()*2);
     switch (type) {
@@ -31,9 +32,19 @@ function build() {
             break;
 
         case 1:
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            for(var i = 0; i < 4; i++){
+                document.append(radio);
+            }
             break;
     }
 }
+
+document.getElementsByClassName('topicBtn').addEventListener("click", function(){
+    randomizeQuestions();
+    build();
+});
 
 const questions = {
     "D": {
