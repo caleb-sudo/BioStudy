@@ -20,7 +20,7 @@ for (var i = 0; i < topicBtn.length; i++) {
 }
 
 function randomizeQuestions(){
-    type = Math.floor(Math.random()*2);
+    type = 1;//Math.floor(Math.random()*2);
     switch (type) {
         case 0:
             question = Math.floor(Math.random()*3);
