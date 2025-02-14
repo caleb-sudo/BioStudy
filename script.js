@@ -16,7 +16,7 @@ var question = 0;
 var topicBtn = document.getElementsByClassName('topicBtn');
 
 for (var x = 0; x < topicBtn.length; x++) {
-    topicBtn[i].addEventListener("click", function(){
+    topicBtn[x].addEventListener("click", function(){
         alert("hello")
         /*type = Math.floor(Math.random()*2);
         const submit = document.createElement('input');
