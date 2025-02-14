@@ -17,7 +17,8 @@ var topicBtn = document.getElementsByClassName('topicBtn');
 
 for (var x = 0; x < topicBtn.length; x++) {
     topicBtn[i].addEventListener("click", function(){
-        type = Math.floor(Math.random()*2);
+        alert("hello")
+        /*type = Math.floor(Math.random()*2);
         const submit = document.createElement('input');
         submit.type = 'submit';
         switch (type) {
@@ -36,7 +37,7 @@ for (var x = 0; x < topicBtn.length; x++) {
                 }
                 break;
         }
-        alert(type);
+        alert(type);*/
     });
 }
 
