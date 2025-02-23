@@ -44,8 +44,6 @@ for (var x = 0; x < topicBtn.length; x++) {
         bbox.appendChild(p);
         if (UnitDWritten[questionNum][3] != null) {
             img.src = UnitDWritten[questionNum][3];
-            img.width = '400px';
-            img.height = 'auto';
             bbox.appendChild(img);
         }
         const text = document.createElement("input");
