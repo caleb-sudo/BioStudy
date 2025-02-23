@@ -1,143 +1,166 @@
-var score = localStorage.getItem('score');
+var score = localStorage.getItem("score");
 score = score ? parseInt(score) : 0;
 localStorage.setItem("score", score);
 
 var type = 1;
-var question = 0;
+var questionNum = 0;
+var submited = false;
 
-const topicBtn = document.getElementsByClassName('topicBtn');
-const box = document.getElementById('questionBox');
+const topicBtn = document.getElementsByClassName("topicBtn");
+const abox = document.getElementById("questionBox");
 
-for (var x = 0; x < topicBtn.length; x++) {
-    topicBtn[x].addEventListener("click", function(){
-        type = Math.floor(Math.random()*2);
-        const submit = document.createElement('input');
-        submit.type = 'submit';
-        box.appendChild(submit)
-        switch (type) {
-            case 0:
-                question = Math.floor(Math.random()*3);
-                const reset = document.createElement('input');
-                const text = document.createElement('input');
-                reset.type = 'reset'
-                box.appendChild(reset);
-                for (var i = 0; i < questions["D"]["Written"][question]["writtenBoxes"]; i++) {
-                	box.appendChild(text)
-                }
-                break;
-            
-            case 1:
-                question = Math.floor(Math.random()*4);
-                const radio = document.createElement('input');
-                radio.type = 'radio';
-                for(var i = 0; i < 4; i++){
-                    box.appendChild(radio);
-                }
-                break;
-        }
-    });
+const bbox = document.createElement('div');
+const submit = document.createElement("input");
+const reset = document.createElement("input");
+const next = document.createElement("button");
+const br = document.createElement("br");
+const p = document.createElement("p");
+const img = document.createElement("img");
+
+for (var i = 0; i < submit.legth; i++) {
+  submit[i].addEventListener("click", function() {
+    submit = true;
+  });
 }
 
-const questions = {
-    "D": {
-        "Written": {
-            1:{
-                "question":"What are the 3 Monosaccharides?",
-                "answers": [
-                    "glucose",
-                    "fructose",
-                    "galactose"
-                ],
-                "writtenBoxes":3,
-                "picture":""
-            },
-            2:{
-                "question":"What are the 3 Disaccharides?",
-                "answers": [
-                    "maltose",
-                    "sucrose",
-                    "lactose"
-                ],
-                "writtenBoxes":3,
-                "picture":""
-            },
-            3:{
-                "question":"What are the 3 Polysaccharides?",
-                "answers":[
-                    "starch",
-                    "cellulose",
-                    "glycogen"
-                ],
-                "writtenBoxes":3,
-                "picture":""
-            },
-            4:{
-                "question":"",
-                "answers": [
-                    "esophagus",
-                    "stomach",
-                    "liver",
-                    "gallbladder",
-                    "duodenum",
-                    "pancreas",
-                    "small intestine",
-                    "large intestine"
-                ],
-                "writtenBoxes":8,
-                "pictureFile":"./image.jpg"
-            }
-        },
-        "Choice": {
-            1:{
-                "question":"What is Starch used for?",
-                "possibleAns":[
-                    "Energy Storage",
-                    "Structure",
-                    "Protection",
-                    "Insolation"
-                ],
-                "rightAns":1
-            },
-            2:{
-                "question":"What is not true about Vitamins?",
-                "possibleAns":[
-                    "Can act as coenzymes",
-                    "Are organic compounds",
-                    "Can act as cofactors",
-                    "Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen"
-                ],
-                "rightAns":3
-            },
-            3:{
-                "question":"What is not true about Minerals?",
-                "possibleAns":[
-                    "Are inorganic ions or Elements",
-                    "Can act as cofactors",
-                    "Can assist enzymes",
-                    "None of the above"
-                ],
-                "rightAns":4
-            },
-            4:{
-                "question":"What is a Substrate?",
-                "possibleAns":[
-                    "The molecule(s) that assists enzymes to interacte with other molecules",
-                    "The molecule(s) that changes when interacted with an enzyme",
-                    "The molecule(s) that change the active site on an enzyme when interacting with the enzyme",
-                    "The molecule(s) "
-                ],
-                "rightAns":2
-            },
-            5:{
-                "question":"What is the difference between Competative and Non-Competative Inhibitors?",
-                "possibleAns":[
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                "rightAns":""
-            }
+function back() {
+    
+}
+
+function nextQuestion() {
+    bbox.remove();
+    abox.appendChild(bbox);
+}
+
+for (var x = 0; x < topicBtn.length; x++) {
+  topicBtn[x].addEventListener("click", function() {
+    bbox.remove();
+    type = Math.floor(Math.random() * 2);
+    submit.type = "submit";
+    switch (type) {
+      case 0:
+        questionNum = Math.floor(Math.random() * 4);
+        p.innerHTML = UnitDWritten[questionNum][0];
+        bbox.appendChild(p);
+        if (UnitDWritten[questionNum][3] != null) {
+            img.src = UnitDWritten[questionNum][3];
+            img.width = '400px';
+            img.height = 'auto';
+            bbox.appendChild(img);
         }
+        const text = document.createElement("input");
+        text.type = "text";
+        bbox.appendChild(text);
+        bbox.appendChild(br);
+        for (var i = 0; i < UnitDWritten[questionNum][2]; i++) {
+          const text = document.createElement("input");
+          text.type = "text";
+          bbox.appendChild(text);
+          bbox.appendChild(br);
+        }
+        break;
+
+      case 1:
+        questionNum = Math.floor(Math.random() * 4);
+        p.innerHTML = UnitDChoice[questionNum][0];
+		bbox.append(p);
+        for (var i = 0; i < 4; i++) {
+          const br = document.createElement("br");
+          const radio = document.createElement("input");
+          const ans = document.createElement("p");
+          radio.type = "radio";
+          bbox.appendChild(radio);
+          ans.innerHTML = UnitDChoice[questionNum][1][i];
+          bbox.appendChild(ans);
+          bbox.appendChild(br);
+        }
+        break;
     }
-};
+    bbox.appendChild(next);
+    next.textContent = "Next";
+    next.onclick = nextQuestion();
+
+    bbox.appendChild(reset);
+    bbox.appendChild(br);
+  });
+}
+
+function increaseScore(amount) {
+
+}
+
+var UnitDWritten = [
+  [
+    "What are the 3 Monosaccharides?",
+    ["glucose", "fructose", "galactose"],
+    2,
+    null,
+  ],
+  ["What are the 3 Disaccharides?", ["maltose", "sucrose", "lactose"], 3, null],
+  [
+    "What are the 3 Polysaccharides?",
+    ["starch", "cellulose", "glycogen"],
+    2,
+    null,
+  ],
+  [
+    "Name all the structures",
+    ["esophagus", "stomach", "liver", "gallbladder", "duodenum", "pancreas", "small intestine", "large intestine"],
+    7,
+    "image.jpg",
+  ],
+];
+
+var UnitDChoice = [
+  [
+    "What is Starch used for?",
+    ["Energy Storage", "Structure", "Protection", "Insolation"],
+    1,
+    null,
+  ],
+  [
+    "What is not true about Vitamins?",
+    [
+      "Can act as coenzymes",
+      "Are organic compounds",
+      "Can act as cofactors",
+      "Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen",
+    ],
+    3,
+    null,
+  ],
+  [
+    "What is not true about Minerals?",
+    [
+      "Are inorganic ions or Elements",
+      "Can act as cofactors",
+      "Can assist enzymes",
+      "None of the above",
+    ],
+    4,
+    null,
+  ],
+  [
+    "What is a Substrate?",
+    [
+      "The molecule(s) that assists enzymes to interacte with other molecules",
+      "The molecule(s) that changes when interacted with an enzyme",
+      "The molecule(s) that change the active site on an enzyme when interacting with the enzyme",
+      "The molecule(s) ",
+    ],
+    2,
+    null,
+  ],
+  [
+    "What is the difference between Competative and Non-Competative Inhibitors?",
+    ["", "", "", ""],
+    1,
+    null,
+  ],
+  [
+    "",
+    ["", "", "", ""],
+    3,
+    null,
+  ],
+];
