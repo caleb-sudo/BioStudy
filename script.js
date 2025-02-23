@@ -35,7 +35,7 @@ function nextQuestion() {
 for (var x = 0; x < topicBtn.length; x++) {
   topicBtn[x].addEventListener("click", function() {
     bbox.remove();
-    type = Math.floor(Math.random() * 2);
+    type = 0//Math.floor(Math.random() * 2);
     submit.type = "submit";
     switch (type) {
       case 0:
@@ -107,7 +107,7 @@ var UnitDWritten = [
     "Name all the structures",
     ["esophagus", "stomach", "liver", "gallbladder", "duodenum", "pancreas", "small intestine", "large intestine"],
     7,
-    "caleb-sudo/BioStudy/image.jpg",
+    "https://caleb-sudo.github.io/BioStudy/image.jpg",
   ],
 ];
 
