@@ -39,7 +39,7 @@ for (var x = 0; x < topicBtn.length; x++) {
     submit.type = "submit";
     switch (type) {
       case 0:
-        questionNum = Math.floor(Math.random() * 4);
+        questionNum = 2//Math.floor(Math.random() * 4);
         p.innerHTML = UnitDWritten[questionNum][0];
         bbox.appendChild(p);
         if (UnitDWritten[questionNum][3] != null) {
