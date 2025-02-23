@@ -107,7 +107,7 @@ var UnitDWritten = [
     "Name all the structures",
     ["esophagus", "stomach", "liver", "gallbladder", "duodenum", "pancreas", "small intestine", "large intestine"],
     7,
-    "image.jpg",
+    "caleb-sudo/BioStudy/image.jpg",
   ],
 ];
 
