@@ -35,11 +35,11 @@ function nextQuestion() {
 for (var x = 0; x < topicBtn.length; x++) {
     topicBtn[x].addEventListener("click", function () {
         bbox.remove();
-        type = 0//Math.floor(Math.random() * 2);
+        type = Math.floor(Math.random() * 2);
         submit.type = "submit";
         switch (type) {
             case 0:
-                questionNum = 3//Math.floor(Math.random() * 4);
+                questionNum = Math.floor(Math.random() * 4);
                 p.innerHTML = UnitDWritten[questionNum][0];
                 bbox.appendChild(p);
                 if (UnitDWritten[questionNum][3] != null) {
