@@ -65,10 +65,15 @@ for (var x = 0; x < topicBtn.length; x++) {
                 p.innerHTML = UnitDChoice[questionNum][0];
                 bbox.append(p);
                 const radio = document.createElement("input");
+                const radio1 = document.createElement("input");
+                const radio2 = document.createElement("input");
+                const radio3 = document.createElement("input");
                 const ans = document.createElement("p");
                 radio.type = "radio";
                 bbox.appendChild(radio);
-                bbox.appendChild(radio);
+                bbox.appendChild(radio1);
+                bbox.appendChild(radio2);
+                bbox.appendChild(radio3);
                 ans.innerHTML = UnitDChoice[questionNum][1][i];
                 bbox.appendChild(ans);
                 break;
