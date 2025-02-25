@@ -10,3 +10,27 @@ button {
     margin-right: 25%;
     padding: 10%;
 }
+
+.correct {
+    animation: 5 correct;
+}
+
+.incorrect {
+    animation: 5 correct;
+}
+
+@keyframe correct {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframe incorrect {
+    0% {
+    }
+    100% {
+    }
+}
