@@ -70,6 +70,9 @@ for (var x = 0; x < topicBtn.length; x++) {
                 const radio3 = document.createElement("input");
                 const ans = document.createElement("p");
                 radio.type = "radio";
+                radio1.type = "radio";
+                radio2.type = "radio";
+                radio3.type = "radio";
                 bbox.appendChild(radio);
                 bbox.appendChild(radio1);
                 bbox.appendChild(radio2);
