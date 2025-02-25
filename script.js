@@ -64,16 +64,13 @@ for (var x = 0; x < topicBtn.length; x++) {
                 questionNum = Math.floor(Math.random() * 4);
                 p.innerHTML = UnitDChoice[questionNum][0];
                 bbox.append(p);
-                for (var i = 0; i < 4; i++) {
-                    const br = document.createElement("br");
-                    const radio = document.createElement("input");
-                    const ans = document.createElement("p");
-                    radio.type = "radio";
-                    bbox.appendChild(radio);
-                    ans.innerHTML = UnitDChoice[questionNum][1][i];
-                    bbox.appendChild(ans);
-                    bbox.appendChild(br);
-                }
+                const radio = document.createElement("input");
+                const ans = document.createElement("p");
+                radio.type = "radio";
+                bbox.appendChild(radio);
+                bbox.appendChild(radio);
+                ans.innerHTML = UnitDChoice[questionNum][1][i];
+                bbox.appendChild(ans);
                 break;
         }
         bbox.appendChild(next);
