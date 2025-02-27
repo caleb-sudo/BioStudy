@@ -66,7 +66,7 @@ for (var x = 0; x < topicBtn.length; x++) {
                 bbox.append(p);
                 for (var i = 0; i < 4; i++) {
                     const radio = document.createElement("input");
-                    const ans = document.createElement("p");
+                    const ans = document.createElement("label");
                     radio.type = "radio";
                     radio.name = "question";
                     ans.innerHTML = UnitDChoice[questionNum][1][i];
