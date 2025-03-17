@@ -19,7 +19,7 @@ const br = document.createElement("br");
 const p = document.createElement("p");
 const img = document.createElement("img");
 
-for (var i = 0; i < submit.legth; i++) {
+for (var i = 0; i < submit.length; i++) {
     submit[i].addEventListener("click", function () {
         submit = true;
     });
