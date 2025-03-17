@@ -5,11 +5,9 @@ localStorage.setItem("score", score);
 var type = 1;
 var questionNum = 0;
 var submited = false;
-var topic;
 
 const topicBtn = document.getElementsByClassName("topicBtn");
 const abox = document.getElementById("questionBox");
-const topics = document.getElementsByClassName("topics");
 
 const bbox = document.createElement('div');
 const submit = document.createElement("input");
@@ -19,7 +17,7 @@ const br = document.createElement("br");
 const p = document.createElement("p");
 const img = document.createElement("img");
 
-for (var i = 0; i < submit.length; i++) {
+for (var i = 0; i < submit.legth; i++) {
     submit[i].addEventListener("click", function () {
         submit = true;
     });
@@ -34,15 +32,8 @@ function nextQuestion() {
     abox.appendChild(bbox);
 }
 
-for (var i = 0; i < topicBtn.length; i++) {
-    topicBtn[i].addEventListener("click", function(){
-        topic = i;
-    });
-}
-
-function makeQuestion() {
-    topics.style.display = "none";
-    for (var x = 0; x < topicBtn.length; x++) {
+for (var x = 0; x < topicBtn.length; x++) {
+    topicBtn[x].addEventListener("click", function () {
         bbox.remove();
         type = Math.floor(Math.random() * 2);
         submit.type = "submit";
@@ -90,7 +81,7 @@ function makeQuestion() {
 
         bbox.appendChild(reset);
         bbox.appendChild(br);
-    }
+    });
 }
 
 function increaseScore(amount) {
