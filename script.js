@@ -35,7 +35,7 @@ function nextQuestion() {
 }
 
 for (var i = 0; i < topicBtn.length; i++) {
-    topicBtn[x].addEventListener("click", function(){
+    topicBtn[i].addEventListener("click", function(){
         topic = i;
     });
 }
