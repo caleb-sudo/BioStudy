@@ -10,7 +10,7 @@ button {
 .topics {
     text-align: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 25%;
     margin-right: 25%;
     padding: 10%;
@@ -24,7 +24,7 @@ button {
     animation: 5 correct;
 }
 
-@keyframe correct {
+@keyframes correct {
     0% {
         opacity: 1;
     }
@@ -33,7 +33,7 @@ button {
     }
 }
 
-@keyframe incorrect {
+@keyframes incorrect {
     0% {
     }
     100% {
