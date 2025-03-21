@@ -6,6 +6,8 @@ var type = 1;
 var questionNum = 0;
 var submited = false;
 
+var checked = [];
+
 const topicBtn = document.getElementsByClassName("topicBtn");
 const abox = document.getElementById("questionBox");
 
@@ -73,6 +75,12 @@ for (var x = 0; x < topicBtn.length; x++) {
                     bbox.appendChild(radio);
                     bbox.appendChild(ans);
                 }
+                next.click(function () {
+                    for (var i = 0; i < 4; i++) {
+                        checked.append(radio[i].checked);
+                    }
+                    console.log(checked);
+                });
                 break;
         }
         bbox.appendChild(next);
@@ -82,6 +90,10 @@ for (var x = 0; x < topicBtn.length; x++) {
         bbox.appendChild(reset);
         bbox.appendChild(br);
     });
+}
+
+function multChecker() {
+
 }
 
 function increaseScore(amount) {
