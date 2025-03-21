@@ -77,7 +77,8 @@ for (var x = 0; x < topicBtn.length; x++) {
                 }
                 next.click(function () {
                     for (var i = 0; i < 4; i++) {
-                        checked.append(radio[i].checked);
+                        var radioChecked = radio[i].checked;
+                        checked.append(radioChecked.toString());
                     }
                     console.log(checked);
                 });
