@@ -31,11 +31,6 @@ function back() {
 
 function nextQuestion() {
     bbox.remove();
-    for (var i = 0; i < 4; i++) {
-        var radioChecked = radio[i].checked;
-        checked.append(radioChecked.toString());
-    }
-    alert(checked);
     abox.appendChild(bbox);
 }
 
@@ -92,7 +87,15 @@ for (var x = 0; x < topicBtn.length; x++) {
 }
 
 function multChecker() {
-
+    for (var i = 0; i < 4; i++) {
+        switch (checked[i]) {
+            case true:
+                break;
+            
+            case false:
+                break;
+        }
+    }
 }
 
 function increaseScore(amount) {
@@ -109,7 +112,7 @@ var UnitDWritten = [
     [
         "What are the 3 Disaccharides?",
         ["maltose", "sucrose", "lactose"],
-        3,
+        2,
         null
     ],
     [
@@ -130,7 +133,7 @@ var UnitDChoice = [
     [
         "What is Starch used for?",
         ["Energy Storage", "Structure", "Protection", "Insolation"],
-        1,
+        0,
         null,
     ],
     [
@@ -141,7 +144,7 @@ var UnitDChoice = [
             "Can act as cofactors",
             "Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen",
         ],
-        3,
+        2,
         null,
     ],
     [
@@ -152,7 +155,7 @@ var UnitDChoice = [
             "Can assist enzymes",
             "None of the above",
         ],
-        4,
+        3,
         null,
     ],
     [
@@ -163,19 +166,19 @@ var UnitDChoice = [
             "The molecule(s) that change the active site on an enzyme when interacting with the enzyme",
             "The molecule(s) ",
         ],
-        2,
+        1,
         null,
     ],
     [
         "What is the difference between Competative and Non-Competative Inhibitors?",
         ["", "", "", ""],
-        1,
+        0,
         null,
     ],
     [
         "",
         ["", "", "", ""],
-        3,
+        2,
         null,
     ],
 ];
