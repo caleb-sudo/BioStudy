@@ -31,6 +31,11 @@ function back() {
 
 function nextQuestion() {
     bbox.remove();
+    for (var i = 0; i < 4; i++) {
+        var radioChecked = radio[i].checked;
+        checked.append(radioChecked.toString());
+    }
+    alert(checked);
     abox.appendChild(bbox);
 }
 
@@ -75,13 +80,6 @@ for (var x = 0; x < topicBtn.length; x++) {
                     bbox.appendChild(radio);
                     bbox.appendChild(ans);
                 }
-                next.click(function () {
-                    for (var i = 0; i < 4; i++) {
-                        var radioChecked = radio[i].checked;
-                        checked.append(radioChecked.toString());
-                    }
-                    console.log(checked);
-                });
                 break;
         }
         bbox.appendChild(next);
