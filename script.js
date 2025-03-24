@@ -10,6 +10,7 @@ var checked = [];
 
 const topicBtn = document.getElementsByClassName("topicBtn");
 const abox = document.getElementById("questionBox");
+const topicBox = document.getElementById("startBtns");
 
 const bbox = document.createElement('div');
 const submit = document.createElement("input");
@@ -37,6 +38,8 @@ function nextQuestion() {
 for (var x = 0; x < topicBtn.length; x++) {
     topicBtn[x].addEventListener("click", function () {
         bbox.remove();
+        topicBox.style.display = "none";
+        topicBox.style.overflow = "hidden";
         type = Math.floor(Math.random() * 2);
         submit.type = "submit";
         switch (type) {
@@ -66,7 +69,7 @@ for (var x = 0; x < topicBtn.length; x++) {
                 questionNum = Math.floor(Math.random() * 4);
                 p.innerHTML = UnitDChoice[questionNum][0];
                 bbox.append(p);
-                for (var i = 0; i < 4; i++) {
+                for (var i = 0; i < UnitDChoice.length; i++) {
                     const radio = document.createElement("input");
                     const ans = document.createElement("label");
                     radio.type = "radio";
