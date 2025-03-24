@@ -82,7 +82,7 @@ for (var x = 0; x < topicBtn.length; x++) {
         }
         bbox.appendChild(next);
         next.textContent = "Next";
-        next.className = "startBtns"
+        next.className = "topicBtn"
         next.onclick = nextQuestion();
 
         bbox.appendChild(reset);
