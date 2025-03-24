@@ -66,10 +66,10 @@ for (var x = 0; x < topicBtn.length; x++) {
                 break;
 
             case 1:
-                questionNum = Math.floor(Math.random() * 4);
+                questionNum = Math.floor(Math.random() * UnitDChoice.length);
                 p.innerHTML = UnitDChoice[questionNum][0];
                 bbox.append(p);
-                for (var i = 0; i < UnitDChoice.length; i++) {
+                for (var i = 0; i < 4; i++) {
                     const radio = document.createElement("input");
                     const ans = document.createElement("label");
                     radio.type = "radio";
