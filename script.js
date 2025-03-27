@@ -2,11 +2,9 @@ var score = localStorage.getItem("score");
 score = score ? parseInt(score) : 0;
 localStorage.setItem("score", score);
 
-var type = 1;
-var questionNum = 0;
+var type;
+var questionNum;
 var submited = false;
-
-var checked = [];
 
 const topicBtn = document.getElementsByClassName("topicBtn");
 const abox = document.getElementById("questionBox");
@@ -20,7 +18,9 @@ const br = document.createElement("br");
 const p = document.createElement("p");
 const img = document.createElement("img");
 
-for (var i = 0; i < submit.legth; i++) {
+const form = document.querySelector("form");
+
+for (var i = 0; i < submit.length; i++) {
     submit[i].addEventListener("click", function () {
         submit = true;
     });
@@ -69,11 +69,11 @@ for (var x = 0; x < topicBtn.length; x++) {
                 questionNum = Math.floor(Math.random() * UnitDChoice.length);
                 p.innerHTML = UnitDChoice[questionNum][0];
                 bbox.append(p);
-                for (var i = 0; i < 4; i++) {
+                for (var i = 0; i < 3; i++) {
                     const radio = document.createElement("input");
                     const ans = document.createElement("label");
                     radio.type = "radio";
-                    radio.name = "question";
+                    radio.name = i;
                     ans.htmlFor = radio;
                     ans.innerHTML = UnitDChoice[questionNum][1][i];
                     bbox.appendChild(radio);
@@ -86,10 +86,28 @@ for (var x = 0; x < topicBtn.length; x++) {
         next.className = "topicBtn"
         next.onclick = nextQuestion();
 
-        bbox.appendChild(reset);
+        bbox.appendChild(submit);
         bbox.appendChild(br);
     });
 }
+
+
+
+form.addEventListener("submit", (event) => {
+    const data = new formData(form);
+    for (const entry of data) {
+        if (type == 0) {
+
+        } else if (type == 1) {
+            if (entry[0] == UnitDChoice[questionNum][2]) {
+
+            } else {
+
+            }
+        }
+    }
+    event.preventDefault()
+});
 
 function checker(x, y, i) {
     var choices = document.getElementsByClassName("choices");
