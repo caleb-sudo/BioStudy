@@ -83,7 +83,7 @@ for (var x = 0; x < topicBtn.length; x++) {
         }
         bbox.appendChild(next);
         next.textContent = "Next";
-        next.className = "topicBtn"
+        next.className = "topicBtn";
         next.onclick = nextQuestion();
 
         bbox.appendChild(submit);
@@ -91,14 +91,14 @@ for (var x = 0; x < topicBtn.length; x++) {
     });
 }
 
-
-
 form.addEventListener("submit", (event) => {
     const data = new formData(form);
+    alr = "";
     for (const entry of data) {
         if (type == 0) {
 
         } else if (type == 1) {
+            alr = `1 ${entry[0]}`;
             if (entry[0] == UnitDChoice[questionNum][2]) {
 
             } else {
@@ -106,6 +106,7 @@ form.addEventListener("submit", (event) => {
             }
         }
     }
+    alert(alr);
     event.preventDefault()
 });
 
