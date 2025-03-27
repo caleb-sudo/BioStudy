@@ -74,6 +74,7 @@ for (var x = 0; x < topicBtn.length; x++) {
                     const ans = document.createElement("label");
                     radio.type = "radio";
                     radio.name = "question";
+                    ans.htmlFor = radio;
                     ans.innerHTML = UnitDChoice[questionNum][1][i];
                     bbox.appendChild(radio);
                     bbox.appendChild(ans);
@@ -90,16 +91,8 @@ for (var x = 0; x < topicBtn.length; x++) {
     });
 }
 
-function multChecker() {
-    for (var i = 0; i < 4; i++) {
-        switch (checked[i]) {
-            case true:
-                break;
-
-            case false:
-                break;
-        }
-    }
+function checker(x, y, i) {
+    var choices = document.getElementsByClassName("choices");
 }
 
 function increaseScore(amount) {
