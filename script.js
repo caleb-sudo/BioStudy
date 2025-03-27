@@ -84,7 +84,6 @@ for (var x = 0; x < topicBtn.length; x++) {
         }
         bbox.appendChild(next);
         next.textContent = "Next";
-        next.className = "topicBtn";
         next.onclick = nextQuestion();
 
         bbox.appendChild(submit);
@@ -100,13 +99,12 @@ form.addEventListener("submit", (event) => {
         } else if (type == 1) {
             alr += `1 ${entry[0]}`;
             if (entry[0] == UnitDChoice[questionNum][2]) {
-
+                alert("correct");
             } else {
-
+                alert("incorrect");
             }
         }
     }
-    alert(alr);
     event.preventDefault()
 });
 
