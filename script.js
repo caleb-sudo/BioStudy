@@ -2,6 +2,7 @@ var score = localStorage.getItem("score");
 score = score ? parseInt(score) : 0;
 localStorage.setItem("score", score);
 
+var alr;
 var type;
 var questionNum;
 var submited = false;
@@ -40,7 +41,7 @@ for (var x = 0; x < topicBtn.length; x++) {
         bbox.remove();
         topicBox.style.display = "none";
         topicBox.style.overflow = "hidden";
-        type = Math.floor(Math.random() * 2);
+        type = 1 //Math.floor(Math.random() * 2);
         submit.type = "submit";
         switch (type) {
             case 0:
@@ -111,7 +112,7 @@ form.addEventListener("submit", (event) => {
 });
 
 function checker(x, y, i) {
-    var choices = document.getElementsByClassName("choices");
+    const choices = document.querySelector(".choices");
 }
 
 function increaseScore(amount) {
