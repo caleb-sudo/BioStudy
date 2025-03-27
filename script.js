@@ -2,7 +2,7 @@ var score = localStorage.getItem("score");
 score = score ? parseInt(score) : 0;
 localStorage.setItem("score", score);
 
-var alr;
+var alr = "";
 var type;
 var questionNum;
 var submited = false;
@@ -94,12 +94,11 @@ for (var x = 0; x < topicBtn.length; x++) {
 
 form.addEventListener("submit", (event) => {
     const data = new formData(form);
-    alr = "";
     for (const entry of data) {
         if (type == 0) {
 
         } else if (type == 1) {
-            alr = `1 ${entry[0]}`;
+            alr += `1 ${entry[0]}`;
             if (entry[0] == UnitDChoice[questionNum][2]) {
 
             } else {
