@@ -41,7 +41,7 @@ for (var x = 0; x < topicBtn.length; x++) {
         bbox.remove();
         topicBox.style.display = "none";
         topicBox.style.overflow = "hidden";
-        type = 1 //Math.floor(Math.random() * 2);
+        type = Math.floor(Math.random() * 2);
         submit.type = "submit";
         switch (type) {
             case 0:
