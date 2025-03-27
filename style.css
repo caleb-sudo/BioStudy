@@ -39,3 +39,7 @@ button {
     100% {
     }
 }
+
+#score {
+    float: right;
+}
