@@ -75,7 +75,7 @@ for (var x = 0; x < topicBtn.length; x++) {
                     const ans = document.createElement("label");
                     radio.type = "radio";
                     radio.name = i;
-                    radio.id = i;
+                    radio.id = 'r'+i;
                     ans.htmlFor = i;
                     ans.innerHTML = UnitDChoice[questionNum][1][i];
                     bbox.appendChild(radio);
