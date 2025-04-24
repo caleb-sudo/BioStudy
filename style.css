@@ -43,3 +43,9 @@ button {
 #score {
     float: right;
 }
+
+#streak {
+    float: right;
+    margin: none;
+    padding: none;
+}
