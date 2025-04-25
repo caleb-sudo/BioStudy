@@ -9,6 +9,13 @@ button {
     cursor: pointer;
 }
 
+#box {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+  
+
 #startBtns {
     text-align: center;
     justify-content: center;
