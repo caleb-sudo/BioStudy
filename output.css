@@ -156,8 +156,17 @@
   }
 }
 @layer utilities {
+  .flex {
+    display: flex;
+  }
   .hidden {
     display: none;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .gap-\[20px\] {
+    gap: 20px;
   }
 }
 body {
@@ -166,6 +175,11 @@ body {
 }
 button {
   cursor: pointer;
+}
+#box {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
 }
 #startBtns {
   text-align: center;
