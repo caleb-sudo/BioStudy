@@ -406,7 +406,6 @@ const question = document.getElementById("question");
 const field = document.getElementById("box");
 
 const submit = document.createElement("button");
-const br = document.createElement("br");
 const p = document.createElement("p");
 const img = document.createElement("img");
 
@@ -467,6 +466,7 @@ submit.addEventListener("click", function() {
     var h = document.createElement("h2");
     h.style.textAlign = "center";
     h.style.width = "200px";
+    var corAns = document.createElement("p");
     var next = document.createElement("button");
     next.innerHTML = "next";
     switch(type) {
@@ -481,12 +481,15 @@ submit.addEventListener("click", function() {
         case 1:
             for (var i = 0; i < 4; i++) {
                 if (radios[i].checked == true) {
+                    field.appendChild(h);
+                    field.appendChild(document.createElement('br'));
                     if (i == UnitDChoice[questionNum][2]) {
                         correctAns = true;
                     } else {
                         correctAns = false;
+                        corAns.innerHTML = str(UnitDChoice[questionNum][2]) + str(UnitDChoice[questionNum][1][UnitDChoice[questionNum][2]])
+                        field.appendChild(corAns);
                     };
-                    field.appendChild(h);
                     field.appendChild(next);
                 }
             }
