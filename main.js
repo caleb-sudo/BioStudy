@@ -144,7 +144,7 @@ var UnitDChoice = [
         null,
     ],
     [
-        "Which blood type is considered the universal donor?"
+        "Which blood type is considered the universal donor?",
         ["A", "B", "AB", "O"],
         3,
         null,
