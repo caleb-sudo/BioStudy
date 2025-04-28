@@ -447,7 +447,7 @@ switch (type) {
             radio.type = "radio";
             radio.name = "opts";
             radio.id = 'r' + i;
-            radio.className = "radios";
+            radio.className = "radio";
             ans.htmlFor = 'r' + i;
             ans.innerHTML = UnitDChoice[questionNum][1][i];
             field.appendChild(radio);
