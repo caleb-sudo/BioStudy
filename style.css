@@ -7,12 +7,6 @@ button {
     cursor: pointer;
 }
 
-#box {
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-}
-
 .radio_label {
     justify-content: center;
     align-content: center;
