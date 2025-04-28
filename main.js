@@ -443,15 +443,16 @@ switch (type) {
         question.innerHTML = UnitDChoice[questionNum][0];
         for (var i = 0; i < 4; i++) {
             const radio = document.createElement("input");
-            const ans = document.createElement("label");
+            const lab = document.createElement("label");
             radio.type = "radio";
             radio.name = "opts";
             radio.id = 'r' + i;
-            radio.className = "radio";
-            ans.htmlFor = 'r' + i;
-            ans.innerHTML = UnitDChoice[questionNum][1][i];
+            radio.className = "radios";
+            lab.htmlFor = 'r' + i;
+            lab.innerHTML = UnitDChoice[questionNum][1][i];
+            lab.className = "radio_label";
             field.appendChild(radio);
-            field.appendChild(ans);
+            field.appendChild(lab);
             field.appendChild(document.createElement('br'));
         }
         break;

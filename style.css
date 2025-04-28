@@ -13,12 +13,12 @@ button {
     flex-direction: column;
 }
 
-.radio {
+.radio_label {
     justify-content: center;
     align-content: center;
 }
 
-.radio:hover {
+.radio_label:hover {
     background-color: gray;
     border: 2px solid aqua;
     border-radius: 10%;
