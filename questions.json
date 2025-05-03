@@ -1,536 +1,539 @@
-[
-    {
-        "question": "What is Starch used for?",
-        "options": [
-            "Energy Storage",
-            "Structure",
-            "Protection",
-            "Insolation"
-        ],
-        "anwser": 0,
-        "picture": null
-    },
-    {
-        "question": "What is not true about Vitamins?",
-        "options": [
-            "Can act as coenzymes",
-            "Are organic compounds",
-            "Can act as cofactors",
-            "Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is not true about Minerals?",
-        "options": [
-            "Are inorganic ions or Elements",
-            "Can act as cofactors",
-            "Can assist enzymes",
-            "None of the above"
-        ],
-        "anwser": 3,
-        "picture": null
-    },
-    {
-        "question": "What is a Substrate?",
-        "options": [
-            "The molecule(s) that assists enzymes to interacte with other molecules.",
-            "The molecule(s) that changes when interacted with an enzyme.",
-            "The molecule(s) that change the active site on an enzyme when interacting with the enzyme.",
-            "The molecule(s) are fish."
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What is the main function of erythrocytes in the blood?",
-        "options": [
-            "Fight infection",
-            "Carry oxygen",
-            "Clot blood",
-            "Control blood pressure"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "Which component of blood is primarily responsible for clotting?",
-        "options": [
-            "Red blood cells",
-            "White blood cells",
-            "Platelets",
-            "Plasma"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What type of blood cell is primarily involved in fighting infections?",
-        "options": [
-            "Red blood cells",
-            "White blood cells",
-            "Platelets",
-            "Plasma"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What does the ABO blood group system identify?",
-        "options": [
-            "Types of white blood cells",
-            "Types of platelets",
-            "Types of blood antigens",
-            "Types of plasma"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which part of the blood contains water, salts, and enzymes?",
-        "options": [
-            "Red blood cells",
-            "White blood cells",
-            "Platelets",
-            "Plasma"
-        ],
-        "anwser": 3,
-        "picture": null
-    },
-    {
-        "question": "Where in the body are all blood cells originally derived from?",
-        "options": [
-            "Heart",
-            "Liver",
-            "Bone marrow",
-            "Spleen"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is anemia primarily caused by?",
-        "options": [
-            "Too many platelets",
-            "Too many white blood cells",
-            "Insufficient number of red blood cells",
-            "High cholesterol levels"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is the function of platelets in the blood?",
-        "options": [
-            "Transport oxygen",
-            "Defend against disease",
-            "Help in blood clotting",
-            "Balance fluid levels"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which type of cell secretes antibodies?",
-        "options": [
-            "Red blood cells",
-            "Macrophages",
-            "Platelets",
-            "Plasma cells"
-        ],
-        "anwser": 3,
-        "picture": null
-    },
-    {
-        "question": "Sickle cell anemia is caused by what?",
-        "options": [
-            "A viral infection",
-            "A bacterial infection",
-            "A genetic mutation",
-            "An autoimmune disorder"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What are antigens?",
-        "options": [
-            "Cells that produce antibodies",
-            "Molecules that can trigger an immune response",
-            "Proteins that transport oxygen",
-            "Particles that clot blood"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What are lysozymes in tears responsible for?",
-        "options": [
-            "Improving vision",
-            "Providing moisture",
-            "Fighting infections",
-            "Facilitating sleep"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "Which blood type is considered the universal donor?",
-        "options": [
-            "A",
-            "B",
-            "AB",
-            "O"
-        ],
-        "anwser": 3,
-        "picture": null
-    },
-    {
-        "question": "Which of the following is a type of white blood cell?",
-        "options": ["Erythrocyte", "Lymphocyte", "Platelet", "Hemoglobin"],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What is the first line of defense in the immune system?",
-        "options": [
-            "T-cells",
-            "Skin",
-            "Antibodies",
-            "Fever"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What is the primary cause of agglutination in blood transfusions?",
-        "options": [
-            "Clotting factors",
-            "Incompatible blood types",
-            "Platelet deficiency",
-            "Plasma overabundance"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "Which immune cells are involved in antigen presentation?",
-        "options": [
-            "Erythrocytes",
-            "Platelets",
-            "Macrophages",
-            "Plasma cells"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What happens in the body when a blood clot travels from its original location?",
-        "options": [
-            "It dissolves automatically",
-            "It causes a blockage called an embolus",
-            "It promotes healing",
-            "It increases oxygen delivery"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "Which cells are responsible for the adaptive immune response?",
-        "options": [
-            "Red blood cells",
-            "Platelets",
-            "T-cells",
-            "All of the above"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "How do vaccines work to protect the body from disease?",
-        "options": [
-            "By killing pathogens directly",
-            "By inducing fever",
-            "By stimulating the immune system to produce memory cells",
-            "By promoting platelet production"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which component is involved in the clotting process and is released from damaged tissues?",
-        "options": [
-            "Thromboplastin",
-            "Fibrinogen",
-            "Plasma",
-            "Hemoglobin"
-        ],
-        "anwser": 0,
-        "picture": null
-    },
-    {
-        "question": "What is the difference between a thrombus and an embolus?",
-        "options": [
-            "A thrombus is a mobile clot, and an embolus is stationary",
-            "A thrombus is a stationary clot, and an embolus is mobile",
-            "A thrombus is a type of white blood cell, and an embolus is a type of red blood",
-            "There is no difference; they are the same"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What type of hypersensitivity reaction involves histamine and mast cells?",
-        "options": [
-            "Autoimmune response",
-            "Cellular immunity",
-            "Allergic reaction",
-            "Vaccine response"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is primarily affected in autoimmune diseases?",
-        "options": [
-            "The body attacks its own tissues",
-            "The body rejects foreign tissues only",
-            "The body stops producing white blood cells",
-            "The body increases red blood cell production"
-        ],
-        "anwser": 0,
-        "picture": null
-    },
-    {
-        "question": "What does the innate immune system primarily consist of?",
-        "options": [
-            "Antibodies and vaccines",
-            "T-cells and B-cells",
-            "Physical barriers and white blood cells",
-            "Red blood cells and platelets"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What are T-cells that help regulate other immune cells called?",
-        "options": [
-            "Killer T-cells",
-            "Helper T-cells",
-            "Memory T-cells",
-            "Suppressor T-cells"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What type of immunity is conferred by the presence of antibodies?",
-        "options": [
-            "Innate immunity",
-            "Adaptive immunity",
-            "Passive immunity",
-            "Active immunity"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "Which of the following is a feature of sickle cell anemia?",
-        "options": [
-            "Increased oxygen transport",
-            "Decreased risk of malaria",
-            "Increased blood clotting",
-            "Increased susceptibility to infections"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What is primarily responsible for the symptoms of allergies?",
-        "options": [
-            "Pathogens",
-            "Antibiotics",
-            "Histamine release",
-            "Antigen presence"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What are macrophages known for in the immune system?",
-        "options": [
-            "Producing antibodies",
-            "Clotting blood",
-            "Engulfing pathogens",
-            "Carrying oxygen"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which cell type is directly involved in the process of thromboplastin release for blood clotting?",
-        "options": [
-            "Erythrocytes",
-            "B-lymphocytes",
-            "Platelets",
-            "Endothelial cells"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is the role of fibrin in the clotting process?",
-        "options": [
-            "Initiates the clotting cascade",
-            "Acts as a catalyst for platelet aggregation",
-            "Forms the structural framework of a clot",
-            "Breaks down clots after healing"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which T-cell type is primarily responsible for the direct killing of virus-infected cells?",
-        "options": [
-            "Helper T-cells",
-            "Memory T-cells",
-            "Killer T-cells",
-            "Suppressor T-cells"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "In terms of immunology, what does &#39;antigen presentation&#39; typically involve?",
-        "options": [
-            "The release of antigens by pathogens",
-            "The exposure of antigens on the surface of cells",
-            "The hiding of antigens from the immune system",
-            "The removal of antigens from the body"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "How do antibodies contribute to the immune response?",
-        "options": [
-            "By increasing blood flow to infected areas",
-            "By marking pathogens for destruction by other immune cells",
-            "By directly killing pathogens",
-            "By regulating body temperature"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What is a characteristic feature of an embolus?",
-        "options": [
-            "It remains attached to the vessel wall",
-            "It travels through the bloodstream to other locations",
-            "It decreases blood clotting",
-            "It is formed outside the vascular system"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What differentiates the innate and adaptive immune responses?",
-        "options": [
-            "Innate responses are slower and less specific",
-            "Adaptive responses are general and non-specific",
-            "Innate responses are immediate and non-specific",
-            "Adaptive responses do not remember pathogens"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which mechanism describes how vaccines work at the cellular level?",
-        "options": [
-            "They provide direct immunity by inserting antibodies",
-            "They stimulate the production of T-cells that remain inactive",
-            "They encourage the immune system to remember pathogens",
-            "They suppress the immune system to prevent overreaction"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is the role of suppressor T-cells in the immune system?",
-        "options": [
-            "They enhance the immune response",
-            "They regulate or suppress other cells in the immune system",
-            "They remember past infections",
-            "They kill infected cells"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What is the primary action of histamine in allergic reactions?",
-        "options": [
-            "It suppresses immune response",
-            "It increases blood coagulation",
-            "It causes inflammation and bronchoconstriction",
-            "It heals the affected tissues"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "Which cells are responsible for the production of antibodies during an immune response?",
-        "options": [
-            "T-cells",
-            "Red blood cells",
-            "B-lymphocytes",
-            "Macrophages"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "What is the relationship between autoimmune diseases and the body&#39;s immune system?",
-        "options": [
-            "The immune system underreacts to foreign bodies",
-            "The immune system attacks healthy body tissue",
-            "The immune system produces excess antibodies",
-            "The immune system stops producing white blood cells"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "What differentiates an antibiotic from a vaccine?",
-        "options": [
-            "Antibiotics stimulate the immune system; vaccines do not",
-            "Antibiotics kill bacteria; vaccines prevent viral infections",
-            "Antibiotics are used to treat infections; vaccines are used to prevent them",
-            "Antibiotics are natural; vaccines are synthetic"
-        ],
-        "anwser": 2,
-        "picture": null
-    },
-    {
-        "question": "How does antibiotic resistance occur?",
-        "options": [
-            "Through genetic mutations in viruses",
-            "When bacteria mutate and are no longer affected by antibiotics",
-            "When the body becomes immune to antibiotics",
-            "When antibiotics are taken with vaccines"
-        ],
-        "anwser": 1,
-        "picture": null
-    },
-    {
-        "question": "Which is a primary function of memory T-cells in the adaptive immune response?",
-        "options": [
-            "To initiate immediate response to pathogens",
-            "To produce antibodies during initial exposure",
-            "To remember pathogens and respond faster upon re-exposure",
-            "To regulate blood clotting during infection"
-        ],
-        "anwser": 2,
-        "picture": null
-    }
-]
+{
+    "test": "hello",
+    "questions": [
+        {
+            "question": "What is Starch used for?",
+            "options": [
+                "Energy Storage",
+                "Structure",
+                "Protection",
+                "Insolation"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is not true about Vitamins?",
+            "options": [
+                "Can act as coenzymes",
+                "Are organic compounds",
+                "Can act as cofactors",
+                "Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is not true about Minerals?",
+            "options": [
+                "Are inorganic ions or Elements",
+                "Can act as cofactors",
+                "Can assist enzymes",
+                "None of the above"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "What is a Substrate?",
+            "options": [
+                "The molecule(s) that assists enzymes to interacte with other molecules.",
+                "The molecule(s) that changes when interacted with an enzyme.",
+                "The molecule(s) that change the active site on an enzyme when interacting with the enzyme.",
+                "The molecule(s) are fish."
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the main function of erythrocytes in the blood?",
+            "options": [
+                "Fight infection",
+                "Carry oxygen",
+                "Clot blood",
+                "Control blood pressure"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which component of blood is primarily responsible for clotting?",
+            "options": [
+                "Red blood cells",
+                "White blood cells",
+                "Platelets",
+                "Plasma"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What type of blood cell is primarily involved in fighting infections?",
+            "options": [
+                "Red blood cells",
+                "White blood cells",
+                "Platelets",
+                "Plasma"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What does the ABO blood group system identify?",
+            "options": [
+                "Types of white blood cells",
+                "Types of platelets",
+                "Types of blood antigens",
+                "Types of plasma"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which part of the blood contains water, salts, and enzymes?",
+            "options": [
+                "Red blood cells",
+                "White blood cells",
+                "Platelets",
+                "Plasma"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "Where in the body are all blood cells originally derived from?",
+            "options": [
+                "Heart",
+                "Liver",
+                "Bone marrow",
+                "Spleen"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is anemia primarily caused by?",
+            "options": [
+                "Too many platelets",
+                "Too many white blood cells",
+                "Insufficient number of red blood cells",
+                "High cholesterol levels"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the function of platelets in the blood?",
+            "options": [
+                "Transport oxygen",
+                "Defend against disease",
+                "Help in blood clotting",
+                "Balance fluid levels"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which type of cell secretes antibodies?",
+            "options": [
+                "Red blood cells",
+                "Macrophages",
+                "Platelets",
+                "Plasma cells"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "Sickle cell anemia is caused by what?",
+            "options": [
+                "A viral infection",
+                "A bacterial infection",
+                "A genetic mutation",
+                "An autoimmune disorder"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What are antigens?",
+            "options": [
+                "Cells that produce antibodies",
+                "Molecules that can trigger an immune response",
+                "Proteins that transport oxygen",
+                "Particles that clot blood"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What are lysozymes in tears responsible for?",
+            "options": [
+                "Improving vision",
+                "Providing moisture",
+                "Fighting infections",
+                "Facilitating sleep"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which blood type is considered the universal donor?",
+            "options": [
+                "A",
+                "B",
+                "AB",
+                "O"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "Which of the following is a type of white blood cell?",
+            "options": ["Erythrocyte", "Lymphocyte", "Platelet", "Hemoglobin"],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the first line of defense in the immune system?",
+            "options": [
+                "T-cells",
+                "Skin",
+                "Antibodies",
+                "Fever"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the primary cause of agglutination in blood transfusions?",
+            "options": [
+                "Clotting factors",
+                "Incompatible blood types",
+                "Platelet deficiency",
+                "Plasma overabundance"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which immune cells are involved in antigen presentation?",
+            "options": [
+                "Erythrocytes",
+                "Platelets",
+                "Macrophages",
+                "Plasma cells"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What happens in the body when a blood clot travels from its original location?",
+            "options": [
+                "It dissolves automatically",
+                "It causes a blockage called an embolus",
+                "It promotes healing",
+                "It increases oxygen delivery"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which cells are responsible for the adaptive immune response?",
+            "options": [
+                "Red blood cells",
+                "Platelets",
+                "T-cells",
+                "All of the above"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "How do vaccines work to protect the body from disease?",
+            "options": [
+                "By killing pathogens directly",
+                "By inducing fever",
+                "By stimulating the immune system to produce memory cells",
+                "By promoting platelet production"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which component is involved in the clotting process and is released from damaged tissues?",
+            "options": [
+                "Thromboplastin",
+                "Fibrinogen",
+                "Plasma",
+                "Hemoglobin"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the difference between a thrombus and an embolus?",
+            "options": [
+                "A thrombus is a mobile clot, and an embolus is stationary",
+                "A thrombus is a stationary clot, and an embolus is mobile",
+                "A thrombus is a type of white blood cell, and an embolus is a type of red blood",
+                "There is no difference; they are the same"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What type of hypersensitivity reaction involves histamine and mast cells?",
+            "options": [
+                "Autoimmune response",
+                "Cellular immunity",
+                "Allergic reaction",
+                "Vaccine response"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is primarily affected in autoimmune diseases?",
+            "options": [
+                "The body attacks its own tissues",
+                "The body rejects foreign tissues only",
+                "The body stops producing white blood cells",
+                "The body increases red blood cell production"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What does the innate immune system primarily consist of?",
+            "options": [
+                "Antibodies and vaccines",
+                "T-cells and B-cells",
+                "Physical barriers and white blood cells",
+                "Red blood cells and platelets"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What are T-cells that help regulate other immune cells called?",
+            "options": [
+                "Killer T-cells",
+                "Helper T-cells",
+                "Memory T-cells",
+                "Suppressor T-cells"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What type of immunity is conferred by the presence of antibodies?",
+            "options": [
+                "Innate immunity",
+                "Adaptive immunity",
+                "Passive immunity",
+                "Active immunity"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which of the following is a feature of sickle cell anemia?",
+            "options": [
+                "Increased oxygen transport",
+                "Decreased risk of malaria",
+                "Increased blood clotting",
+                "Increased susceptibility to infections"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is primarily responsible for the symptoms of allergies?",
+            "options": [
+                "Pathogens",
+                "Antibiotics",
+                "Histamine release",
+                "Antigen presence"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What are macrophages known for in the immune system?",
+            "options": [
+                "Producing antibodies",
+                "Clotting blood",
+                "Engulfing pathogens",
+                "Carrying oxygen"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which cell type is directly involved in the process of thromboplastin release for blood clotting?",
+            "options": [
+                "Erythrocytes",
+                "B-lymphocytes",
+                "Platelets",
+                "Endothelial cells"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the role of fibrin in the clotting process?",
+            "options": [
+                "Initiates the clotting cascade",
+                "Acts as a catalyst for platelet aggregation",
+                "Forms the structural framework of a clot",
+                "Breaks down clots after healing"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which T-cell type is primarily responsible for the direct killing of virus-infected cells?",
+            "options": [
+                "Helper T-cells",
+                "Memory T-cells",
+                "Killer T-cells",
+                "Suppressor T-cells"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "In terms of immunology, what does &#39;antigen presentation&#39; typically involve?",
+            "options": [
+                "The release of antigens by pathogens",
+                "The exposure of antigens on the surface of cells",
+                "The hiding of antigens from the immune system",
+                "The removal of antigens from the body"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How do antibodies contribute to the immune response?",
+            "options": [
+                "By increasing blood flow to infected areas",
+                "By marking pathogens for destruction by other immune cells",
+                "By directly killing pathogens",
+                "By regulating body temperature"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is a characteristic feature of an embolus?",
+            "options": [
+                "It remains attached to the vessel wall",
+                "It travels through the bloodstream to other locations",
+                "It decreases blood clotting",
+                "It is formed outside the vascular system"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What differentiates the innate and adaptive immune responses?",
+            "options": [
+                "Innate responses are slower and less specific",
+                "Adaptive responses are general and non-specific",
+                "Innate responses are immediate and non-specific",
+                "Adaptive responses do not remember pathogens"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which mechanism describes how vaccines work at the cellular level?",
+            "options": [
+                "They provide direct immunity by inserting antibodies",
+                "They stimulate the production of T-cells that remain inactive",
+                "They encourage the immune system to remember pathogens",
+                "They suppress the immune system to prevent overreaction"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the role of suppressor T-cells in the immune system?",
+            "options": [
+                "They enhance the immune response",
+                "They regulate or suppress other cells in the immune system",
+                "They remember past infections",
+                "They kill infected cells"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the primary action of histamine in allergic reactions?",
+            "options": [
+                "It suppresses immune response",
+                "It increases blood coagulation",
+                "It causes inflammation and bronchoconstriction",
+                "It heals the affected tissues"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which cells are responsible for the production of antibodies during an immune response?",
+            "options": [
+                "T-cells",
+                "Red blood cells",
+                "B-lymphocytes",
+                "Macrophages"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the relationship between autoimmune diseases and the body&#39;s immune system?",
+            "options": [
+                "The immune system underreacts to foreign bodies",
+                "The immune system attacks healthy body tissue",
+                "The immune system produces excess antibodies",
+                "The immune system stops producing white blood cells"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What differentiates an antibiotic from a vaccine?",
+            "options": [
+                "Antibiotics stimulate the immune system; vaccines do not",
+                "Antibiotics kill bacteria; vaccines prevent viral infections",
+                "Antibiotics are used to treat infections; vaccines are used to prevent them",
+                "Antibiotics are natural; vaccines are synthetic"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "How does antibiotic resistance occur?",
+            "options": [
+                "Through genetic mutations in viruses",
+                "When bacteria mutate and are no longer affected by antibiotics",
+                "When the body becomes immune to antibiotics",
+                "When antibiotics are taken with vaccines"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which is a primary function of memory T-cells in the adaptive immune response?",
+            "options": [
+                "To initiate immediate response to pathogens",
+                "To produce antibodies during initial exposure",
+                "To remember pathogens and respond faster upon re-exposure",
+                "To regulate blood clotting during infection"
+            ],
+            "anwser": 2,
+            "picture": null
+        }
+    ]
+}
