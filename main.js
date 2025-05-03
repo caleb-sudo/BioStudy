@@ -1,15 +1,4 @@
-async function ParseJson() {
-    const jsonUrl = "https://caleb-sudo.github.io/BioStudy/questions.json";
-
-    const request = new Request(jsonUrl);
-    const response = await fetch(request);
-    const ParsedJson = await response.json();
-    testJson(ParsedJson);
-}
-
-function testJson(obj) {
-    alert(obj.test);
-}
+const data = require('./questions.json');
 
 var scoreVal = localStorage.getItem("score");
 var strkKey = localStorage.key(1)
@@ -20,7 +9,7 @@ score = score ? parseInt(scoreVal) : 0;
 localStorage.setItem("score", scoreVal);
 localStorage.setItem("strk", strkVal);
 
-const question = document.getElementById("question");
+const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
 const field = document.getElementById("box");
 
 const submit = document.createElement("button");
@@ -35,8 +24,8 @@ var strkText = document.getElementById("streak").innerHTML;
 
 switch (type) {
     case 0:
-        questionNum = Math.floor(Math.random() * 4);
-        question.innerHTML = UnitDWritten[questionNum][0];
+        /*questionNum = Math.floor(Math.random() * 4);
+        pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = UnitDWritten[questionNum][0];
         if (UnitDWritten[questionNum][3] != null) {
             img.src = UnitDWritten[questionNum][3];
             img.style.width = "400px";
@@ -53,12 +42,13 @@ switch (type) {
             text.className = "written";
             field.appendChild(text);
             field.appendChild(document.createElement('br'));
-        }
+        }*/
+        type = 1;
         break;
     
     case 1:
-        questionNum = Math.floor(Math.random() * UnitDChoice.length);
-        question.innerHTML = UnitDChoice[questionNum][0];
+        questionNum = Math.floor(Math.random() * data.questions.length);
+        pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.questions[questionNum].question;
         for (var i = 0; i < 4; i++) {
             const radio = document.createElement("input");
             const lab = document.createElement("label");
@@ -67,7 +57,7 @@ switch (type) {
             radio.id = 'r' + i;
             radio.className = "radios";
             lab.htmlFor = 'r' + i;
-            lab.innerHTML = UnitDChoice[questionNum][1][i];
+            lab.innerHTML = data.questions[questionNum].options[i];
             lab.className = "radio_label";
             field.appendChild(radio);
             field.appendChild(lab);
@@ -90,11 +80,12 @@ submit.addEventListener("click", function() {
     next.innerHTML = "next";
     switch(type) {
         case 0:
-            for (var i = 0; i < UnitDWritten[questionNum][2]; i++) {
+            /*for (var i = 0; i < UnitDWritten[questionNum][2]; i++) {
                 if (written[0].textContent == UnitDWritten[questionNum][1][0]) {
                     alert("hello");
                 } else alert("no");
-            }
+            }*/
+            type = 1;
             break;
         
         case 1:
@@ -102,11 +93,11 @@ submit.addEventListener("click", function() {
                 if (radios[i].checked == true) {
                     field.appendChild(h);
                     field.appendChild(document.createElement('br'));
-                    if (i == UnitDChoice[questionNum][2]) {
+                    if (i == data.questions[questionNum].anwser) {
                         correctAns = true;
                     } else {
                         correctAns = false;
-                        corAns.innerHTML = str(UnitDChoice[questionNum][2]) + str(UnitDChoice[questionNum][1][UnitDChoice[questionNum][2]])
+                        corAns.innerHTML = str(data.questions[questionNum].anwser) + str(data.questions[questionNum].options[data.questions[questionNum].anwser])
                         field.appendChild(corAns);
                     };
                     field.appendChild(next);
