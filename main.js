@@ -1,11 +1,9 @@
-const data = require('./questions.json');
-
+import data from './questions.json';
 var scoreVal = localStorage.getItem("score");
 var strkKey = localStorage.key(1)
 var strkVal = localStorage.getItem(strkKey);
 
 score = score ? parseInt(scoreVal) : 0;
-
 localStorage.setItem("score", scoreVal);
 localStorage.setItem("strk", strkVal);
 
@@ -15,7 +13,7 @@ const field = document.getElementById("box");
 const submit = document.createElement("button");
 const p = document.createElement("p");
 const img = document.createElement("img");
-
+alert(data.test);
 var questionNum;
 
 var type = Math.floor(Math.random() * 2);
@@ -47,8 +45,8 @@ switch (type) {
         break;
     
     case 1:
-        questionNum = Math.floor(Math.random() * data.questions.length);
-        pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.questions[questionNum].question;
+        questionNum = Math.floor(Math.random() * questions.length);
+        pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = questions[questionNum].question;
         for (var i = 0; i < 4; i++) {
             const radio = document.createElement("input");
             const lab = document.createElement("label");
@@ -57,7 +55,7 @@ switch (type) {
             radio.id = 'r' + i;
             radio.className = "radios";
             lab.htmlFor = 'r' + i;
-            lab.innerHTML = data.questions[questionNum].options[i];
+            lab.innerHTML = questions[questionNum].options[i];
             lab.className = "radio_label";
             field.appendChild(radio);
             field.appendChild(lab);
@@ -93,11 +91,11 @@ submit.addEventListener("click", function() {
                 if (radios[i].checked == true) {
                     field.appendChild(h);
                     field.appendChild(document.createElement('br'));
-                    if (i == data.questions[questionNum].anwser) {
+                    if (i == questions[questionNum].anwser) {
                         correctAns = true;
                     } else {
                         correctAns = false;
-                        corAns.innerHTML = str(data.questions[questionNum].anwser) + str(data.questions[questionNum].options[data.questions[questionNum].anwser])
+                        corAns.innerHTML = str(questions[questionNum].anwser) + str(questions[questionNum].options[questions[questionNum].anwser])
                         field.appendChild(corAns);
                     };
                     field.appendChild(next);
