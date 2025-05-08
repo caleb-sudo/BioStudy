@@ -14,7 +14,7 @@ const p = document.createElement("p");
 const img = document.createElement("img");
 var questionNum;
 
-var type = Math.floor(Math.random() * 2);
+var type = Math.floor(Math.random() * 1);
 
 var strkText = document.getElementById("streak").innerHTML;
 
@@ -34,7 +34,7 @@ async function jsonReader() {
 
 jsonReader();
 
-/*switch (type) {
+switch (type) {
     case 0:
         questionNum = Math.floor(Math.random() * 4);
         pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = UnitDWritten[questionNum][0];
@@ -132,4 +132,4 @@ strkText += localStorage.getItem(strkKey, strkVal);
 
 submit.innerHTML = "submit";
 submit.type = "button";
-field.appendChild(submit);*/
+field.appendChild(submit);
