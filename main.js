@@ -1,4 +1,3 @@
-import data from './questions.json';
 var scoreVal = localStorage.getItem("score");
 var strkKey = localStorage.key(1)
 var strkVal = localStorage.getItem(strkKey);
@@ -13,12 +12,26 @@ const field = document.getElementById("box");
 const submit = document.createElement("button");
 const p = document.createElement("p");
 const img = document.createElement("img");
-alert(data.test);
 var questionNum;
 
 var type = Math.floor(Math.random() * 2);
 
 var strkText = document.getElementById("streak").innerHTML;
+
+async function jsonReader() {
+    try {
+        let responce = await fetch('questions.json');
+        if (responce.ok) {
+            let data = responce.json();
+            console.log(data);
+        } else {
+            throw new Error('Failed to fetch data');
+        }
+    } catch(error) {
+        console.error("Error: ", error);
+    }
+}
+jsonReader();
 
 switch (type) {
     case 0:
