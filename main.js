@@ -23,7 +23,7 @@ async function jsonReader() {
         let responce = await fetch('questions.json');
         if (responce.ok) {
             let data = responce.json();
-            console.log(data.questions);
+            console.log(data);
         } else {
             throw new Error('Failed to fetch data');
         }
@@ -31,6 +31,7 @@ async function jsonReader() {
         console.error("Error: ", error);
     }
 }
+
 jsonReader();
 
 /*switch (type) {
