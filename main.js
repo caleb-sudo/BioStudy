@@ -23,7 +23,9 @@ async function jsonReader() {
         let responce = await fetch('questions.json');
         if (responce.ok) {
             let data = responce.json();
-            console.log(data);
+            for (const question in data.questions) {
+                console.log(question.question);
+            }
         } else {
             throw new Error('Failed to fetch data');
         }
