@@ -23,9 +23,7 @@ async function jsonReader() {
         let responce = await fetch('questions.json');
         if (responce.ok) {
             let data = responce.json();
-            for (const question in data.questions) {
-                console.log(question.question);
-            }
+            console.log(data.questions[0].anwser);
         } else {
             throw new Error('Failed to fetch data');
         }
@@ -133,5 +131,4 @@ strkText += localStorage.getItem(strkKey, strkVal);
 
 submit.innerHTML = "submit";
 submit.type = "button";
-field.appendChild(submit);
-*/
+field.appendChild(submit);*/
