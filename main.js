@@ -35,9 +35,9 @@ async function jsonReader() {
 }
 jsonReader();
 
-switch (type) {
+/*switch (type) {
     case 0:
-        /*questionNum = Math.floor(Math.random() * 4);
+        questionNum = Math.floor(Math.random() * 4);
         pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = UnitDWritten[questionNum][0];
         if (UnitDWritten[questionNum][3] != null) {
             img.src = UnitDWritten[questionNum][3];
@@ -55,7 +55,7 @@ switch (type) {
             text.className = "written";
             field.appendChild(text);
             field.appendChild(document.createElement('br'));
-        }*/
+        }
         type = 1;
         break;
     
@@ -93,11 +93,11 @@ submit.addEventListener("click", function() {
     next.innerHTML = "next";
     switch(type) {
         case 0:
-            /*for (var i = 0; i < UnitDWritten[questionNum][2]; i++) {
+            for (var i = 0; i < UnitDWritten[questionNum][2]; i++) {
                 if (written[0].textContent == UnitDWritten[questionNum][1][0]) {
                     alert("hello");
                 } else alert("no");
-            }*/
+            }
             type = 1;
             break;
         
@@ -134,3 +134,4 @@ strkText += localStorage.getItem(strkKey, strkVal);
 submit.innerHTML = "submit";
 submit.type = "button";
 field.appendChild(submit);
+*/
