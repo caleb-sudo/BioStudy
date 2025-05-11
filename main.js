@@ -1,7 +1,10 @@
-var scoreVal = localStorage.getItem("score");
+const getscore = localStorage.getItem("score");
+const getstrk = localStorage.getItem("streak");
 var strk = 0;
+
 score = score ? parseInt(scoreVal) : 0;
 localStorage.setItem("score", scoreVal);
+localStorage.setItem("streak", streakVal);
 
 
 function buildQuestion() {
@@ -23,7 +26,7 @@ function buildQuestion() {
 
             var questionNum = Math.floor(Math.random() * data.UnitD.length);
 
-            strkText.innerHTML = strk;
+            strkText.innerHTML = "Your Streak:\n " + str(getstrk);
             
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (var i = 0; i < 4; i++) {
@@ -65,12 +68,12 @@ function buildQuestion() {
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
-                            strk += 1;
+                            localStorage.setItem("streak", getstrk+1);
                             console.log(strk);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
-                            strk = 0;
+                            localStorage.setItem("streak", 0);
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
