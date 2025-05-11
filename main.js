@@ -6,83 +6,87 @@ score = score ? parseInt(scoreVal) : 0;
 localStorage.setItem("score", scoreVal);
 localStorage.setItem("strk", strkVal);
 
-const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
-const field = document.getElementById("box");
-
-const submit = document.createElement("button");
-const p = document.createElement("p");
-const img = document.createElement("img");
-var questionNum;
-
 
 var strkText = document.getElementById("streak").innerHTML;
-fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .then(data => {
-        console.log(data);
-        questionNum = Math.floor(Math.random() * data.questions.length);
-        pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.questions[questionNum].question;
-        for (var i = 0; i < 4; i++) {
-            const radio = document.createElement("input");
-            const lab = document.createElement("label");
-            radio.type = "radio";
-            radio.name = "opts";
-            radio.id = 'r' + i;
-            radio.className = "radios";
-            lab.htmlFor = 'r' + i;
-            lab.innerHTML = data.questions[questionNum].options[i];
-            lab.className = "radio_label";
-            field.appendChild(radio);
-            field.appendChild(lab);
-            field.appendChild(document.createElement('br'));
-        }
 
-        const radios = document.getElementsByClassName("radios");
-        const written = document.getElementsByClassName("written");
-        var answered;
-        var correctAns;
+function buildQuestion() {
+    fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
+            const field = document.getElementById("box");
 
-        submit.addEventListener("click", function() {
-            var h = document.createElement("h2");
-            h.style.textAlign = "center";
-            h.style.width = "200px";
-            var corAns = document.createElement("p");
-            var next = document.createElement("button");
-            next.innerHTML = "next";
+            const submit = document.createElement("button");
+            const p = document.createElement("p");
+            const img = document.createElement("img");
+            var questionNum;
+            
+            console.log(data);
+            questionNum = Math.floor(Math.random() * data.questions.length);
+            pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.questions[questionNum].question;
             for (var i = 0; i < 4; i++) {
-                if (radios[i].checked == true) {
-                    field.appendChild(h);
-                    field.appendChild(document.createElement('br'));
-                    if (i == data.questions[questionNum].anwser) {
-                        correctAns = true;
-                    } else {
-                        correctAns = false;
-                        corAns.innerHTML = str(data.questions[questionNum].anwser) + str(data.questions[questionNum].options[dataquestions[questionNum].anwser])
-                        field.appendChild(corAns);
-                    };
-                    field.appendChild(next);
-                }
+                const radio = document.createElement("input");
+                const lab = document.createElement("label");
+                radio.type = "radio";
+                radio.name = "opts";
+                radio.id = 'r' + i;
+                radio.className = "radios";
+                lab.htmlFor = 'r' + i;
+                lab.innerHTML = data.questions[questionNum].options[i];
+                lab.className = "radio_label";
+                field.appendChild(radio);
+                field.appendChild(lab);
+                field.appendChild(document.createElement('br'));
             }
-            if (correctAns == true) {
-                h.innerHTML = "Correct";
-                h.style.backgroundColor = "green";
-                localStorage.setItem(strkKey, strkVal++);
-                
-            } else {
-                h.innerHTML = "Incorrect";
-                h.style.backgroundColor = "red";
-            }
-            correctAns = false;
-        });
-        strkText += localStorage.getItem(strkKey, strkVal);
 
-        submit.innerHTML = "submit";
-        submit.type = "button";
-        field.appendChild(submit);
-    })
-    .catch(error => console.error('Failed to fetch data:', error));
+            const radios = document.getElementsByClassName("radios");
+            const written = document.getElementsByClassName("written");
+            var answered;
+            var correctAns;
+
+            submit.addEventListener("click", function() {
+                var h = document.createElement("h2");
+                h.style.textAlign = "center";
+                h.style.width = "200px";
+                var corAns = document.createElement("p");
+                var next = document.createElement("button");
+                next.innerHTML = "next";
+                for (var i = 0; i < 4; i++) {
+                    if (radios[i].checked == true) {
+                        field.appendChild(h);
+                        field.appendChild(document.createElement('br'));
+                        if (i == data.questions[questionNum].anwser) {
+                            correctAns = true;
+                        } else {
+                            correctAns = false;
+                            corAns.innerHTML = str(data.questions[questionNum].anwser) + str(data.questions[questionNum].options[dataquestions[questionNum].anwser])
+                            field.appendChild(corAns);
+                        };
+                        field.appendChild(next);
+                    }
+                }
+                if (correctAns == true) {
+                    h.innerHTML = "Correct";
+                    h.style.backgroundColor = "green";
+                    localStorage.setItem(strkKey, strkVal++);
+                    
+                } else {
+                    h.innerHTML = "Incorrect";
+                    h.style.backgroundColor = "red";
+                }
+                correctAns = false;
+            });
+            strkText += localStorage.getItem(strkKey, strkVal);
+
+            submit.innerHTML = "submit";
+            submit.type = "button";
+            field.appendChild(submit);
+        })
+        .catch(error => console.error('Failed to fetch data:', error));
+}
+buildQuestion();
