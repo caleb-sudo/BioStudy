@@ -24,7 +24,7 @@ function buildQuestion() {
 
             var questionNum = Math.floor(Math.random() * data.UnitD.length);
 
-            strkText.innerHTML = "Your Streak:\n " + str(getstrk);
+            strkText.innerHTML = "Your Streak:\n " + getstrk;
             
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (var i = 0; i < 4; i++) {
