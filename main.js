@@ -16,7 +16,6 @@ var questionNum;
 
 
 var strkText = document.getElementById("streak").innerHTML;
-fetchJSONData();
 fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
     .then(response => {
         if (!response.ok) {
