@@ -1,4 +1,4 @@
-import jsonData from 'https://caleb-sudo.github.io/BioStudy/questions.json' assert { type: 'json' };
+import jsonData from './questions.json' assert { type: 'json' };
 
 console.log(jsonData);
 
