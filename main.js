@@ -62,7 +62,7 @@ function buildQuestion() {
                 for (var i = 0; i < 4; i++) {
                     if (radios[i].checked == true) {
                         submit.style.display = 'none';
-                        field.appendChild(document.createElement('h'));
+                        field.appendChild(h);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
                             correctAns = true;
@@ -79,7 +79,7 @@ function buildQuestion() {
                     h.style.backgroundColor = "green";
                     localStorage.setItem(strkKey, strkVal++);
                     
-                } else {
+                } else if (correctAns == false) {
                     h.innerHTML = "Incorrect";
                     h.style.backgroundColor = "red";
                 }

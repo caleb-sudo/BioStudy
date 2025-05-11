@@ -1518,7 +1518,7 @@
             "options": [
                 "Lungs only",
                 "Heart",
-                "Heart",
+                "Arteries",
                 "Capillaries"
             ],
             "anwser": 1,
