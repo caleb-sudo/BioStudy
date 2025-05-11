@@ -47,6 +47,11 @@ function buildQuestion() {
             var answered;
             var correctAns;
 
+            submit.innerHTML = "submit";
+            submit.type = "button";
+            submit.classList = "submitBtn"
+            field.appendChild(submit);
+
             submit.addEventListener("click", function() {
                 var h = document.createElement("h2");
                 h.style.textAlign = "center";
@@ -56,7 +61,8 @@ function buildQuestion() {
                 next.innerHTML = "next";
                 for (var i = 0; i < 4; i++) {
                     if (radios[i].checked == true) {
-                        field.appendChild(h);
+                        submit.style.display = 'none';
+                        field.appendChild(document.createElement('h'));
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
                             correctAns = true;
@@ -80,11 +86,6 @@ function buildQuestion() {
                 correctAns = false;
             });
             strkText += localStorage.getItem(strkKey, strkVal);
-
-            submit.innerHTML = "submit";
-            submit.type = "button";
-            submit.classList = "submitBtn"
-            field.appendChild(submit);
         })
         .catch(error => console.error('Failed to fetch data:', error));
 }
