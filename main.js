@@ -1,13 +1,8 @@
 var scoreVal = localStorage.getItem("score");
-var strkKey = localStorage.key(1)
-var strkVal = localStorage.getItem(strkKey);
 
 score = score ? parseInt(scoreVal) : 0;
 localStorage.setItem("score", scoreVal);
-localStorage.setItem("strk", strkVal);
 
-
-var strkText = document.getElementById("streak").innerHTML;
 
 function buildQuestion() {
     fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
@@ -20,12 +15,17 @@ function buildQuestion() {
         .then(data => {
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box");
+            const strkText = document.getElementById("streak");
 
             const submit = document.createElement("button");
             const p = document.createElement("p");
             const img = document.createElement("img");
-            var questionNum;
-            questionNum = Math.floor(Math.random() * data.UnitD.length);
+
+            var questionNum = Math.floor(Math.random() * data.UnitD.length);;
+            var strk = 0;
+
+            strk.innerHTML = strk;
+            
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (var i = 0; i < 4; i++) {
                 const radio = document.createElement("input");
@@ -45,7 +45,6 @@ function buildQuestion() {
             const radios = document.getElementsByClassName("radios");
             const written = document.getElementsByClassName("written");
             var answered;
-            var correctAns;
 
             submit.innerHTML = "submit";
             submit.type = "button";
@@ -65,27 +64,21 @@ function buildQuestion() {
                         field.appendChild(h);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
-                            correctAns = true;
+                            strk += 1;
+                            h.innerHTML = "Correct";
+                            h.style.backgroundColor = "green";
+                            localStorage.setItem(strkKey, strkVal++);
                         } else {
-                            correctAns = false;
+                            strk = 0;
+                            h.innerHTML = "Incorrect";
+                            h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
                             field.appendChild(corAns);
                         };
                         field.appendChild(next);
                     }
                 }
-                if (correctAns == true) {
-                    h.innerHTML = "Correct";
-                    h.style.backgroundColor = "green";
-                    localStorage.setItem(strkKey, strkVal++);
-                    
-                } else if (correctAns == false) {
-                    h.innerHTML = "Incorrect";
-                    h.style.backgroundColor = "red";
-                }
-                correctAns = false;
             });
-            strkText += localStorage.getItem(strkKey, strkVal);
         })
         .catch(error => console.error('Failed to fetch data:', error));
 }
