@@ -83,6 +83,7 @@ function buildQuestion() {
 
             submit.innerHTML = "submit";
             submit.type = "button";
+            submit.classList = "submitBtn"
             field.appendChild(submit);
         })
         .catch(error => console.error('Failed to fetch data:', error));
