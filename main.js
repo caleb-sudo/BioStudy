@@ -1,10 +1,8 @@
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 var strk = 0;
-
-score = score ? parseInt(scoreVal) : 0;
-localStorage.setItem("score", scoreVal);
-localStorage.setItem("streak", streakVal);
+localStorage.setItem("score", getscore);
+localStorage.setItem("streak", getstreak);
 
 
 function buildQuestion() {
