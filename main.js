@@ -2,7 +2,7 @@ const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 var strk = 0;
 localStorage.setItem("score", getscore);
-localStorage.setItem("streak", getstreak);
+localStorage.setItem("streak", getstrk);
 
 
 function buildQuestion() {
