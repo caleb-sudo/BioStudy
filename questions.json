@@ -533,6 +533,1194 @@
             ],
             "anwser": 2,
             "picture": null
+        },
+        {
+            "question": "What is the primary function of nasal hairs?",
+            "options": [
+                "To detect smells",
+                "To filter dust and other particles",
+                "To produce mucus",
+                "To absorb moisture"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Why is it important to breathe air in through the nose?",
+            "options": [
+                "It helps in tasting the air",
+                "It warms, moistens, and filters the air",
+                "It produces sound",
+                "It cools the body down"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What does the epiglottis do during swallowing?",
+            "options": [
+                "It contracts",
+                "It closes off the trachea",
+                "It opens the esophagus",
+                "It vibrates to produce sounds"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Where does gas exchange occur in the respiratory system?",
+            "options": [
+                "Trachea",
+                "Bronchi",
+                "Alveoli",
+                "Larynx"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which muscles are primarily used in inhalation?",
+            "options": [
+                "Intercostals and diaphragm",
+                "Abdominals",
+                "Pectorals",
+                "Gluteals"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the purpose of mucus in the nasal passages?",
+            "options": [
+                "To warm the air",
+                "To produce odors",
+                "To trap dust and microbes",
+                "To humidify the room"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What structure prevents food from entering the windpipe?",
+            "options": [
+                "Uvula",
+                "Epiglottis",
+                "Esophagus",
+                "Pharynx"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is tidal volume?",
+            "options": [
+                "Filtering air",
+                "Vocalization",
+                "Gas exchange",
+                "Moistening air"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which part of the respiratory system is supported by C-shaped rings of cartilage?",
+            "options": [
+                "Larynx",
+                "Trachea",
+                "Bronchioles",
+                "Alveoli"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the effect of smoking on the cilia in the respiratory system?",
+            "options": [
+                "It enhances their movement",
+                "It damages them, reducing their effectiveness",
+                "It increases their number",
+                "It changes their color"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What type of muscle is the diaphragm classified as?",
+            "options": [
+                "Cardiac",
+                "Smooth",
+                "Skeletal",
+                "Elastic"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What does surfactant in the lungs help to prevent?",
+            "options": [
+                "Infections",
+                "The alveoli from collapsing",
+                "Excessive mucus production",
+                "Air from escaping"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which structure directly branches off from the trachea?",
+            "options": [
+                "Alveoli",
+                "Bronchioles",
+                "Bronchi",
+                "Larynx"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What surrounds the lungs and allows them to move smoothly during breathing?",
+            "options": [
+                "Rib cage",
+                "Pleural cavity",
+                "Diaphragm",
+                "Abdominal cavity"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "During inhalation, what happens to the pressure inside the lungs?",
+            "options": [
+                "It increases",
+                "It decreases",
+                "It stays the same",
+                "It fluctuates rapidly"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is vital capacity?",
+            "options": [
+                "The minimum volume of air remaining in the lungs after a forceful exhale",
+                "The maximum amount of air exhaled after a maximum inhale",
+                "The volume of air inhaled in a normal breath",
+                "The total volume of the lungs"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How does carbon dioxide travel to the lungs from the body's tissues?",
+            "options": [
+                "Attached to hemoglobin",
+                "Dissolved in the plasma",
+                "Through the lymphatic system",
+                "Encapsulated in red blood cells"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What role do the internal intercostal muscles play during heavy exercise?",
+            "options": [
+                "They assist in inhalation",
+                "They assist in exhalation",
+                "They stabilize the rib cage",
+                "They are not involved"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the primary effect of carbon monoxide on the body's oxygen transport?",
+            "options": [
+                "It increases oxygen delivery to tissues",
+                "It blocks oxygen from binding to hemoglobin",
+                "It converts oxygen into carbon dioxide",
+                "It expels oxygen from the bloodstream"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How does asthma affect the bronchioles?",
+            "options": [
+                "It causes them to dilate excessively",
+                "It causes them to constrict",
+                "It increases mucus production",
+                "Both B and C"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "What indicates total lung capacity on a spirometry test?",
+            "options": [
+                "The volume measured during normal breathing",
+                "The sum of vital capacity and residual volume",
+                "The maximum exhale after normal inhale",
+                "The minimum inhale after a maximum exhale"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Why is the pleural cavity important for lung function?",
+            "options": [
+                "It contains muscles that help in breathing",
+                "It provides space for lung expansion",
+                "It filters air before it enters the lungs",
+                "It warms the air entering the lungs"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What changes occur in the lungs due to emphysema?",
+            "options": [
+                "Decreased surface area of alveoli",
+                "Increased efficiency of gas exchange",
+                "Increased number of alveoli",
+                "Decreased mucus production"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What happens to the volume of the chest cavity when the diaphragm contracts?",
+            "options": [
+                "It decreases",
+                "It increases",
+                "It stays the same",
+                "It rotates"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How is residual volume measured?",
+            "options": [
+                "By inhaling as much air as possible",
+                "By exhaling forcefully after a normal exhale",
+                "It cannot be measured directly by spirometry",
+                "By calculating the difference between total lung capacity and vital capacity"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is expiratory reserve volume?",
+            "options": [
+                "The extra air inhaled above normal inhalation",
+                "The air exhaled during normal breathing",
+                "The additional air exhaled after a normal exhale",
+                "The air remaining after a forceful exhale"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the primary control for breathing?",
+            "options": [
+                "Oxygen levels in the blood",
+                "Nitrogen levels in the blood",
+                "Carbon dioxide levels in the blood",
+                "Hydrogen levels in the blood"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What happens when carbon dioxide levels in the blood rise?",
+            "options": [
+                "Breathing rate decreases",
+                "Blood becomes more acidic",
+                "Blood pressure drops",
+                "Blood becomes more alkaline"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What does the presence of surfactant in the alveoli affect?",
+            "options": [
+                "Mucus production",
+                "Gas exchange efficiency",
+                "Blood flow to the lungs",
+                "Filtering of air"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What effect does chronic smoking have on gas exchange in the alveoli?",
+            "options": [
+                "It enhances gas exchange efficiency",
+                "It reduces the alveoli&#39;s ability to exchange gases",
+                "It increases the number of alveoli",
+                "It has no effect on gas exchange"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How does the body primarily adjust to high altitude where oxygen levels are low?",
+            "options": [
+                "By decreasing respiratory rate",
+                "By increasing hemoglobin levels",
+                "By increasing heart rate only",
+                "By decreasing blood pressure"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is inspiratory reserve volume?",
+            "options": [
+                "The maximum amount of air that can be inhaled after a normal inhalation",
+                "The volume of air remaining in the lungs after a normal exhale",
+                "The total air exhaled after a forced inhalation",
+                "The normal volume of air inhaled and exhaled"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "During exhalation, how does the volume of the thoracic cavity change?",
+            "options": [
+                "It increases",
+                "It decreases",
+                "It remains constant",
+                "It fluctuates"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What role do the external intercostal muscles play in respiration?",
+            "options": [
+                "They aid in exhalation",
+                "They aid in inhalation",
+                "They stabilize the spine",
+                "They decrease the thoracic cavity volume"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How does oxygen primarily travel through the blood to reach body tissues?",
+            "options": [
+                "Dissolved in blood plasma",
+                "Bound to hemoglobin in red blood cells",
+                "Attached to white blood cells",
+                "Encapsulated within platelets"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which factor is crucial in determining the rate of gas exchange in the alveoli?",
+            "options": [
+                "The thickness of the alveolar and capillary walls",
+                "The color of the blood",
+                "The size of the alveoli",
+                "The number of red blood cells"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the primary reason the pleural cavity must be sealed from the atmosphere?",
+            "options": [
+                "To maintain high oxygen concentration",
+                "To prevent lung collapse",
+                "To regulate blood pressure",
+                "To filter toxins from the air"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "How do changes in atmospheric pressure affect breathing?",
+            "options": [
+                "They have no effect",
+                "They may increase the difficulty of inhalation",
+                "They enhance the oxygen-carrying capacity of the blood",
+                "They decrease the rate of respiration"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the relationship between lung volume and respiratory pressure during inhalation?",
+            "options": [
+                "Pressure decreases as volume increases",
+                "Pressure increases as volume increases",
+                "Pressure remains constant as volume changes",
+                "Pressure decreases as volume decreases"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What effect does emphysema have on the lungs' elasticity?",
+            "options": [
+                "Increases elasticity",
+                "Decreases elasticity",
+                "Has no effect on elasticity",
+                "Temporarily increases elasticity before permanently decreasing it"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What structural changes occur in the respiratory system due to chronic asthma?",
+            "options": [
+                "Thickening of the alveolar walls",
+                "Thinning of the bronchial walls",
+                "Thickening of the bronchial walls",
+                "Increase in the number of alveoli"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "How does the respiratory system respond to increased carbon dioxide levels from physical exertion?",
+            "options": [
+                "Decreased breathing rate",
+                "Increased breathing rate",
+                "Unchanged breathing rate",
+                "Periodic breathing patterns"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What is the significance of the interrelationship between pressure and volume in the lungs?",
+            "options": [
+                "It determines the rate of gas exchange",
+                "It governs the mechanical process of breathing",
+                "It affects the transport of oxygen only",
+                "It regulates blood temperature"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which measurement in spirometry indicates the air expelled after taking the deepest breath possible?",
+            "options": [
+                "Tidal volume",
+                "Residual volume",
+                "Vital capacity",
+                "Total lung capacity"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the primary function of the digestive system?",
+            "options": [
+                "To circulate blood",
+                "To control body temperature",
+                "To convert food into nutrients",
+                "To remove waste from the body"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which organ connects the mouth to the stomach?",
+            "options": [
+                "Esophagus",
+                "Small intestine",
+                "Large intestine",
+                "Liver"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the main role of stomach acid (HCl)?",
+            "options": [
+                "To digest carbohydrates",
+                "To break down food and kill bacteria",
+                "To absorb nutrients",
+                "To produce bile"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Where is bile stored before it is released into the small intestine?",
+            "options": [
+                "Liver",
+                "Stomach",
+                "Gall bladder",
+                "Pancreas"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What does the pancreas produce to neutralize stomach acid in the small intestine?",
+            "options": [
+                "Bile",
+                "Hydrochloric acid",
+                "Bicarbonate ion",
+                "Pepsinogen"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the role of pepsinogen in digestion?",
+            "options": [
+                "It neutralizes stomach acid",
+                "It converts proteins into peptides",
+                "It emulsifies fats",
+                "It breaks down carbohydrates"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which part of the small intestine is closest to the stomach?",
+            "options": [
+                "Duodenum",
+                "Ileum",
+                "Jejunum",
+                "Colon"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the main function of the villi in the small intestine?",
+            "options": [
+                "To produce digestive enzymes",
+                "To absorb nutrients",
+                "To secrete bile",
+                "To move food along the intestine"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which enzyme is not produced by the pancreas?",
+            "options": [
+                "Amylase",
+                "Lipase",
+                "Pepsin",
+                "Insulin"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "The liver helps in the digestion of fats by producing which substance?",
+            "options": [
+                "Hydrochloric acid",
+                "Bile",
+                "Insulin",
+                "Gastric juice"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What triggers the release of bile and pancreatic juice into the duodenum?",
+            "options": [
+                "The presence of hydrochloric acid",
+                "The arrival of food in the stomach",
+                "The presence of fatty acids and amino acids in the duodenum",
+                "The stretching of the stomach walls"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which segment of the small intestine is responsible for the majority of nutrient absorption?",
+            "options": [
+                "Duodenum",
+                "Ileum",
+                "Jejunum",
+                "Colon"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the primary function of mucin in the stomach?",
+            "options": [
+                "To digest proteins",
+                "To neutralize stomach acid",
+                "To protect the stomach lining",
+                "To emulsify fats"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What role does the bicarbonate ion play in the digestive system?",
+            "options": [
+                "It activates digestive enzymes",
+                "It helps in the absorption of vitamins",
+                "It neutralizes the acid chyme from the stomach",
+                "It stimulates the gall bladder to release bile"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "How does the structure of the villi affect their function in the small intestine?",
+            "options": [
+                "The villi increase surface area for more efficient digestion of food",
+                "The villi produce enzymes that break down food molecules",
+                "The villi secrete hydrochloric acid to further break down food",
+                "The villi pump water from the intestine to concentrate food substances"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What are the building blocks of carbohydrates?",
+            "options": [
+                "Amino acids",
+                "Fatty acids",
+                "Monosaccharides",
+                "Nucleotides"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which type of carbohydrate is commonly known as table sugar?",
+            "options": [
+                "Glucose",
+                "Fructose",
+                "Sucrose",
+                "Lactose"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the primary function of carbohydrates in the body?",
+            "options": [
+                "To store and transmit genetic information",
+                "To provide energy",
+                "To speed up chemical reactions",
+                "To form cell structures"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which test is used to identify the presence of reducing sugars?",
+            "options": [
+                "Benedict's Test",
+                "Iodine Test",
+                "Biuret Test",
+                "Lipid Test"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What type of fats are solid at room temperature?",
+            "options": [
+                "Saturated fats",
+                "Unsaturated fats",
+                "Trans fats",
+                "Monounsaturated fats"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What are polysaccharides?",
+            "options": [
+                "Simple sugars",
+                "Double sugars",
+                "Complex carbohydrates",
+                "Basic units of proteins"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the significance of the Iodine Test in nutrition?",
+            "options": [
+                "It detects the presence of lipids",
+                "It indicates the presence of starch",
+                "It identifies proteins",
+                "It shows the presence of vitamins"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Denaturation of proteins refers to what?",
+            "options": [
+                "Breaking down proteins into amino acids",
+                "Changing the structure of proteins without breaking peptide bonds",
+                "Converting proteins into fatty acids",
+                "Synthesizing new proteins"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which type of lipid is most beneficial for cardiovascular health?",
+            "options": [
+                "LDL cholesterol",
+                "HDL cholesterol",
+                "Saturated fats",
+                "Trans fats"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What does the Biuret Test detect?",
+            "options": [
+                "Simple sugars",
+                "Starch",
+                "Proteins",
+                "Lipids"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which polysaccharide is the main form of carbohydrate storage in animals?",
+            "options": [
+                "Starch",
+                "Cellulose",
+                "Glycogen",
+                "Chitin"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "How do unsaturated fats differ from saturated fats at a molecular level?",
+            "options": [
+                "Unsaturated fats have more hydrogen atoms",
+                "Unsaturated fats have no carbon-carbon double bonds",
+                "Unsaturated fats have one or more carbon-carbon double bonds",
+                "Unsaturated fats are composed of shorter carbon chains"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the primary structure affected during protein denaturation?",
+            "options": [
+                "Primary structure",
+                "Secondary structure",
+                "Tertiary structure",
+                "Quaternary structure"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "In the context of cholesterol, what does LDL stand for?",
+            "options": [
+                "Low-Density Lipoprotein",
+                "Low-Diabetic Lipoprotein",
+                "Lipid-Density Lipoprotein",
+                "Linear-Density Lipoprotein"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the primary function of the circulatory system?",
+            "options": [
+                "To break down nutrients",
+                "To transport blood throughout the body",
+                "To eliminate waste products",
+                "To produce hormones"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which chamber of the heart receives oxygen-poor blood from the body?",
+            "options": [
+                "Left atrium",
+                "Right atrium",
+                "Left ventricle",
+                "Right ventricle"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What type of blood vessels carry blood away from the heart?",
+            "options": [
+                "Arteries",
+                "Veins",
+                "Capillaries",
+                "Venules"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "Pulmonary circulation involves blood flow to and from the:",
+            "options": [
+                "Heart",
+                "Lungs",
+                "Brain",
+                "Liver"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "The heartbeat is initiated by which part of the heart?",
+            "options": [
+                "Atrioventricular node",
+                "Sinoatrial node",
+                "Ventricles",
+                "Septum"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What does systolic blood pressure measure?",
+            "options": [
+                "Blood pressure during heart relaxation",
+                "Blood pressure during heart contraction",
+                "The volume of blood in the heart",
+                "Resistance of blood flow in arteries"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "What term describes the narrowing of arteries due to plaque buildup?",
+            "options": [
+                "Hypertension",
+                "Atherosclerosis",
+                "Myocardial infarction",
+                "Angina"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Capillaries are:",
+            "options": [
+                "The largest blood vessels that carry blood away from the heart.",
+                "Blood vessels that return blood to the heart.",
+                "Small blood vessels where gas exchange occurs.",
+                "Valves that prevent backflow of blood."
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "The sinoatrial node is located in the:",
+            "options": [
+                "Right atrium",
+                "Left atrium",
+                "Right ventricle",
+                "Left ventricle"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "Which condition is characterized by a sudden loss of brain function due to a blockage or rupture of a blood vessel?",
+            "options": [
+                "Heart attack",
+                "Stroke",
+                "Aneurysm",
+                "Hypertension"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "The process of thermoregulation in the circulatory system is primarily facilitated by:",
+            "options": [
+                "Hormonal regulation",
+                "Vasodilation and vasoconstriction",
+                "Cardiac output adjustment",
+                "Sinoatrial node pacing"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Baroreceptors help regulate blood pressure by:",
+            "options": [
+                "Detecting changes in arterial wall tension",
+                "Increasing blood volume",
+                "Decreasing heart rate",
+                "Synthesizing red blood cells"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "A heart attack, or myocardial infarction, occurs when:",
+            "options": [
+                "The heart beats too rapidly",
+                "Blood flow to a part of the brain is blocked",
+                "There is an excessive buildup of cholesterol in the body",
+                "Blood flow to a part of the heart is blocked"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "Which part of the heart is responsible for pumping oxygenated blood to the systemic circulation?",
+            "options": [
+                "Right atrium",
+                "Right ventricle",
+                "Left atrium",
+                "Left ventricle"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "The regulation of blood flow to specific areas based on current needs is known as:",
+            "options": [
+                "Hemostasis",
+                "Systemic circulation",
+                "Autoregulation",
+                "Cardiac circulation"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "What is the main component of blood that carries oxygen?",
+            "options": [
+                "White blood cells",
+                "Platelets",
+                "Red blood cells",
+                "Plasma"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Veins return blood to the:",
+            "options": [
+                "Lungs only",
+                "Heart",
+                "Heart",
+                "Capillaries"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Which vessels have the thinnest walls for exchange of gases and nutrients?",
+            "options": [
+                "Arteries",
+                "Veins",
+                "Capillaries",
+                "Capillaries"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Systemic circulation refers to the movement of blood from the heart to the:",
+            "options": [
+                "Lungs only",
+                "Entire body, except the lungs",
+                "Heart itself",
+                "Brain only"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "The right ventricle pumps blood to the:",
+            "options": [
+                "Lungs",
+                "Liver",
+                "Entire body",
+                "Left atrium"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "Arterioles are best described as:",
+            "options": [
+                "Large vessels that carry blood away from the heart",
+                "Small branches of arteries leading to capillaries",
+                "Vessels that carry blood back to the heart",
+                "Small branches of veins"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Diastolic pressure is the:",
+            "options": [
+                "Highest level of blood pressure",
+                "Pressure in the arteries when the heart is at rest",
+                "Pressure in the arteries during a heartbeat",
+                "Pressure required to open the heart valves"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Coronary circulation is directly involved in supplying blood to the:",
+            "options": [
+                "Brain",
+                "Lungs",
+                "Heart",
+                "Liver"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "Which condition is caused by the hardening of the arteries?",
+            "options": [
+                "Anemia",
+                "Atherosclerosis",
+                "Hypertension",
+                "Hemophilia"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "The atrioventricular node (AV node) functions to:",
+            "options": [
+                "Initiate the heartbeat",
+                "Pump blood to the lungs",
+                "Slow down the electrical signal before it enters the ventricles",
+                "Direct blood flow from the ventricles to the arteries"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "The pacemaker cells of the heart are found in the:",
+            "options": [
+                "Atrioventricular node",
+                "Sinoatrial node",
+                "Ventricular septum",
+                "Pulmonary valve"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Cardiac output is the volume of blood the heart pumps per:",
+            "options": [
+                "Minute",
+                "Hour",
+                "Day",
+                "Beat"
+            ],
+            "anwser": 0,
+            "picture": null
+        },
+        {
+            "question": "Vasoconstriction affects blood pressure by:",
+            "options": [
+                "Decreasing it",
+                "Increasing it",
+                "Not affecting it",
+                "Periodically reversing it"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Baroreceptors are located in the:",
+            "options": [
+                "Heart only",
+                "Lungs and heart",
+                "Carotid arteries and aorta",
+                "Veins and venules"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "A stroke is most commonly caused by:",
+            "options": [
+                "Aneurysm in the heart",
+                "Blockage or rupture of blood vessels in the brain",
+                "Excessive bleeding from a major artery",
+                "Sudden decrease in heart rate"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "The primary effect of the parasympathetic nervous system on the heart is to:",
+            "options": [
+                "Increase the heart rate",
+                "Decrease the heart rate",
+                "Increase blood pressure",
+                "Have no effect on the heart"
+            ],
+            "anwser": 1,
+            "picture": null
+        },
+        {
+            "question": "Arteriolar resistance is primarily determined by the:",
+            "options": [
+                "Length of the arteriole",
+                "Viscosity of the blood",
+                "Diameter of the arteriole",
+                "Blood type"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "During exercise, the process of increasing blood flow to active muscles is called:",
+            "options": [
+                "Hyperemia",
+                "Hemostasis",
+                "Hypotension",
+                "Vasodilation"
+            ],
+            "anwser": 3,
+            "picture": null
+        },
+        {
+            "question": "Factors that can affect blood pressure include:",
+            "options": [
+                "Sleep patterns only",
+                "Diet and exercise only",
+                "Cardiac output, blood volume, and arteriolar resistance",
+                "Emotional state only"
+            ],
+            "anwser": 2,
+            "picture": null
+        },
+        {
+            "question": "The sequence of electrical impulse movement in the heart is:",
+            "options": [
+                "AV node → SA node → ventricles → atria",
+                "SA node → AV node → atria → ventricles",
+                "SA node → atria → AV node → ventricles",
+                "Ventricles → SA node → AV node → atria"
+            ],
+            "anwser": 2,
+            "picture": null
         }
     ]
 }
