@@ -38,7 +38,7 @@ function buildQuestion() {
                 lab.className = "radio_label";
                 field.appendChild(radio);
                 field.appendChild(lab);
-                field.appendChild(document.createElement('br'));
+                field.appendChild(document.createElement('hr'));
             }
 
             const radios = document.getElementsByClassName("radios");
@@ -57,6 +57,7 @@ function buildQuestion() {
                 var corAns = document.createElement("p");
                 var next = document.createElement("button");
                 next.innerHTML = "next";
+                next.onclick = location.reload();
                 for (var i = 0; i < 4; i++) {
                     if (radios[i].checked == true) {
                         submit.style.display = 'none';
@@ -79,6 +80,6 @@ function buildQuestion() {
                 }
             });
         })
-        .catch(error => console.error('Failed to fetch data:', error));
+        .catch(error => console.error('Failed to fetch data: ', error));
 }
 buildQuestion();
