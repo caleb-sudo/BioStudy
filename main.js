@@ -1,3 +1,7 @@
+import jsonData from 'https://caleb-sudo.github.io/BioStudy/questions.json' assert { type: 'json' };
+
+console.log(jsonData);
+
 var scoreVal = localStorage.getItem("score");
 var strkKey = localStorage.key(1)
 var strkVal = localStorage.getItem(strkKey);
