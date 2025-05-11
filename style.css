@@ -35,20 +35,9 @@ button {
     animation: 5 correct;
 }
 
-@keyframes correct {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@keyframes incorrect {
-    0% {
-    }
-    100% {
-    }
+#box {
+    justify-content: center;
+    display: block;
 }
 
 #score {

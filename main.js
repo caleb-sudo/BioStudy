@@ -1,5 +1,5 @@
 var scoreVal = localStorage.getItem("score");
-
+var strk = 0;
 score = score ? parseInt(scoreVal) : 0;
 localStorage.setItem("score", scoreVal);
 
@@ -21,8 +21,7 @@ function buildQuestion() {
             const p = document.createElement("p");
             const img = document.createElement("img");
 
-            var questionNum = Math.floor(Math.random() * data.UnitD.length);;
-            var strk = 0;
+            var questionNum = Math.floor(Math.random() * data.UnitD.length);
 
             strkText.innerHTML = strk;
             
@@ -62,19 +61,19 @@ function buildQuestion() {
                     if (radios[i].checked == true) {
                         submit.style.display = 'none';
                         field.appendChild(h);
+                        field.appendChild(next);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
                             strk += 1;
+                            console.log(strk);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
-                            field.appendChild(next);
                         } else {
                             strk = 0;
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
                             field.appendChild(corAns);
-                            field.appendChild(next);
                         };
                     }
                 }
