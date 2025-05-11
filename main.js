@@ -24,7 +24,7 @@ function buildQuestion() {
             var questionNum = Math.floor(Math.random() * data.UnitD.length);;
             var strk = 0;
 
-            strk.innerHTML = strk;
+            strkText.innerHTML = strk;
             
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (var i = 0; i < 4; i++) {
