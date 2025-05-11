@@ -18,15 +18,14 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
+            console.log(data.questions[0].question);
+            /*const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box");
 
             const submit = document.createElement("button");
             const p = document.createElement("p");
             const img = document.createElement("img");
             var questionNum;
-            
-            console.log(data);
             questionNum = Math.floor(Math.random() * data.questions.length);
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.questions[questionNum].question;
             for (var i = 0; i < 4; i++) {
@@ -85,7 +84,7 @@ function buildQuestion() {
 
             submit.innerHTML = "submit";
             submit.type = "button";
-            field.appendChild(submit);
+            field.appendChild(submit);*/
         })
         .catch(error => console.error('Failed to fetch data:', error));
 }
