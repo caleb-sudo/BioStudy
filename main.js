@@ -16,19 +16,6 @@ var questionNum;
 
 
 var strkText = document.getElementById("streak").innerHTML;
-function fetchJSONData() {
-    fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log(data.questions[i])
-        })
-        .catch(error => console.error('Failed to fetch data:', error));
-}
 fetchJSONData();
 fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
     .then(response => {
@@ -38,6 +25,7 @@ fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
         return response.json();
     })
     .then(data => {
+        console.log(data);
         questionNum = Math.floor(Math.random() * data.questions.length);
         pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.questions[questionNum].question;
         for (var i = 0; i < 4; i++) {
