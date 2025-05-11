@@ -67,15 +67,15 @@ function buildQuestion() {
                             strk += 1;
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
-                            localStorage.setItem(strkKey, strkVal++);
+                            field.appendChild(next);
                         } else {
                             strk = 0;
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
                             field.appendChild(corAns);
+                            field.appendChild(next);
                         };
-                        field.appendChild(next);
                     }
                 }
             });
