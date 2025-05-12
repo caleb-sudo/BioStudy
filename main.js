@@ -1,6 +1,7 @@
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 var strk = 0;
+var score = 0;
 localStorage.setItem("score", getscore);
 localStorage.setItem("streak", getstrk);
 
@@ -17,6 +18,7 @@ function buildQuestion() {
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box");
             const strkText = document.getElementById("streak");
+            const scoreText = document.getElementById("score");
 
             const submit = document.createElement("button");
             const p = document.createElement("p");
@@ -24,6 +26,7 @@ function buildQuestion() {
 
             var questionNum = Math.floor(Math.random() * data.UnitD.length);
 
+            scoreText.innerHTML = "Your Score:\n " = getscore;
             strkText.innerHTML = "Your Streak:\n " + getstrk;
             
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
@@ -66,12 +69,14 @@ function buildQuestion() {
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
-                            localStorage.setItem("streak", getstrk+1);
+                            localStorage.setItem("streak", int(getstrk)+1);
+                            localStorage.setItem("score", int(getscore)+1);
                             console.log(strk);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
                             localStorage.setItem("streak", 0);
+                            localStorage.setItem("score", int(getscore)-1);
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
