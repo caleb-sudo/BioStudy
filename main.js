@@ -1,9 +1,12 @@
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
+const gettopic = localStorage.getItem("topic");
 var strk = 0;
 var score = 0;
+var topic = 0; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
 localStorage.setItem("score", getscore);
 localStorage.setItem("streak", getstrk);
+localStorage.steItem("topic", gettopic);
 
 
 function buildQuestion() {
