@@ -6,7 +6,7 @@ var score = 0;
 var topic = 0; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
 localStorage.setItem("score", getscore);
 localStorage.setItem("streak", getstrk);
-localStorage.steItem("topic", gettopic);
+localStorage.setItem("topic", gettopic);
 
 
 function buildQuestion() {
