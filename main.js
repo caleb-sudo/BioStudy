@@ -53,7 +53,7 @@ function buildQuestion() {
 
             submitBtn.innerHTML = "submit";
             submitBtn.type = "button";
-            submitBtn.classList = "submitBtn"
+            submitBtn.classList = "submitBtn";
             field.appendChild(submitBtn);
 
             submitBtn.addEventListener("click", submit);
@@ -74,7 +74,6 @@ function buildQuestion() {
                         if (i == data.UnitD[questionNum].anwser) {
                             localStorage.setItem("streak", getstrk++);
                             localStorage.setItem("score", getscore++);
-                            console.log(strk);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
@@ -82,7 +81,7 @@ function buildQuestion() {
                             localStorage.setItem("score", getscore--);
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
-                            corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
+                            corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser]);
                             field.appendChild(corAns);
                         };
                     }
