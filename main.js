@@ -7,6 +7,7 @@ localStorage.setItem("score", getscore);
 localStorage.setItem("streak", getstrk);
 localStorage.setItem("topic", gettopic);
 
+const UnitSelector = document.getElementById("UnitSelector");
 
 function buildQuestion() {
     fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
@@ -26,13 +27,13 @@ function buildQuestion() {
             const p = document.createElement("p");
             const img = document.createElement("img");
 
-            var questionNum = Math.floor(Math.random() * data.UnitD.length);
+            let questionNum = Math.floor(Math.random() * data.UnitD.length);
 
             scoreText.innerHTML = "Your Score:\n " + getscore;
             strkText.innerHTML = "Your Streak:\n " + getstrk;
             
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
-            for (var i = 0; i < 4; i++) {
+            for (let i = 0; i < 4; i++) {
                 const radio = document.createElement("input");
                 const lab = document.createElement("label");
                 radio.type = "radio";
@@ -49,7 +50,6 @@ function buildQuestion() {
 
             const radios = document.getElementsByClassName("radios");
             const written = document.getElementsByClassName("written");
-            var answered;
 
             submitBtn.innerHTML = "submit";
             submitBtn.type = "button";
@@ -59,14 +59,14 @@ function buildQuestion() {
 
             submitBtn.addEventListener("click", submit);
             function submit() {
-                var h = document.createElement("h2");
+                const h = document.createElement("h2");
                 h.style.textAlign = "center";
                 h.style.width = "200px";
-                var corAns = document.createElement("p");
-                var next = document.createElement("button");
+                const corAns = document.createElement("p");
+                const next = document.createElement("button");
                 next.innerHTML = "next";
                 next.onclick = location.reload();
-                for (var i = 0; i < 4; i++) {
+                for (let i = 0; i < 4; i++) {
                     if (radios[i].checked == true) {
                         submit.style.display = 'none';
                         field.appendChild(h);
