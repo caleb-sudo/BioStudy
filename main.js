@@ -72,7 +72,7 @@ function buildQuestion() {
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
-                            localStorage.setItem("streak", getstrk++);
+                            localStorage.setItem("streak", getstrk+1);
                             localStorage.setItem("score", getscore++);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
