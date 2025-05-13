@@ -72,14 +72,14 @@ function buildQuestion() {
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
-                            localStorage.setItem("streak", getstrk++);
-                            localStorage.setItem("score", getscore++);
+                            localStorage.setItem("streak", parseInt(getstrk)++);
+                            localStorage.setItem("score", parseInt(getscore)++);
                             console.log(strk);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
                             localStorage.setItem("streak", 0);
-                            localStorage.setItem("score", getscore--);
+                            localStorage.setItem("score", parseInt(getscore)--);
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser])
