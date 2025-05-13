@@ -54,7 +54,6 @@ function buildQuestion() {
             submitBtn.innerHTML = "submit";
             submitBtn.type = "button";
             submitBtn.classList = "submitBtn"
-            submitBtn.onclick = setTimeout(submit, 2000);
             field.appendChild(submitBtn);
 
             submitBtn.addEventListener("click", submit);
