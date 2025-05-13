@@ -1,9 +1,8 @@
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 const gettopic = localStorage.getItem("topic");
-var strk = 0;
-var score = 0;
-var topic = 0; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
+let strk, score;
+let topic = 0; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
 localStorage.setItem("score", getscore);
 localStorage.setItem("streak", getstrk);
 localStorage.setItem("topic", gettopic);
@@ -23,7 +22,7 @@ function buildQuestion() {
             const strkText = document.getElementById("streak");
             const scoreText = document.getElementById("score");
 
-            const submit = document.createElement("button");
+            const submitBtn = document.createElement("button");
             const p = document.createElement("p");
             const img = document.createElement("img");
 
@@ -52,12 +51,13 @@ function buildQuestion() {
             const written = document.getElementsByClassName("written");
             var answered;
 
-            submit.innerHTML = "submit";
-            submit.type = "button";
-            submit.classList = "submitBtn"
-            field.appendChild(submit);
+            submitBtn.innerHTML = "submit";
+            submitBtn.type = "button";
+            submitBtn.classList = "submitBtn"
+            field.appendChild(submitBtn);
 
-            submit.addEventListener("click", function() {
+            submitBtn.addEventListener("click", submit);
+            function submit() {
                 var h = document.createElement("h2");
                 h.style.textAlign = "center";
                 h.style.width = "200px";
@@ -87,7 +87,7 @@ function buildQuestion() {
                         };
                     }
                 }
-            });
+            }
         })
         .catch(error => console.error('Failed to fetch data: ', error));
 }
