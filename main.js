@@ -1,7 +1,7 @@
-var getscore = localStorage.getItem("score");
-var getstrk = localStorage.getItem("streak");
-var gettopic = localStorage.getItem("topic");
-let strk, score;
+const getscore = localStorage.getItem("score");
+const getstrk = localStorage.getItem("streak");
+const gettopic = localStorage.getItem("topic");
+var strk = 0;
 let topic = 0; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
 localStorage.setItem("score", getscore);
 localStorage.setItem("streak", getstrk);
@@ -31,7 +31,7 @@ function buildQuestion() {
 
             scoreText.innerHTML = "Your Score:\n " + getscore;
             strkText.innerHTML = "Your Streak:\n " + getstrk;
-            
+
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (let i = 0; i < 4; i++) {
                 const radio = document.createElement("input");
@@ -55,8 +55,14 @@ function buildQuestion() {
             submitBtn.type = "button";
             submitBtn.classList = "submitBtn";
             field.appendChild(submitBtn);
+            submitBtn.onclick = setTimeout(submit, 2000);
+            if (submitBtn.click)
 
-            submitBtn.addEventListener("click", submit);
+            submitBtn.addEventListener("click", submitTimeout);
+            function submitTimeout() {
+                let timeout;
+                timeout = setTimeout(submit, 2000);
+            }
             function submit() {
                 const h = document.createElement("h2");
                 h.style.textAlign = "center";
@@ -67,16 +73,17 @@ function buildQuestion() {
                 next.onclick = location.reload();
                 for (let i = 0; i < 4; i++) {
                     if (radios[i].checked == true) {
-                        submit.style.display = 'none';
                         field.appendChild(h);
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
-                            localStorage.setItem("streak", getstrk+1);
+                            alert("correct");
+                            localStorage.setItem("streak", getstrk + 1);
                             localStorage.setItem("score", getscore++);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
+                            alert("incorrect")
                             localStorage.setItem("streak", 0);
                             localStorage.setItem("score", getscore--);
                             h.innerHTML = "Incorrect";
@@ -91,3 +98,4 @@ function buildQuestion() {
         .catch(error => console.error('Failed to fetch data: ', error));
 }
 buildQuestion();
+
