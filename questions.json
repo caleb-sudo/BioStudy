@@ -1,4 +1,122 @@
 {
+    "UnitA": [
+
+    ],
+    "UnitB": [
+
+    ],
+    "UnitC": [
+        {
+            "question": "What are the main products of photosynthesis?",
+            "options": [
+                "CO<sub>2</sub> and H<sub>2</sub>O",
+                "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and CO<sub>2</sub>",
+                "CO<sub>2</sub> and O<sub>2</sub>",
+                "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and O<sub>2</sub>"
+            ],
+            "answer": 3,
+            "picture": null
+        },
+        {
+            "question": "What is the source of the oxygen atoms found in the glucose produced in photosynthesis?",
+            "options": [
+                "O<sub>2</sub>",
+                "H<sub>2</sub>O",
+                "Cardiac output, blood volume, and arteriolar resistance",
+                "CO<sub>2</sub>"
+            ],
+            "answer": 1,
+            "picture": null
+        },
+        {
+            "question": "The pigments that absorb light energy for photosynthesis are located in the ____",
+            "options": [
+                "inner membrane",
+                "thylakoid membrane",
+                "outer membrane",
+                "plasma membrane"
+            ],
+            "answer": 1,
+            "picture": null
+        },
+        {
+            "question": "The function of chlorophyll in photosynthesis is to _______",
+            "options": [
+                "Split water molecules",
+                "Produce energy",
+                "Trap the energy of light",
+                "Produce carbon dioxide"
+            ],
+            "answer": 2,
+            "picture": null
+        },
+        {
+            "question": "Which of the photosynthetic pigments, in the absorption spectrum above, would need to be stimulated to initiate the process of photosynthesis?",
+            "options": [
+                "Chlorophyll A",
+                "Chlorophyll B",
+                "Carotenoids",
+                "All of the above"
+            ],
+            "answer": 3,
+            "picture": null
+        },
+        {
+            "question": "What is the main role of the pigment molecules in the photosystems?",
+            "options": [
+                "transfer electrons to the primary electron acceptor and then the electron transport chain",
+                "synthesize ATP from ADP and Phosporus",
+                "split water and release electrons to the reaction center chlorophyll",
+                "absorb photons and transfer light energy to the reaction center chlorophyll"
+            ],
+            "answer": 3,
+            "picture": null
+        },
+        {
+            "question": "The process that breaks down water to release energy is called ____",
+            "options": [
+                "Photophosphorylation",
+                "Photolysis",
+                "Glycolysis",
+                "Chemiosmosis"
+            ],
+            "answer": 1,
+            "picture": null
+        },
+        {
+            "question": "Which of the following occurs in both photosynthesis and respiration?",
+            "options": [
+                "Chemiosmosis",
+                "Glycolysis",
+                "Calvin cycle",
+                "Krebs cycle"
+            ],
+            "answer": 0,
+            "picture": null
+        },
+        {
+            "question": "What is the total yield of ATP from one molecule of glucose during glycolysis?",
+            "options": [
+                "2",
+                "4",
+                "6",
+                "8"
+            ],
+            "answer": 0,
+            "picture": null
+        },
+        {
+            "question": "How many ATP molecules are produced during glycolysis?",
+            "options": [
+                "3",
+                "2",
+                "1",
+                "4"
+            ],
+            "answer": 1,
+            "picture": null
+        }
+    ],
     "UnitD": [
         {
             "question": "What is Starch used for?",

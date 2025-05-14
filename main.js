@@ -1,13 +1,19 @@
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 const gettopic = localStorage.getItem("topic");
-var strk = 0;
-let topic = 0; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
-localStorage.setItem("score", getscore);
-localStorage.setItem("streak", getstrk);
-localStorage.setItem("topic", gettopic);
+var score = parseInt(getscore);
+var strk = parseInt(getstrk);
+var topic = 1; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
+localStorage.setItem("score", score);
+localStorage.setItem("streak", strk);
+localStorage.setItem("topic", topic);
 
-const UnitSelector = document.getElementById("UnitSelector");
+const unitSelector = document.querySelector("UnitSelector");
+const unitSelectorBtn = document.getElementById("UnitSelectorBtn");
+
+unitSelectorBtn.addEventListener("click", function() {
+    alert(unitSelector.ariaValueNow);
+});
 
 function buildQuestion() {
     fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
@@ -55,14 +61,9 @@ function buildQuestion() {
             submitBtn.type = "button";
             submitBtn.classList = "submitBtn";
             field.appendChild(submitBtn);
-            submitBtn.onclick = setTimeout(submit, 2000);
             if (submitBtn.click)
 
-            submitBtn.addEventListener("click", submitTimeout);
-            function submitTimeout() {
-                let timeout;
-                timeout = setTimeout(submit, 2000);
-            }
+            submitBtn.addEventListener("click", submit);
             function submit() {
                 const h = document.createElement("h2");
                 h.style.textAlign = "center";
@@ -78,14 +79,15 @@ function buildQuestion() {
                         field.appendChild(document.createElement('br'));
                         if (i == data.UnitD[questionNum].anwser) {
                             alert("correct");
-                            localStorage.setItem("streak", getstrk + 1);
-                            localStorage.setItem("score", getscore++);
+                            localStorage.setItem("streak", strk + 1);
+                            localStorage.setItem("score", score + 1);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
                             alert("incorrect")
-                            localStorage.setItem("streak", 0);
-                            localStorage.setItem("score", getscore--);
+                            strk = 0;
+                            localStorage.setItem("streak", strk);
+                            localStorage.setItem("score", score - 1);
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
                             corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser]);
@@ -98,4 +100,3 @@ function buildQuestion() {
         .catch(error => console.error('Failed to fetch data: ', error));
 }
 buildQuestion();
-

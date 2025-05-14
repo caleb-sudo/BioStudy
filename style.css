@@ -35,17 +35,7 @@ button {
     animation: 5 correct;
 }
 
-#box {
-    justify-content: center;
-    display: block;
-}
-
-#score {
+.box {
+    border: 1px dashed white;
     float: right;
-}
-
-#streak {
-    float: right;
-    margin: none;
-    padding: none;
 }
