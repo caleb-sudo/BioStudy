@@ -13,6 +13,13 @@ const unitSelectorBtn = document.getElementById("UnitSelectorBtn");
 
 const scoreValText = document.getElementById("score");
 
+const opts = [
+    "A) ",
+    "B) ",
+    "C) ",
+    "D) "
+];
+
 if (score > 0) {
     scoreValText.style.color = "green";
 } else if (score < 0) {
@@ -49,6 +56,11 @@ function buildQuestion() {
             for (let i = 0; i < 4; i++) {
                 const radio = document.createElement("input");
                 const lab = document.createElement("label");
+                const pict = document.createElement("img");
+                if (data.UnitD[questionNum].picture != null) {
+                    pict.src = data.UnitD[questionNum].picture;
+                    field.appendChild(pict);
+                }
                 radio.type = "radio";
                 radio.name = "opts";
                 radio.innerHTML = "hello";
@@ -92,14 +104,12 @@ function buildQuestion() {
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
-                            alert("incorrect, the correct answer was ")
+                            alert("incorrect, the correct answer was " + opts[data.UnitD[questionNum].anwser])
                             strk = 0;
                             localStorage.setItem("streak", strk);
                             localStorage.setItem("score", score - 1);
                             h.innerHTML = "Incorrect";
                             h.style.backgroundColor = "red";
-                            corAns.innerHTML = str(data.UnitD[questionNum].anwser) + str(data.UnitD[questionNum].options[data.UnitD[questionNum].anwser]);
-                            field.appendChild(corAns);
                         };
                     }
                 }
@@ -108,3 +118,4 @@ function buildQuestion() {
         .catch(error => console.error('Failed to fetch data: ', error));
 }
 buildQuestion();
+
