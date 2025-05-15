@@ -75,9 +75,6 @@ function buildQuestion() {
                 field.appendChild(radio);
                 field.appendChild(lab);
                 field.appendChild(document.createElement('hr'));
-                if (radio[i].checked) {
-                    lab.classList = "radio_active";
-                } else lab.classList = null;
             }
 
             const radios = document.getElementsByClassName("radios");
