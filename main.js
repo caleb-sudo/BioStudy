@@ -37,7 +37,6 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            console.log(data.UnitD[0].question);
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box");
             const strkText = document.getElementById("streak");
@@ -120,4 +119,3 @@ function buildQuestion() {
         .catch(error => console.error('Failed to fetch data: ', error));
 }
 buildQuestion();
-
