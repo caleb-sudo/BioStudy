@@ -7,9 +7,14 @@ button {
     cursor: pointer;
 }
 
+input {
+    cursor: pointer;
+}
+
 .radio_label {
     justify-content: center;
     align-content: center;
+    cursor: pointer;
 }
 
 .radio_label:hover {
