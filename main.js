@@ -37,31 +37,33 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
+            console.log(data.UnitD[0].question);
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
-            const field = document.getElementById("box");
+            const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
             const scoreText = document.getElementById("score");
 
-            const submitBtn = document.createElement("button");
-            const p = document.createElement("p");
-            const img = document.createElement("img");
+            const submitBtn = document.createElement('button');
+            const p = document.createElement('p');
+            const img = document.createElement('img');
 
             let questionNum = Math.floor(Math.random() * data.UnitD.length);
 
             scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
             strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
-
-            pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
-            const pict = document.createElement("img");
+            const pict = document.createElement('img');
             if (data.UnitD[questionNum].picture != null) {
                 pict.src = data.UnitD[questionNum].picture;
-                pict.height = '550px';
-                pict.width = 'auto';
+                pict.style.height = '550px';
+                pict.style.width = 'auto';
                 field.appendChild(pict);
+                field.appendChild(document.createElement('br'));
             }
+
+            pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (let i = 0; i < 4; i++) {
-                const radio = document.createElement("input");
-                const lab = document.createElement("label");
+                const radio = document.createElement('input');
+                const lab = document.createElement('label');
                 radio.type = "radio";
                 radio.name = "opts";
                 radio.innerHTML = "hello";
@@ -86,11 +88,11 @@ function buildQuestion() {
 
             submitBtn.addEventListener("click", submit);
             function submit() {
-                const h = document.createElement("h2");
+                const h = document.createElement('h2');
                 h.style.textAlign = "center";
                 h.style.width = "200px";
-                const corAns = document.createElement("p");
-                const next = document.createElement("button");
+                const corAns = document.createElement('p');
+                const next = document.createElement('button');
                 next.innerHTML = "next";
                 next.onclick = location.reload();
                 for (let i = 0; i < 4; i++) {
