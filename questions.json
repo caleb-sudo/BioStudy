@@ -9,10 +9,10 @@
         {
             "question": "What are the main products of photosynthesis?",
             "options": [
-                "CO<sub>2</sub> and H<sub>2</sub>O",
-                "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and CO<sub>2</sub>",
-                "CO<sub>2</sub> and O<sub>2</sub>",
-                "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and O<sub>2</sub>"
+                "A) CO<sub>2</sub> and H<sub>2</sub>O",
+                "B) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and CO<sub>2</sub>",
+                "C) CO<sub>2</sub> and O<sub>2</sub>",
+                "D) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> and O<sub>2</sub>"
             ],
             "answer": 3,
             "picture": null
@@ -20,10 +20,10 @@
         {
             "question": "What is the source of the oxygen atoms found in the glucose produced in photosynthesis?",
             "options": [
-                "O<sub>2</sub>",
-                "H<sub>2</sub>O",
-                "Cardiac output, blood volume, and arteriolar resistance",
-                "CO<sub>2</sub>"
+                "A) O<sub>2</sub>",
+                "B) H<sub>2</sub>O",
+                "C) Cardiac output, blood volume, and arteriolar resistance",
+                "D) CO<sub>2</sub>"
             ],
             "answer": 1,
             "picture": null
@@ -31,10 +31,10 @@
         {
             "question": "The pigments that absorb light energy for photosynthesis are located in the ____",
             "options": [
-                "inner membrane",
-                "thylakoid membrane",
-                "outer membrane",
-                "plasma membrane"
+                "A) inner membrane",
+                "B) thylakoid membrane",
+                "C) outer membrane",
+                "D) plasma membrane"
             ],
             "answer": 1,
             "picture": null
@@ -42,10 +42,10 @@
         {
             "question": "The function of chlorophyll in photosynthesis is to _______",
             "options": [
-                "Split water molecules",
-                "Produce energy",
-                "Trap the energy of light",
-                "Produce carbon dioxide"
+                "A) Split water molecules",
+                "B) Produce energy",
+                "C) Trap the energy of light",
+                "D) Produce carbon dioxide"
             ],
             "answer": 2,
             "picture": null
@@ -53,10 +53,10 @@
         {
             "question": "Which of the photosynthetic pigments, in the absorption spectrum above, would need to be stimulated to initiate the process of photosynthesis?",
             "options": [
-                "Chlorophyll A",
-                "Chlorophyll B",
-                "Carotenoids",
-                "All of the above"
+                "A) Chlorophyll A",
+                "B) Chlorophyll B",
+                "C) Carotenoids",
+                "D) All of the above"
             ],
             "answer": 3,
             "picture": null
@@ -64,10 +64,10 @@
         {
             "question": "What is the main role of the pigment molecules in the photosystems?",
             "options": [
-                "transfer electrons to the primary electron acceptor and then the electron transport chain",
-                "synthesize ATP from ADP and Phosporus",
-                "split water and release electrons to the reaction center chlorophyll",
-                "absorb photons and transfer light energy to the reaction center chlorophyll"
+                "A) transfer electrons to the primary electron acceptor and then the electron transport chain",
+                "B) synthesize ATP from ADP and Phosporus",
+                "C) split water and release electrons to the reaction center chlorophyll",
+                "D) absorb photons and transfer light energy to the reaction center chlorophyll"
             ],
             "answer": 3,
             "picture": null
@@ -75,10 +75,10 @@
         {
             "question": "The process that breaks down water to release energy is called ____",
             "options": [
-                "Photophosphorylation",
-                "Photolysis",
-                "Glycolysis",
-                "Chemiosmosis"
+                "A) Photophosphorylation",
+                "B) Photolysis",
+                "C) Glycolysis",
+                "D) Chemiosmosis"
             ],
             "answer": 1,
             "picture": null
@@ -86,10 +86,10 @@
         {
             "question": "Which of the following occurs in both photosynthesis and respiration?",
             "options": [
-                "Chemiosmosis",
-                "Glycolysis",
-                "Calvin cycle",
-                "Krebs cycle"
+                "A) Chemiosmosis",
+                "B) Glycolysis",
+                "C) Calvin cycle",
+                "D) Krebs cycle"
             ],
             "answer": 0,
             "picture": null
@@ -97,10 +97,10 @@
         {
             "question": "What is the total yield of ATP from one molecule of glucose during glycolysis?",
             "options": [
-                "2",
-                "4",
-                "6",
-                "8"
+                "A) 2",
+                "B) 4",
+                "C) 6",
+                "D) 8"
             ],
             "answer": 0,
             "picture": null
@@ -108,10 +108,10 @@
         {
             "question": "How many ATP molecules are produced during glycolysis?",
             "options": [
-                "3",
-                "2",
-                "1",
-                "4"
+                "A) 3",
+                "B) 2",
+                "C) 1",
+                "D) 4"
             ],
             "answer": 1,
             "picture": null
@@ -121,10 +121,10 @@
         {
             "question": "What is Starch used for?",
             "options": [
-                "Energy Storage",
-                "Structure",
-                "Protection",
-                "Insolation"
+                "A) Energy Storage",
+                "B) Structure",
+                "C) Protection",
+                "D) Insolation"
             ],
             "anwser": 0,
             "picture": null
@@ -132,10 +132,10 @@
         {
             "question": "What is not true about Vitamins?",
             "options": [
-                "Can act as coenzymes",
-                "Are organic compounds",
-                "Can act as cofactors",
-                "Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen"
+                "A) Can act as coenzymes",
+                "B) Are organic compounds",
+                "C) Can act as cofactors",
+                "D) Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen"
             ],
             "anwser": 2,
             "picture": null
@@ -143,10 +143,10 @@
         {
             "question": "What is not true about Minerals?",
             "options": [
-                "Are inorganic ions or Elements",
-                "Can act as cofactors",
-                "Can assist enzymes",
-                "None of the above"
+                "A) Are inorganic ions or Elements",
+                "B) Can act as cofactors",
+                "C) Can assist enzymes",
+                "D) None of the above"
             ],
             "anwser": 3,
             "picture": null
@@ -154,10 +154,10 @@
         {
             "question": "What is a Substrate?",
             "options": [
-                "The molecule(s) that assists enzymes to interacte with other molecules.",
-                "The molecule(s) that changes when interacted with an enzyme.",
-                "The molecule(s) that change the active site on an enzyme when interacting with the enzyme.",
-                "The molecule(s) are fish."
+                "A) The molecule(s) that assists enzymes to interacte with other molecules.",
+                "B) The molecule(s) that changes when interacted with an enzyme.",
+                "C) The molecule(s) that change the active site on an enzyme when interacting with the enzyme.",
+                "D) The molecule(s) are fish."
             ],
             "anwser": 1,
             "picture": null
@@ -165,10 +165,10 @@
         {
             "question": "What is the main function of erythrocytes in the blood?",
             "options": [
-                "Fight infection",
-                "Carry oxygen",
-                "Clot blood",
-                "Control blood pressure"
+                "A) Fight infection",
+                "B) Carry oxygen",
+                "C) Clot blood",
+                "D) Control blood pressure"
             ],
             "anwser": 1,
             "picture": null
@@ -176,10 +176,10 @@
         {
             "question": "Which component of blood is primarily responsible for clotting?",
             "options": [
-                "Red blood cells",
-                "White blood cells",
-                "Platelets",
-                "Plasma"
+                "A) Red blood cells",
+                "B) White blood cells",
+                "C) Platelets",
+                "D) Plasma"
             ],
             "anwser": 2,
             "picture": null
@@ -187,10 +187,10 @@
         {
             "question": "What type of blood cell is primarily involved in fighting infections?",
             "options": [
-                "Red blood cells",
-                "White blood cells",
-                "Platelets",
-                "Plasma"
+                "A) Red blood cells",
+                "B) White blood cells",
+                "C) Platelets",
+                "D) Plasma"
             ],
             "anwser": 1,
             "picture": null
@@ -198,10 +198,10 @@
         {
             "question": "What does the ABO blood group system identify?",
             "options": [
-                "Types of white blood cells",
-                "Types of platelets",
-                "Types of blood antigens",
-                "Types of plasma"
+                "A) Types of white blood cells",
+                "B) Types of platelets",
+                "C) Types of blood antigens",
+                "D) Types of plasma"
             ],
             "anwser": 2,
             "picture": null
@@ -209,10 +209,10 @@
         {
             "question": "Which part of the blood contains water, salts, and enzymes?",
             "options": [
-                "Red blood cells",
-                "White blood cells",
-                "Platelets",
-                "Plasma"
+                "A) Red blood cells",
+                "B) White blood cells",
+                "C) Platelets",
+                "D) Plasma"
             ],
             "anwser": 3,
             "picture": null
@@ -220,10 +220,10 @@
         {
             "question": "Where in the body are all blood cells originally derived from?",
             "options": [
-                "Heart",
-                "Liver",
-                "Bone marrow",
-                "Spleen"
+                "A) Heart",
+                "B) Liver",
+                "C) Bone marrow",
+                "D) Spleen"
             ],
             "anwser": 2,
             "picture": null
@@ -231,10 +231,10 @@
         {
             "question": "What is anemia primarily caused by?",
             "options": [
-                "Too many platelets",
-                "Too many white blood cells",
-                "Insufficient number of red blood cells",
-                "High cholesterol levels"
+                "A) Too many platelets",
+                "B) Too many white blood cells",
+                "C) Insufficient number of red blood cells",
+                "D) High cholesterol levels"
             ],
             "anwser": 2,
             "picture": null
@@ -242,10 +242,10 @@
         {
             "question": "What is the function of platelets in the blood?",
             "options": [
-                "Transport oxygen",
-                "Defend against disease",
-                "Help in blood clotting",
-                "Balance fluid levels"
+                "A) Transport oxygen",
+                "B) Defend against disease",
+                "C) Help in blood clotting",
+                "D) Balance fluid levels"
             ],
             "anwser": 2,
             "picture": null
@@ -253,10 +253,10 @@
         {
             "question": "Which type of cell secretes antibodies?",
             "options": [
-                "Red blood cells",
-                "Macrophages",
-                "Platelets",
-                "Plasma cells"
+                "A) Red blood cells",
+                "B) Macrophages",
+                "C) Platelets",
+                "D) Plasma cells"
             ],
             "anwser": 3,
             "picture": null
@@ -264,10 +264,10 @@
         {
             "question": "Sickle cell anemia is caused by what?",
             "options": [
-                "A viral infection",
-                "A bacterial infection",
-                "A genetic mutation",
-                "An autoimmune disorder"
+                "A) A viral infection",
+                "B) A bacterial infection",
+                "C) A genetic mutation",
+                "D) An autoimmune disorder"
             ],
             "anwser": 2,
             "picture": null
@@ -275,10 +275,10 @@
         {
             "question": "What are antigens?",
             "options": [
-                "Cells that produce antibodies",
-                "Molecules that can trigger an immune response",
-                "Proteins that transport oxygen",
-                "Particles that clot blood"
+                "A) Cells that produce antibodies",
+                "B) Molecules that can trigger an immune response",
+                "C) Proteins that transport oxygen",
+                "D) Particles that clot blood"
             ],
             "anwser": 2,
             "picture": null
@@ -286,10 +286,10 @@
         {
             "question": "What are lysozymes in tears responsible for?",
             "options": [
-                "Improving vision",
-                "Providing moisture",
-                "Fighting infections",
-                "Facilitating sleep"
+                "A) Improving vision",
+                "B) Providing moisture",
+                "C) Fighting infections",
+                "D) Facilitating sleep"
             ],
             "anwser": 1,
             "picture": null
@@ -297,27 +297,32 @@
         {
             "question": "Which blood type is considered the universal donor?",
             "options": [
-                "A",
-                "B",
-                "AB",
-                "O"
+                "A) A",
+                "B) B",
+                "C) AB",
+                "D) O"
             ],
             "anwser": 3,
             "picture": null
         },
         {
             "question": "Which of the following is a type of white blood cell?",
-            "options": ["Erythrocyte", "Lymphocyte", "Platelet", "Hemoglobin"],
+            "options": [
+                "A) Erythrocyte",
+                "B) Lymphocyte",
+                "C) Platelet",
+                "D) Hemoglobin"
+            ],
             "anwser": 1,
-            "picture": null
+            "pictB) ure": null
         },
-        {
+        { 
             "question": "What is the first line of defense in the immune system?",
             "options": [
-                "T-cells",
-                "Skin",
-                "Antibodies",
-                "Fever"
+                "A) T-cells",
+                "B) Skin",
+                "C) Antibodies",
+                "D) Fever"
             ],
             "anwser": 1,
             "picture": null
@@ -325,10 +330,10 @@
         {
             "question": "What is the primary cause of agglutination in blood transfusions?",
             "options": [
-                "Clotting factors",
-                "Incompatible blood types",
-                "Platelet deficiency",
-                "Plasma overabundance"
+                "A) Clotting factors",
+                "B) Incompatible blood types",
+                "C) Platelet deficiency",
+                "D) Plasma overabundance"
             ],
             "anwser": 1,
             "picture": null
@@ -336,10 +341,10 @@
         {
             "question": "Which immune cells are involved in antigen presentation?",
             "options": [
-                "Erythrocytes",
-                "Platelets",
-                "Macrophages",
-                "Plasma cells"
+                "A) Erythrocytes",
+                "B) Platelets",
+                "C) Macrophages",
+                "D) Plasma cells"
             ],
             "anwser": 2,
             "picture": null
@@ -347,10 +352,10 @@
         {
             "question": "What happens in the body when a blood clot travels from its original location?",
             "options": [
-                "It dissolves automatically",
-                "It causes a blockage called an embolus",
-                "It promotes healing",
-                "It increases oxygen delivery"
+                "A) It dissolves automatically",
+                "B) It causes a blockage called an embolus",
+                "C) It promotes healing",
+                "D) It increases oxygen delivery"
             ],
             "anwser": 1,
             "picture": null
@@ -358,10 +363,10 @@
         {
             "question": "Which cells are responsible for the adaptive immune response?",
             "options": [
-                "Red blood cells",
-                "Platelets",
-                "T-cells",
-                "All of the above"
+                "A) Red blood cells",
+                "B) Platelets",
+                "C) T-cells",
+                "D) All of the above"
             ],
             "anwser": 2,
             "picture": null
@@ -369,10 +374,10 @@
         {
             "question": "How do vaccines work to protect the body from disease?",
             "options": [
-                "By killing pathogens directly",
-                "By inducing fever",
-                "By stimulating the immune system to produce memory cells",
-                "By promoting platelet production"
+                "A) By killing pathogens directly",
+                "B) By inducing fever",
+                "C) By stimulating the immune system to produce memory cells",
+                "D) By promoting platelet production"
             ],
             "anwser": 2,
             "picture": null
@@ -380,10 +385,10 @@
         {
             "question": "Which component is involved in the clotting process and is released from damaged tissues?",
             "options": [
-                "Thromboplastin",
-                "Fibrinogen",
-                "Plasma",
-                "Hemoglobin"
+                "A) Thromboplastin",
+                "B) Fibrinogen",
+                "C) Plasma",
+                "D) Hemoglobin"
             ],
             "anwser": 0,
             "picture": null
@@ -391,10 +396,10 @@
         {
             "question": "What is the difference between a thrombus and an embolus?",
             "options": [
-                "A thrombus is a mobile clot, and an embolus is stationary",
-                "A thrombus is a stationary clot, and an embolus is mobile",
-                "A thrombus is a type of white blood cell, and an embolus is a type of red blood",
-                "There is no difference; they are the same"
+                "A) A thrombus is a mobile clot, and an embolus is stationary",
+                "B) A thrombus is a stationary clot, and an embolus is mobile",
+                "C) A thrombus is a type of white blood cell, and an embolus is a type of red blood",
+                "D) There is no difference; they are the same"
             ],
             "anwser": 1,
             "picture": null
@@ -402,10 +407,10 @@
         {
             "question": "What type of hypersensitivity reaction involves histamine and mast cells?",
             "options": [
-                "Autoimmune response",
-                "Cellular immunity",
-                "Allergic reaction",
-                "Vaccine response"
+                "A) Autoimmune response",
+                "B) Cellular immunity",
+                "C) Allergic reaction",
+                "D) Vaccine response"
             ],
             "anwser": 2,
             "picture": null
@@ -413,10 +418,10 @@
         {
             "question": "What is primarily affected in autoimmune diseases?",
             "options": [
-                "The body attacks its own tissues",
-                "The body rejects foreign tissues only",
-                "The body stops producing white blood cells",
-                "The body increases red blood cell production"
+                "A) The body attacks its own tissues",
+                "B) The body rejects foreign tissues only",
+                "C) The body stops producing white blood cells",
+                "D) The body increases red blood cell production"
             ],
             "anwser": 0,
             "picture": null
@@ -424,10 +429,10 @@
         {
             "question": "What does the innate immune system primarily consist of?",
             "options": [
-                "Antibodies and vaccines",
-                "T-cells and B-cells",
-                "Physical barriers and white blood cells",
-                "Red blood cells and platelets"
+                "A) Antibodies and vaccines",
+                "B) T-cells and B-cells",
+                "C) Physical barriers and white blood cells",
+                "D) Red blood cells and platelets"
             ],
             "anwser": 1,
             "picture": null
@@ -435,10 +440,10 @@
         {
             "question": "What are T-cells that help regulate other immune cells called?",
             "options": [
-                "Killer T-cells",
-                "Helper T-cells",
-                "Memory T-cells",
-                "Suppressor T-cells"
+                "A) Killer T-cells",
+                "B) Helper T-cells",
+                "C) Memory T-cells",
+                "D) Suppressor T-cells"
             ],
             "anwser": 1,
             "picture": null
@@ -446,10 +451,10 @@
         {
             "question": "What type of immunity is conferred by the presence of antibodies?",
             "options": [
-                "Innate immunity",
-                "Adaptive immunity",
-                "Passive immunity",
-                "Active immunity"
+                "A) Innate immunity",
+                "B) Adaptive immunity",
+                "C) Passive immunity",
+                "D) Active immunity"
             ],
             "anwser": 1,
             "picture": null
@@ -457,10 +462,10 @@
         {
             "question": "Which of the following is a feature of sickle cell anemia?",
             "options": [
-                "Increased oxygen transport",
-                "Decreased risk of malaria",
-                "Increased blood clotting",
-                "Increased susceptibility to infections"
+                "A) Increased oxygen transport",
+                "B) Decreased risk of malaria",
+                "C) Increased blood clotting",
+                "D) Increased susceptibility to infections"
             ],
             "anwser": 1,
             "picture": null
@@ -468,10 +473,10 @@
         {
             "question": "What is primarily responsible for the symptoms of allergies?",
             "options": [
-                "Pathogens",
-                "Antibiotics",
-                "Histamine release",
-                "Antigen presence"
+                "A) Pathogens",
+                "B) Antibiotics",
+                "C) Histamine release",
+                "D) Antigen presence"
             ],
             "anwser": 2,
             "picture": null
@@ -479,10 +484,10 @@
         {
             "question": "What are macrophages known for in the immune system?",
             "options": [
-                "Producing antibodies",
-                "Clotting blood",
-                "Engulfing pathogens",
-                "Carrying oxygen"
+                "A) Producing antibodies",
+                "B) Clotting blood",
+                "C) Engulfing pathogens",
+                "D) Carrying oxygen"
             ],
             "anwser": 2,
             "picture": null
@@ -490,10 +495,10 @@
         {
             "question": "Which cell type is directly involved in the process of thromboplastin release for blood clotting?",
             "options": [
-                "Erythrocytes",
-                "B-lymphocytes",
-                "Platelets",
-                "Endothelial cells"
+                "A) Erythrocytes",
+                "B) B-lymphocytes",
+                "C) Platelets",
+                "D) Endothelial cells"
             ],
             "anwser": 2,
             "picture": null
@@ -501,10 +506,10 @@
         {
             "question": "What is the role of fibrin in the clotting process?",
             "options": [
-                "Initiates the clotting cascade",
-                "Acts as a catalyst for platelet aggregation",
-                "Forms the structural framework of a clot",
-                "Breaks down clots after healing"
+                "A) Initiates the clotting cascade",
+                "B) Acts as a catalyst for platelet aggregation",
+                "C) Forms the structural framework of a clot",
+                "D) Breaks down clots after healing"
             ],
             "anwser": 2,
             "picture": null
@@ -512,10 +517,10 @@
         {
             "question": "Which T-cell type is primarily responsible for the direct killing of virus-infected cells?",
             "options": [
-                "Helper T-cells",
-                "Memory T-cells",
-                "Killer T-cells",
-                "Suppressor T-cells"
+                "A) Helper T-cells",
+                "B) Memory T-cells",
+                "C) Killer T-cells",
+                "D) Suppressor T-cells"
             ],
             "anwser": 2,
             "picture": null
@@ -523,10 +528,10 @@
         {
             "question": "In terms of immunology, what does &#39;antigen presentation&#39; typically involve?",
             "options": [
-                "The release of antigens by pathogens",
-                "The exposure of antigens on the surface of cells",
-                "The hiding of antigens from the immune system",
-                "The removal of antigens from the body"
+                "A) The release of antigens by pathogens",
+                "B) The exposure of antigens on the surface of cells",
+                "C) The hiding of antigens from the immune system",
+                "D) The removal of antigens from the body"
             ],
             "anwser": 1,
             "picture": null
@@ -534,10 +539,10 @@
         {
             "question": "How do antibodies contribute to the immune response?",
             "options": [
-                "By increasing blood flow to infected areas",
-                "By marking pathogens for destruction by other immune cells",
-                "By directly killing pathogens",
-                "By regulating body temperature"
+                "A) By increasing blood flow to infected areas",
+                "B) By marking pathogens for destruction by other immune cells",
+                "C) By directly killing pathogens",
+                "D) By regulating body temperature"
             ],
             "anwser": 1,
             "picture": null
@@ -545,10 +550,10 @@
         {
             "question": "What is a characteristic feature of an embolus?",
             "options": [
-                "It remains attached to the vessel wall",
-                "It travels through the bloodstream to other locations",
-                "It decreases blood clotting",
-                "It is formed outside the vascular system"
+                "A) It remains attached to the vessel wall",
+                "B) It travels through the bloodstream to other locations",
+                "C) It decreases blood clotting",
+                "D) It is formed outside the vascular system"
             ],
             "anwser": 1,
             "picture": null
@@ -556,10 +561,10 @@
         {
             "question": "What differentiates the innate and adaptive immune responses?",
             "options": [
-                "Innate responses are slower and less specific",
-                "Adaptive responses are general and non-specific",
-                "Innate responses are immediate and non-specific",
-                "Adaptive responses do not remember pathogens"
+                "A) Innate responses are slower and less specific",
+                "B) Adaptive responses are general and non-specific",
+                "C) Innate responses are immediate and non-specific",
+                "D) Adaptive responses do not remember pathogens"
             ],
             "anwser": 2,
             "picture": null
@@ -567,10 +572,10 @@
         {
             "question": "Which mechanism describes how vaccines work at the cellular level?",
             "options": [
-                "They provide direct immunity by inserting antibodies",
-                "They stimulate the production of T-cells that remain inactive",
-                "They encourage the immune system to remember pathogens",
-                "They suppress the immune system to prevent overreaction"
+                "A) They provide direct immunity by inserting antibodies",
+                "B) They stimulate the production of T-cells that remain inactive",
+                "C) They encourage the immune system to remember pathogens",
+                "D) They suppress the immune system to prevent overreaction"
             ],
             "anwser": 2,
             "picture": null
@@ -578,10 +583,10 @@
         {
             "question": "What is the role of suppressor T-cells in the immune system?",
             "options": [
-                "They enhance the immune response",
-                "They regulate or suppress other cells in the immune system",
-                "They remember past infections",
-                "They kill infected cells"
+                "A) They enhance the immune response",
+                "B) They regulate or suppress other cells in the immune system",
+                "C) They remember past infections",
+                "D) They kill infected cells"
             ],
             "anwser": 1,
             "picture": null
@@ -589,10 +594,10 @@
         {
             "question": "What is the primary action of histamine in allergic reactions?",
             "options": [
-                "It suppresses immune response",
-                "It increases blood coagulation",
-                "It causes inflammation and bronchoconstriction",
-                "It heals the affected tissues"
+                "A) It suppresses immune response",
+                "B) It increases blood coagulation",
+                "C) It causes inflammation and bronchoconstriction",
+                "D) It heals the affected tissues"
             ],
             "anwser": 2,
             "picture": null
@@ -600,10 +605,10 @@
         {
             "question": "Which cells are responsible for the production of antibodies during an immune response?",
             "options": [
-                "T-cells",
-                "Red blood cells",
-                "B-lymphocytes",
-                "Macrophages"
+                "A) T-cells",
+                "B) Red blood cells",
+                "C) B-lymphocytes",
+                "D) Macrophages"
             ],
             "anwser": 2,
             "picture": null
@@ -611,10 +616,10 @@
         {
             "question": "What is the relationship between autoimmune diseases and the body&#39;s immune system?",
             "options": [
-                "The immune system underreacts to foreign bodies",
-                "The immune system attacks healthy body tissue",
-                "The immune system produces excess antibodies",
-                "The immune system stops producing white blood cells"
+                "A) The immune system underreacts to foreign bodies",
+                "B) The immune system attacks healthy body tissue",
+                "C) The immune system produces excess antibodies",
+                "D) The immune system stops producing white blood cells"
             ],
             "anwser": 1,
             "picture": null
@@ -622,10 +627,10 @@
         {
             "question": "What differentiates an antibiotic from a vaccine?",
             "options": [
-                "Antibiotics stimulate the immune system; vaccines do not",
-                "Antibiotics kill bacteria; vaccines prevent viral infections",
-                "Antibiotics are used to treat infections; vaccines are used to prevent them",
-                "Antibiotics are natural; vaccines are synthetic"
+                "A) Antibiotics stimulate the immune system; vaccines do not",
+                "B) Antibiotics kill bacteria; vaccines prevent viral infections",
+                "C) Antibiotics are used to treat infections; vaccines are used to prevent them",
+                "D) Antibiotics are natural; vaccines are synthetic"
             ],
             "anwser": 2,
             "picture": null
@@ -633,10 +638,10 @@
         {
             "question": "How does antibiotic resistance occur?",
             "options": [
-                "Through genetic mutations in viruses",
-                "When bacteria mutate and are no longer affected by antibiotics",
-                "When the body becomes immune to antibiotics",
-                "When antibiotics are taken with vaccines"
+                "A) Through genetic mutations in viruses",
+                "B) When bacteria mutate and are no longer affected by antibiotics",
+                "C) When the body becomes immune to antibiotics",
+                "D) When antibiotics are taken with vaccines"
             ],
             "anwser": 1,
             "picture": null
@@ -644,10 +649,10 @@
         {
             "question": "Which is a primary function of memory T-cells in the adaptive immune response?",
             "options": [
-                "To initiate immediate response to pathogens",
-                "To produce antibodies during initial exposure",
-                "To remember pathogens and respond faster upon re-exposure",
-                "To regulate blood clotting during infection"
+                "A) To initiate immediate response to pathogens",
+                "B) To produce antibodies during initial exposure",
+                "C) To remember pathogens and respond faster upon re-exposure",
+                "D) To regulate blood clotting during infection"
             ],
             "anwser": 2,
             "picture": null
@@ -655,10 +660,10 @@
         {
             "question": "What is the primary function of nasal hairs?",
             "options": [
-                "To detect smells",
-                "To filter dust and other particles",
-                "To produce mucus",
-                "To absorb moisture"
+                "A) To detect smells",
+                "B) To filter dust and other particles",
+                "C) To produce mucus",
+                "D) To absorb moisture"
             ],
             "anwser": 1,
             "picture": null
@@ -666,10 +671,10 @@
         {
             "question": "Why is it important to breathe air in through the nose?",
             "options": [
-                "It helps in tasting the air",
-                "It warms, moistens, and filters the air",
-                "It produces sound",
-                "It cools the body down"
+                "A) It helps in tasting the air",
+                "B) It warms, moistens, and filters the air",
+                "C) It produces sound",
+                "D) It cools the body down"
             ],
             "anwser": 1,
             "picture": null
@@ -677,10 +682,10 @@
         {
             "question": "What does the epiglottis do during swallowing?",
             "options": [
-                "It contracts",
-                "It closes off the trachea",
-                "It opens the esophagus",
-                "It vibrates to produce sounds"
+                "A) It contracts",
+                "B) It closes off the trachea",
+                "C) It opens the esophagus",
+                "D) It vibrates to produce sounds"
             ],
             "anwser": 1,
             "picture": null
@@ -688,10 +693,10 @@
         {
             "question": "Where does gas exchange occur in the respiratory system?",
             "options": [
-                "Trachea",
-                "Bronchi",
-                "Alveoli",
-                "Larynx"
+                "A) Trachea",
+                "B) Bronchi",
+                "C) Alveoli",
+                "D) Larynx"
             ],
             "anwser": 2,
             "picture": null
@@ -699,10 +704,10 @@
         {
             "question": "Which muscles are primarily used in inhalation?",
             "options": [
-                "Intercostals and diaphragm",
-                "Abdominals",
-                "Pectorals",
-                "Gluteals"
+                "A) Intercostals and diaphragm",
+                "B) Abdominals",
+                "C) Pectorals",
+                "D) Gluteals"
             ],
             "anwser": 0,
             "picture": null
@@ -710,10 +715,10 @@
         {
             "question": "What is the purpose of mucus in the nasal passages?",
             "options": [
-                "To warm the air",
-                "To produce odors",
-                "To trap dust and microbes",
-                "To humidify the room"
+                "A) To warm the air",
+                "B) To produce odors",
+                "C) To trap dust and microbes",
+                "D) To humidify the room"
             ],
             "anwser": 2,
             "picture": null
@@ -721,10 +726,10 @@
         {
             "question": "What structure prevents food from entering the windpipe?",
             "options": [
-                "Uvula",
-                "Epiglottis",
-                "Esophagus",
-                "Pharynx"
+                "A) Uvula",
+                "B) Epiglottis",
+                "C) Esophagus",
+                "D) Pharynx"
             ],
             "anwser": 1,
             "picture": null
@@ -732,10 +737,10 @@
         {
             "question": "What is tidal volume?",
             "options": [
-                "Filtering air",
-                "Vocalization",
-                "Gas exchange",
-                "Moistening air"
+                "A) Filtering air",
+                "B) Vocalization",
+                "C) Gas exchange",
+                "D) Moistening air"
             ],
             "anwser": 1,
             "picture": null
@@ -743,10 +748,10 @@
         {
             "question": "Which part of the respiratory system is supported by C-shaped rings of cartilage?",
             "options": [
-                "Larynx",
-                "Trachea",
-                "Bronchioles",
-                "Alveoli"
+                "A) Larynx",
+                "B) Trachea",
+                "C) Bronchioles",
+                "D) Alveoli"
             ],
             "anwser": 2,
             "picture": null
@@ -754,10 +759,10 @@
         {
             "question": "What is the effect of smoking on the cilia in the respiratory system?",
             "options": [
-                "It enhances their movement",
-                "It damages them, reducing their effectiveness",
-                "It increases their number",
-                "It changes their color"
+                "A) It enhances their movement",
+                "B) It damages them, reducing their effectiveness",
+                "C) It increases their number",
+                "D) It changes their color"
             ],
             "anwser": 1,
             "picture": null
@@ -765,10 +770,10 @@
         {
             "question": "What type of muscle is the diaphragm classified as?",
             "options": [
-                "Cardiac",
-                "Smooth",
-                "Skeletal",
-                "Elastic"
+                "A) Cardiac",
+                "B) Smooth",
+                "C) Skeletal",
+                "D) Elastic"
             ],
             "anwser": 2,
             "picture": null
@@ -776,10 +781,10 @@
         {
             "question": "What does surfactant in the lungs help to prevent?",
             "options": [
-                "Infections",
-                "The alveoli from collapsing",
-                "Excessive mucus production",
-                "Air from escaping"
+                "A) Infections",
+                "B) The alveoli from collapsing",
+                "C) Excessive mucus production",
+                "D) Air from escaping"
             ],
             "anwser": 1,
             "picture": null
@@ -787,10 +792,10 @@
         {
             "question": "Which structure directly branches off from the trachea?",
             "options": [
-                "Alveoli",
-                "Bronchioles",
-                "Bronchi",
-                "Larynx"
+                "A) Alveoli",
+                "B) Bronchioles",
+                "C) Bronchi",
+                "D) Larynx"
             ],
             "anwser": 2,
             "picture": null
@@ -798,10 +803,10 @@
         {
             "question": "What surrounds the lungs and allows them to move smoothly during breathing?",
             "options": [
-                "Rib cage",
-                "Pleural cavity",
-                "Diaphragm",
-                "Abdominal cavity"
+                "A) Rib cage",
+                "B) Pleural cavity",
+                "C) Diaphragm",
+                "D) Abdominal cavity"
             ],
             "anwser": 1,
             "picture": null
@@ -809,10 +814,10 @@
         {
             "question": "During inhalation, what happens to the pressure inside the lungs?",
             "options": [
-                "It increases",
-                "It decreases",
-                "It stays the same",
-                "It fluctuates rapidly"
+                "A) It increases",
+                "B) It decreases",
+                "C) It stays the same",
+                "D) It fluctuates rapidly"
             ],
             "anwser": 1,
             "picture": null
@@ -820,10 +825,10 @@
         {
             "question": "What is vital capacity?",
             "options": [
-                "The minimum volume of air remaining in the lungs after a forceful exhale",
-                "The maximum amount of air exhaled after a maximum inhale",
-                "The volume of air inhaled in a normal breath",
-                "The total volume of the lungs"
+                "A) The minimum volume of air remaining in the lungs after a forceful exhale",
+                "B) The maximum amount of air exhaled after a maximum inhale",
+                "C) The volume of air inhaled in a normal breath",
+                "D) The total volume of the lungs"
             ],
             "anwser": 1,
             "picture": null
@@ -831,10 +836,10 @@
         {
             "question": "How does carbon dioxide travel to the lungs from the body's tissues?",
             "options": [
-                "Attached to hemoglobin",
-                "Dissolved in the plasma",
-                "Through the lymphatic system",
-                "Encapsulated in red blood cells"
+                "A) Attached to hemoglobin",
+                "B) Dissolved in the plasma",
+                "C) Through the lymphatic system",
+                "D) Encapsulated in red blood cells"
             ],
             "anwser": 1,
             "picture": null
@@ -842,10 +847,10 @@
         {
             "question": "What role do the internal intercostal muscles play during heavy exercise?",
             "options": [
-                "They assist in inhalation",
-                "They assist in exhalation",
-                "They stabilize the rib cage",
-                "They are not involved"
+                "A) They assist in inhalation",
+                "B) They assist in exhalation",
+                "C) They stabilize the rib cage",
+                "D) They are not involved"
             ],
             "anwser": 1,
             "picture": null
@@ -853,10 +858,10 @@
         {
             "question": "What is the primary effect of carbon monoxide on the body's oxygen transport?",
             "options": [
-                "It increases oxygen delivery to tissues",
-                "It blocks oxygen from binding to hemoglobin",
-                "It converts oxygen into carbon dioxide",
-                "It expels oxygen from the bloodstream"
+                "A) It increases oxygen delivery to tissues",
+                "B) It blocks oxygen from binding to hemoglobin",
+                "C) It converts oxygen into carbon dioxide",
+                "D) It expels oxygen from the bloodstream"
             ],
             "anwser": 1,
             "picture": null
@@ -864,10 +869,10 @@
         {
             "question": "How does asthma affect the bronchioles?",
             "options": [
-                "It causes them to dilate excessively",
-                "It causes them to constrict",
-                "It increases mucus production",
-                "Both B and C"
+                "A) It causes them to dilate excessively",
+                "B) It causes them to constrict",
+                "C) It increases mucus production",
+                "D) Both B and C"
             ],
             "anwser": 3,
             "picture": null
@@ -875,10 +880,10 @@
         {
             "question": "What indicates total lung capacity on a spirometry test?",
             "options": [
-                "The volume measured during normal breathing",
-                "The sum of vital capacity and residual volume",
-                "The maximum exhale after normal inhale",
-                "The minimum inhale after a maximum exhale"
+                "A) The volume measured during normal breathing",
+                "B) The sum of vital capacity and residual volume",
+                "C) The maximum exhale after normal inhale",
+                "D) The minimum inhale after a maximum exhale"
             ],
             "anwser": 1,
             "picture": null
@@ -886,10 +891,10 @@
         {
             "question": "Why is the pleural cavity important for lung function?",
             "options": [
-                "It contains muscles that help in breathing",
-                "It provides space for lung expansion",
-                "It filters air before it enters the lungs",
-                "It warms the air entering the lungs"
+                "A) It contains muscles that help in breathing",
+                "B) It provides space for lung expansion",
+                "C) It filters air before it enters the lungs",
+                "D) It warms the air entering the lungs"
             ],
             "anwser": 1,
             "picture": null
@@ -897,10 +902,10 @@
         {
             "question": "What changes occur in the lungs due to emphysema?",
             "options": [
-                "Decreased surface area of alveoli",
-                "Increased efficiency of gas exchange",
-                "Increased number of alveoli",
-                "Decreased mucus production"
+                "A) Decreased surface area of alveoli",
+                "B) Increased efficiency of gas exchange",
+                "C) Increased number of alveoli",
+                "D) Decreased mucus production"
             ],
             "anwser": 0,
             "picture": null
@@ -908,10 +913,10 @@
         {
             "question": "What happens to the volume of the chest cavity when the diaphragm contracts?",
             "options": [
-                "It decreases",
-                "It increases",
-                "It stays the same",
-                "It rotates"
+                "A) It decreases",
+                "B) It increases",
+                "C) It stays the same",
+                "D) It rotates"
             ],
             "anwser": 1,
             "picture": null
@@ -919,10 +924,10 @@
         {
             "question": "How is residual volume measured?",
             "options": [
-                "By inhaling as much air as possible",
-                "By exhaling forcefully after a normal exhale",
-                "It cannot be measured directly by spirometry",
-                "By calculating the difference between total lung capacity and vital capacity"
+                "A) By inhaling as much air as possible",
+                "B) By exhaling forcefully after a normal exhale",
+                "C) It cannot be measured directly by spirometry",
+                "D) By calculating the difference between total lung capacity and vital capacity"
             ],
             "anwser": 2,
             "picture": null
@@ -930,10 +935,10 @@
         {
             "question": "What is expiratory reserve volume?",
             "options": [
-                "The extra air inhaled above normal inhalation",
-                "The air exhaled during normal breathing",
-                "The additional air exhaled after a normal exhale",
-                "The air remaining after a forceful exhale"
+                "A) The extra air inhaled above normal inhalation",
+                "B) The air exhaled during normal breathing",
+                "C) The additional air exhaled after a normal exhale",
+                "D) The air remaining after a forceful exhale"
             ],
             "anwser": 2,
             "picture": null
@@ -941,10 +946,10 @@
         {
             "question": "What is the primary control for breathing?",
             "options": [
-                "Oxygen levels in the blood",
-                "Nitrogen levels in the blood",
-                "Carbon dioxide levels in the blood",
-                "Hydrogen levels in the blood"
+                "A) Oxygen levels in the blood",
+                "B) Nitrogen levels in the blood",
+                "C) Carbon dioxide levels in the blood",
+                "D) Hydrogen levels in the blood"
             ],
             "anwser": 2,
             "picture": null
@@ -952,10 +957,10 @@
         {
             "question": "What happens when carbon dioxide levels in the blood rise?",
             "options": [
-                "Breathing rate decreases",
-                "Blood becomes more acidic",
-                "Blood pressure drops",
-                "Blood becomes more alkaline"
+                "A) Breathing rate decreases",
+                "B) Blood becomes more acidic",
+                "C) Blood pressure drops",
+                "D) Blood becomes more alkaline"
             ],
             "anwser": 1,
             "picture": null
@@ -963,10 +968,10 @@
         {
             "question": "What does the presence of surfactant in the alveoli affect?",
             "options": [
-                "Mucus production",
-                "Gas exchange efficiency",
-                "Blood flow to the lungs",
-                "Filtering of air"
+                "A) Mucus production",
+                "B) Gas exchange efficiency",
+                "C) Blood flow to the lungs",
+                "D) Filtering of air"
             ],
             "anwser": 1,
             "picture": null
@@ -974,10 +979,10 @@
         {
             "question": "What effect does chronic smoking have on gas exchange in the alveoli?",
             "options": [
-                "It enhances gas exchange efficiency",
-                "It reduces the alveoli&#39;s ability to exchange gases",
-                "It increases the number of alveoli",
-                "It has no effect on gas exchange"
+                "A) It enhances gas exchange efficiency",
+                "B) It reduces the alveoli&#39;s ability to exchange gases",
+                "C) It increases the number of alveoli",
+                "D) It has no effect on gas exchange"
             ],
             "anwser": 1,
             "picture": null
@@ -985,10 +990,10 @@
         {
             "question": "How does the body primarily adjust to high altitude where oxygen levels are low?",
             "options": [
-                "By decreasing respiratory rate",
-                "By increasing hemoglobin levels",
-                "By increasing heart rate only",
-                "By decreasing blood pressure"
+                "A) By decreasing respiratory rate",
+                "B) By increasing hemoglobin levels",
+                "C) By increasing heart rate only",
+                "D) By decreasing blood pressure"
             ],
             "anwser": 1,
             "picture": null
@@ -996,10 +1001,10 @@
         {
             "question": "What is inspiratory reserve volume?",
             "options": [
-                "The maximum amount of air that can be inhaled after a normal inhalation",
-                "The volume of air remaining in the lungs after a normal exhale",
-                "The total air exhaled after a forced inhalation",
-                "The normal volume of air inhaled and exhaled"
+                "A) The maximum amount of air that can be inhaled after a normal inhalation",
+                "B) The volume of air remaining in the lungs after a normal exhale",
+                "C) The total air exhaled after a forced inhalation",
+                "D) The normal volume of air inhaled and exhaled"
             ],
             "anwser": 0,
             "picture": null
@@ -1007,10 +1012,10 @@
         {
             "question": "During exhalation, how does the volume of the thoracic cavity change?",
             "options": [
-                "It increases",
-                "It decreases",
-                "It remains constant",
-                "It fluctuates"
+                "A) It increases",
+                "B) It decreases",
+                "C) It remains constant",
+                "D) It fluctuates"
             ],
             "anwser": 1,
             "picture": null
@@ -1018,10 +1023,10 @@
         {
             "question": "What role do the external intercostal muscles play in respiration?",
             "options": [
-                "They aid in exhalation",
-                "They aid in inhalation",
-                "They stabilize the spine",
-                "They decrease the thoracic cavity volume"
+                "A) They aid in exhalation",
+                "B) They aid in inhalation",
+                "C) They stabilize the spine",
+                "D) They decrease the thoracic cavity volume"
             ],
             "anwser": 1,
             "picture": null
@@ -1029,10 +1034,10 @@
         {
             "question": "How does oxygen primarily travel through the blood to reach body tissues?",
             "options": [
-                "Dissolved in blood plasma",
-                "Bound to hemoglobin in red blood cells",
-                "Attached to white blood cells",
-                "Encapsulated within platelets"
+                "A) Dissolved in blood plasma",
+                "B) Bound to hemoglobin in red blood cells",
+                "C) Attached to white blood cells",
+                "D) Encapsulated within platelets"
             ],
             "anwser": 1,
             "picture": null
@@ -1040,10 +1045,10 @@
         {
             "question": "Which factor is crucial in determining the rate of gas exchange in the alveoli?",
             "options": [
-                "The thickness of the alveolar and capillary walls",
-                "The color of the blood",
-                "The size of the alveoli",
-                "The number of red blood cells"
+                "A) The thickness of the alveolar and capillary walls",
+                "B) The color of the blood",
+                "C) The size of the alveoli",
+                "D) The number of red blood cells"
             ],
             "anwser": 0,
             "picture": null
@@ -1051,10 +1056,10 @@
         {
             "question": "What is the primary reason the pleural cavity must be sealed from the atmosphere?",
             "options": [
-                "To maintain high oxygen concentration",
-                "To prevent lung collapse",
-                "To regulate blood pressure",
-                "To filter toxins from the air"
+                "A) To maintain high oxygen concentration",
+                "B) To prevent lung collapse",
+                "C) To regulate blood pressure",
+                "D) To filter toxins from the air"
             ],
             "anwser": 1,
             "picture": null
@@ -1062,10 +1067,10 @@
         {
             "question": "How do changes in atmospheric pressure affect breathing?",
             "options": [
-                "They have no effect",
-                "They may increase the difficulty of inhalation",
-                "They enhance the oxygen-carrying capacity of the blood",
-                "They decrease the rate of respiration"
+                "A) They have no effect",
+                "B) They may increase the difficulty of inhalation",
+                "C) They enhance the oxygen-carrying capacity of the blood",
+                "D) They decrease the rate of respiration"
             ],
             "anwser": 1,
             "picture": null
@@ -1073,10 +1078,10 @@
         {
             "question": "What is the relationship between lung volume and respiratory pressure during inhalation?",
             "options": [
-                "Pressure decreases as volume increases",
-                "Pressure increases as volume increases",
-                "Pressure remains constant as volume changes",
-                "Pressure decreases as volume decreases"
+                "A) Pressure decreases as volume increases",
+                "B) Pressure increases as volume increases",
+                "C) Pressure remains constant as volume changes",
+                "D) Pressure decreases as volume decreases"
             ],
             "anwser": 0,
             "picture": null
@@ -1084,10 +1089,10 @@
         {
             "question": "What effect does emphysema have on the lungs' elasticity?",
             "options": [
-                "Increases elasticity",
-                "Decreases elasticity",
-                "Has no effect on elasticity",
-                "Temporarily increases elasticity before permanently decreasing it"
+                "A) Increases elasticity",
+                "B) Decreases elasticity",
+                "C) Has no effect on elasticity",
+                "D) Temporarily increases elasticity before permanently decreasing it"
             ],
             "anwser": 1,
             "picture": null
@@ -1095,10 +1100,10 @@
         {
             "question": "What structural changes occur in the respiratory system due to chronic asthma?",
             "options": [
-                "Thickening of the alveolar walls",
-                "Thinning of the bronchial walls",
-                "Thickening of the bronchial walls",
-                "Increase in the number of alveoli"
+                "A) Thickening of the alveolar walls",
+                "B) Thinning of the bronchial walls",
+                "C) Thickening of the bronchial walls",
+                "D) Increase in the number of alveoli"
             ],
             "anwser": 2,
             "picture": null
@@ -1106,10 +1111,10 @@
         {
             "question": "How does the respiratory system respond to increased carbon dioxide levels from physical exertion?",
             "options": [
-                "Decreased breathing rate",
-                "Increased breathing rate",
-                "Unchanged breathing rate",
-                "Periodic breathing patterns"
+                "A) Decreased breathing rate",
+                "B) Increased breathing rate",
+                "C) Unchanged breathing rate",
+                "D) Periodic breathing patterns"
             ],
             "anwser": 1,
             "picture": null
@@ -1117,10 +1122,10 @@
         {
             "question": "What is the significance of the interrelationship between pressure and volume in the lungs?",
             "options": [
-                "It determines the rate of gas exchange",
-                "It governs the mechanical process of breathing",
-                "It affects the transport of oxygen only",
-                "It regulates blood temperature"
+                "A) It determines the rate of gas exchange",
+                "B) It governs the mechanical process of breathing",
+                "C) It affects the transport of oxygen only",
+                "D) It regulates blood temperature"
             ],
             "anwser": 1,
             "picture": null
@@ -1128,10 +1133,10 @@
         {
             "question": "Which measurement in spirometry indicates the air expelled after taking the deepest breath possible?",
             "options": [
-                "Tidal volume",
-                "Residual volume",
-                "Vital capacity",
-                "Total lung capacity"
+                "A) Tidal volume",
+                "B) Residual volume",
+                "C) Vital capacity",
+                "D) Total lung capacity"
             ],
             "anwser": 2,
             "picture": null
@@ -1139,10 +1144,10 @@
         {
             "question": "What is the primary function of the digestive system?",
             "options": [
-                "To circulate blood",
-                "To control body temperature",
-                "To convert food into nutrients",
-                "To remove waste from the body"
+                "A) To circulate blood",
+                "B) To control body temperature",
+                "C) To convert food into nutrients",
+                "D) To remove waste from the body"
             ],
             "anwser": 2,
             "picture": null
@@ -1150,10 +1155,10 @@
         {
             "question": "Which organ connects the mouth to the stomach?",
             "options": [
-                "Esophagus",
-                "Small intestine",
-                "Large intestine",
-                "Liver"
+                "A) Esophagus",
+                "B) Small intestine",
+                "C) Large intestine",
+                "D) Liver"
             ],
             "anwser": 0,
             "picture": null
@@ -1161,10 +1166,10 @@
         {
             "question": "What is the main role of stomach acid (HCl)?",
             "options": [
-                "To digest carbohydrates",
-                "To break down food and kill bacteria",
-                "To absorb nutrients",
-                "To produce bile"
+                "A) To digest carbohydrates",
+                "B) To break down food and kill bacteria",
+                "C) To absorb nutrients",
+                "D) To produce bile"
             ],
             "anwser": 1,
             "picture": null
@@ -1172,10 +1177,10 @@
         {
             "question": "Where is bile stored before it is released into the small intestine?",
             "options": [
-                "Liver",
-                "Stomach",
-                "Gall bladder",
-                "Pancreas"
+                "A) Liver",
+                "B) Stomach",
+                "C) Gall bladder",
+                "D) Pancreas"
             ],
             "anwser": 2,
             "picture": null
@@ -1183,10 +1188,10 @@
         {
             "question": "What does the pancreas produce to neutralize stomach acid in the small intestine?",
             "options": [
-                "Bile",
-                "Hydrochloric acid",
-                "Bicarbonate ion",
-                "Pepsinogen"
+                "A) Bile",
+                "B) Hydrochloric acid",
+                "C) Bicarbonate ion",
+                "D) Pepsinogen"
             ],
             "anwser": 2,
             "picture": null
@@ -1194,10 +1199,10 @@
         {
             "question": "What is the role of pepsinogen in digestion?",
             "options": [
-                "It neutralizes stomach acid",
-                "It converts proteins into peptides",
-                "It emulsifies fats",
-                "It breaks down carbohydrates"
+                "A) It neutralizes stomach acid",
+                "B) It converts proteins into peptides",
+                "C) It emulsifies fats",
+                "D) It breaks down carbohydrates"
             ],
             "anwser": 1,
             "picture": null
@@ -1205,10 +1210,10 @@
         {
             "question": "Which part of the small intestine is closest to the stomach?",
             "options": [
-                "Duodenum",
-                "Ileum",
-                "Jejunum",
-                "Colon"
+                "A) Duodenum",
+                "B) Ileum",
+                "C) Jejunum",
+                "D) Colon"
             ],
             "anwser": 0,
             "picture": null
@@ -1216,10 +1221,10 @@
         {
             "question": "What is the main function of the villi in the small intestine?",
             "options": [
-                "To produce digestive enzymes",
-                "To absorb nutrients",
-                "To secrete bile",
-                "To move food along the intestine"
+                "A) To produce digestive enzymes",
+                "B) To absorb nutrients",
+                "C) To secrete bile",
+                "D) To move food along the intestine"
             ],
             "anwser": 1,
             "picture": null
@@ -1227,10 +1232,10 @@
         {
             "question": "Which enzyme is not produced by the pancreas?",
             "options": [
-                "Amylase",
-                "Lipase",
-                "Pepsin",
-                "Insulin"
+                "A) Amylase",
+                "B) Lipase",
+                "C) Pepsin",
+                "D) Insulin"
             ],
             "anwser": 2,
             "picture": null
@@ -1238,10 +1243,10 @@
         {
             "question": "The liver helps in the digestion of fats by producing which substance?",
             "options": [
-                "Hydrochloric acid",
-                "Bile",
-                "Insulin",
-                "Gastric juice"
+                "A) Hydrochloric acid",
+                "B) Bile",
+                "C) Insulin",
+                "D) Gastric juice"
             ],
             "anwser": 1,
             "picture": null
@@ -1249,10 +1254,10 @@
         {
             "question": "What triggers the release of bile and pancreatic juice into the duodenum?",
             "options": [
-                "The presence of hydrochloric acid",
-                "The arrival of food in the stomach",
-                "The presence of fatty acids and amino acids in the duodenum",
-                "The stretching of the stomach walls"
+                "A) The presence of hydrochloric acid",
+                "B) The arrival of food in the stomach",
+                "C) The presence of fatty acids and amino acids in the duodenum",
+                "D) The stretching of the stomach walls"
             ],
             "anwser": 2,
             "picture": null
@@ -1260,10 +1265,10 @@
         {
             "question": "Which segment of the small intestine is responsible for the majority of nutrient absorption?",
             "options": [
-                "Duodenum",
-                "Ileum",
-                "Jejunum",
-                "Colon"
+                "A) Duodenum",
+                "B) Ileum",
+                "C) Jejunum",
+                "D) Colon"
             ],
             "anwser": 2,
             "picture": null
@@ -1271,10 +1276,10 @@
         {
             "question": "What is the primary function of mucin in the stomach?",
             "options": [
-                "To digest proteins",
-                "To neutralize stomach acid",
-                "To protect the stomach lining",
-                "To emulsify fats"
+                "A) To digest proteins",
+                "B) To neutralize stomach acid",
+                "C) To protect the stomach lining",
+                "D) To emulsify fats"
             ],
             "anwser": 2,
             "picture": null
@@ -1282,10 +1287,10 @@
         {
             "question": "What role does the bicarbonate ion play in the digestive system?",
             "options": [
-                "It activates digestive enzymes",
-                "It helps in the absorption of vitamins",
-                "It neutralizes the acid chyme from the stomach",
-                "It stimulates the gall bladder to release bile"
+                "A) It activates digestive enzymes",
+                "B) It helps in the absorption of vitamins",
+                "C) It neutralizes the acid chyme from the stomach",
+                "D) It stimulates the gall bladder to release bile"
             ],
             "anwser": 2,
             "picture": null
@@ -1293,10 +1298,10 @@
         {
             "question": "How does the structure of the villi affect their function in the small intestine?",
             "options": [
-                "The villi increase surface area for more efficient digestion of food",
-                "The villi produce enzymes that break down food molecules",
-                "The villi secrete hydrochloric acid to further break down food",
-                "The villi pump water from the intestine to concentrate food substances"
+                "A) The villi increase surface area for more efficient digestion of food",
+                "B) The villi produce enzymes that break down food molecules",
+                "C) The villi secrete hydrochloric acid to further break down food",
+                "D) The villi pump water from the intestine to concentrate food substances"
             ],
             "anwser": 0,
             "picture": null
@@ -1304,10 +1309,10 @@
         {
             "question": "What are the building blocks of carbohydrates?",
             "options": [
-                "Amino acids",
-                "Fatty acids",
-                "Monosaccharides",
-                "Nucleotides"
+                "A) Amino acids",
+                "B) Fatty acids",
+                "C) Monosaccharides",
+                "D) Nucleotides"
             ],
             "anwser": 2,
             "picture": null
@@ -1315,10 +1320,10 @@
         {
             "question": "Which type of carbohydrate is commonly known as table sugar?",
             "options": [
-                "Glucose",
-                "Fructose",
-                "Sucrose",
-                "Lactose"
+                "A) Glucose",
+                "B) Fructose",
+                "C) Sucrose",
+                "D) Lactose"
             ],
             "anwser": 2,
             "picture": null
@@ -1326,10 +1331,10 @@
         {
             "question": "What is the primary function of carbohydrates in the body?",
             "options": [
-                "To store and transmit genetic information",
-                "To provide energy",
-                "To speed up chemical reactions",
-                "To form cell structures"
+                "A) To store and transmit genetic information",
+                "B) To provide energy",
+                "C) To speed up chemical reactions",
+                "D) To form cell structures"
             ],
             "anwser": 1,
             "picture": null
@@ -1337,10 +1342,10 @@
         {
             "question": "Which test is used to identify the presence of reducing sugars?",
             "options": [
-                "Benedict's Test",
-                "Iodine Test",
-                "Biuret Test",
-                "Lipid Test"
+                "A) Benedict's Test",
+                "B) Iodine Test",
+                "C) Biuret Test",
+                "D) Lipid Test"
             ],
             "anwser": 0,
             "picture": null
@@ -1348,10 +1353,10 @@
         {
             "question": "What type of fats are solid at room temperature?",
             "options": [
-                "Saturated fats",
-                "Unsaturated fats",
-                "Trans fats",
-                "Monounsaturated fats"
+                "A) Saturated fats",
+                "B) Unsaturated fats",
+                "C) Trans fats",
+                "D) Monounsaturated fats"
             ],
             "anwser": 0,
             "picture": null
@@ -1359,10 +1364,10 @@
         {
             "question": "What are polysaccharides?",
             "options": [
-                "Simple sugars",
-                "Double sugars",
-                "Complex carbohydrates",
-                "Basic units of proteins"
+                "A) Simple sugars",
+                "B) Double sugars",
+                "C) Complex carbohydrates",
+                "D) Basic units of proteins"
             ],
             "anwser": 2,
             "picture": null
@@ -1370,10 +1375,10 @@
         {
             "question": "What is the significance of the Iodine Test in nutrition?",
             "options": [
-                "It detects the presence of lipids",
-                "It indicates the presence of starch",
-                "It identifies proteins",
-                "It shows the presence of vitamins"
+                "A) It detects the presence of lipids",
+                "B) It indicates the presence of starch",
+                "C) It identifies proteins",
+                "D) It shows the presence of vitamins"
             ],
             "anwser": 1,
             "picture": null
@@ -1381,10 +1386,10 @@
         {
             "question": "Denaturation of proteins refers to what?",
             "options": [
-                "Breaking down proteins into amino acids",
-                "Changing the structure of proteins without breaking peptide bonds",
-                "Converting proteins into fatty acids",
-                "Synthesizing new proteins"
+                "A) Breaking down proteins into amino acids",
+                "B) Changing the structure of proteins without breaking peptide bonds",
+                "C) Converting proteins into fatty acids",
+                "D) Synthesizing new proteins"
             ],
             "anwser": 1,
             "picture": null
@@ -1392,10 +1397,10 @@
         {
             "question": "Which type of lipid is most beneficial for cardiovascular health?",
             "options": [
-                "LDL cholesterol",
-                "HDL cholesterol",
-                "Saturated fats",
-                "Trans fats"
+                "A) LDL cholesterol",
+                "B) HDL cholesterol",
+                "C) Saturated fats",
+                "D) Trans fats"
             ],
             "anwser": 1,
             "picture": null
@@ -1403,10 +1408,10 @@
         {
             "question": "What does the Biuret Test detect?",
             "options": [
-                "Simple sugars",
-                "Starch",
-                "Proteins",
-                "Lipids"
+                "A) Simple sugars",
+                "B) Starch",
+                "C) Proteins",
+                "D) Lipids"
             ],
             "anwser": 2,
             "picture": null
@@ -1414,10 +1419,10 @@
         {
             "question": "Which polysaccharide is the main form of carbohydrate storage in animals?",
             "options": [
-                "Starch",
-                "Cellulose",
-                "Glycogen",
-                "Chitin"
+                "A) Starch",
+                "B) Cellulose",
+                "C) Glycogen",
+                "D) Chitin"
             ],
             "anwser": 2,
             "picture": null
@@ -1425,10 +1430,10 @@
         {
             "question": "How do unsaturated fats differ from saturated fats at a molecular level?",
             "options": [
-                "Unsaturated fats have more hydrogen atoms",
-                "Unsaturated fats have no carbon-carbon double bonds",
-                "Unsaturated fats have one or more carbon-carbon double bonds",
-                "Unsaturated fats are composed of shorter carbon chains"
+                "A) Unsaturated fats have more hydrogen atoms",
+                "B) Unsaturated fats have no carbon-carbon double bonds",
+                "C) Unsaturated fats have one or more carbon-carbon double bonds",
+                "D) Unsaturated fats are composed of shorter carbon chains"
             ],
             "anwser": 2,
             "picture": null
@@ -1436,10 +1441,10 @@
         {
             "question": "What is the primary structure affected during protein denaturation?",
             "options": [
-                "Primary structure",
-                "Secondary structure",
-                "Tertiary structure",
-                "Quaternary structure"
+                "A) Primary structure",
+                "B) Secondary structure",
+                "C) Tertiary structure",
+                "D) Quaternary structure"
             ],
             "anwser": 2,
             "picture": null
@@ -1447,10 +1452,10 @@
         {
             "question": "In the context of cholesterol, what does LDL stand for?",
             "options": [
-                "Low-Density Lipoprotein",
-                "Low-Diabetic Lipoprotein",
-                "Lipid-Density Lipoprotein",
-                "Linear-Density Lipoprotein"
+                "A) Low-Density Lipoprotein",
+                "B) Low-Diabetic Lipoprotein",
+                "C) Lipid-Density Lipoprotein",
+                "D) Linear-Density Lipoprotein"
             ],
             "anwser": 0,
             "picture": null
@@ -1458,10 +1463,10 @@
         {
             "question": "What is the primary function of the circulatory system?",
             "options": [
-                "To break down nutrients",
-                "To transport blood throughout the body",
-                "To eliminate waste products",
-                "To produce hormones"
+                "A) To break down nutrients",
+                "B) To transport blood throughout the body",
+                "C) To eliminate waste products",
+                "D) To produce hormones"
             ],
             "anwser": 1,
             "picture": null
@@ -1469,10 +1474,10 @@
         {
             "question": "Which chamber of the heart receives oxygen-poor blood from the body?",
             "options": [
-                "Left atrium",
-                "Right atrium",
-                "Left ventricle",
-                "Right ventricle"
+                "A) Left atrium",
+                "B) Right atrium",
+                "C) Left ventricle",
+                "D) Right ventricle"
             ],
             "anwser": 1,
             "picture": null
@@ -1480,10 +1485,10 @@
         {
             "question": "What type of blood vessels carry blood away from the heart?",
             "options": [
-                "Arteries",
-                "Veins",
-                "Capillaries",
-                "Venules"
+                "A) Arteries",
+                "B) Veins",
+                "C) Capillaries",
+                "D) Venules"
             ],
             "anwser": 0,
             "picture": null
@@ -1491,10 +1496,10 @@
         {
             "question": "Pulmonary circulation involves blood flow to and from the:",
             "options": [
-                "Heart",
-                "Lungs",
-                "Brain",
-                "Liver"
+                "A) Heart",
+                "B) Lungs",
+                "C) Brain",
+                "D) Liver"
             ],
             "anwser": 1,
             "picture": null
@@ -1502,10 +1507,10 @@
         {
             "question": "The heartbeat is initiated by which part of the heart?",
             "options": [
-                "Atrioventricular node",
-                "Sinoatrial node",
-                "Ventricles",
-                "Septum"
+                "A) Atrioventricular node",
+                "B) Sinoatrial node",
+                "C) Ventricles",
+                "D) Septum"
             ],
             "anwser": 1,
             "picture": null
@@ -1513,10 +1518,10 @@
         {
             "question": "What does systolic blood pressure measure?",
             "options": [
-                "Blood pressure during heart relaxation",
-                "Blood pressure during heart contraction",
-                "The volume of blood in the heart",
-                "Resistance of blood flow in arteries"
+                "A) Blood pressure during heart relaxation",
+                "B) Blood pressure during heart contraction",
+                "C) The volume of blood in the heart",
+                "D) Resistance of blood flow in arteries"
             ],
             "anwser": 1,
             "picture": null
@@ -1524,10 +1529,10 @@
         {
             "question": "What term describes the narrowing of arteries due to plaque buildup?",
             "options": [
-                "Hypertension",
-                "Atherosclerosis",
-                "Myocardial infarction",
-                "Angina"
+                "A) Hypertension",
+                "B) Atherosclerosis",
+                "C) Myocardial infarction",
+                "D) Angina"
             ],
             "anwser": 1,
             "picture": null
@@ -1535,10 +1540,10 @@
         {
             "question": "Capillaries are:",
             "options": [
-                "The largest blood vessels that carry blood away from the heart.",
-                "Blood vessels that return blood to the heart.",
-                "Small blood vessels where gas exchange occurs.",
-                "Valves that prevent backflow of blood."
+                "A) The largest blood vessels that carry blood away from the heart.",
+                "B) Blood vessels that return blood to the heart.",
+                "C) Small blood vessels where gas exchange occurs.",
+                "D) Valves that prevent backflow of blood."
             ],
             "anwser": 2,
             "picture": null
@@ -1546,10 +1551,10 @@
         {
             "question": "The sinoatrial node is located in the:",
             "options": [
-                "Right atrium",
-                "Left atrium",
-                "Right ventricle",
-                "Left ventricle"
+                "A) Right atrium",
+                "B) Left atrium",
+                "C) Right ventricle",
+                "D) Left ventricle"
             ],
             "anwser": 0,
             "picture": null
@@ -1557,10 +1562,10 @@
         {
             "question": "Which condition is characterized by a sudden loss of brain function due to a blockage or rupture of a blood vessel?",
             "options": [
-                "Heart attack",
-                "Stroke",
-                "Aneurysm",
-                "Hypertension"
+                "A) Heart attack",
+                "B) Stroke",
+                "C) Aneurysm",
+                "D) Hypertension"
             ],
             "anwser": 1,
             "picture": null
@@ -1568,10 +1573,10 @@
         {
             "question": "The process of thermoregulation in the circulatory system is primarily facilitated by:",
             "options": [
-                "Hormonal regulation",
-                "Vasodilation and vasoconstriction",
-                "Cardiac output adjustment",
-                "Sinoatrial node pacing"
+                "A) Hormonal regulation",
+                "B) Vasodilation and vasoconstriction",
+                "C) Cardiac output adjustment",
+                "D) Sinoatrial node pacing"
             ],
             "anwser": 1,
             "picture": null
@@ -1579,10 +1584,10 @@
         {
             "question": "Baroreceptors help regulate blood pressure by:",
             "options": [
-                "Detecting changes in arterial wall tension",
-                "Increasing blood volume",
-                "Decreasing heart rate",
-                "Synthesizing red blood cells"
+                "A) Detecting changes in arterial wall tension",
+                "B) Increasing blood volume",
+                "C) Decreasing heart rate",
+                "D) Synthesizing red blood cells"
             ],
             "anwser": 0,
             "picture": null
@@ -1590,10 +1595,10 @@
         {
             "question": "A heart attack, or myocardial infarction, occurs when:",
             "options": [
-                "The heart beats too rapidly",
-                "Blood flow to a part of the brain is blocked",
-                "There is an excessive buildup of cholesterol in the body",
-                "Blood flow to a part of the heart is blocked"
+                "A) The heart beats too rapidly",
+                "B) Blood flow to a part of the brain is blocked",
+                "C) There is an excessive buildup of cholesterol in the body",
+                "D) Blood flow to a part of the heart is blocked"
             ],
             "anwser": 3,
             "picture": null
@@ -1601,10 +1606,10 @@
         {
             "question": "Which part of the heart is responsible for pumping oxygenated blood to the systemic circulation?",
             "options": [
-                "Right atrium",
-                "Right ventricle",
-                "Left atrium",
-                "Left ventricle"
+                "A) Right atrium",
+                "B) Right ventricle",
+                "C) Left atrium",
+                "D) Left ventricle"
             ],
             "anwser": 3,
             "picture": null
@@ -1612,10 +1617,10 @@
         {
             "question": "The regulation of blood flow to specific areas based on current needs is known as:",
             "options": [
-                "Hemostasis",
-                "Systemic circulation",
-                "Autoregulation",
-                "Cardiac circulation"
+                "A) Hemostasis",
+                "B) Systemic circulation",
+                "C) Autoregulation",
+                "D) Cardiac circulation"
             ],
             "anwser": 2,
             "picture": null
@@ -1623,10 +1628,10 @@
         {
             "question": "What is the main component of blood that carries oxygen?",
             "options": [
-                "White blood cells",
-                "Platelets",
-                "Red blood cells",
-                "Plasma"
+                "A) White blood cells",
+                "B) Platelets",
+                "C) Red blood cells",
+                "D) Plasma"
             ],
             "anwser": 2,
             "picture": null
@@ -1634,10 +1639,10 @@
         {
             "question": "Veins return blood to the:",
             "options": [
-                "Lungs only",
-                "Heart",
-                "Arteries",
-                "Capillaries"
+                "A) Lungs only",
+                "B) Heart",
+                "C) Arteries",
+                "D) Capillaries"
             ],
             "anwser": 1,
             "picture": null
@@ -1645,10 +1650,10 @@
         {
             "question": "Which vessels have the thinnest walls for exchange of gases and nutrients?",
             "options": [
-                "Arteries",
-                "Veins",
-                "Capillaries",
-                "Capillaries"
+                "A) Arteries",
+                "B) Veins",
+                "C) Capillaries",
+                "D) Capillaries"
             ],
             "anwser": 2,
             "picture": null
@@ -1656,10 +1661,10 @@
         {
             "question": "Systemic circulation refers to the movement of blood from the heart to the:",
             "options": [
-                "Lungs only",
-                "Entire body, except the lungs",
-                "Heart itself",
-                "Brain only"
+                "A) Lungs only",
+                "B) Entire body, except the lungs",
+                "C) Heart itself",
+                "D) Brain only"
             ],
             "anwser": 1,
             "picture": null
@@ -1667,10 +1672,10 @@
         {
             "question": "The right ventricle pumps blood to the:",
             "options": [
-                "Lungs",
-                "Liver",
-                "Entire body",
-                "Left atrium"
+                "A) Lungs",
+                "B) Liver",
+                "C) Entire body",
+                "D) Left atrium"
             ],
             "anwser": 0,
             "picture": null
@@ -1678,10 +1683,10 @@
         {
             "question": "Arterioles are best described as:",
             "options": [
-                "Large vessels that carry blood away from the heart",
-                "Small branches of arteries leading to capillaries",
-                "Vessels that carry blood back to the heart",
-                "Small branches of veins"
+                "A) Large vessels that carry blood away from the heart",
+                "B) Small branches of arteries leading to capillaries",
+                "C) Vessels that carry blood back to the heart",
+                "D) Small branches of veins"
             ],
             "anwser": 1,
             "picture": null
@@ -1689,10 +1694,10 @@
         {
             "question": "Diastolic pressure is the:",
             "options": [
-                "Highest level of blood pressure",
-                "Pressure in the arteries when the heart is at rest",
-                "Pressure in the arteries during a heartbeat",
-                "Pressure required to open the heart valves"
+                "A) Highest level of blood pressure",
+                "B) Pressure in the arteries when the heart is at rest",
+                "C) Pressure in the arteries during a heartbeat",
+                "D) Pressure required to open the heart valves"
             ],
             "anwser": 1,
             "picture": null
@@ -1700,10 +1705,10 @@
         {
             "question": "Coronary circulation is directly involved in supplying blood to the:",
             "options": [
-                "Brain",
-                "Lungs",
-                "Heart",
-                "Liver"
+                "A) Brain",
+                "B) Lungs",
+                "C) Heart",
+                "D) Liver"
             ],
             "anwser": 2,
             "picture": null
@@ -1711,10 +1716,10 @@
         {
             "question": "Which condition is caused by the hardening of the arteries?",
             "options": [
-                "Anemia",
-                "Atherosclerosis",
-                "Hypertension",
-                "Hemophilia"
+                "A) Anemia",
+                "B) Atherosclerosis",
+                "C) Hypertension",
+                "D) Hemophilia"
             ],
             "anwser": 1,
             "picture": null
@@ -1722,10 +1727,10 @@
         {
             "question": "The atrioventricular node (AV node) functions to:",
             "options": [
-                "Initiate the heartbeat",
-                "Pump blood to the lungs",
-                "Slow down the electrical signal before it enters the ventricles",
-                "Direct blood flow from the ventricles to the arteries"
+                "A) Initiate the heartbeat",
+                "B) Pump blood to the lungs",
+                "C) Slow down the electrical signal before it enters the ventricles",
+                "D) Direct blood flow from the ventricles to the arteries"
             ],
             "anwser": 2,
             "picture": null
@@ -1733,10 +1738,10 @@
         {
             "question": "The pacemaker cells of the heart are found in the:",
             "options": [
-                "Atrioventricular node",
-                "Sinoatrial node",
-                "Ventricular septum",
-                "Pulmonary valve"
+                "A) Atrioventricular node",
+                "B) Sinoatrial node",
+                "C) Ventricular septum",
+                "D) Pulmonary valve"
             ],
             "anwser": 1,
             "picture": null
@@ -1744,10 +1749,10 @@
         {
             "question": "Cardiac output is the volume of blood the heart pumps per:",
             "options": [
-                "Minute",
-                "Hour",
-                "Day",
-                "Beat"
+                "A) Minute",
+                "B) Hour",
+                "C) Day",
+                "D) Beat"
             ],
             "anwser": 0,
             "picture": null
@@ -1755,10 +1760,10 @@
         {
             "question": "Vasoconstriction affects blood pressure by:",
             "options": [
-                "Decreasing it",
-                "Increasing it",
-                "Not affecting it",
-                "Periodically reversing it"
+                "A) Decreasing it",
+                "B) Increasing it",
+                "C) Not affecting it",
+                "D) Periodically reversing it"
             ],
             "anwser": 1,
             "picture": null
@@ -1766,10 +1771,10 @@
         {
             "question": "Baroreceptors are located in the:",
             "options": [
-                "Heart only",
-                "Lungs and heart",
-                "Carotid arteries and aorta",
-                "Veins and venules"
+                "A) Heart only",
+                "B) Lungs and heart",
+                "C) Carotid arteries and aorta",
+                "D) Veins and venules"
             ],
             "anwser": 2,
             "picture": null
@@ -1777,10 +1782,10 @@
         {
             "question": "A stroke is most commonly caused by:",
             "options": [
-                "Aneurysm in the heart",
-                "Blockage or rupture of blood vessels in the brain",
-                "Excessive bleeding from a major artery",
-                "Sudden decrease in heart rate"
+                "A) Aneurysm in the heart",
+                "B) Blockage or rupture of blood vessels in the brain",
+                "C) Excessive bleeding from a major artery",
+                "D) Sudden decrease in heart rate"
             ],
             "anwser": 1,
             "picture": null
@@ -1788,10 +1793,10 @@
         {
             "question": "The primary effect of the parasympathetic nervous system on the heart is to:",
             "options": [
-                "Increase the heart rate",
-                "Decrease the heart rate",
-                "Increase blood pressure",
-                "Have no effect on the heart"
+                "A) Increase the heart rate",
+                "B) Decrease the heart rate",
+                "C) Increase blood pressure",
+                "D) Have no effect on the heart"
             ],
             "anwser": 1,
             "picture": null
@@ -1799,10 +1804,10 @@
         {
             "question": "Arteriolar resistance is primarily determined by the:",
             "options": [
-                "Length of the arteriole",
-                "Viscosity of the blood",
-                "Diameter of the arteriole",
-                "Blood type"
+                "A) Length of the arteriole",
+                "B) Viscosity of the blood",
+                "C) Diameter of the arteriole",
+                "D) Blood type"
             ],
             "anwser": 2,
             "picture": null
@@ -1810,10 +1815,10 @@
         {
             "question": "During exercise, the process of increasing blood flow to active muscles is called:",
             "options": [
-                "Hyperemia",
-                "Hemostasis",
-                "Hypotension",
-                "Vasodilation"
+                "A) Hyperemia",
+                "B) Hemostasis",
+                "C) Hypotension",
+                "D) Vasodilation"
             ],
             "anwser": 3,
             "picture": null
@@ -1821,10 +1826,10 @@
         {
             "question": "Factors that can affect blood pressure include:",
             "options": [
-                "Sleep patterns only",
-                "Diet and exercise only",
-                "Cardiac output, blood volume, and arteriolar resistance",
-                "Emotional state only"
+                "A) Sleep patterns only",
+                "B) Diet and exercise only",
+                "C) Cardiac output, blood volume, and arteriolar resistance",
+                "D) Emotional state only"
             ],
             "anwser": 2,
             "picture": null
@@ -1832,10 +1837,10 @@
         {
             "question": "The sequence of electrical impulse movement in the heart is:",
             "options": [
-                "AV node → SA node → ventricles → atria",
-                "SA node → AV node → atria → ventricles",
-                "SA node → atria → AV node → ventricles",
-                "Ventricles → SA node → AV node → atria"
+                "A) AV node → SA node → ventricles → atria",
+                "B) SA node → AV node → atria → ventricles",
+                "C) SA node → atria → AV node → ventricles",
+                "D) Ventricles → SA node → AV node → atria"
             ],
             "anwser": 2,
             "picture": null

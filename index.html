@@ -7,12 +7,9 @@
             BioStudy
         </title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     </head>
     <body>
         <div class="box">
-            <i class='far fa-question-circle'></i>
             <p id="score" style="margin:0;">
                 Your Score: 
             </p>
@@ -30,23 +27,27 @@
             <option value="20All">
                 All
             </option>
-            <option value="20UnitA">
-                Unit A: Energy and Matter Exchange in the Biosphere
-            </option>
-            <option value="20UnitB">
-                Unit B: Ecosystems and Population Change
-            </option>
-            <option value="20UnitC">
-                Unit C: Photosythesis and Cellular Respiration
-            </option>
-            <option value="20UnitD">
-                Unit D: Human Systems
-            </option>
             <hr>
+            <optgroup label="Bio-20">
+                <option value="20UnitA">
+                    Unit A: Energy and Matter Exchange in the Biosphere
+                </option>
+                <option value="20UnitB">
+                    Unit B: Ecosystems and Population Change
+                </option>
+                <option value="20UnitC">
+                    Unit C: Photosythesis and Cellular Respiration
+                </option>
+                <option value="20UnitD">
+                    Unit D: Human Systems
+                </option>
+            </optgroup>
         </select>
         <button id="UnitSelectorBtn">
             Select
         </button>
+        <script type="text/javascript" src="script.js"></script>
         <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="arrs.js"></script>
     </body>
 </html>

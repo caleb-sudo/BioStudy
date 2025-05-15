@@ -11,9 +11,15 @@ localStorage.setItem("topic", topic);
 const unitSelector = document.querySelector("UnitSelector");
 const unitSelectorBtn = document.getElementById("UnitSelectorBtn");
 
-unitSelectorBtn.addEventListener("click", function() {
-    alert(unitSelector.ariaValueNow);
-});
+const scoreValText = document.getElementById("score");
+
+if (score > 0) {
+    scoreValText.style.color = "green";
+} else if (score < 0) {
+    scoreValText.style.color = "red";
+} else if (score == 0) {
+    scoreValText.style.color = "orange";
+}
 
 function buildQuestion() {
     fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
@@ -24,6 +30,7 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
+            console.log(data.UnitD[0].question);
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box");
             const strkText = document.getElementById("streak");
@@ -35,8 +42,8 @@ function buildQuestion() {
 
             let questionNum = Math.floor(Math.random() * data.UnitD.length);
 
-            scoreText.innerHTML = "Your Score:\n " + getscore;
-            strkText.innerHTML = "Your Streak:\n " + getstrk;
+            scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
+            strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
 
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
             for (let i = 0; i < 4; i++) {
@@ -44,6 +51,7 @@ function buildQuestion() {
                 const lab = document.createElement("label");
                 radio.type = "radio";
                 radio.name = "opts";
+                radio.innerHTML = "hello";
                 radio.id = 'r' + i;
                 radio.className = "radios";
                 lab.htmlFor = 'r' + i;
@@ -84,7 +92,7 @@ function buildQuestion() {
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
-                            alert("incorrect")
+                            alert("incorrect, the correct answer was ")
                             strk = 0;
                             localStorage.setItem("streak", strk);
                             localStorage.setItem("score", score - 1);
