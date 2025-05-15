@@ -53,14 +53,16 @@ function buildQuestion() {
             strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
 
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
+            const pict = document.createElement("img");
+            if (data.UnitD[questionNum].picture != null) {
+                pict.src = data.UnitD[questionNum].picture;
+                pict.height = '550px';
+                pict.width = 'auto';
+                field.appendChild(pict);
+            }
             for (let i = 0; i < 4; i++) {
                 const radio = document.createElement("input");
                 const lab = document.createElement("label");
-                const pict = document.createElement("img");
-                if (data.UnitD[questionNum].picture != null) {
-                    pict.src = data.UnitD[questionNum].picture;
-                    field.appendChild(pict);
-                }
                 radio.type = "radio";
                 radio.name = "opts";
                 radio.innerHTML = "hello";
