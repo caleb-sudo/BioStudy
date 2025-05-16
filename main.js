@@ -39,7 +39,7 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            var Unit = data.UnitD;
+            var Unit = data.Bio20.UnitD;
             /*switch (topic) {
                 case '20UnitA':
                     Unit = data.UnitA;
