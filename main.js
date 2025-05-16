@@ -30,6 +30,11 @@ if (score > 0) {
     scoreValText.style.color = "orange";
 }
 
+function resetUserScores() {
+    localStorage.setItem("score", 0);
+    localStorage.setItem("streak", 0);
+}
+
 function buildQuestion() {
     fetch('https://caleb-sudo.github.io/StudyHelper/questions.json')
         .then(response => {
