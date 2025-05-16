@@ -31,7 +31,7 @@ if (score > 0) {
 }
 
 function buildQuestion() {
-    fetch('https://caleb-sudo.github.io/BioStudy/questions.json')
+    fetch('https://caleb-sudo.github.io/StudyHelper/questions.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
