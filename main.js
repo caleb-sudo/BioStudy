@@ -4,7 +4,7 @@ const gettopic = localStorage.getItem("topic");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
 var topic = 1; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
-localStorage.setItem("score", 0);
+localStorage.setItem("score", score);
 localStorage.setItem("streak", strk);
 localStorage.setItem("topic", topic);
 
