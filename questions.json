@@ -127,7 +127,7 @@
                 "D) Liver"
             ],
             "anwser": 0,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure B called?",
@@ -138,7 +138,7 @@
                 "D) Liver"
             ],
             "anwser": 2,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure C called?",
@@ -149,7 +149,7 @@
                 "D) Liver"
             ],
             "anwser": 3,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure D called?",
@@ -160,7 +160,7 @@
                 "D) Liver"
             ],
             "anwser": 0,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure E called?",
@@ -171,7 +171,7 @@
                 "D) Liver"
             ],
             "anwser": 1,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure F called?",
@@ -182,7 +182,7 @@
                 "D) Liver"
             ],
             "anwser": 1,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure J called?",
@@ -193,7 +193,7 @@
                 "D) Large Intestines"
             ],
             "anwser": 2,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
         },
         {
             "question": "What is structure H called?",
@@ -204,7 +204,161 @@
                 "D) Large Intestines"
             ],
             "anwser": 3,
-            "picture": "image.jpg"
+            "picture": "digestiveSystemDiagram.jpg"
+        },
+        {
+            "question": "What is structure 1 called?",
+            "options": [
+                "A) Aorta",
+                "B) Inferior Vena Cava",
+                "C) Pulmonary valve",
+                "D) Superior Vena Cava"
+            ],
+            "anwser": 4,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 2 called?",
+            "options": [
+                "A) Aorta",
+                "B) Inferior Vena Cava",
+                "C) Pulmonary valve",
+                "D) Superior Vena Cava"
+            ],
+            "anwser": 1,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 3 called?",
+            "options": [
+                "A) Right atrium",
+                "B) Left atrium",
+                "C) Right ventricle",
+                "D) Left ventricle"
+            ],
+            "anwser": 0,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 4 called?",
+            "options": [
+                "A) Right atrium",
+                "B) Left atrium",
+                "C) Right ventricle",
+                "D) Left ventricle"
+            ],
+            "anwser": 2,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 5 called?",
+            "options": [
+                "A) Mitral valve",
+                "B) Pulmonary valve",
+                "C) Aortic valve",
+                "D) Tricuspid valve"
+            ],
+            "anwser": 3,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 6 called?",
+            "options": [
+                "A) Mitral valve",
+                "B) Pulmonary valve",
+                "C) Aortic valve",
+                "D) Tricuspid valve"
+            ],
+            "anwser": 1,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 8 called?",
+            "options": [
+                "A) Aorta",
+                "B) Left pulmonary artery",
+                "C) Right pulmonary artery",
+                "D) Right atrium"
+            ],
+            "anwser": 2,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 9 called?",
+            "options": [
+                "A) Aorta",
+                "B) Left pulmonary artery",
+                "C) Right pulmonary artery",
+                "D) Right atrium"
+            ],
+            "anwser": 1,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 10 called?",
+            "options": [
+                "A) Aorta",
+                "B) Pulmonary valve",
+                "C) Decending artery",
+                "D) Pulmonary vein"
+            ],
+            "anwser": 0,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 12 called?",
+            "options": [
+                "A) Right atrium",
+                "B) Left atrium",
+                "C) Right ventricle",
+                "D) Left ventricle"
+            ],
+            "anwser": 1,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 13 called?",
+            "options": [
+                "A) Mitral valve",
+                "B) Pulmonary valve",
+                "C) Aortic valve",
+                "D) Tricuspid valve"
+            ],
+            "anwser": 0,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 14 called?",
+            "options": [
+                "A) Right atrium",
+                "B) Left atrium",
+                "C) Right ventricle",
+                "D) Left ventricle"
+            ],
+            "anwser": 3,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 15 called?",
+            "options": [
+                "A) Mitral valve",
+                "B) Pulmonary valve",
+                "C) Aortic valve",
+                "D) Tricuspid valve"
+            ],
+            "anwser": 2,
+            "picture": "heartDiagram.png"
+        },
+        {
+            "question": "What is structure 16 and 17 called?",
+            "options": [
+                "A) Pulmonary artery",
+                "B) Pulmonary vein",
+                "C) Aortic valve",
+                "D) Tricuspid valve"
+            ],
+            "anwser": 1,
+            "picture": "heartDiagram.png"
         },
         {
             "question": "What is Starch used for?",

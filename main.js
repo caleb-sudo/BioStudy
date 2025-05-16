@@ -3,10 +3,12 @@ const getstrk = localStorage.getItem("streak");
 const gettopic = localStorage.getItem("topic");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
-var topic = 1; //0=All; 1 = UnitA; 2 = UnitB; 3 = UnitC; 4 = UnitD;
+var topic = gettopic;
 localStorage.setItem("score", score);
 localStorage.setItem("streak", strk);
-localStorage.setItem("topic", topic);
+localStorage.setItem("topic", "20UnitD");
+
+document.getElementById("UnitSelector").value = topic;
 
 const unitSelector = document.querySelector("UnitSelector");
 const unitSelectorBtn = document.getElementById("UnitSelectorBtn");
@@ -14,10 +16,10 @@ const unitSelectorBtn = document.getElementById("UnitSelectorBtn");
 const scoreValText = document.getElementById("score");
 
 const opts = [
-    "A) ",
-    "B) ",
-    "C) ",
-    "D) "
+    "A)",
+    "B)",
+    "C)",
+    "D)"
 ];
 
 if (score > 0) {
@@ -37,7 +39,33 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            console.log(data.UnitD[0].question);
+            var Unit = data.UnitD;
+            /*switch (topic) {
+                case '20UnitA':
+                    Unit = data.UnitA;
+                    localStorage.setItem("topic", "20UnitA");
+                    break;
+
+                case '20UnitB':
+                    Unit = data.UnitB;
+                    localStorage.setItem("topic", "20UnitB");
+                    break;
+
+                case '20UnitC':
+                    Unit = data.UnitC;
+                    localStorage.setItem("topic", "20UnitC");
+                    break;
+
+                case '20UnitD':
+                    Unit = data.UnitD;
+                    localStorage.setItem("topic", "20UnitD");
+                    break;
+
+                default:
+                    Unit = data.UnitD;
+                    localStorage.setItem("topic", "20UnitD");
+                    break;
+            }*/
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
@@ -47,20 +75,20 @@ function buildQuestion() {
             const p = document.createElement('p');
             const img = document.createElement('img');
 
-            let questionNum = Math.floor(Math.random() * data.UnitD.length);
+            let questionNum = Math.floor(Math.random() * Unit.length);
 
             scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
             strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
             const pict = document.createElement('img');
-            if (data.UnitD[questionNum].picture != null) {
-                pict.src = data.UnitD[questionNum].picture;
+            if (Unit[questionNum].picture != null) {
+                pict.src = Unit[questionNum].picture;
                 pict.style.height = '550px';
                 pict.style.width = 'auto';
                 field.appendChild(pict);
                 field.appendChild(document.createElement('br'));
             }
 
-            pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = data.UnitD[questionNum].question;
+            pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = Unit[questionNum].question;
             for (let i = 0; i < 4; i++) {
                 const radio = document.createElement('input');
                 const lab = document.createElement('label');
@@ -70,7 +98,7 @@ function buildQuestion() {
                 radio.id = 'r' + i;
                 radio.className = "radios";
                 lab.htmlFor = 'r' + i;
-                lab.innerHTML = data.UnitD[questionNum].options[i];
+                lab.innerHTML = Unit[questionNum].options[i];
                 lab.className = "radio_label";
                 field.appendChild(radio);
                 field.appendChild(lab);
@@ -100,14 +128,14 @@ function buildQuestion() {
                         field.appendChild(h);
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
-                        if (i == data.UnitD[questionNum].anwser) {
+                        if (i == Unit[questionNum].anwser) {
                             alert("correct");
                             localStorage.setItem("streak", strk + 1);
                             localStorage.setItem("score", score + 1);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
-                            alert("incorrect, the correct answer was " + opts[data.UnitD[questionNum].anwser])
+                            alert("incorrect, the correct answer was " + opts[Unit[questionNum].anwser])
                             strk = 0;
                             localStorage.setItem("streak", strk);
                             localStorage.setItem("score", score - 1);
