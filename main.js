@@ -50,9 +50,6 @@ function buildQuestion() {
         })
         .then(data => {
             var Unit = data.Science.Bio.Bio20.UnitD;
-            var Sci = data.Science.Science;
-            var Bio20 = Sci.Bio.Bio20;
-            var Chem20 = Sci.Chem.Chem20;
             
             switch (document.getElementById("UnitSelector").value) {
                 case 'Bio20UnitA':
