@@ -52,11 +52,17 @@ function buildQuestion() {
             var Unit = data.Science.Bio.Bio20.UnitD;
             
             var UnitSelect = document.getElementById("UnitSelector");
+            var UnitSelectVal = UnitSelect.value;
 
             UnitSelect.addEventListener("change", function() {
-                localStorage.setItem("topic", UnitSelect.value);
+                localStorage.setItem("topic", UnitSelectVal);
                 reloadPage();
             });
+
+            var arr = [];
+
+            UnitSelectVal.foreach((char) => arr.push(char));
+            alert(arr);
 
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
