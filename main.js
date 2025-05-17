@@ -60,19 +60,15 @@ function buildQuestion() {
                     case 'A':
                         Unit = data.Chem.Chem20.UnitA;
                         break;
-                        
                     case 'B':
                         Unit = data.Chem.Chem20.UnitB;
                         break;
-                        
                     case 'C':
                         Unit = data.Chem.Chem20.UnitCa;
                         break;
-                    
                     case 'E':
                         Unit = data.Chem.Chem20.UnitCb;
                         break;
-
                     case 'D':
                         Unit = data.Chem.Chem20.UnitD;
                         break;
@@ -82,15 +78,12 @@ function buildQuestion() {
                     case 'A':
                         Unit = data.Bio.Bio20.UnitA;
                         break;
-
                     case 'B':
                         Unit = data.Bio.Bio20.UnitB;
                         break;
-                        
                     case 'C':
                         Unit = data.Bio.Bio20.UnitC;
                         break;
-                        
                     case 'D':
                         Unit = data.Bio.Bio20.UnitD;
                         break;
@@ -100,11 +93,9 @@ function buildQuestion() {
                     case 'A':
                         Unit = data.Social.Social20.UnitA;
                         break;
-                    
                     case 'B':
                         Unit = data.Social.Social20.UnitB;
                         break;
-                    
                     case 'C':
                         Unit = data.Social.Social20.UnitC;
                         break;
@@ -113,6 +104,18 @@ function buildQuestion() {
                 switch(UnitSelect.value[2]) {
                     case 'A':
                         Unit = data.Math.Math30_1.UnitA;
+                        break;
+                    case 'B':
+                        Unit = data.Math.Math30_1.UnitB;
+                        break;
+                    case 'C':
+                        Unit = data.Math.Math30_1.UnitC;
+                        break;
+                    case 'D':
+                        Unit = data.Math.Math30_1.UnitD;
+                        break;
+                    case 'E':
+                        Unit = data.Math.Math30_1.UnitE;
                         break;
                 }
             }
