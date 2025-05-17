@@ -48,27 +48,27 @@ function buildQuestion() {
             /*switch (topic) {
                 case '20UnitA':
                     Unit = data.UnitA;
-                    localStorage.setItem("topic", "20UnitA");
+                    localStorage.setItem("topic", "Bio20UnitA");
                     break;
 
                 case '20UnitB':
                     Unit = data.UnitB;
-                    localStorage.setItem("topic", "20UnitB");
+                    localStorage.setItem("topic", "Bio20UnitB");
                     break;
 
                 case '20UnitC':
                     Unit = data.UnitC;
-                    localStorage.setItem("topic", "20UnitC");
+                    localStorage.setItem("topic", "Bio20UnitC");
                     break;
 
                 case '20UnitD':
                     Unit = data.UnitD;
-                    localStorage.setItem("topic", "20UnitD");
+                    localStorage.setItem("topic", "Bio20UnitD");
                     break;
 
                 default:
                     Unit = data.UnitD;
-                    localStorage.setItem("topic", "20UnitD");
+                    localStorage.setItem("topic", "Bio20UnitD");
                     break;
             }*/
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
@@ -94,20 +94,24 @@ function buildQuestion() {
             }
 
             pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = Unit[questionNum].question;
-            for (let i = 0; i < 4; i++) {
-                const radio = document.createElement('input');
-                const lab = document.createElement('label');
-                radio.type = "radio";
-                radio.name = "opts";
-                radio.innerHTML = "hello";
-                radio.id = 'r' + i;
-                radio.className = "radios";
-                lab.htmlFor = 'r' + i;
-                lab.innerHTML = Unit[questionNum].options[i];
-                lab.className = "radio_label";
-                field.appendChild(radio);
-                field.appendChild(lab);
-                field.appendChild(document.createElement('hr'));
+            if (Unit[questionNum].type == 0) {
+                for (let i = 0; i < 4; i++) {
+                    const radio = document.createElement('input');
+                    const lab = document.createElement('label');
+                    radio.type = "radio";
+                    radio.name = "opts";
+                    radio.innerHTML = "hello";
+                    radio.id = 'r' + i;
+                    radio.className = "radios";
+                    lab.htmlFor = 'r' + i;
+                    lab.innerHTML = Unit[questionNum].options[i];
+                    lab.className = "radio_label";
+                    field.appendChild(radio);
+                    field.appendChild(lab);
+                    field.appendChild(document.createElement('hr'));
+                }
+            } else if (Unit[questionNum].type == 1) {
+                
             }
 
             const radios = document.getElementsByClassName("radios");
