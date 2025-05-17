@@ -15,7 +15,7 @@
 
                 ],
                 "UnitD": [
-                    
+
                 ]
             }
         },
@@ -25,11 +25,12 @@
 
                 ],
                 "UnitB": [
-
+                    
                 ],
                 "UnitC": [
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is structure <b>A</b> called?",
                         "options": [
                             "A) Inner membrane",
@@ -42,6 +43,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is structure <b>B</b> called?",
                         "options": [
                             "A) Stroma",
@@ -54,6 +56,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is structure <b>C</b> called?",
                         "options": [
                             "A) Lamellae",
@@ -66,6 +69,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is structure <b>D</b> called?",
                         "options": [
                             "A) Stroma",
@@ -78,6 +82,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is structure <b>E</b> called?",
                         "options": [
                             "A) Stroma",
@@ -90,6 +95,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is structure <b>F</b> called?",
                         "options": [
                             "A) Outer membrane",
@@ -102,6 +108,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "cellresp",
                         "question": "What is structure <b>A</b> called?",
                         "options": [
                             "A) Intermembrane space",
@@ -114,6 +121,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "cellresp",
                         "question": "What is structure <b>B</b> called?",
                         "options": [
                             "A) Cristae",
@@ -126,6 +134,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "cellresp",
                         "question": "What is structure <b>C</b> called?",
                         "options": [
                             "A) Matrix",
@@ -138,6 +147,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "cellresp",
                         "question": "What is structure <b>D</b> called?",
                         "options": [
                             "A) Matrix",
@@ -150,6 +160,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "cellresp",
                         "question": "What is structure <b>E</b> called?",
                         "options": [
                             "A) Inner membrane",
@@ -162,6 +173,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is the formula for <b>photosynthesis</b>?",
                         "options": [
                             "A) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> -> 6CO<sub>2</sub> + 6H<sub>2</sub>O",
@@ -174,6 +186,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "cellresp",
                         "question": "What is the formula for <b>cellular respiration</b>?",
                         "options": [
                             "A) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> -> 6CO<sub>2</sub> + 6H<sub>2</sub>O",
@@ -186,6 +199,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What are the main products of photosynthesis?",
                         "options": [
                             "A) CO<sub>2</sub> and H<sub>2</sub>O",
@@ -198,6 +212,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is the source of the oxygen atoms found in the glucose produced in photosynthesis?",
                         "options": [
                             "A) O<sub>2</sub>",
@@ -210,6 +225,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "The pigments that absorb light energy for photosynthesis are located in the ____",
                         "options": [
                             "A) inner membrane",
@@ -222,6 +238,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "The function of chlorophyll in photosynthesis is to _______",
                         "options": [
                             "A) Split water molecules",
@@ -234,6 +251,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "Which of the photosynthetic pigments, in the absorption spectrum above, would need to be stimulated to initiate the process of photosynthesis?",
                         "options": [
                             "A) Chlorophyll A",
@@ -246,6 +264,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is the main role of the pigment molecules in the photosystems?",
                         "options": [
                             "A) transfer electrons to the primary electron acceptor and then the electron transport chain",
@@ -258,6 +277,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "The process that breaks down water to release energy is called ____",
                         "options": [
                             "A) Photophosphorylation",
@@ -270,6 +290,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "Which of the following occurs in both photosynthesis and respiration?",
                         "options": [
                             "A) Chemiosmosis",
@@ -282,6 +303,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "What is the total yield of ATP from one molecule of glucose during glycolysis?",
                         "options": [
                             "A) 2",
@@ -294,6 +316,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "photosynthesis",
                         "question": "How many ATP molecules are produced during glycolysis?",
                         "options": [
                             "A) 3",
@@ -308,6 +331,7 @@
                 "UnitD": [
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>A</b> called?",
                         "options": [
                             "A) Esophagus",
@@ -320,6 +344,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>B</b> called?",
                         "options": [
                             "A) Esophagus",
@@ -332,6 +357,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>C</b> called?",
                         "options": [
                             "A) Esophagus",
@@ -344,6 +370,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>D</b> called?",
                         "options": [
                             "A) Gall bladder",
@@ -356,6 +383,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>E</b> called?",
                         "options": [
                             "A) Pancreas",
@@ -368,6 +396,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>F</b> called?",
                         "options": [
                             "A) Gall bladder",
@@ -380,6 +409,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>J</b> called?",
                         "options": [
                             "A) Gall bladder",
@@ -392,6 +422,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>H</b> called?",
                         "options": [
                             "A) Gall bladder",
@@ -404,6 +435,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>1</b> called?",
                         "options": [
                             "A) Aorta",
@@ -416,6 +448,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is structure <b>2</b> called?",
                         "options": [
                             "A) Aorta",
@@ -428,6 +461,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>3</b> called?",
                         "options": [
                             "A) Right atrium",
@@ -440,6 +474,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>4</b> called?",
                         "options": [
                             "A) Right atrium",
@@ -452,6 +487,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>5</b> called?",
                         "options": [
                             "A) Mitral valve",
@@ -464,6 +500,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>6</b> called?",
                         "options": [
                             "A) Mitral valve",
@@ -476,6 +513,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>8</b> called?",
                         "options": [
                             "A) Aorta",
@@ -488,6 +526,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>9</b> called?",
                         "options": [
                             "A) Aorta",
@@ -500,6 +539,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>10</b> called?",
                         "options": [
                             "A) Aorta",
@@ -512,6 +552,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>12</b> called?",
                         "options": [
                             "A) Right atrium",
@@ -524,6 +565,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>13</b> called?",
                         "options": [
                             "A) Mitral valve",
@@ -536,6 +578,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>14</b> called?",
                         "options": [
                             "A) Right atrium",
@@ -548,6 +591,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>15</b> called?",
                         "options": [
                             "A) Mitral valve",
@@ -560,6 +604,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is structure <b>16 and 17</b> called?",
                         "options": [
                             "A) Pulmonary artery",
@@ -572,6 +617,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does <b>A</b> represent on this lung volume graph?",
                         "options": [
                             "A) Total lung capacity",
@@ -584,6 +630,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does <b>B</b> represent on this lung volume graph?",
                         "options": [
                             "A) Vital capacity",
@@ -596,6 +643,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does <b>C</b> represent on this lung volume graph?",
                         "options": [
                             "A) Total lung capacity",
@@ -608,6 +656,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does <b>D</b> represent on this lung volume graph?",
                         "options": [
                             "A) Vital capacity",
@@ -620,6 +669,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does <b>E</b> represent on this lung volume graph?",
                         "options": [
                             "A) Residual volume",
@@ -632,6 +682,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does <b>F</b> represent on this lung volume graph?",
                         "options": [
                             "A) Total lung capacity",
@@ -644,6 +695,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is Starch used for?",
                         "options": [
                             "A) Energy Storage",
@@ -656,6 +708,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is not true about Vitamins?",
                         "options": [
                             "A) Can act as coenzymes",
@@ -668,6 +721,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is not true about Minerals?",
                         "options": [
                             "A) Are inorganic ions or Elements",
@@ -680,6 +734,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is a Substrate?",
                         "options": [
                             "A) The molecule(s) that assists enzymes to interacte with other molecules.",
@@ -692,6 +747,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the main function of erythrocytes in the blood?",
                         "options": [
                             "A) Fight infection",
@@ -704,6 +760,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which component of blood is primarily responsible for clotting?",
                         "options": [
                             "A) Red blood cells",
@@ -716,6 +773,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What type of blood cell is primarily involved in fighting infections?",
                         "options": [
                             "A) Red blood cells",
@@ -728,6 +786,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What does the ABO blood group system identify?",
                         "options": [
                             "A) Types of white blood cells",
@@ -740,6 +799,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which part of the blood contains water, salts, and enzymes?",
                         "options": [
                             "A) Red blood cells",
@@ -752,6 +812,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Where in the body are all blood cells originally derived from?",
                         "options": [
                             "A) Heart",
@@ -764,6 +825,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is anemia primarily caused by?",
                         "options": [
                             "A) Too many platelets",
@@ -776,6 +838,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the function of platelets in the blood?",
                         "options": [
                             "A) Transport oxygen",
@@ -788,6 +851,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which type of cell secretes antibodies?",
                         "options": [
                             "A) Red blood cells",
@@ -800,6 +864,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Sickle cell anemia is caused by what?",
                         "options": [
                             "A) A viral infection",
@@ -812,6 +877,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What are antigens?",
                         "options": [
                             "A) Cells that produce antibodies",
@@ -824,6 +890,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What are lysozymes in tears responsible for?",
                         "options": [
                             "A) Improving vision",
@@ -836,6 +903,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which blood type is considered the universal donor?",
                         "options": [
                             "A) A",
@@ -848,6 +916,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which of the following is a type of white blood cell?",
                         "options": [
                             "A) Erythrocyte",
@@ -856,11 +925,12 @@
                             "D) Hemoglobin"
                         ],
                         "anwser": 1,
-                        "pictB) ure": null
+                        "picture": null
                     },
-                    { 
-                    "type": 0,    
-                    "question": "What is the first line of defense in the immune system?",
+                    {
+                        "type": 0,
+                        "catagory": "immune",
+                        "question": "What is the first line of defense in the immune system?",
                         "options": [
                             "A) T-cells",
                             "B) Skin",
@@ -872,6 +942,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the primary cause of agglutination in blood transfusions?",
                         "options": [
                             "A) Clotting factors",
@@ -884,6 +955,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which immune cells are involved in antigen presentation?",
                         "options": [
                             "A) Erythrocytes",
@@ -896,6 +968,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What happens in the body when a blood clot travels from its original location?",
                         "options": [
                             "A) It dissolves automatically",
@@ -908,6 +981,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which cells are responsible for the adaptive immune response?",
                         "options": [
                             "A) Red blood cells",
@@ -920,6 +994,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "How do vaccines work to protect the body from disease?",
                         "options": [
                             "A) By killing pathogens directly",
@@ -932,6 +1007,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which component is involved in the clotting process and is released from damaged tissues?",
                         "options": [
                             "A) Thromboplastin",
@@ -944,6 +1020,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the difference between a thrombus and an embolus?",
                         "options": [
                             "A) A thrombus is a mobile clot, and an embolus is stationary",
@@ -956,6 +1033,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What type of hypersensitivity reaction involves histamine and mast cells?",
                         "options": [
                             "A) Autoimmune response",
@@ -968,6 +1046,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is primarily affected in autoimmune diseases?",
                         "options": [
                             "A) The body attacks its own tissues",
@@ -980,6 +1059,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What does the innate immune system primarily consist of?",
                         "options": [
                             "A) Antibodies and vaccines",
@@ -992,6 +1072,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What are T-cells that help regulate other immune cells called?",
                         "options": [
                             "A) Killer T-cells",
@@ -1004,6 +1085,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What type of immunity is conferred by the presence of antibodies?",
                         "options": [
                             "A) Innate immunity",
@@ -1016,6 +1098,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which of the following is a feature of sickle cell anemia?",
                         "options": [
                             "A) Increased oxygen transport",
@@ -1028,6 +1111,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is primarily responsible for the symptoms of allergies?",
                         "options": [
                             "A) Pathogens",
@@ -1040,6 +1124,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What are macrophages known for in the immune system?",
                         "options": [
                             "A) Producing antibodies",
@@ -1052,6 +1137,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which cell type is directly involved in the process of thromboplastin release for blood clotting?",
                         "options": [
                             "A) Erythrocytes",
@@ -1064,6 +1150,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the role of fibrin in the clotting process?",
                         "options": [
                             "A) Initiates the clotting cascade",
@@ -1076,6 +1163,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which T-cell type is primarily responsible for the direct killing of virus-infected cells?",
                         "options": [
                             "A) Helper T-cells",
@@ -1088,6 +1176,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "In terms of immunology, what does &#39;antigen presentation&#39; typically involve?",
                         "options": [
                             "A) The release of antigens by pathogens",
@@ -1100,6 +1189,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "How do antibodies contribute to the immune response?",
                         "options": [
                             "A) By increasing blood flow to infected areas",
@@ -1112,6 +1202,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is a characteristic feature of an embolus?",
                         "options": [
                             "A) It remains attached to the vessel wall",
@@ -1124,6 +1215,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What differentiates the innate and adaptive immune responses?",
                         "options": [
                             "A) Innate responses are slower and less specific",
@@ -1136,6 +1228,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which mechanism describes how vaccines work at the cellular level?",
                         "options": [
                             "A) They provide direct immunity by inserting antibodies",
@@ -1148,6 +1241,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the role of suppressor T-cells in the immune system?",
                         "options": [
                             "A) They enhance the immune response",
@@ -1160,6 +1254,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the primary action of histamine in allergic reactions?",
                         "options": [
                             "A) It suppresses immune response",
@@ -1172,6 +1267,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which cells are responsible for the production of antibodies during an immune response?",
                         "options": [
                             "A) T-cells",
@@ -1184,6 +1280,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What is the relationship between autoimmune diseases and the body&#39;s immune system?",
                         "options": [
                             "A) The immune system underreacts to foreign bodies",
@@ -1196,6 +1293,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "What differentiates an antibiotic from a vaccine?",
                         "options": [
                             "A) Antibiotics stimulate the immune system; vaccines do not",
@@ -1208,6 +1306,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "How does antibiotic resistance occur?",
                         "options": [
                             "A) Through genetic mutations in viruses",
@@ -1220,6 +1319,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "immune",
                         "question": "Which is a primary function of memory T-cells in the adaptive immune response?",
                         "options": [
                             "A) To initiate immediate response to pathogens",
@@ -1232,6 +1332,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the primary function of nasal hairs?",
                         "options": [
                             "A) To detect smells",
@@ -1244,6 +1345,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Why is it important to breathe air in through the nose?",
                         "options": [
                             "A) It helps in tasting the air",
@@ -1256,6 +1358,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does the epiglottis do during swallowing?",
                         "options": [
                             "A) It contracts",
@@ -1268,6 +1371,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Where does gas exchange occur in the respiratory system?",
                         "options": [
                             "A) Trachea",
@@ -1280,6 +1384,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Which muscles are primarily used in inhalation?",
                         "options": [
                             "A) Intercostals and diaphragm",
@@ -1292,6 +1397,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the purpose of mucus in the nasal passages?",
                         "options": [
                             "A) To warm the air",
@@ -1304,6 +1410,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What structure prevents food from entering the windpipe?",
                         "options": [
                             "A) Uvula",
@@ -1316,6 +1423,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is tidal volume?",
                         "options": [
                             "A) Filtering air",
@@ -1328,6 +1436,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Which part of the respiratory system is supported by C-shaped rings of cartilage?",
                         "options": [
                             "A) Larynx",
@@ -1340,6 +1449,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the effect of smoking on the cilia in the respiratory system?",
                         "options": [
                             "A) It enhances their movement",
@@ -1352,6 +1462,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What type of muscle is the diaphragm classified as?",
                         "options": [
                             "A) Cardiac",
@@ -1364,6 +1475,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does surfactant in the lungs help to prevent?",
                         "options": [
                             "A) Infections",
@@ -1376,6 +1488,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Which structure directly branches off from the trachea?",
                         "options": [
                             "A) Alveoli",
@@ -1388,6 +1501,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What surrounds the lungs and allows them to move smoothly during breathing?",
                         "options": [
                             "A) Rib cage",
@@ -1400,6 +1514,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "During inhalation, what happens to the pressure inside the lungs?",
                         "options": [
                             "A) It increases",
@@ -1412,6 +1527,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is vital capacity?",
                         "options": [
                             "A) The minimum volume of air remaining in the lungs after a forceful exhale",
@@ -1424,6 +1540,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How does carbon dioxide travel to the lungs from the body's tissues?",
                         "options": [
                             "A) Attached to hemoglobin",
@@ -1436,6 +1553,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What role do the internal intercostal muscles play during heavy exercise?",
                         "options": [
                             "A) They assist in inhalation",
@@ -1448,6 +1566,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the primary effect of carbon monoxide on the body's oxygen transport?",
                         "options": [
                             "A) It increases oxygen delivery to tissues",
@@ -1460,6 +1579,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How does asthma affect the bronchioles?",
                         "options": [
                             "A) It causes them to dilate excessively",
@@ -1472,6 +1592,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What indicates total lung capacity on a spirometry test?",
                         "options": [
                             "A) The volume measured during normal breathing",
@@ -1484,6 +1605,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Why is the pleural cavity important for lung function?",
                         "options": [
                             "A) It contains muscles that help in breathing",
@@ -1496,6 +1618,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What changes occur in the lungs due to emphysema?",
                         "options": [
                             "A) Decreased surface area of alveoli",
@@ -1508,6 +1631,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What happens to the volume of the chest cavity when the diaphragm contracts?",
                         "options": [
                             "A) It decreases",
@@ -1520,6 +1644,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How is residual volume measured?",
                         "options": [
                             "A) By inhaling as much air as possible",
@@ -1532,6 +1657,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is expiratory reserve volume?",
                         "options": [
                             "A) The extra air inhaled above normal inhalation",
@@ -1544,6 +1670,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the primary control for breathing?",
                         "options": [
                             "A) Oxygen levels in the blood",
@@ -1556,6 +1683,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What happens when carbon dioxide levels in the blood rise?",
                         "options": [
                             "A) Breathing rate decreases",
@@ -1568,6 +1696,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What does the presence of surfactant in the alveoli affect?",
                         "options": [
                             "A) Mucus production",
@@ -1580,6 +1709,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What effect does chronic smoking have on gas exchange in the alveoli?",
                         "options": [
                             "A) It enhances gas exchange efficiency",
@@ -1592,6 +1722,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How does the body primarily adjust to high altitude where oxygen levels are low?",
                         "options": [
                             "A) By decreasing respiratory rate",
@@ -1604,6 +1735,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is inspiratory reserve volume?",
                         "options": [
                             "A) The maximum amount of air that can be inhaled after a normal inhalation",
@@ -1616,6 +1748,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "During exhalation, how does the volume of the thoracic cavity change?",
                         "options": [
                             "A) It increases",
@@ -1628,6 +1761,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What role do the external intercostal muscles play in respiration?",
                         "options": [
                             "A) They aid in exhalation",
@@ -1640,6 +1774,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How does oxygen primarily travel through the blood to reach body tissues?",
                         "options": [
                             "A) Dissolved in blood plasma",
@@ -1652,6 +1787,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Which factor is crucial in determining the rate of gas exchange in the alveoli?",
                         "options": [
                             "A) The thickness of the alveolar and capillary walls",
@@ -1664,6 +1800,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the primary reason the pleural cavity must be sealed from the atmosphere?",
                         "options": [
                             "A) To maintain high oxygen concentration",
@@ -1676,6 +1813,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How do changes in atmospheric pressure affect breathing?",
                         "options": [
                             "A) They have no effect",
@@ -1688,6 +1826,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the relationship between lung volume and respiratory pressure during inhalation?",
                         "options": [
                             "A) Pressure decreases as volume increases",
@@ -1700,6 +1839,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What effect does emphysema have on the lungs' elasticity?",
                         "options": [
                             "A) Increases elasticity",
@@ -1712,6 +1852,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What structural changes occur in the respiratory system due to chronic asthma?",
                         "options": [
                             "A) Thickening of the alveolar walls",
@@ -1724,6 +1865,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "How does the respiratory system respond to increased carbon dioxide levels from physical exertion?",
                         "options": [
                             "A) Decreased breathing rate",
@@ -1736,6 +1878,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "What is the significance of the interrelationship between pressure and volume in the lungs?",
                         "options": [
                             "A) It determines the rate of gas exchange",
@@ -1748,6 +1891,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "respiratory",
                         "question": "Which measurement in spirometry indicates the air expelled after taking the deepest breath possible?",
                         "options": [
                             "A) Tidal volume",
@@ -1760,6 +1904,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the primary function of the digestive system?",
                         "options": [
                             "A) To circulate blood",
@@ -1772,6 +1917,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which organ connects the mouth to the stomach?",
                         "options": [
                             "A) Esophagus",
@@ -1784,6 +1930,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the main role of stomach acid (HCl)?",
                         "options": [
                             "A) To digest carbohydrates",
@@ -1796,6 +1943,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Where is bile stored before it is released into the small intestine?",
                         "options": [
                             "A) Liver",
@@ -1808,6 +1956,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What does the pancreas produce to neutralize stomach acid in the small intestine?",
                         "options": [
                             "A) Bile",
@@ -1820,6 +1969,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the role of pepsinogen in digestion?",
                         "options": [
                             "A) It neutralizes stomach acid",
@@ -1832,6 +1982,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which part of the small intestine is closest to the stomach?",
                         "options": [
                             "A) Duodenum",
@@ -1844,6 +1995,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the main function of the villi in the small intestine?",
                         "options": [
                             "A) To produce digestive enzymes",
@@ -1856,6 +2008,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which enzyme is not produced by the pancreas?",
                         "options": [
                             "A) Amylase",
@@ -1868,6 +2021,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "The liver helps in the digestion of fats by producing which substance?",
                         "options": [
                             "A) Hydrochloric acid",
@@ -1880,6 +2034,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What triggers the release of bile and pancreatic juice into the duodenum?",
                         "options": [
                             "A) The presence of hydrochloric acid",
@@ -1892,6 +2047,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which segment of the small intestine is responsible for the majority of nutrient absorption?",
                         "options": [
                             "A) Duodenum",
@@ -1904,6 +2060,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the primary function of mucin in the stomach?",
                         "options": [
                             "A) To digest proteins",
@@ -1916,6 +2073,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What role does the bicarbonate ion play in the digestive system?",
                         "options": [
                             "A) It activates digestive enzymes",
@@ -1928,6 +2086,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "How does the structure of the villi affect their function in the small intestine?",
                         "options": [
                             "A) The villi increase surface area for more efficient digestion of food",
@@ -1940,6 +2099,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What are the building blocks of carbohydrates?",
                         "options": [
                             "A) Amino acids",
@@ -1952,6 +2112,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which type of carbohydrate is commonly known as table sugar?",
                         "options": [
                             "A) Glucose",
@@ -1964,6 +2125,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the primary function of carbohydrates in the body?",
                         "options": [
                             "A) To store and transmit genetic information",
@@ -1976,6 +2138,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which test is used to identify the presence of reducing sugars?",
                         "options": [
                             "A) Benedict's Test",
@@ -1988,6 +2151,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What type of fats are solid at room temperature?",
                         "options": [
                             "A) Saturated fats",
@@ -2000,6 +2164,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What are polysaccharides?",
                         "options": [
                             "A) Simple sugars",
@@ -2012,6 +2177,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the significance of the Iodine Test in nutrition?",
                         "options": [
                             "A) It detects the presence of lipids",
@@ -2024,6 +2190,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Denaturation of proteins refers to what?",
                         "options": [
                             "A) Breaking down proteins into amino acids",
@@ -2036,6 +2203,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which type of lipid is most beneficial for cardiovascular health?",
                         "options": [
                             "A) LDL cholesterol",
@@ -2048,6 +2216,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What does the Biuret Test detect?",
                         "options": [
                             "A) Simple sugars",
@@ -2060,6 +2229,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "Which polysaccharide is the main form of carbohydrate storage in animals?",
                         "options": [
                             "A) Starch",
@@ -2072,6 +2242,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "How do unsaturated fats differ from saturated fats at a molecular level?",
                         "options": [
                             "A) Unsaturated fats have more hydrogen atoms",
@@ -2084,6 +2255,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the primary structure affected during protein denaturation?",
                         "options": [
                             "A) Primary structure",
@@ -2096,6 +2268,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "In the context of cholesterol, what does LDL stand for?",
                         "options": [
                             "A) Low-Density Lipoprotein",
@@ -2108,6 +2281,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "digestion",
                         "question": "What is the primary function of the circulatory system?",
                         "options": [
                             "A) To break down nutrients",
@@ -2120,6 +2294,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Which chamber of the heart receives oxygen-poor blood from the body?",
                         "options": [
                             "A) Left atrium",
@@ -2132,6 +2307,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What type of blood vessels carry blood away from the heart?",
                         "options": [
                             "A) Arteries",
@@ -2144,6 +2320,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Pulmonary circulation involves blood flow to and from the:",
                         "options": [
                             "A) Heart",
@@ -2156,6 +2333,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The heartbeat is initiated by which part of the heart?",
                         "options": [
                             "A) Atrioventricular node",
@@ -2168,6 +2346,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What does systolic blood pressure measure?",
                         "options": [
                             "A) Blood pressure during heart relaxation",
@@ -2180,6 +2359,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What term describes the narrowing of arteries due to plaque buildup?",
                         "options": [
                             "A) Hypertension",
@@ -2192,6 +2372,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Capillaries are:",
                         "options": [
                             "A) The largest blood vessels that carry blood away from the heart.",
@@ -2204,6 +2385,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The sinoatrial node is located in the:",
                         "options": [
                             "A) Right atrium",
@@ -2216,6 +2398,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Which condition is characterized by a sudden loss of brain function due to a blockage or rupture of a blood vessel?",
                         "options": [
                             "A) Heart attack",
@@ -2228,6 +2411,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The process of thermoregulation in the circulatory system is primarily facilitated by:",
                         "options": [
                             "A) Hormonal regulation",
@@ -2240,6 +2424,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Baroreceptors help regulate blood pressure by:",
                         "options": [
                             "A) Detecting changes in arterial wall tension",
@@ -2252,6 +2437,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "A heart attack, or myocardial infarction, occurs when:",
                         "options": [
                             "A) The heart beats too rapidly",
@@ -2264,6 +2450,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Which part of the heart is responsible for pumping oxygenated blood to the systemic circulation?",
                         "options": [
                             "A) Right atrium",
@@ -2276,6 +2463,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The regulation of blood flow to specific areas based on current needs is known as:",
                         "options": [
                             "A) Hemostasis",
@@ -2288,6 +2476,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "What is the main component of blood that carries oxygen?",
                         "options": [
                             "A) White blood cells",
@@ -2300,6 +2489,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Veins return blood to the:",
                         "options": [
                             "A) Lungs only",
@@ -2312,6 +2502,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Which vessels have the thinnest walls for exchange of gases and nutrients?",
                         "options": [
                             "A) Arteries",
@@ -2324,6 +2515,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Systemic circulation refers to the movement of blood from the heart to the:",
                         "options": [
                             "A) Lungs only",
@@ -2336,6 +2528,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The right ventricle pumps blood to the:",
                         "options": [
                             "A) Lungs",
@@ -2348,6 +2541,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Arterioles are best described as:",
                         "options": [
                             "A) Large vessels that carry blood away from the heart",
@@ -2360,6 +2554,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Diastolic pressure is the:",
                         "options": [
                             "A) Highest level of blood pressure",
@@ -2372,6 +2567,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Coronary circulation is directly involved in supplying blood to the:",
                         "options": [
                             "A) Brain",
@@ -2384,6 +2580,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Which condition is caused by the hardening of the arteries?",
                         "options": [
                             "A) Anemia",
@@ -2396,6 +2593,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The atrioventricular node (AV node) functions to:",
                         "options": [
                             "A) Initiate the heartbeat",
@@ -2408,6 +2606,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The pacemaker cells of the heart are found in the:",
                         "options": [
                             "A) Atrioventricular node",
@@ -2420,6 +2619,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Cardiac output is the volume of blood the heart pumps per:",
                         "options": [
                             "A) Minute",
@@ -2432,6 +2632,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Vasoconstriction affects blood pressure by:",
                         "options": [
                             "A) Decreasing it",
@@ -2444,6 +2645,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Baroreceptors are located in the:",
                         "options": [
                             "A) Heart only",
@@ -2456,6 +2658,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "A stroke is most commonly caused by:",
                         "options": [
                             "A) Aneurysm in the heart",
@@ -2468,6 +2671,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The primary effect of the parasympathetic nervous system on the heart is to:",
                         "options": [
                             "A) Increase the heart rate",
@@ -2480,6 +2684,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Arteriolar resistance is primarily determined by the:",
                         "options": [
                             "A) Length of the arteriole",
@@ -2492,6 +2697,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "During exercise, the process of increasing blood flow to active muscles is called:",
                         "options": [
                             "A) Hyperemia",
@@ -2504,6 +2710,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "Factors that can affect blood pressure include:",
                         "options": [
                             "A) Sleep patterns only",
@@ -2516,6 +2723,7 @@
                     },
                     {
                         "type": 0,
+                        "catagory": "circulatory",
                         "question": "The sequence of electrical impulse movement in the heart is:",
                         "options": [
                             "A) AV node → SA node → ventricles → atria",
