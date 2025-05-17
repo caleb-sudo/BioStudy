@@ -162,14 +162,26 @@
                     },
                     {
                         "type": 0,
-                        "question": "What is the formula for photosynthesis?",
+                        "question": "What is the formula for <b>photosynthesis</b>?",
                         "options": [
                             "A) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> -> 6CO<sub>2</sub> + 6H<sub>2</sub>O",
-                            "B) ",
+                            "B) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6H<sub>2</sub>O -> 6CO<sub>2</sub> + 6O<sub>2</sub>",
                             "C) 6CO<sub>2</sub> + 12H<sub>2</sub>O -> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 6H<sub>2</sub>O",
-                            "D) "
+                            "D) 6O<sub>2</sub> + 12H<sub>2</sub>O -> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6CO<sub>2</sub> + 6H<sub>2</sub>O"
                         ],
                         "answer": 2,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "question": "What is the formula for <b>cellular respiration</b>?",
+                        "options": [
+                            "A) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> -> 6CO<sub>2</sub> + 6H<sub>2</sub>O",
+                            "B) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6H<sub>2</sub>O -> 6CO<sub>2</sub> + 6O<sub>2</sub>",
+                            "C) 6CO<sub>2</sub> + 12H<sub>2</sub>O -> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 6H<sub>2</sub>O",
+                            "D) 6O<sub>2</sub> + 12H<sub>2</sub>O -> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6CO<sub>2</sub> + 6H<sub>2</sub>O"
+                        ],
+                        "answer": 0,
                         "picture": null
                     },
                     {
