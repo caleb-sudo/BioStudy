@@ -49,55 +49,7 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            var Unit = data.Science.Bio.Bio20.UnitD;
-            
-            var UnitSelect = document.getElementById("UnitSelector");
-
-            UnitSelect.addEventListener("change", function() {
-                localStorage.setItem("topic", UnitSelect.value);
-                reloadPage();
-            });
-
-            if (UnitSelect.value[0] == 'S' && UnitSelect.value[2] == '2'){
-                if (UnitSelect.value[1] == 'C') {
-                    switch(UnitSelect.value[3]) {
-                        case 'A':
-                            Unit = data.Science.Chem.Chem20.UnitA;
-                            break;
-                        
-                        case 'B':
-                            Unit = data.Science.Chem.Chem20.UnitB;
-                            break;
-                        
-                        case 'C':
-                            Unit = data.Science.Chem.Chem20.UnitC;
-                            break;
-                        
-                        case 'D':
-                            Unit = data.Science.Chem.Chem20.UnitD;
-                            break;
-                    }
-                }
-                if (UnitSelect.value[1] == 'B') {
-                    switch (UnitSelect.value[3]) {
-                        case 'A':
-                            Unit = data.Science.Bio.Bio20.UnitA;
-                            break;
-                        
-                        case 'B':
-                            Unit = data.Science.Bio.Bio20.UnitB;
-                            break;
-                        
-                        case 'C':
-                            Unit = data.Science.Bio.Bio20.UnitC;
-                            break;
-                        
-                        case 'D':
-                            Unit = data.Science.Bio.Bio20.UnitD;
-                            break;
-                    }
-                }
-            }
+            var Unit = data.Bio.Bio20.UnitD;
 
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
@@ -180,6 +132,65 @@ function buildQuestion() {
                             h.style.backgroundColor = "red";
                         };
                     }
+                }
+            }
+
+            var UnitSelect = document.getElementById("UnitSelector");
+
+            UnitSelect.addEventListener("change", function() {
+                localStorage.setItem("topic", UnitSelect.value);
+                reloadPage();
+            });
+
+            if (UnitSelect.value[0] == 'C' && UnitSelect.value[1] == '2') {
+                switch(UnitSelect.value[2]) {
+                    case 'A':
+                        Unit = data.Chem.Chem20.UnitA;
+                        break;
+                        
+                    case 'B':
+                        Unit = data.Chem.Chem20.UnitB;
+                        break;
+                        
+                    case 'C':
+                        Unit = data.Chem.Chem20.UnitC;
+                        break;
+
+                    case 'D':
+                        Unit = data.Chem.Chem20.UnitD;
+                        break;
+                }
+            } else if (UnitSelect.value[0] == 'B' && UnitSelect.value[1] == '2') {
+                switch (UnitSelect.value[2]) {
+                    case 'A':
+                        Unit = data.Bio.Bio20.UnitA;
+                        break;
+
+                    case 'B':
+                        Unit = data.Bio.Bio20.UnitB;
+                        break;
+                        
+                    case 'C':
+                        Unit = data.Bio.Bio20.UnitC;
+                        break;
+                        
+                    case 'D':
+                        Unit = data.Bio.Bio20.UnitD;
+                        break;
+                }
+            } else if (UnitSelect.value[0] == 'S' && UnitSelect.value[1] == '2') {
+                switch (UnitSelect.value[2]){
+                    case 'A':
+                        Unit = data.Social.Social20.UnitA;
+                        break;
+                    
+                    case 'B':
+                        Unit = data.Social.Social20.UnitB;
+                        break;
+                    
+                    case 'C':
+                        Unit = data.Social.Social20.UnitC;
+                        break;
                 }
             }
         })
