@@ -53,31 +53,31 @@ function buildQuestion() {
             
             switch (document.getElementById("UnitSelector").value) {
                 case 'Bio20UnitA':
-                    Unit = data.UnitA;
+                    Unit = data.Science.Bio.Bio20.UnitA;
                     localStorage.setItem("topic", "Bio20UnitA");
                     reloadPage();
                     break;
 
                 case 'Bio20UnitB':
-                    Unit = data.UnitB;
+                    Unit = data.Science.Bio.Bio20.UnitB;
                     localStorage.setItem("topic", "Bio20UnitB");
                     reloadPage();
                     break;
 
                 case 'Bio20UnitC':
-                    Unit = data.UnitC;
+                    Unit = data.Science.Bio.Bio20.UnitC;
                     localStorage.setItem("topic", "Bio20UnitC");
                     reloadPage();
                     break;
 
                 case 'Bio20UnitD':
-                    Unit = data.UnitD;
+                    Unit = data.Science.Bio.Bio20.UnitD;
                     localStorage.setItem("topic", "Bio20UnitD");
                     reloadPage();
                     break;
 
                 default:
-                    Unit = data.UnitD;
+                    Unit = data.Science.Bio.Bio20.UnitD;
                     localStorage.setItem("topic", "Bio20UnitD");
                     break;
             }
