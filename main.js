@@ -77,8 +77,7 @@ function buildQuestion() {
                         Unit = data.Chem.Chem20.UnitD;
                         break;
                 }
-            }
-            if (UnitSelect.value[0] == 'B' && UnitSelect.value[1] == '2') {
+            } else if (UnitSelect.value[0] == 'B' && UnitSelect.value[1] == '2') {
                 switch (UnitSelect.value[2]) {
                     case 'A':
                         Unit = data.Bio.Bio20.UnitA;
@@ -96,9 +95,8 @@ function buildQuestion() {
                         Unit = data.Bio.Bio20.UnitD;
                         break;
                 }
-            }
-            if (UnitSelect.value[0] == 'S' && UnitSelect.value[1] == '2') {
-                switch (UnitSelect.value[2]){
+            } else if (UnitSelect.value[0] == 'S' && UnitSelect.value[1] == '2') {
+                switch (UnitSelect.value[2]) {
                     case 'A':
                         Unit = data.Social.Social20.UnitA;
                         break;
@@ -109,6 +107,12 @@ function buildQuestion() {
                     
                     case 'C':
                         Unit = data.Social.Social20.UnitC;
+                        break;
+                }
+            } else if (UnitSelect.value[0] == 'M' && UnitSelect.value[1] == '3') {
+                switch(UnitSelect.value[2]) {
+                    case 'A':
+                        Unit = data.Math.Math30_1.UnitA;
                         break;
                 }
             }
