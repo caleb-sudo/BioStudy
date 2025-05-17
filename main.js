@@ -31,6 +31,10 @@ function reloadPage() {
     location.reload();
 }
 
+const fixxer = document.getElementById("fixxer");
+
+fixxer.addEventListener("click", resetUserScores);
+
 function resetUserScores() {
     localStorage.setItem("score", 0);
     localStorage.setItem("streak", 0);
@@ -48,7 +52,7 @@ function buildQuestion() {
         .then(data => {
             var Unit = data.Bio.Bio20.UnitD;
 
-            var UnitSelect = document.getElementById("UnitSelector");
+            const UnitSelect = document.getElementById("UnitSelector");
 
             UnitSelect.addEventListener("change", function() {
                 localStorage.setItem("topic", UnitSelect.value);
