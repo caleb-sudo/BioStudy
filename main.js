@@ -30,10 +30,14 @@ if (score > 0) {
     scoreValText.style.color = "orange";
 }
 
+function reloadPage() {
+    location.reload();
+}
+
 function resetUserScores() {
     localStorage.setItem("score", 0);
     localStorage.setItem("streak", 0);
-    alert("please reload this page to fix your score")
+    reloadPage();
 }
 
 function buildQuestion() {
@@ -46,32 +50,40 @@ function buildQuestion() {
         })
         .then(data => {
             var Unit = data.Science.Bio.Bio20.UnitD;
-            /*switch (topic) {
-                case '20UnitA':
+            var Sci = data.Science.Science;
+            var Bio20 = Sci.Bio.Bio20;
+            var Chem20 = Sci.Chem.Chem20;
+            
+            switch (document.getElementById("UnitSelector").value) {
+                case 'Bio20UnitA':
                     Unit = data.UnitA;
                     localStorage.setItem("topic", "Bio20UnitA");
+                    reloadPage();
                     break;
 
-                case '20UnitB':
+                case 'Bio20UnitB':
                     Unit = data.UnitB;
                     localStorage.setItem("topic", "Bio20UnitB");
+                    reloadPage();
                     break;
 
-                case '20UnitC':
+                case 'Bio20UnitC':
                     Unit = data.UnitC;
                     localStorage.setItem("topic", "Bio20UnitC");
+                    reloadPage();
                     break;
 
-                case '20UnitD':
+                case 'Bio20UnitD':
                     Unit = data.UnitD;
                     localStorage.setItem("topic", "Bio20UnitD");
+                    reloadPage();
                     break;
 
                 default:
                     Unit = data.UnitD;
                     localStorage.setItem("topic", "Bio20UnitD");
                     break;
-            }*/
+            }
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
