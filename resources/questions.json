@@ -2852,9 +2852,9 @@
                     "question": "The graph of y = f(x) is stretched horizontally by a factor of 14. Determine the equation of the transformed graph.",
                     "options": [
                         "A) y = &frac14;f(x)",
-                        "A) y = 4f(x)",
-                        "A) y = f(&frac14;x)",
-                        "A) y = f(4x)"
+                        "B) y = 4f(x)",
+                        "C) y = f(&frac14;x)",
+                        "D) y = f(4x)"
                     ],
                     "answer": 3,
                     "picture": null
