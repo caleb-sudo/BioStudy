@@ -2835,7 +2835,7 @@
 
         },
         "Physics30": {
-            
+
         }
     },
     "Math": {
@@ -2846,7 +2846,20 @@
 
         },
         "Math30_1": {
-
+            "UnitA": [
+                {
+                    "type": 0,
+                    "question": "The graph of y = f(x) is stretched horizontally by a factor of 14. Determine the equation of the transformed graph.",
+                    "options": [
+                        "A) y =&frac12;f(x)",
+                        "A) y =&frac12;f(x)",
+                        "A) y =&frac12;f(x)",
+                        "A) y =&frac12;f(x)"
+                    ],
+                    "answer": 3,
+                    "picture": null
+                }
+            ]
         }
     },
     "Social": {
