@@ -125,8 +125,8 @@ function buildQuestion() {
             const pict = document.createElement('img');
             if (Unit[questionNum].picture != null) {
                 pict.src = Unit[questionNum].picture;
-                pict.style.height = '550px';
-                pict.style.width = 'auto';
+                pict.style.width = '800px';
+                pict.style.height = 'auto';
                 field.appendChild(pict);
                 field.appendChild(document.createElement('br'));
             }
