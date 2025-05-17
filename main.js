@@ -51,32 +51,12 @@ function buildQuestion() {
         .then(data => {
             var Unit = data.Science.Bio.Bio20.UnitD;
             
-            switch (document.getElementById("UnitSelector").value) {
-                case 'Bio20UnitA':
-                    Unit = data.Science.Bio.Bio20.UnitA;
-                    localStorage.setItem("topic", "Bio20UnitA");
-                    break;
+            var UnitSelect = document.getElementById("UnitSelector");
 
-                case 'Bio20UnitB':
-                    Unit = data.Science.Bio.Bio20.UnitB;
-                    localStorage.setItem("topic", "Bio20UnitB");
-                    break;
+            UnitSelect.addEventListener("onchange", function() {
+                localStorage.setItem("topic", UnitSelect.value);
+            });
 
-                case 'Bio20UnitC':
-                    Unit = data.Science.Bio.Bio20.UnitC;
-                    localStorage.setItem("topic", "Bio20UnitC");
-                    break;
-
-                case 'Bio20UnitD':
-                    Unit = data.Science.Bio.Bio20.UnitD;
-                    localStorage.setItem("topic", "Bio20UnitD");
-                    break;
-
-                default:
-                    Unit = data.Science.Bio.Bio20.UnitD;
-                    localStorage.setItem("topic", "Bio20UnitD");
-                    break;
-            }
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
