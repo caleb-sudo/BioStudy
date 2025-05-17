@@ -6,7 +6,7 @@ var strk = parseInt(getstrk);
 var topic = gettopic;
 localStorage.setItem("score", score);
 localStorage.setItem("streak", strk);
-localStorage.setItem("topic", "Bio20UnitD");
+localStorage.setItem("topic", gettopic);
 
 document.getElementById("UnitSelector").value = topic;
 
