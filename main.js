@@ -52,14 +52,33 @@ function buildQuestion() {
             var Unit = data.Science.Bio.Bio20.UnitD;
             
             var UnitSelect = document.getElementById("UnitSelector");
-            var UnitSelectVal = UnitSelect.value;
 
             UnitSelect.addEventListener("change", function() {
                 localStorage.setItem("topic", UnitSelect.value);
                 reloadPage();
             });
 
-            var arr = [];
+            if (UnitSelect.value[0] == 'S'){
+                if (UnitSelect.value[1] == 'B' && UnitSelect.value[2] == '2') {
+                    switch (UnitSelect.value[3]) {
+                        case 'A':
+                            Unit = data.Science.Bio.Bio20.UnitA;
+                            break;
+                        
+                        case 'B':
+                            Unit = data.Science.Bio.Bio20.UnitB;
+                            break;
+                        
+                        case 'C':
+                            Unit = data.Science.Bio.Bio20.UnitC;
+                            break;
+                        
+                        case 'D':
+                            Unit = data.Science.Bio.Bio20.UnitD;
+                            break;
+                    }
+                }
+            }
 
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
