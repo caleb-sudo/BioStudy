@@ -66,7 +66,11 @@ function buildQuestion() {
                         break;
                         
                     case 'C':
-                        Unit = data.Chem.Chem20.UnitC;
+                        Unit = data.Chem.Chem20.UnitCa;
+                        break;
+                    
+                    case 'E':
+                        Unit = data.Chem.Chem20.UnitCb;
                         break;
 
                     case 'D':
