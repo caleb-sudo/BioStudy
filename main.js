@@ -58,8 +58,27 @@ function buildQuestion() {
                 reloadPage();
             });
 
-            if (UnitSelect.value[0] == 'S'){
-                if (UnitSelect.value[1] == 'B' && UnitSelect.value[2] == '2') {
+            if (UnitSelect.value[0] == 'S' && UnitSelect.value[2] == '2'){
+                if (UnitSelect.value[1] == 'C') {
+                    switch(UnitSelect.value[3]) {
+                        case 'A':
+                            Unit = data.Science.Chem.Chem20.UnitA;
+                            break;
+                        
+                        case 'B':
+                            Unit = data.Science.Chem.Chem20.UnitB;
+                            break;
+                        
+                        case 'C':
+                            Unit = data.Science.Chem.Chem20.UnitC;
+                            break;
+                        
+                        case 'D':
+                            Unit = data.Science.Chem.Chem20.UnitD;
+                            break;
+                    }
+                }
+                if (UnitSelect.value[1] == 'B') {
                     switch (UnitSelect.value[3]) {
                         case 'A':
                             Unit = data.Science.Bio.Bio20.UnitA;
