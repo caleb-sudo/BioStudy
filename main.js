@@ -50,7 +50,59 @@ function buildQuestion() {
         })
         .then(data => {
             var Unit = data.Bio.Bio20.UnitD;
+            if (UnitSelect.value[1] == '2') {
+                if (UnitSelect.value[0] == 'C') {
+                    switch(UnitSelect.value[2]) {
+                        case 'A':
+                            Unit = data.Chem.Chem20.UnitA;
+                            break;
+                            
+                        case 'B':
+                            Unit = data.Chem.Chem20.UnitB;
+                            break;
+                            
+                        case 'C':
+                            Unit = data.Chem.Chem20.UnitC;
+                            break;
 
+                        case 'D':
+                            Unit = data.Chem.Chem20.UnitD;
+                            break;
+                    }
+                } else if (UnitSelect.value[0] == 'B') {
+                    switch (UnitSelect.value[2]) {
+                        case 'A':
+                            Unit = data.Bio.Bio20.UnitA;
+                            break;
+
+                        case 'B':
+                            Unit = data.Bio.Bio20.UnitB;
+                            break;
+                            
+                        case 'C':
+                            Unit = data.Bio.Bio20.UnitC;
+                            break;
+                            
+                        case 'D':
+                            Unit = data.Bio.Bio20.UnitD;
+                            break;
+                    }
+                } else if (UnitSelect.value[0] == 'S') {
+                    switch (UnitSelect.value[2]){
+                        case 'A':
+                            Unit = data.Social.Social20.UnitA;
+                            break;
+                        
+                        case 'B':
+                            Unit = data.Social.Social20.UnitB;
+                            break;
+                        
+                        case 'C':
+                            Unit = data.Social.Social20.UnitC;
+                            break;
+                    }
+                }
+            }
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
             const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
@@ -141,58 +193,6 @@ function buildQuestion() {
                 localStorage.setItem("topic", UnitSelect.value);
                 reloadPage();
             });
-
-            if (UnitSelect.value[0] == 'C' && UnitSelect.value[1] == '2') {
-                switch(UnitSelect.value[2]) {
-                    case 'A':
-                        Unit = data.Chem.Chem20.UnitA;
-                        break;
-                        
-                    case 'B':
-                        Unit = data.Chem.Chem20.UnitB;
-                        break;
-                        
-                    case 'C':
-                        Unit = data.Chem.Chem20.UnitC;
-                        break;
-
-                    case 'D':
-                        Unit = data.Chem.Chem20.UnitD;
-                        break;
-                }
-            } else if (UnitSelect.value[0] == 'B' && UnitSelect.value[1] == '2') {
-                switch (UnitSelect.value[2]) {
-                    case 'A':
-                        Unit = data.Bio.Bio20.UnitA;
-                        break;
-
-                    case 'B':
-                        Unit = data.Bio.Bio20.UnitB;
-                        break;
-                        
-                    case 'C':
-                        Unit = data.Bio.Bio20.UnitC;
-                        break;
-                        
-                    case 'D':
-                        Unit = data.Bio.Bio20.UnitD;
-                        break;
-                }
-            } else if (UnitSelect.value[0] == 'S' && UnitSelect.value[1] == '2') {
-                switch (UnitSelect.value[2]){
-                    case 'A':
-                        Unit = data.Social.Social20.UnitA;
-                        break;
-                    
-                    case 'B':
-                        Unit = data.Social.Social20.UnitB;
-                        break;
-                    
-                    case 'C':
-                        Unit = data.Social.Social20.UnitC;
-                        break;
-                }
-            }
         })
         .catch(error => console.error('Failed to fetch data: ', error));
 }
