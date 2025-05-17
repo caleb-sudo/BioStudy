@@ -33,6 +33,7 @@ if (score > 0) {
 function resetUserScores() {
     localStorage.setItem("score", 0);
     localStorage.setItem("streak", 0);
+    alert("please reload this page to fix your score")
 }
 
 function buildQuestion() {
@@ -111,7 +112,7 @@ function buildQuestion() {
                     field.appendChild(document.createElement('hr'));
                 }
             } else if (Unit[questionNum].type == 1) {
-                
+
             }
 
             const radios = document.getElementsByClassName("radios");
