@@ -53,9 +53,8 @@ function buildQuestion() {
             
             var UnitSelect = document.getElementById("UnitSelector");
 
-            UnitSelect.addEventListener("onchange", function() {
+            UnitSelect.addEventListener("change", function() {
                 localStorage.setItem("topic", UnitSelect.value);
-                alert("topic changed");
             });
 
             const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
