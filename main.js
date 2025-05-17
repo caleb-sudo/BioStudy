@@ -10,9 +10,6 @@ localStorage.setItem("topic", gettopic);
 
 document.getElementById("UnitSelector").value = topic;
 
-const unitSelector = document.querySelector("UnitSelector");
-const unitSelectorBtn = document.getElementById("UnitSelectorBtn");
-
 const scoreValText = document.getElementById("score");
 
 const opts = [
@@ -50,12 +47,14 @@ function buildQuestion() {
         })
         .then(data => {
             var Unit = data.Bio.Bio20.UnitD;
+
             var UnitSelect = document.getElementById("UnitSelector");
 
             UnitSelect.addEventListener("change", function() {
                 localStorage.setItem("topic", UnitSelect.value);
                 reloadPage();
             });
+
             if (UnitSelect.value[0] == 'C' && UnitSelect.value[1] == '2') {
                 switch(UnitSelect.value[2]) {
                     case 'A':
