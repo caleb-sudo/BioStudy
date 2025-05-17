@@ -55,25 +55,21 @@ function buildQuestion() {
                 case 'Bio20UnitA':
                     Unit = data.Science.Bio.Bio20.UnitA;
                     localStorage.setItem("topic", "Bio20UnitA");
-                    reloadPage();
                     break;
 
                 case 'Bio20UnitB':
                     Unit = data.Science.Bio.Bio20.UnitB;
                     localStorage.setItem("topic", "Bio20UnitB");
-                    reloadPage();
                     break;
 
                 case 'Bio20UnitC':
                     Unit = data.Science.Bio.Bio20.UnitC;
                     localStorage.setItem("topic", "Bio20UnitC");
-                    reloadPage();
                     break;
 
                 case 'Bio20UnitD':
                     Unit = data.Science.Bio.Bio20.UnitD;
                     localStorage.setItem("topic", "Bio20UnitD");
-                    reloadPage();
                     break;
 
                 default:
