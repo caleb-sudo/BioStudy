@@ -87,6 +87,7 @@ function buildQuestion() {
             const img = document.createElement('img');
 
             let questionNum = Math.floor(Math.random() * Unit.length);
+            alert(Unit.length);
 
             scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
             strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
