@@ -50,6 +50,12 @@ function buildQuestion() {
         })
         .then(data => {
             var Unit = data.Bio.Bio20.UnitD;
+            var UnitSelect = document.getElementById("UnitSelector");
+
+            UnitSelect.addEventListener("change", function() {
+                localStorage.setItem("topic", UnitSelect.value);
+                reloadPage();
+            });
             if (UnitSelect.value[0] == 'C' && UnitSelect.value[1] == '2') {
                 switch(UnitSelect.value[2]) {
                     case 'A':
@@ -186,13 +192,6 @@ function buildQuestion() {
                     }
                 }
             }
-
-            var UnitSelect = document.getElementById("UnitSelector");
-
-            UnitSelect.addEventListener("change", function() {
-                localStorage.setItem("topic", UnitSelect.value);
-                reloadPage();
-            });
         })
         .catch(error => console.error('Failed to fetch data: ', error));
 }
