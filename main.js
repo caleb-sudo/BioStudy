@@ -37,7 +37,7 @@ function resetUserScores() {
 }
 
 function buildQuestion() {
-    fetch('https://caleb-sudo.github.io/StudyHelper/questions.json')
+    fetch('https://caleb-sudo.github.io/StudyHelper/resources/questions.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
@@ -45,7 +45,7 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            var Unit = data.Bio20.UnitD;
+            var Unit = data.Science.Bio.Bio20.UnitD;
             /*switch (topic) {
                 case '20UnitA':
                     Unit = data.UnitA;
