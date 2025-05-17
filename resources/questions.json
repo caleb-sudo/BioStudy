@@ -19,7 +19,97 @@
         "Bio": {
             "Bio20": {
                 "UnitA": [
-
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "What does the term 'trophic level' refer to in an ecosystem?",
+                        "options": [
+                            "A) The reproductive rate of an organism",
+                            "B) The position of an organism in the food chain",
+                            "C) The number of predators an organism has",
+                            "D) The size of an organism"
+                        ],
+                        "answer": 1,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "Which of the following best describes the role of autotrophs in an ecosystem?",
+                        "options": [
+                            "A) They produce their own food through photosynthesis",
+                            "B) To decompose dead organic material",
+                            "C) To consume other organisms for energy",
+                            "D) To serve as primary predators"
+                        ],
+                        "answer": 0,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "What term is used to describe organisms that produce their own energy and are also known as producers?",
+                        "options": [
+                            "A) Heterotrophs",
+                            "B) Herbivore",
+                            "C) Carnivore",
+                            "D) Autotrophs"
+                        ],
+                        "answer": 3,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "Which of the following is a characteristic of heterotrophs?",
+                        "options": [
+                            "A) They produce their own organic compounds from inorganic substances",
+                            "B) They perform photosynthesis",
+                            "C) They rely on other organisms for energy",
+                            "D) They are exclusively herbivores"
+                        ],
+                        "answer": 2,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "What term is used to describe organisms that must consume other organisms for energy?",
+                        "options": [
+                            "A) Heterotrophs",
+                            "B) Decomposers",
+                            "C) Autotrophs",
+                            "D) Producers"
+                        ],
+                        "answer": 0,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "What is the role of nitrogen-fixing bacteria in the ecosystem?",
+                        "options": [
+                            "A) To convert atmospheric nitrogen into a usable form for plants",
+                            "B) To decompose organic matter",
+                            "C) To produce oxygen",
+                            "D) To enhance photosynthesis"
+                        ],
+                        "answer": 0,
+                        "picture": null
+                    },
+                    {
+                        "type": 0,
+                        "catagory": "biosphere",
+                        "question": "What is the term used to describe the zone around Earth that supports life?",
+                        "options": [
+                            "A) Ecosystem",
+                            "B) Biome",
+                            "C) Biosphere",
+                            "D) Habitat"
+                        ],
+                        "answer": 2,
+                        "picture": null 
+                    }
                 ],
                 "UnitB": [
 
