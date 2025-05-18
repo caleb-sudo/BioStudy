@@ -9,25 +9,33 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="box">
-            <p id="score" style="margin:0;">
-                Your Score: 
-            </p>
-            <br>
-            <p id="streak" style="margin:0;">
-                Streak: 
+        <header>
+            <p id="scores" class="userInfoText">
+                <span id="score">
+                </span>
+                <br>
+                <span id="streak">
+                </span>
             </p>
             <button id="fixxer">
                 fix score
             </button>
-        </div>
-        <div id="box2">
-            <legend id="pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious"></legend>
-            <br>
-        </div>
-        <br>
+        </header>
+        <section>
+            <p id="question">
+            </p>
+            <div id="box">
+            </div>
+            <article>
+                <div id="box2">
+                </div>
+            </article>
+        </section>
         <select name="Unit" id="UnitSelector">
             <optgroup label="Chem-20">
+                <option value="C2R">
+                    All Units
+                </option>
                 <option value="C2A">
                     Unit A: Chemical Bonding
                 </option>
@@ -46,6 +54,9 @@
             </optgroup>
             <hr>
             <optgroup label="Bio-20">
+                <option value="B2R">
+                    All Units
+                </option>
                 <option value="B2A">
                     Unit A: Energy and Matter Exchange in the Biosphere
                 </option>
@@ -61,6 +72,9 @@
             </optgroup>
             <hr>
             <optgroup label="Social-20">
+                <option value="S2R">
+                    All Units
+                </option>
                 <option value="S2A">
                     Unit A: Foundations of Nationalism
                 </option>
@@ -73,6 +87,9 @@
             </optgroup>
             <hr>
             <optgroup label="Math 30-1">
+                <option value="M2R">
+                    All Units
+                </option>
                 <option value="M3A">
                     Unit A: Transformations
                 </option>
@@ -91,6 +108,7 @@
             </optgroup>
             <hr>
         </select>
+        </section>
         <script type="text/javascript" src="main.js"></script>
     </body>
 </html>

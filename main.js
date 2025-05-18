@@ -50,103 +50,108 @@ function buildQuestion() {
             return response.json();
         })
         .then(data => {
-            var Unit = data.Bio.Bio20.UnitD;
+            var unit = data.Bio.Bio20.UnitD;
 
-            const UnitSelect = document.getElementById("UnitSelector");
+            const alphaVal = (n) => n.toLowerCase().charCodeAt(0) - 97;
 
-            UnitSelect.addEventListener("change", function() {
-                localStorage.setItem("topic", UnitSelect.value);
+            const unitSelect = document.getElementById("UnitSelector");
+
+            unitSelect.addEventListener("change", function() {
+                localStorage.setItem("topic", unitSelect.value);
                 reloadPage();
             });
 
-            if (UnitSelect.value[0] == 'C' && UnitSelect.value[1] == '2') {
-                switch(UnitSelect.value[2]) {
+            if (unitSelect.value[1] == '2') {
+                if (unitSelect.value[0] == 'C') {
+                    switch(unitSelect.value[2]) {
+                        case 'A':
+                            unit = data.Chem.Chem20.UnitA;
+                            break;
+                        case 'B':
+                            unit = data.Chem.Chem20.UnitB;
+                            break;
+                        case 'C':
+                            unit = data.Chem.Chem20.UnitCa;
+                            break;
+                        case 'E':
+                            unit = data.Chem.Chem20.UnitCb;
+                            break;
+                        case 'D':
+                            unit = data.Chem.Chem20.UnitD;
+                            break;
+                    }
+                } else if (unitSelect.value[0] == 'B') {
+                    switch (unitSelect.value[2]) {
+                        case 'A':
+                            unit = data.Bio.Bio20.UnitA;
+                            break;
+                        case 'B':
+                            unit = data.Bio.Bio20.UnitB;
+                            break;
+                        case 'C':
+                            unit = data.Bio.Bio20.UnitC;
+                            break;
+                        case 'D':
+                            unit = data.Bio.Bio20.UnitD;
+                            break;
+                    }
+                } else if (unitSelect.value[0] == 'S') {
+                    switch (unitSelect.value[2]) {
+                        case 'A':
+                            unit = data.Social.Social20.UnitA;
+                            break;
+                        case 'B':
+                            unit = data.Social.Social20.UnitB;
+                            break;
+                        case 'C':
+                            unit = data.Social.Social20.UnitC;
+                            break;
+                    }
+                }
+            }
+            if (unitSelect.value[0] == 'M' && unitSelect.value[1] == '3') {
+                switch(unitSelect.value[2]) {
                     case 'A':
-                        Unit = data.Chem.Chem20.UnitA;
+                        unit = data.Math.Math30_1.UnitA;
                         break;
                     case 'B':
-                        Unit = data.Chem.Chem20.UnitB;
+                        unit = data.Math.Math30_1.UnitB;
                         break;
                     case 'C':
-                        Unit = data.Chem.Chem20.UnitCa;
+                        unit = data.Math.Math30_1.UnitC;
+                        break;
+                    case 'D':
+                        unit = data.Math.Math30_1.UnitD;
                         break;
                     case 'E':
-                        Unit = data.Chem.Chem20.UnitCb;
-                        break;
-                    case 'D':
-                        Unit = data.Chem.Chem20.UnitD;
-                        break;
-                }
-            } else if (UnitSelect.value[0] == 'B' && UnitSelect.value[1] == '2') {
-                switch (UnitSelect.value[2]) {
-                    case 'A':
-                        Unit = data.Bio.Bio20.UnitA;
-                        break;
-                    case 'B':
-                        Unit = data.Bio.Bio20.UnitB;
-                        break;
-                    case 'C':
-                        Unit = data.Bio.Bio20.UnitC;
-                        break;
-                    case 'D':
-                        Unit = data.Bio.Bio20.UnitD;
-                        break;
-                }
-            } else if (UnitSelect.value[0] == 'S' && UnitSelect.value[1] == '2') {
-                switch (UnitSelect.value[2]) {
-                    case 'A':
-                        Unit = data.Social.Social20.UnitA;
-                        break;
-                    case 'B':
-                        Unit = data.Social.Social20.UnitB;
-                        break;
-                    case 'C':
-                        Unit = data.Social.Social20.UnitC;
-                        break;
-                }
-            } else if (UnitSelect.value[0] == 'M' && UnitSelect.value[1] == '3') {
-                switch(UnitSelect.value[2]) {
-                    case 'A':
-                        Unit = data.Math.Math30_1.UnitA;
-                        break;
-                    case 'B':
-                        Unit = data.Math.Math30_1.UnitB;
-                        break;
-                    case 'C':
-                        Unit = data.Math.Math30_1.UnitC;
-                        break;
-                    case 'D':
-                        Unit = data.Math.Math30_1.UnitD;
-                        break;
-                    case 'E':
-                        Unit = data.Math.Math30_1.UnitE;
+                        unit = data.Math.Math30_1.UnitE;
                         break;
                 }
             }
-            const pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious = document.getElementById("pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious");
+            const question = document.getElementById("question");
             const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
             const scoreText = document.getElementById("score");
 
             const submitBtn = document.createElement('button');
-            const p = document.createElement('p');
-            const img = document.createElement('img');
 
-            let questionNum = Math.floor(Math.random() * Unit.length);
-
+            let questionNum = Math.floor(Math.random() * unit.length);
+            
             scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
             strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
+
+            const imgField = document.getElementById("box");
             const pict = document.createElement('img');
-            if (Unit[questionNum].picture != null) {
-                pict.src = Unit[questionNum].picture;
+            if (unit[questionNum].picture != null) {
+                pict.src = unit[questionNum].picture;
                 pict.style.width = '800px';
                 pict.style.height = 'auto';
-                field.appendChild(pict);
-                field.appendChild(document.createElement('br'));
+                imgField.appendChild(pict);
+                imgField.appendChild(document.createElement('br'));
             }
 
-            pneumonoultramicroscopicsilicavolcanoconeosisIsSupercalafragalisticexpialedocious.innerHTML = Unit[questionNum].question;
-            if (Unit[questionNum].type == 0) {
+            question.innerHTML = unit[questionNum].question;
+            if (unit[questionNum].type == 0) {
                 for (let i = 0; i < 4; i++) {
                     const radio = document.createElement('input');
                     const lab = document.createElement('label');
@@ -156,13 +161,13 @@ function buildQuestion() {
                     radio.id = 'r' + i;
                     radio.className = "radios";
                     lab.htmlFor = 'r' + i;
-                    lab.innerHTML = Unit[questionNum].options[i];
-                    lab.className = "radio_label";
+                    lab.innerHTML = unit[questionNum].options[i];
+                    lab.className = "radioLabel";
                     field.appendChild(radio);
                     field.appendChild(lab);
                     field.appendChild(document.createElement('hr'));
                 }
-            } else if (Unit[questionNum].type == 1) {
+            } else if (unit[questionNum].type == 1) {
 
             }
 
@@ -189,14 +194,14 @@ function buildQuestion() {
                         field.appendChild(h);
                         field.appendChild(next);
                         field.appendChild(document.createElement('br'));
-                        if (i == Unit[questionNum].anwser) {
+                        if (i == unit[questionNum].anwser) {
                             alert("correct");
                             localStorage.setItem("streak", strk + 1);
                             localStorage.setItem("score", score + 1);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
-                            alert("incorrect, the correct answer was " + opts[Unit[questionNum].anwser])
+                            alert("incorrect, the correct answer was " + opts[unit[questionNum].anwser])
                             strk = 0;
                             localStorage.setItem("streak", strk);
                             localStorage.setItem("score", score - 1);

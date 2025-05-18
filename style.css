@@ -1,19 +1,16 @@
-body {
-    background-color: black;
-    color: white;
-}
-
 input {
     cursor: pointer;
 }
 
-.radio_label {
+.radioLabel {
     justify-content: center;
     align-content: center;
+    word-wrap: normal;
     cursor: pointer;
+    width: 10%
 }
 
-.radio_label:hover {
+.radioLabel:hover {
     background-color: gray;
     border: 2px solid aqua;
     border-radius: 10%;
@@ -40,4 +37,34 @@ input {
 
 .submitBtn:hover {
     opacity: 0.6;
+}
+
+.userInfoText {
+    margin: 0;
+    float: right;
+}
+
+.question {
+    float: left;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+section {
+    display: flex;
+    float: left;
+    width: 100%;
 }
