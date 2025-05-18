@@ -144,7 +144,7 @@ function buildQuestion() {
             const pict = document.createElement('img');
             if (unit[questionNum].picture != null) {
                 pict.src = unit[questionNum].picture;
-                pict.style.width = '800px';
+                pict.style.width = '450px';
                 pict.style.height = 'auto';
                 imgField.appendChild(pict);
                 imgField.appendChild(document.createElement('br'));
