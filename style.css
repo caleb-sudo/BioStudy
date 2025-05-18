@@ -46,6 +46,7 @@ input {
 
 .question {
     float: left;
+    width: 50%;
 }
 
 header {
