@@ -57,9 +57,10 @@ input {
 }
 
 article,
-.scores {
+#scores {
     background-color: rgb(0 0 0 / .1);
     color: rgba(255, 255, 255, .7);
+    border-radius: 16px;
 }
 
 article {
