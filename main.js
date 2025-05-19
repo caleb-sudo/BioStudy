@@ -4,8 +4,8 @@ const gettopic = localStorage.getItem("topic");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
 var topic = gettopic;
-localStorage.setItem("score", score);
-localStorage.setItem("streak", strk);
+localStorage.setItem("score", 0);
+localStorage.setItem("streak", 0);
 localStorage.setItem("topic", gettopic);
 
 document.getElementById("UnitSelector").value = topic;
@@ -51,7 +51,7 @@ let previousInput = '';
 
 function appendNumber(number) {
     currentInput += number;
-    document.getElementById('display').value = `${previousInput} ${currentOperation} ${currentInput}`;
+    document.getElementById("display").value = `${previousInput} ${currentOperation} ${currentInput}`;
 }
 
 function appendOperation(operation) {
@@ -62,8 +62,21 @@ function appendOperation(operation) {
     currentOperation = operation;
     previousInput = currentInput;
     currentInput = '';
-    document.getElementById('display').value = `${previousInput} ${currentOperation}`;
+    document.getElementById("display").value = `${previousInput} ${currentOperation}`;
 }
+
+var degreeMode = true;
+
+const mode = document.getElementById("calcMode");
+mode.addEventListener("click", changeMode);
+
+function changeMode() {
+    degreeMode = !degreeMode;
+    if (degreeMode) document.getElementById("calcMode").innerHTML = "Deg";
+    else if (!degreeMode) document.getElementById("calcMode").innerHTML = "Rad";
+}
+
+let radToDeg = (val) => val * (Math.PI/180);
 
 function calculate() {
     if (previousInput === '' || currentInput === '') return;
@@ -84,6 +97,30 @@ function calculate() {
         case '/':
             result = prev / current;
             break;
+        case '^':
+            result = prev ** current;
+            break;
+        case '√':
+            result = prev * Math.sqrt(current);
+            break;
+        case 'cos':
+            if (!degreeMode) result = prev * Math.cos(current);
+            else if (degreeMode) result = prev * Math.cos(radToDeg(current));
+            break;
+        case 'sin':
+            if (!degreeMode) result = prev * Math.sin(current);
+            else if (degreeMode) result = prev * Math.sin(radToDeg(current));
+            break;
+        case 'tan':
+            if (!degreeMode) result = prev * Math.tan(current);
+            else if (degreeMode) result = prev * Math.tan(radToDeg(current));
+            break;
+        case 'log':
+            result = prev * Math.log10(current);
+            break;
+        case '&#960;':
+            result = Math.PI;
+            break;
         default:
             return;
     }
@@ -91,21 +128,23 @@ function calculate() {
     currentInput = result.toString();
     currentOperation = '';
     previousInput = '';
-    document.getElementById('display').value = currentInput;
+    document.getElementById("display").value = currentInput;
 }
 
 function clearDisplay() {
     currentInput = '';
     previousInput = '';
     currentOperation = '';
-    document.getElementById('display').value = '';
+    document.getElementById("display").value = '';
 }
 
 dragCalulator(document.getElementById("calcContainer"));
 
 function dragCalulator(elmnt) {
     let pos1, pos2, pos3, pos4;
-    document.getElementById("calcContainer").onmousedown = dragMouseDown;
+    const calcContainer = document.getElementById("calcContainer")
+    calcContainer.onmousedown = dragMouseDown;
+    calcContainer.ontouchstart = dragMouseDown;
 
     function dragMouseDown(event) {
         event.preventDefault();
@@ -113,7 +152,9 @@ function dragCalulator(elmnt) {
         pos4 = event.clientY;
         
         document.onmouseup = closeDragElement;
+        document.ontouchend = closeDragElement;
         document.onmousemove = elementDrag;
+        document.ontouchmove = elementDrag;
     }
 
     function elementDrag(event) {
@@ -128,7 +169,9 @@ function dragCalulator(elmnt) {
 
     function closeDragElement() {
         document.onmouseup = null;
+        document.ontouchend = null;
         document.onmousemove = null;
+        document.ontouchmove = null;
     }
 }
 
