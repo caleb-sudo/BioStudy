@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "file-loader": "^6.2.0",
-    "jsstore": "^4.9.0"
-  }
-}
