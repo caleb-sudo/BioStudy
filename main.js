@@ -27,9 +27,7 @@ if (score > 0) {
     scoreValText.style.color = "orange";
 }
 
-function reloadPage() {
-    location.reload();
-}
+let reloadPage = () => location.reload();
 
 const fixxer = document.getElementById("fixxer");
 
@@ -39,6 +37,99 @@ function resetUserScores() {
     localStorage.setItem("score", 0);
     localStorage.setItem("streak", 0);
     reloadPage();
+}
+
+document.getElementById("calcContainer").style.display = "none";
+
+let closeCalulator = () => document.getElementById("calcContainer").style.display = "none";
+let openCalulator = () => document.getElementById("calcContainer").style.display = "block";
+
+
+let currentInput = '';
+let currentOperation = '';
+let previousInput = '';
+
+function appendNumber(number) {
+    currentInput += number;
+    document.getElementById('display').value = `${previousInput} ${currentOperation} ${currentInput}`;
+}
+
+function appendOperation(operation) {
+    if (currentInput === '') return;
+    if (previousInput !== '') {
+        calculate();
+    }
+    currentOperation = operation;
+    previousInput = currentInput;
+    currentInput = '';
+    document.getElementById('display').value = `${previousInput} ${currentOperation}`;
+}
+
+function calculate() {
+    if (previousInput === '' || currentInput === '') return;
+    let result;
+    let prev = parseFloat(previousInput);
+    let current = parseFloat(currentInput);
+
+    switch (currentOperation) {
+        case '+':
+            result = prev + current;
+            break;
+        case '-':
+            result = prev - current;
+            break;
+        case '*':
+            result = prev * current;
+            break;
+        case '/':
+            result = prev / current;
+            break;
+        default:
+            return;
+    }
+
+    currentInput = result.toString();
+    currentOperation = '';
+    previousInput = '';
+    document.getElementById('display').value = currentInput;
+}
+
+function clearDisplay() {
+    currentInput = '';
+    previousInput = '';
+    currentOperation = '';
+    document.getElementById('display').value = '';
+}
+
+dragCalulator(document.getElementById("calcContainer"));
+
+function dragCalulator(elmnt) {
+    let pos1, pos2, pos3, pos4;
+    document.getElementById("calcContainer").onmousedown = dragMouseDown;
+
+    function dragMouseDown(event) {
+        event.preventDefault();
+        pos3 = event.clientX;
+        pos4 = event.clientY;
+        
+        document.onmouseup = closeDragElement;
+        document.onmousemove = elementDrag;
+    }
+
+    function elementDrag(event) {
+        event.preventDefault();
+        pos1 = pos3 - event.clientX;
+        pos2 = pos4 - event.clientY;
+        pos3 = event.clientX;
+        pos4 = event.clientY;
+        elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+        elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+    }
+
+    function closeDragElement() {
+        document.onmouseup = null;
+        document.onmousemove = null;
+    }
 }
 
 function buildQuestion() {
@@ -56,14 +147,14 @@ function buildQuestion() {
 
             const unitSelect = document.getElementById("UnitSelector");
 
-            unitSelect.addEventListener("change", function() {
+            unitSelect.addEventListener("change", function () {
                 localStorage.setItem("topic", unitSelect.value);
                 reloadPage();
             });
 
             if (unitSelect.value[1] == '2') {
                 if (unitSelect.value[0] == 'C') {
-                    switch(unitSelect.value[2]) {
+                    switch (unitSelect.value[2]) {
                         case 'A':
                             unit = data.Chem.Chem20.UnitA;
                             break;
@@ -110,7 +201,7 @@ function buildQuestion() {
                 }
             }
             if (unitSelect.value[0] == 'M' && unitSelect.value[1] == '3') {
-                switch(unitSelect.value[2]) {
+                switch (unitSelect.value[2]) {
                     case 'A':
                         unit = data.Math.Math30_1.UnitA;
                         break;
@@ -136,7 +227,7 @@ function buildQuestion() {
             const submitBtn = document.createElement('button');
 
             let questionNum = Math.floor(Math.random() * unit.length);
-            
+
             scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
             strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
 
@@ -178,8 +269,6 @@ function buildQuestion() {
             submitBtn.type = "button";
             submitBtn.classList = "submitBtn";
             field.appendChild(submitBtn);
-            if (submitBtn.click)
-
             submitBtn.addEventListener("click", submit);
             function submit() {
                 const h = document.createElement('h2');
