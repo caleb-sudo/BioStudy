@@ -13,8 +13,6 @@ body {
     background-color: rgb(0 0 0 / .1);
     border-radius: 16px;
     cursor: move;
-    user-select: none;
-    touch-action: none;
 }
 
 input {
