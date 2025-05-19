@@ -105,7 +105,9 @@ dragCalulator(document.getElementById("calcContainer"));
 
 function dragCalulator(elmnt) {
     let pos1, pos2, pos3, pos4;
-    document.getElementById("calcContainer").onmousedown = dragMouseDown;
+    const calcContainer = document.getElementById("calcContainer")
+    calcContainer.onmousedown = dragMouseDown;
+    calcContainer.ontouchstart = dragMouseDown;
 
     function dragMouseDown(event) {
         event.preventDefault();
@@ -113,7 +115,9 @@ function dragCalulator(elmnt) {
         pos4 = event.clientY;
         
         document.onmouseup = closeDragElement;
+        document.ontouchend = closeDragElement;
         document.onmousemove = elementDrag;
+        document.ontouchmove = elementDrag;
     }
 
     function elementDrag(event) {
@@ -128,7 +132,9 @@ function dragCalulator(elmnt) {
 
     function closeDragElement() {
         document.onmouseup = null;
+        document.ontouchend = null;
         document.onmousemove = null;
+        document.ontouchmove = null;
     }
 }
 
