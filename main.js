@@ -7,6 +7,7 @@ var topic = gettopic;
 localStorage.setItem("score", 0);
 localStorage.setItem("streak", 0);
 localStorage.setItem("topic", gettopic);
+//localStorage.setItem("lastCalculation", )
 
 document.getElementById("UnitSelector").value = topic;
 
@@ -28,10 +29,6 @@ if (score > 0) {
 }
 
 let reloadPage = () => location.reload();
-
-const fixxer = document.getElementById("fixxer");
-
-fixxer.addEventListener("click", resetUserScores);
 
 function resetUserScores() {
     localStorage.setItem("score", 0);
@@ -117,9 +114,6 @@ function calculate() {
             break;
         case 'log':
             result = prev * Math.log10(current);
-            break;
-        case '&#960;':
-            result = Math.PI;
             break;
         default:
             return;
