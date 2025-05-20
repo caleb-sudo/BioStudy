@@ -187,3 +187,7 @@ section {
 table {
     border: 1px solid black;
 }
+
+.scoresText {
+    font-size:20px;
+}

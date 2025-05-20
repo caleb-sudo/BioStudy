@@ -1,12 +1,18 @@
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
+const getHighscore = localStorage.getItem("highscore");
+const getHighestStrk = localStorage.getItem("highestStreak");
 const gettopic = localStorage.getItem("topic");
 const getUsername = localStorage.getItem("username");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
+var highscore = parseInt(getHighscore);
+var highestStrk = parseInt(getHighestStrk);
 var topic = gettopic;
 localStorage.setItem("score", score);
 localStorage.setItem("streak", strk);
+localStorage.setItem("highscore", highscore);
+localStorage.setItem("highestStreak", highestStrk);
 localStorage.setItem("topic", gettopic);
 localStorage.setItem("username", getUsername);
 //localStorage.setItem("lastCalculation", )
@@ -37,6 +43,8 @@ const fixxer = document.getElementById("fixxer");
 function resetUserScores() {
     localStorage.setItem("score", 0);
     localStorage.setItem("streak", 0);
+    localStorage.setItem("highscore", 0);
+    localStorage.setItem("highestStreak", 0);
     reloadPage();
 }
 
@@ -261,13 +269,17 @@ function buildQuestion() {
             const field = document.getElementById("box2");
             const strkText = document.getElementById("streak");
             const scoreText = document.getElementById("score");
+            const highscoreText = document.getElementById("highscore");
+            const highestStreakText = document.getElementById("highestStreak");
 
             const submitBtn = document.createElement('button');
 
             let questionNum = Math.floor(Math.random() * unit.length);
 
-            scoreText.innerHTML = "Your Score: <b style='font-size:20px' id='score'>" + getscore + "</b>";
-            strkText.innerHTML = "Your Streak: <b style='font-size:20px' id='streak'>" + getstrk + "</b>";
+            scoreText.innerHTML = "Your Score: <b class='scoresText'>" + getscore + "</b>   ";
+            highscoreText.innerHTML = "Your Highscore: <b class='scoresText'>" + getHighscore + "</b>";
+            strkText.innerHTML = "Your Streak: <b class='scoresText'>" + getstrk + "</b>   ";
+            highestStreakText.innerHTML = "Your highest Streak: <b class='scoresText'>" + getHighestStrk + "</b>";
 
             const imgField = document.getElementById("box");
             const pict = document.createElement('img');
@@ -325,6 +337,8 @@ function buildQuestion() {
                             alert("correct");
                             localStorage.setItem("streak", strk + 1);
                             localStorage.setItem("score", score + 1);
+                            if (score > highscore) localStorage.setItem("highscore", score);
+                            if (strk > highestStrk) localStorage.setItem("highestStreak", strk);
                             h.innerHTML = "Correct";
                             h.style.backgroundColor = "green";
                         } else {
