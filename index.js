@@ -40,11 +40,11 @@ const opts = [
 ];
 
 if (score > 0) {
-    scoreValText.style.color = "green";
+    scoreText.style.color = "green";
 } else if (score < 0) {
-    scoreValText.style.color = "red";
+    scoreText.style.color = "red";
 } else if (score == 0) {
-    scoreValText.style.color = "orange";
+    scoreText.style.color = "orange";
 }
 
 let reloadPage = () => location.reload();
