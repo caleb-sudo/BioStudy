@@ -5,8 +5,8 @@ const getUsername = localStorage.getItem("username");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
 var topic = gettopic;
-localStorage.setItem("score", 0);
-localStorage.setItem("streak", 0);
+localStorage.setItem("score", score);
+localStorage.setItem("streak", strk);
 localStorage.setItem("topic", gettopic);
 localStorage.setItem("username", getUsername);
 //localStorage.setItem("lastCalculation", )
@@ -32,12 +32,16 @@ if (score > 0) {
 
 let reloadPage = () => location.reload();
 
+const fixxer = document.getElementById("fixxer");
+
 function resetUserScores() {
     localStorage.setItem("score", 0);
     localStorage.setItem("streak", 0);
     reloadPage();
 }
-console.log("hello");
+
+fixxer.addEventListener("click", resetUserScores);
+
 document.getElementById("calcContainer").style.display = "none";
 
 let closeCalulator = () => document.getElementById("calcContainer").style.display = "none";
