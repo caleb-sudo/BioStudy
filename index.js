@@ -40,8 +40,6 @@ function resetUserScores() {
     reloadPage();
 }
 
-fixxer.addEventListener("click", resetUserScores);
-
 document.getElementById("calcContainer").style.display = "none";
 
 let closeCalulator = () => document.getElementById("calcContainer").style.display = "none";
