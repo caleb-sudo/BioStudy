@@ -10,151 +10,155 @@
     </head>
     <body>
         <header>
-            <span>
-                <img src="resources/images/calculator.png" width="50px" height="auto" onclick="openCalulator()">
-            </span>
-            <div id="calcContainer">
-                <input type="text" id="display" class="display" disabled>
-                <button class="button close" onclick="closeCalulator()">
-                    <b>
-                        X
-                    </b>
-                </button>
-                <button class="button calcModes" id="calcMode">
-                    Rad
-                </button>
-                <div class="buttons">
-                    <button class="button clear" onclick="clearDisplay()">
-                        <b>
-                            C
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('/')">
-                        <b>
-                            /
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('*')">
-                        <b>
-                            *
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('-')">
-                        <b>
-                            -
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('7')">
-                        <b>
-                            7
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('8')">
-                        <b>
-                            8
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('9')">
-                        <b>
-                            9
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('+')">
-                        <b>
-                            +
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('4')">
-                        <b>
-                            4
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('5')">
-                        <b>
-                            5
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('6')">
-                        <b>
-                            6
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('^')">
-                        <b>
-                            ^
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('1')">
-                        <b>
-                            1
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('2')">
-                        <b>
-                            2
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('3')">
-                        <b>
-                            3
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('√')">
-                        <b>
-                            &radic;
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber('0')">
-                        <b>
-                            0
-                        </b>
-                    </button>
-                    <button class="button other" onclick="appendNumber('.')">
-                        <b>
-                            .
-                        </b>
-                    </button>
-                    <button class="button other" onclick="appendNumber('-')">
-                        <b>
-                            +/-
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('log')">
-                        <b>
-                            log
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('cos')">
-                        <b>
-                            cos
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('sin')">
-                        <b>
-                            sin
-                        </b>
-                    </button>
-                    <button class="button operator" onclick="appendOperation('tan')">
-                        <b>
-                            tan
-                        </b>
-                    </button>
-                    <button class="button equal" onclick="calculate()">
-                        <b>
-                            =
-                        </b>
-                    </button>
-                    <button class="button" onclick="appendNumber(Math.PI)">
-                        <b>
-                            &#960;
-                        </b>
-                    </button>
+            <div>
+                <span id="calculator">
+                    <span class="icoBtns calcBtn">
+                        <img src="resources/images/calculator.png" width="45px" height="auto" onclick="openCalulator()" class="icoBtns calcBtn">
+                    </span>
+                    <div id="calcContainer">
+                        <input type="text" id="display" class="display" disabled>
+                        <button class="button close" onclick="closeCalulator()">
+                            <b>
+                                X
+                            </b>
+                        </button>
+                        <button class="button calcModes" id="calcMode">
+                            Rad
+                        </button>
+                        <div class="buttons">
+                            <button class="button clear" onclick="clearDisplay()">
+                                <b>
+                                    C
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('/')">
+                                <b>
+                                    /
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('*')">
+                                <b>
+                                    *
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('-')">
+                                <b>
+                                    -
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('7')">
+                                <b>
+                                    7
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('8')">
+                                <b>
+                                    8
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('9')">
+                                <b>
+                                    9
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('+')">
+                                <b>
+                                    +
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('4')">
+                                <b>
+                                    4
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('5')">
+                                <b>
+                                    5
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('6')">
+                                <b>
+                                    6
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('^')">
+                                <b>
+                                    ^
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('1')">
+                                <b>
+                                    1
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('2')">
+                                <b>
+                                    2
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('3')">
+                                <b>
+                                    3
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('√')">
+                                <b>
+                                    &radic;
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber('0')">
+                                <b>
+                                    0
+                                </b>
+                            </button>
+                            <button class="button other" onclick="appendNumber('.')">
+                                <b>
+                                    .
+                                </b>
+                            </button>
+                            <button class="button other" onclick="appendNumber('-')">
+                                <b>
+                                    +/-
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('log')">
+                                <b>
+                                    log
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('cos')">
+                                <b>
+                                    cos
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('sin')">
+                                <b>
+                                    sin
+                                </b>
+                            </button>
+                            <button class="button operator" onclick="appendOperation('tan')">
+                                <b>
+                                    tan
+                                </b>
+                            </button>
+                            <button class="button equal" onclick="calculate()">
+                                <b>
+                                    =
+                                </b>
+                            </button>
+                            <button class="button" onclick="appendNumber(Math.PI)">
+                                <b>
+                                    &#960;
+                                </b>
+                            </button>
+                        </div>
+                    </div>
+                </span>
+                <div id="scores" class="userInfoText">
+                    <span id="score"></span>
+                    <br>
+                    <span id="streak"></span>
                 </div>
-            </div>
-            <div id="scores" class="userInfoText">
-                <span id="score"></span>
-                <br>
-                <span id="streak"></span>
             </div>
         </header>
         <br>
@@ -262,6 +266,6 @@
             </optgroup>
             <hr>
         </select>
-        <script type="text/javascript" src="main.js"></script>
+        <script src="index.js"></script>
     </body>
 </html>

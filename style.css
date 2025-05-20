@@ -10,11 +10,12 @@ body {
     height: auto;
     padding: 10px;
     position: absolute;
-    background-color: rgb(0 0 0 / .1);
+    background-color: rgb(0 0 0 / 0.1);
     border-radius: 16px;
     cursor: move;
     user-select: none;
     touch-action: none;
+    display: none;
 }
 
 input {
@@ -70,8 +71,8 @@ input {
 
 article,
 #scores {
-    background-color: rgb(0 0 0 / .1);
-    color: rgba(255, 255, 255, .7);
+    background-color: rgb(0 0 0 / 0.1);
+    color: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
 }
 
@@ -88,21 +89,8 @@ section {
     width: 100%;
 }
 
-#calcBtn {
-    float: right;
-}
-
-td {
-    background-color: green;
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
-}
-
-.calculator {
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+.icoBtns {
+    cursor: pointer;
 }
 
 .display {
@@ -175,4 +163,27 @@ td {
 
 .button.other {
     background-color: violet;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgb(0 0 0 / 0.1);
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+#exitLeaderboardModal {
+    float: right;
+    cursor: pointer;
+}
+
+table {
+    border: 1px solid black;
 }
