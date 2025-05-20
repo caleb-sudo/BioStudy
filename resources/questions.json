@@ -129,7 +129,7 @@
                         "D) Granum"
                     ],
                     "answer": 2,
-                    "picture": "resources/images/Bio/chloroplastDiagram.jpg"
+                    "picture": "resources/images/Bio/chloroplastDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -142,7 +142,7 @@
                         "D) Lamellae"
                     ],
                     "answer": 0,
-                    "picture": "resources/images/Bio/chloroplastDiagram.jpg"
+                    "picture": "resources/images/Bio/chloroplastDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -155,7 +155,7 @@
                         "D) Outer membrane"
                     ],
                     "answer": 2,
-                    "picture": "resources/images/Bio/chloroplastDiagram.jpg"
+                    "picture": "resources/images/Bio/chloroplastDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -168,7 +168,7 @@
                         "D) Granum"
                     ],
                     "answer": 3,
-                    "picture": "resources/images/Bio/chloroplastDiagram.jpg"
+                    "picture": "resources/images/Bio/chloroplastDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -181,7 +181,7 @@
                         "D) Outer membrane"
                     ],
                     "answer": 1,
-                    "picture": "resources/images/Bio/chloroplastDiagram.jpg"
+                    "picture": "resources/images/Bio/chloroplastDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -194,7 +194,7 @@
                         "D) Stroma"
                     ],
                     "answer": 2,
-                    "picture": "resources/images/Bio/chloroplastDiagram.jpg"
+                    "picture": "resources/images/Bio/chloroplastDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -207,7 +207,7 @@
                         "D) Outer membrane"
                     ],
                     "answer": 1,
-                    "picture": "resources/images/Bio/mitochondriaDiagram.jpg"
+                    "picture": "resources/images/Bio/mitochondriaDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -220,7 +220,7 @@
                         "D) Outer membrane"
                     ],
                     "answer": 3,
-                    "picture": "resources/images/Bio/mitochondriaDiagram.jpg"
+                    "picture": "resources/images/Bio/mitochondriaDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -233,7 +233,7 @@
                         "D) Inner membrane"
                     ],
                     "answer": 2,
-                    "picture": "resources/images/Bio/mitochondriaDiagram.jpg"
+                    "picture": "resources/images/Bio/mitochondriaDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -246,7 +246,7 @@
                         "D) Outer membrane"
                     ],
                     "answer": 0,
-                    "picture": "resources/images/Bio/mitochondriaDiagram.jpg"
+                    "picture": "resources/images/Bio/mitochondriaDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -259,7 +259,7 @@
                         "D) Intermembrane space"
                     ],
                     "answer": 3,
-                    "picture": "resources/images/Bio/mitochondriaDiagram.jpg"
+                    "picture": "resources/images/Bio/mitochondriaDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -430,7 +430,7 @@
                         "D) Liver"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -443,7 +443,7 @@
                         "D) Liver"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -456,7 +456,7 @@
                         "D) Liver"
                     ],
                     "anwser": 3,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -469,7 +469,7 @@
                         "D) Liver"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -482,7 +482,7 @@
                         "D) Liver"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -495,7 +495,7 @@
                         "D) Liver"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -508,7 +508,7 @@
                         "D) Large Intestines"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -521,7 +521,7 @@
                         "D) Large Intestines"
                     ],
                     "anwser": 3,
-                    "picture": "resources/images/Bio/digestiveSystemDiagram.jpg"
+                    "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -534,7 +534,7 @@
                         "D) Superior Vena Cava"
                     ],
                     "anwser": 4,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -547,7 +547,7 @@
                         "D) Superior Vena Cava"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -560,7 +560,7 @@
                         "D) Left ventricle"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -573,7 +573,7 @@
                         "D) Left ventricle"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -586,7 +586,7 @@
                         "D) Tricuspid valve"
                     ],
                     "anwser": 3,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -599,7 +599,7 @@
                         "D) Tricuspid valve"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -612,7 +612,7 @@
                         "D) Right atrium"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -625,7 +625,7 @@
                         "D) Right atrium"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -638,7 +638,7 @@
                         "D) Pulmonary vein"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -651,7 +651,7 @@
                         "D) Left ventricle"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -664,7 +664,7 @@
                         "D) Tricuspid valve"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -677,7 +677,7 @@
                         "D) Left ventricle"
                     ],
                     "anwser": 3,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -690,7 +690,7 @@
                         "D) Tricuspid valve"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -703,7 +703,7 @@
                         "D) Tricuspid valve"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/heartDiagram.png"
+                    "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
                     "type": 0,
@@ -716,7 +716,7 @@
                         "D) Experatory reserve volume"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/lungVolumeGraph.jpg"
+                    "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
                     "type": 0,
@@ -729,7 +729,7 @@
                         "D) Tidal Volume"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/lungVolumeGraph.jpg"
+                    "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
                     "type": 0,
@@ -742,7 +742,7 @@
                         "D) Tidal Volume"
                     ],
                     "anwser": 3,
-                    "picture": "resources/images/Bio/lungVolumeGraph.jpg"
+                    "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
                     "type": 0,
@@ -755,7 +755,7 @@
                         "D) Total lung capacity"
                     ],
                     "anwser": 2,
-                    "picture": "resources/images/Bio/lungVolumeGraph.jpg"
+                    "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
                     "type": 0,
@@ -768,7 +768,7 @@
                         "D) Total lung capacity"
                     ],
                     "anwser": 0,
-                    "picture": "resources/images/Bio/lungVolumeGraph.jpg"
+                    "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
                     "type": 0,
@@ -781,7 +781,7 @@
                         "D) Insperatory reserve volume"
                     ],
                     "anwser": 1,
-                    "picture": "resources/images/Bio/lungVolumeGraph.jpg"
+                    "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
                     "type": 0,
@@ -2598,7 +2598,7 @@
                         "A) Arteries",
                         "B) Veins",
                         "C) Capillaries",
-                        "D) Capillaries"
+                        "D) Arterioles"
                     ],
                     "anwser": 2,
                     "picture": null
@@ -2929,7 +2929,7 @@
                         "D) Napoleonic Wars"
                     ],
                     "answer": 2,
-                    "picture": "resources/images/Social/WW1Map.png"
+                    "picture": "resources/images/Social/WW1Map.webp"
                 },
                 {
                     "type": 0,
@@ -2953,7 +2953,7 @@
                         "D) demilitarization"
                     ],
                     "answer": 1,
-                    "picture": "resources/images/Social/cartoon1.png"
+                    "picture": "resources/images/Social/cartoon1.webp"
                 },
                 {
                     "type": 0,
@@ -2965,7 +2965,7 @@
                         "D) Economic Nationalism"
                     ],
                     "answer": 0,
-                    "picture": "resources/images/Social/cartoon1.png"
+                    "picture": "resources/images/Social/cartoon1.webp"
                 },
                 {
                     "type": 0,
@@ -3013,7 +3013,7 @@
                         "D) The Rwandan genocide"
                     ],
                     "answer": 1,
-                    "picture": "resources/images/Social/quote1.png"
+                    "picture": "resources/images/Social/quote1.webp"
                 },
                 {
                     "type": 0,
@@ -3025,7 +3025,7 @@
                         "D) People must speak out against genocide during early before it is too late"
                     ],
                     "answer": 3,
-                    "picture": "resources/images/Social/quote1.png"
+                    "picture": "resources/images/Social/quote1.webp"
                 },
                 {
                     "type": 0,
@@ -3061,7 +3061,7 @@
                         "D) European alliances declaring war with one another due to protecting national interests"
                     ],
                     "answer": 3,
-                    "picture": "resources/images/Social/cartoon2.png"
+                    "picture": "resources/images/Social/cartoon2.webp"
                 },
                 {
                     "type": 0,
@@ -3085,7 +3085,7 @@
                         "D) Crimes against humanity"
                     ],
                     "answer": 2,
-                    "picture": "resources/images/Social/quote2.png"
+                    "picture": "resources/images/Social/quote2.webp"
                 },
                 {
                     "type": 0,
@@ -3097,7 +3097,7 @@
                         "D) Crimes against humanity"
                     ],
                     "answer": 3,
-                    "picture": "resources/images/Social/quote2.png"
+                    "picture": "resources/images/Social/quote2.webp"
                 },
                 {
                     "type": 0,
@@ -3169,7 +3169,7 @@
                         "D) seeking recognition from Americans as a separate nation from Canada."
                     ],
                     "answer": 1,
-                    "picture": "resources/images/Social/quote3.png"
+                    "picture": "resources/images/Social/quote3.webp"
                 },
                 {
                     "type": 0,
@@ -3181,7 +3181,7 @@
                         "D) build relationships amongst smaller groups who can unite to achieve self-determination together."
                     ],
                     "answer": 0,
-                    "picture": "resources/images/Social/quote3.png"
+                    "picture": "resources/images/Social/quote3.webp"
                 }
             ],
             "UnitC": [
