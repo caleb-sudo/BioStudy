@@ -43,7 +43,25 @@
                     </div>
                 </div>
                 <span id="settings">
-                    <div class="modal" id="settingsModal"></div>
+                    <div class="modal" id="settingsModal">
+                        <span>
+                            <div>
+                                <h2 style="text-align: center;">
+                                    <b>
+                                        Settings
+                                    </b>
+                                    <div class="exitModalBtns" onclick="closeSettings()">
+                                        <b>
+                                            X
+                                        </b>
+                                    </div>
+                                </h2>
+                            </div>
+                        </span>
+                        <form>
+                            <input type="text">
+                        </form>
+                    </div>
                 </span>
                 <span id="calculator">
                     <div class="modal" id="calcModal">
@@ -218,11 +236,11 @@
         <br>
         <section>
             <span style="width:50%;">
-                <p id="question"></p>
-                <div id="box"></div>
+                <p id="question" style="color:white;"></p>
+                <div id="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
             </span>
             <article>
-                <div id="box2"></div>
+                <div id="box2" class="droptarget"></div>
             </article>
         </section>
         <select name="Unit" id="UnitSelector">

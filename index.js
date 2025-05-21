@@ -1,20 +1,37 @@
+let reloadPage = () => location.reload();
+
+let radToDeg = (val) => val * (Math.PI/180);
+
+let dragStart = (event) => event.dataTransfer.setData("Text", event.target.id);
+let allowDrop = (event) => event.preventDefault();
+function drop(event) {
+    event.preventDefault();
+    const data = event.dataTransfer.getData("Text");
+    event.target.appendChild(document.getElementById(data));
+}
+
+const gettopic = localStorage.getItem("topic");
+const getUsername = localStorage.getItem("username");
 const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 const getHighscore = localStorage.getItem("highscore");
 const getHighestStrk = localStorage.getItem("highestStreak");
-const gettopic = localStorage.getItem("topic");
-const getUsername = localStorage.getItem("username");
+const getShowAnsSetting = localStorage.getItem("showAnsSetting");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
 var highscore = parseInt(getHighscore);
 var highestStrk = parseInt(getHighestStrk);
 var topic = gettopic;
-localStorage.setItem("score", score);
-localStorage.setItem("streak", strk);
-localStorage.setItem("highscore", highscore);
-localStorage.setItem("highestStreak", highestStrk);
+if (getscore == null) {
+    localStorage.setItem("score", 0);
+    reloadPage();
+}
+if (getstrk == null) localStorage.setItem("streak", 0);
+if (getHighscore == null) localStorage.setItem("highscore", 0);
+if (getHighestStrk == null) localStorage.setItem("highestStreak", 0);
 localStorage.setItem("topic", gettopic);
 localStorage.setItem("username", getUsername);
+localStorage.setItem("showAnsSetting", true);
 //localStorage.setItem("lastCalculation", )
 
 document.getElementById("UnitSelector").value = topic;
@@ -24,7 +41,6 @@ function hide(element, hide) {
     if (hide == false) return element.style.display = "block";
 }
 
-//user info modal open/close
 const downArrow = document.getElementById("userInfoDownArrow");
 const upArrow = document.getElementById("userInfoUpArrow");
 const userInfoModal = document.getElementById("userInfoModal");
@@ -38,7 +54,6 @@ function closeUserInfoModal() {
 }
 openUserInfoModal();
 
-//menu modal open/close
 const menubar = document.getElementById("menuBtn");
 const menuModal = document.getElementById("menuModal")
 function openMenu() {
@@ -51,7 +66,6 @@ function closeMenu() {
 }
 menubar.addEventListener("click", openMenu);
 
-//settings modal open/close
 const settingsModal = document.getElementById("settingsModal");
 function openSettings() {
     hide(settingsModal, false);
@@ -59,7 +73,6 @@ function openSettings() {
 }
 let closeSettings = () => hide(settingsModal, true);
 
-//calculator modal open/close
 const calcModal = document.getElementById("calcModal");
 function openCalc() {
     hide(calcModal, false);
@@ -67,7 +80,6 @@ function openCalc() {
 }
 let closeCalc = () => hide(calcModal, true);
 
-//help menu modal open/close
 const helpModal = document.getElementById("helpModal");
 function openHelpModal() {
     hide(helpModal, false);
@@ -103,16 +115,17 @@ if (score > 0) {
     scoreText.style.color = "orange";
 }
 
-let reloadPage = () => location.reload();
-
 const fixxer = document.getElementById("fixxer");
 
 function resetUserScores() {
-    localStorage.setItem("score", 0);
-    localStorage.setItem("streak", 0);
-    localStorage.setItem("highscore", 0);
-    localStorage.setItem("highestStreak", 0);
-    reloadPage();
+    let prompt = "Are you sure you want to reset your scores?\nYou should only use this if your score shows NaN\nTo miniminze cheating it will only work if one of you scores displays null";
+    if (confirm(prompt) == true && getscore == null || getstrk == null || getHighscore == null || getHighestStrk == null) {
+        localStorage.setItem("score", 0);
+        localStorage.setItem("streak", 0);
+        localStorage.setItem("highscore", 0);
+        localStorage.setItem("highestStreak", 0);
+        reloadPage();
+    }
 }
 
 let currentInput = '';
@@ -145,8 +158,6 @@ function changeMode() {
     if (degreeMode) document.getElementById("calcMode").innerHTML = "Deg";
     else if (!degreeMode) document.getElementById("calcMode").innerHTML = "Rad";
 }
-
-let radToDeg = (val) => val * (Math.PI/180);
 
 function calculate() {
     if (previousInput === '' || currentInput === '') return;
@@ -325,25 +336,29 @@ function buildQuestion() {
                 }
             }
             const question = document.getElementById("question");
+            const qField = document.getElementById("box");
             const field = document.getElementById("box2");
 
-            const submitBtn = document.createElement('button');
+            const multChoiceSubmitBtn = document.createElement('button');
 
             let questionNum = Math.floor(Math.random() * unit.length);
-
-            const imgField = document.getElementById("box");
-            const pict = document.createElement('img');
-            if (unit[questionNum].picture != null) {
-                pict.src = unit[questionNum].picture;
-                pict.style.width = '98%';
-                pict.style.height = 'auto';
-                imgField.appendChild(pict);
-                imgField.appendChild(document.createElement('br'));
-            }
-
             question.innerHTML = unit[questionNum].question;
+
             if (unit[questionNum].type == 0) {
+                const imgField = document.getElementById("box");
+                const pict = document.createElement('img');
+                if (unit[questionNum].picture != null) {
+                    pict.src = unit[questionNum].picture;
+                    pict.style.width = '98%';
+                    pict.style.height = 'auto';
+                    imgField.appendChild(pict);
+                    imgField.appendChild(document.createElement('br'));
+                }
+
                 for (let i = 0; i < 4; i++) {
+                    const div = document.createElement('div');
+                    div.classList = "radioBox";
+                    field.appendChild(div);
                     const radio = document.createElement('input');
                     const lab = document.createElement('label');
                     radio.type = "radio";
@@ -354,51 +369,95 @@ function buildQuestion() {
                     lab.htmlFor = 'r' + i;
                     lab.innerHTML = unit[questionNum].options[i];
                     lab.className = "radioLabel";
-                    field.appendChild(radio);
-                    field.appendChild(lab);
+                    div.appendChild(radio);
+                    div.appendChild(lab);
                     field.appendChild(document.createElement('hr'));
                 }
-            } else if (unit[questionNum].type == 1) {
 
-            }
-
-            const radios = document.getElementsByClassName("radios");
-            const written = document.getElementsByClassName("written");
-
-            submitBtn.innerHTML = "submit";
-            submitBtn.type = "button";
-            submitBtn.classList = "submitBtn";
-            field.appendChild(submitBtn);
-            submitBtn.addEventListener("click", submit);
-            function submit() {
-                const h = document.createElement('h2');
-                h.style.textAlign = "center";
-                h.style.width = "200px";
-                const corAns = document.createElement('p');
+                const radios = document.getElementsByClassName("radios");
+                const written = document.getElementsByClassName("written");
                 const next = document.createElement('button');
-                next.innerHTML = "next";
-                next.onclick = location.reload();
-                for (let i = 0; i < 4; i++) {
-                    if (radios[i].checked == true) {
-                        field.appendChild(h);
-                        field.appendChild(next);
-                        field.appendChild(document.createElement('br'));
-                        if (i == unit[questionNum].anwser) {
-                            alert("correct");
-                            localStorage.setItem("streak", strk + 1);
-                            localStorage.setItem("score", score + 1);
-                            h.innerHTML = "Correct";
-                            h.style.backgroundColor = "green";
-                        } else {
-                            alert("incorrect, the correct answer was " + opts[unit[questionNum].anwser]);
-                            strk = 0;
-                            localStorage.setItem("streak", strk);
-                            localStorage.setItem("score", score - 1);
-                            h.innerHTML = "Incorrect";
-                            h.style.backgroundColor = "red";
-                        };
+
+                multChoiceSubmitBtn.innerHTML = "Submit";
+                multChoiceSubmitBtn.classList = "submitBtn";
+                field.appendChild(multChoiceSubmitBtn);
+                multChoiceSubmitBtn.addEventListener("click", submitMultChoice);
+                function submitMultChoice() {
+                    const h = document.createElement('h2');
+                    h.style.textAlign = "center";
+                    h.style.width = "200px";
+                    const corAns = document.createElement('p');
+                    next.innerHTML = "next";
+                    next.classList = "nextBtn";
+                    for (let i = 0; i < 4; i++) {
+                        if (radios[i].checked == true) {
+                            field.appendChild(h);
+                            field.appendChild(next);
+                            field.appendChild(document.createElement('br'));
+                            if (i == unit[questionNum].anwser) {
+                                alert("correct");
+                                localStorage.setItem("streak", strk + 1);
+                                localStorage.setItem("score", score + 1);
+                                h.innerHTML = "Correct";
+                                h.style.backgroundColor = "green";
+                            } else {
+                                alert("incorrect, the correct answer was " + opts[unit[questionNum].anwser]);
+                                strk = 0;
+                                localStorage.setItem("streak", strk);
+                                localStorage.setItem("score", score - 1);
+                                h.innerHTML = "Incorrect";
+                                h.style.backgroundColor = "red";
+                            };
+                        }
                     }
                 }
+                let nextMultChoice = () => reloadPage();
+                next.addEventListener("click", nextMultChoice);
+            } else if (unit[questionNum].type == 1) {
+
+            } if (unit[questionNum].type == 2) {
+                for (var i = 0; i < unit[questionNum].totalElements; i++) {
+                    const draggables = document.createElement('div');
+                    const dropboxes = document.createElement('div');
+                    const p = document.createElement('p');
+                    draggables.draggable = true;
+                    draggables.innerHTML = unit[questionNum].leftElements[i];
+                    draggables.classList = "draggables";
+                    draggables.id = "draggable" + i;
+                    draggables.addEventListener("dragstart", function(event) {
+                        dragStart(event);
+                    });
+                    dropboxes.classList = "dropboxes";
+                    dropboxes.id = "dropbox" + i;
+                    dropboxes.addEventListener("drop", function(event) {
+                        drop(event);
+                    });
+                    dropboxes.addEventListener("dragover", function(event) {
+                        allowDrop(event);
+                    });
+                    qField.appendChild(draggables);
+                    field.appendChild(dropboxes);
+                    field.appendChild(document.createElement('br'));
+                    p.innerHTML = unit[questionNum].rightElements[i];
+                    p.classList = "dropboxParas";
+                    p.id = "dropboxPara" + i;
+                    dropboxes.appendChild(p);
+                }
+                const dragSubmitBtn = document.createElement('button');
+                dragSubmitBtn.innerHTML = "Submit";
+                dragSubmitBtn.classList = "submitBtn";
+                field.appendChild(dragSubmitBtn);
+
+                const dragNextBtn = document.createElement('button');
+                dragNextBtn.innerHTML = "Next";
+                dragNextBtn.classList = "nextBtn";
+                
+                function submitDragboxes() {
+                    field.appendChild(dragNextBtn);
+                }
+                dragSubmitBtn.addEventListener("click", submitDragboxes);
+                let nextDragboxes = () => reloadPage();
+                dragNextBtn.addEventListener("click", nextDragboxes);
             }
         })
         .catch(error => console.error('Failed to fetch data: ', error));

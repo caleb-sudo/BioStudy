@@ -13,8 +13,6 @@ body {
     background-color: rgb(0 0 0 / 0.1);
     border-radius: 16px;
     cursor: move;
-    user-select: none;
-    touch-action: none;
     display: none;
 }
 
@@ -30,24 +28,8 @@ input {
     width: 10%
 }
 
-.radioLabel:hover {
-    background-color: gray;
-    border: 2px solid aqua;
-    border-radius: 10%;
-}
-
-.radio_active {
-    background-color: gray;
-    border: 2px solid aqua;
-    border-radius: 10%;
-}
-
-.box {
-    border: 1px dashed white;
-    float: right;
-}
-
-.submitBtn {
+.submitBtn,
+.nextBtn {
     background-color: #2196F3;
     color: white;
     border: none;
@@ -55,7 +37,8 @@ input {
     cursor: pointer;
 }
 
-.submitBtn:hover {
+.submitBtn:hover,
+.nextBtn:hover {
     opacity: 0.6;
 }
 
@@ -80,6 +63,15 @@ input {
     top: 0;
 }
 
+#settingsModal {
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    width: 90%;
+    height: 90%;
+    background-color: gray;
+}
+
 #userInfoModal {
     right: 0;
     top: 0;
@@ -90,10 +82,15 @@ input {
     float: right;
 }
 
-.menuTextBtns {
-    font-size: 45px;
+.menuTextBtns,
+.exitModalBtns {
+    font-size: 25px;
     cursor: pointer;
-    color:black;
+    color: black;
+}
+
+.exitModalBtns {
+    float: right;
 }
 
 .btn {
@@ -124,7 +121,7 @@ article {
     float: right;
     padding: 20px;
     width: 50%;
-    height: 300px;
+    height: fit-content;
 }
 
 section {
@@ -220,4 +217,28 @@ table {
 
 .title {
     position: absolute;
+}
+
+.radioBox {
+    cursor: pointer;
+}
+
+.radioBox:hover {
+    scale: 1.1;
+}
+
+.radioBox,
+.draggables,
+.dropboxes {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 #050505;
+    background: #24292d;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+}
+
+.draggables {
+    cursor: grab;
 }
