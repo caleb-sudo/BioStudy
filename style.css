@@ -2,10 +2,10 @@ body {
     background: radial-gradient(hsl(209 40% 32%), hsl(209 40% 16%));
     background-attachment: fixed;
     background-size: cover;
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-#calcContainer {
+#calcModal {
     width: auto;
     height: auto;
     padding: 10px;
@@ -59,9 +59,54 @@ input {
     opacity: 0.6;
 }
 
-.userInfoText {
+.modal {
+    display: none;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background-color: rgb(0 0 0 / 0.1);
+    border-radius: 16px;
+    padding: 15px 15px 15px 15px;
+}
+
+#menuContainer {
+    margin: 0;
+    float: left;
+}
+
+#menuModal {
+    left: 0;
+    top: 0;
+}
+
+#userInfoModal {
+    right: 0;
+    top: 0;
+}
+
+#userInfoContainer {
     margin: 0;
     float: right;
+}
+
+.menuTextBtns {
+    font-size: 45px;
+    cursor: pointer;
+    color:black;
+}
+
+.btn {
+    cursor: pointer;
+    background: none;
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.scoresText {
+    font-size: 20px;
 }
 
 .question {
@@ -72,7 +117,6 @@ input {
 article,
 #scores {
     background-color: rgb(0 0 0 / 0.1);
-    color: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
 }
 
@@ -106,13 +150,13 @@ section {
     color: #333;
 }
 
-.buttons {
+.calcButtons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
-.button {
+.calcButton {
     background-color: #03a9f4;
     border: none;
     font-size: 1.5rem;
@@ -123,60 +167,46 @@ section {
     color: white;
 }
 
-.button:hover {
+.calcButton:hover {
     background-color: #0288d1;
     transform: scale(1.1);
 }
 
-.button:active {
+.calcButton:active {
     transform: scale(0.95);
 }
 
-.button.clear {
+.calcButton.clear {
     background-color: #ff5722;
 }
 
-.button.clear:hover {
+.calcButton.clear:hover {
     background-color: #e64a19;
 }
 
-.button.equal {
+.calcButton.equal {
     background-color: #8bc34a;
 }
 
-.button.equal:hover {
+.calcButton.equal:hover {
     background-color: #689f38;
 }
 
-.button.operator {
+.calcButton.operator {
     background-color: #ff9800;
 }
 
-.button.operator:hover {
+.calcButton.operator:hover {
     background-color: #f57c00;
 }
 
-.button.close {
+.calcButton.close {
     background-color: red;
     float: right;
 }
 
-.button.other {
+.calcButton.other {
     background-color: violet;
-}
-
-.modal {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    left: 25%;
-    top: 25%;
-    width: 50%;
-    height: 50%;
-    overflow: auto;
-    background-color: rgb(0 0 0 / 0.1);
-    border-radius: 16px;
-    padding: 10px 10px 10px 10px;
 }
 
 #exitLeaderboardModal {
@@ -188,6 +218,6 @@ table {
     border: 1px solid black;
 }
 
-.scoresText {
-    font-size:20px;
+.title {
+    position: absolute;
 }

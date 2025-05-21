@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="resources/images/icon.ico">
         <title>
             StudyHelper
         </title>
@@ -11,142 +12,172 @@
     <body>
         <header>
             <div>
+                <div id="menuContainer">
+                    <button class="btn menu" id="menuBtn">
+                        &#8801;
+                    </button>
+                    <div class="modal" id="menuModal">
+                        <span>
+                            <div class="menuTextBtns" id="menuExitBtn" onclick="closeMenu()">
+                                X
+                            </div>
+                        </span>
+                        <hr>
+                        <span>
+                            <img src="resources/images/settings.png" width="45px" height="auto" onclick="openSettings()" class="icoBtns settingsBtn">
+                        </span>
+                        <hr>
+                        <span>
+                            <img src="resources/images/calculator.png" width="45px" height="auto" onclick="openCalc()" class="icoBtns calcBtn">
+                        </span>
+                        <hr>
+                        <span>
+                            <img src="resources/images/leaderboard.svg" width="45px" height="auto" onclick="alert('Coming soon(hopfully)')" class="icoBtns leaderboardBtn">
+                        </span>
+                        <hr>
+                        <span>
+                            <div class="menuTextBtns" id="helpBtn" onclick="openHelpModal()">
+                                ?
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <span id="settings">
+                    <div class="modal" id="settingsModal"></div>
+                </span>
                 <span id="calculator">
-                    <span class="icoBtns calcBtn">
-                        <img src="resources/images/calculator.png" width="45px" height="auto" onclick="openCalulator()" class="icoBtns calcBtn">
-                    </span>
-                    <div id="calcContainer">
+                    <div class="modal" id="calcModal">
                         <input type="text" id="display" class="display" disabled>
-                        <button class="button close" onclick="closeCalulator()">
+                        <button class="calcButton close" onclick="closeCalc()">
                             <b>
                                 X
                             </b>
                         </button>
-                        <button class="button calcModes" id="calcMode">
+                        <button class="calcButton calcModes" id="calcMode">
                             Rad
                         </button>
-                        <div class="buttons">
-                            <button class="button clear" onclick="clearDisplay()">
+                        <div class="calcButtons">
+                            <button class="calcButton clear" onclick="clearDisplay()">
                                 <b>
                                     C
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('/')">
+                            <button class="calcButton operator" onclick="appendOperation('/')">
                                 <b>
                                     /
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('*')">
+                            <button class="calcButton operator" onclick="appendOperation('*')">
                                 <b>
                                     *
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('-')">
+                            <button class="calcButton operator" onclick="appendOperation('-')">
                                 <b>
                                     -
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('7')">
+                            <button class="calcButton" onclick="appendNumber('7')">
                                 <b>
                                     7
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('8')">
+                            <button class="calcButton" onclick="appendNumber('8')">
                                 <b>
                                     8
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('9')">
+                            <button class="calcButton" onclick="appendNumber('9')">
                                 <b>
                                     9
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('+')">
+                            <button class="calcButton operator" onclick="appendOperation('+')">
                                 <b>
                                     +
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('4')">
+                            <button class="calcButton" onclick="appendNumber('4')">
                                 <b>
                                     4
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('5')">
+                            <button class="calcButton" onclick="appendNumber('5')">
                                 <b>
                                     5
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('6')">
+                            <button class="calcButton" onclick="appendNumber('6')">
                                 <b>
                                     6
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('^')">
+                            <button class="calcButton operator" onclick="appendOperation('^')">
                                 <b>
                                     ^
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('1')">
+                            <button class="calcButton" onclick="appendNumber('1')">
                                 <b>
                                     1
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('2')">
+                            <button class="calcButton" onclick="appendNumber('2')">
                                 <b>
                                     2
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('3')">
+                            <button class="calcButton" onclick="appendNumber('3')">
                                 <b>
                                     3
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('√')">
+                            <button class="calcButton operator" onclick="appendOperation('√')">
                                 <b>
                                     &radic;
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber('0')">
+                            <button class="calcButton" onclick="appendNumber('0')">
                                 <b>
                                     0
                                 </b>
                             </button>
-                            <button class="button other" onclick="appendNumber('.')">
+                            <button class="calcButton other" onclick="appendNumber('.')">
                                 <b>
                                     .
                                 </b>
                             </button>
-                            <button class="button other" onclick="appendNumber('-')">
+                            <button class="calcButton other" onclick="appendNumber('-')">
                                 <b>
                                     +/-
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('log')">
+                            <button class="calcButton operator" onclick="appendOperation('log')">
                                 <b>
                                     log
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('cos')">
+                            <button class="calcButton operator" onclick="appendOperation('cos')">
                                 <b>
                                     cos
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('sin')">
+                            <button class="calcButton operator" onclick="appendOperation('sin')">
                                 <b>
                                     sin
                                 </b>
                             </button>
-                            <button class="button operator" onclick="appendOperation('tan')">
+                            <button class="calcButton operator" onclick="appendOperation('tan')">
                                 <b>
                                     tan
                                 </b>
                             </button>
-                            <button class="button equal" onclick="calculate()">
+                            <button class="calcButton equal" onclick="calculate()">
                                 <b>
                                     =
                                 </b>
                             </button>
-                            <button class="button" onclick="appendNumber(Math.PI)">
+                            <button class="calcButton" onclick="appendNumber(Math.PI)">
                                 <b>
                                     &#960;
                                 </b>
@@ -154,18 +185,33 @@
                         </div>
                     </div>
                 </span>
-                <div id="scores" class="userInfoText">
-                    <span id="score"></span>
-                    <span id="highscore"></span>
-                    <br>
-                    <span id="streak"></span>
-                    <span id="highestStreak"></span>
-                    <br>
-                    <span>
-                        <button id="fixxer" onclick="resetUserScores()">
-                            fix
-                        </button>
-                    </span>
+                <span id="help">
+                    <div class="modal" id="helpModal"></div>
+                </span>
+                <div id="userInfoContainer">
+                    <button class="btn arrow" id="userInfoDownArrow" onclick="openUserInfoModal()">
+                        <div>
+                            &#11167;
+                        </div>
+                    </button>
+                    <div class="modal" id="userInfoModal">
+                        <div id="scores" class="userInfoText">
+                            <span id="score"></span>
+                            <span id="highscore"></span>
+                            <br>
+                            <span id="streak"></span>
+                            <span id="highestStreak"></span>
+                            <br>
+                            <button class="btn arrow" id="userInfoUpArrow" onclick="closeUserInfoModal()">
+                                &#11165;
+                            </button>
+                            <span>
+                                <button id="fixxer" onclick="resetUserScores()">
+                                    fix
+                                </button>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>

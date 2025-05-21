@@ -19,6 +19,62 @@ localStorage.setItem("username", getUsername);
 
 document.getElementById("UnitSelector").value = topic;
 
+function hide(element, hide) {
+    if (hide == true) return element.style.display = "none";
+    if (hide == false) return element.style.display = "block";
+}
+
+//user info modal open/close
+const downArrow = document.getElementById("userInfoDownArrow");
+const upArrow = document.getElementById("userInfoUpArrow");
+const userInfoModal = document.getElementById("userInfoModal");
+function openUserInfoModal() {
+    hide(userInfoModal, false);
+    hide(downArrow, true);
+}
+function closeUserInfoModal() {
+    hide(userInfoModal, true);
+    hide(downArrow, false);
+}
+openUserInfoModal();
+
+//menu modal open/close
+const menubar = document.getElementById("menuBtn");
+const menuModal = document.getElementById("menuModal")
+function openMenu() {
+    hide(menuModal, false);
+    hide(menubar, true);
+}
+function closeMenu() {
+    hide(menuModal, true);
+    hide(menubar, false);
+}
+menubar.addEventListener("click", openMenu);
+
+//settings modal open/close
+const settingsModal = document.getElementById("settingsModal");
+function openSettings() {
+    hide(settingsModal, false);
+    closeMenu();
+}
+let closeSettings = () => hide(settingsModal, true);
+
+//calculator modal open/close
+const calcModal = document.getElementById("calcModal");
+function openCalc() {
+    hide(calcModal, false);
+    closeMenu();
+}
+let closeCalc = () => hide(calcModal, true);
+
+//help menu modal open/close
+const helpModal = document.getElementById("helpModal");
+function openHelpModal() {
+    hide(helpModal, false);
+    closeMenu();
+}
+let closeHelpModal = () => hide(helpModal, false);
+
 const strkText = document.getElementById("streak");
 const scoreText = document.getElementById("score");
 const highscoreText = document.getElementById("highscore");
@@ -58,11 +114,6 @@ function resetUserScores() {
     localStorage.setItem("highestStreak", 0);
     reloadPage();
 }
-
-document.getElementById("calcContainer").style.display = "none";
-
-let closeCalulator = () => document.getElementById("calcContainer").style.display = "none";
-let openCalulator = () => document.getElementById("calcContainer").style.display = "block";
 
 let currentInput = '';
 let currentOperation = '';
@@ -152,13 +203,12 @@ function clearDisplay() {
     document.getElementById("display").value = '';
 }
 
-dragCalulator(document.getElementById("calcContainer"));
+dragCalulator(calcModal);
 
 function dragCalulator(elmnt) {
     let pos1, pos2, pos3, pos4;
-    const calcContainer = document.getElementById("calcContainer")
-    calcContainer.onmousedown = dragMouseDown;
-    calcContainer.ontouchstart = dragMouseDown;
+    calcModal.onmousedown = dragMouseDown;
+    calcModal.ontouchstart = dragMouseDown;
 
     function dragMouseDown(event) {
         event.preventDefault();
@@ -199,8 +249,6 @@ function buildQuestion() {
         })
         .then(data => {
             var unit = data.Bio.Bio20.UnitD;
-
-            const alphaVal = (n) => n.toLowerCase().charCodeAt(0) - 97;
 
             const unitSelect = document.getElementById("UnitSelector");
 
