@@ -386,7 +386,6 @@ function buildQuestion() {
                     const h = document.createElement('h2');
                     h.style.textAlign = "center";
                     h.style.width = "200px";
-                    const corAns = document.createElement('p');
                     next.innerHTML = "next";
                     next.classList = "nextBtn";
                     for (let i = 0; i < 4; i++) {
@@ -395,7 +394,6 @@ function buildQuestion() {
                             field.appendChild(next);
                             field.appendChild(document.createElement('br'));
                             if (i == unit[questionNum].anwser) {
-                                alert("correct");
                                 localStorage.setItem("streak", strk + 1);
                                 localStorage.setItem("score", score + 1);
                                 h.innerHTML = "Correct";
@@ -407,6 +405,10 @@ function buildQuestion() {
                                 localStorage.setItem("score", score - 1);
                                 h.innerHTML = "Incorrect";
                                 h.style.backgroundColor = "red";
+                                field.appendChild(document.createElement('br');
+                                const correctAns = document.createElement('p');
+                                correctAns.innerHTML = opts[unit[question].answer];
+                                field.appendChild(correntAns);
                             };
                         }
                     }
