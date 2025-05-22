@@ -393,7 +393,7 @@ function buildQuestion() {
                             field.appendChild(h);
                             field.appendChild(next);
                             field.appendChild(document.createElement('br'));
-                            if (i == unit[questionNum].anwser) {
+                            if (i == unit[questionNum].answer) {
                                 localStorage.setItem("streak", strk + 1);
                                 localStorage.setItem("score", score + 1);
                                 h.innerHTML = "Correct";
