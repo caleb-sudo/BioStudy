@@ -399,13 +399,12 @@ function buildQuestion() {
                                 h.innerHTML = "Correct";
                                 h.style.backgroundColor = "green";
                             } else {
-                                alert("incorrect, the correct answer was " + opts[unit[questionNum].anwser]);
                                 strk = 0;
                                 localStorage.setItem("streak", strk);
                                 localStorage.setItem("score", score - 1);
                                 h.innerHTML = "Incorrect";
                                 h.style.backgroundColor = "red";
-                                field.appendChild(document.createElement('br');
+                                field.appendChild(document.createElement('br'));
                                 const correctAns = document.createElement('p');
                                 correctAns.innerHTML = opts[unit[question].answer];
                                 field.appendChild(correntAns);
