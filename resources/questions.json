@@ -429,7 +429,7 @@
                         "C) Gall bladder",
                         "D) Liver"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -442,7 +442,7 @@
                         "C) Stomach",
                         "D) Liver"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -455,7 +455,7 @@
                         "C) Stomach",
                         "D) Liver"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -468,7 +468,7 @@
                         "C) Stomach",
                         "D) Liver"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -481,7 +481,7 @@
                         "C) Stomach",
                         "D) Liver"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -494,7 +494,7 @@
                         "C) Stomach",
                         "D) Liver"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -507,7 +507,7 @@
                         "C) Small Intestines",
                         "D) Large Intestines"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -520,7 +520,7 @@
                         "C) Small Intestines",
                         "D) Large Intestines"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": "resources/images/Bio/digestiveSystemDiagram.webp"
                 },
                 {
@@ -533,7 +533,7 @@
                         "C) Pulmonary valve",
                         "D) Superior Vena Cava"
                     ],
-                    "anwser": 4,
+                    "answer": 4,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -546,7 +546,7 @@
                         "C) Pulmonary valve",
                         "D) Superior Vena Cava"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -559,7 +559,7 @@
                         "C) Right ventricle",
                         "D) Left ventricle"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -572,7 +572,7 @@
                         "C) Right ventricle",
                         "D) Left ventricle"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -585,7 +585,7 @@
                         "C) Aortic valve",
                         "D) Tricuspid valve"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -598,7 +598,7 @@
                         "C) Aortic valve",
                         "D) Tricuspid valve"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -611,7 +611,7 @@
                         "C) Right pulmonary artery",
                         "D) Right atrium"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -624,7 +624,7 @@
                         "C) Right pulmonary artery",
                         "D) Right atrium"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -637,7 +637,7 @@
                         "C) Decending artery",
                         "D) Pulmonary vein"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -650,7 +650,7 @@
                         "C) Right ventricle",
                         "D) Left ventricle"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -663,7 +663,7 @@
                         "C) Aortic valve",
                         "D) Tricuspid valve"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -676,7 +676,7 @@
                         "C) Right ventricle",
                         "D) Left ventricle"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -689,7 +689,7 @@
                         "C) Aortic valve",
                         "D) Tricuspid valve"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -702,7 +702,7 @@
                         "C) Aortic valve",
                         "D) Tricuspid valve"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/heartDiagram.webp"
                 },
                 {
@@ -715,7 +715,7 @@
                         "C) Vital capacity",
                         "D) Experatory reserve volume"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
@@ -728,7 +728,7 @@
                         "C) Insperatory reserve volume",
                         "D) Tidal Volume"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
@@ -741,7 +741,7 @@
                         "C) Experatory reserve volume",
                         "D) Tidal Volume"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
@@ -754,7 +754,7 @@
                         "C) Experatory reserve volume",
                         "D) Total lung capacity"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
@@ -767,7 +767,7 @@
                         "C) Tidal volume",
                         "D) Total lung capacity"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
@@ -780,7 +780,7 @@
                         "C) Experatory reserve volume",
                         "D) Insperatory reserve volume"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": "resources/images/Bio/lungVolumeGraph.webp"
                 },
                 {
@@ -793,7 +793,7 @@
                         "C) Protection",
                         "D) Insolation"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -806,7 +806,7 @@
                         "C) Can act as cofactors",
                         "D) Contains mostly Carbon, Oxygen, Hydrogen, and Nitrogen"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -819,7 +819,7 @@
                         "C) Can assist enzymes",
                         "D) None of the above"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -832,7 +832,7 @@
                         "C) The molecule(s) that change the active site on an enzyme when interacting with the enzyme.",
                         "D) The molecule(s) are fish."
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -845,7 +845,7 @@
                         "C) Clot blood",
                         "D) Control blood pressure"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -858,7 +858,7 @@
                         "C) Platelets",
                         "D) Plasma"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -871,7 +871,7 @@
                         "C) Platelets",
                         "D) Plasma"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -884,7 +884,7 @@
                         "C) Types of blood antigens",
                         "D) Types of plasma"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -897,7 +897,7 @@
                         "C) Platelets",
                         "D) Plasma"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -910,7 +910,7 @@
                         "C) Bone marrow",
                         "D) Spleen"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -923,7 +923,7 @@
                         "C) Insufficient number of red blood cells",
                         "D) High cholesterol levels"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -936,7 +936,7 @@
                         "C) Help in blood clotting",
                         "D) Balance fluid levels"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -949,7 +949,7 @@
                         "C) Platelets",
                         "D) Plasma cells"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -962,7 +962,7 @@
                         "C) A genetic mutation",
                         "D) An autoimmune disorder"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -975,7 +975,7 @@
                         "C) Proteins that transport oxygen",
                         "D) Particles that clot blood"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -988,7 +988,7 @@
                         "C) Fighting infections",
                         "D) Facilitating sleep"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1001,7 +1001,7 @@
                         "C) AB",
                         "D) O"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -1014,7 +1014,7 @@
                         "C) Platelet",
                         "D) Hemoglobin"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1027,7 +1027,7 @@
                         "C) Antibodies",
                         "D) Fever"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1040,7 +1040,7 @@
                         "C) Platelet deficiency",
                         "D) Plasma overabundance"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1053,7 +1053,7 @@
                         "C) Macrophages",
                         "D) Plasma cells"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1066,7 +1066,7 @@
                         "C) It promotes healing",
                         "D) It increases oxygen delivery"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1079,7 +1079,7 @@
                         "C) T-cells",
                         "D) All of the above"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1092,7 +1092,7 @@
                         "C) By stimulating the immune system to produce memory cells",
                         "D) By promoting platelet production"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1105,7 +1105,7 @@
                         "C) Plasma",
                         "D) Hemoglobin"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1118,7 +1118,7 @@
                         "C) A thrombus is a type of white blood cell, and an embolus is a type of red blood",
                         "D) There is no difference; they are the same"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1131,7 +1131,7 @@
                         "C) Allergic reaction",
                         "D) Vaccine response"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1144,7 +1144,7 @@
                         "C) The body stops producing white blood cells",
                         "D) The body increases red blood cell production"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1157,7 +1157,7 @@
                         "C) Physical barriers and white blood cells",
                         "D) Red blood cells and platelets"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1170,7 +1170,7 @@
                         "C) Memory T-cells",
                         "D) Suppressor T-cells"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1183,7 +1183,7 @@
                         "C) Passive immunity",
                         "D) Active immunity"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1196,7 +1196,7 @@
                         "C) Increased blood clotting",
                         "D) Increased susceptibility to infections"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1209,7 +1209,7 @@
                         "C) Histamine release",
                         "D) Antigen presence"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1222,7 +1222,7 @@
                         "C) Engulfing pathogens",
                         "D) Carrying oxygen"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1235,7 +1235,7 @@
                         "C) Platelets",
                         "D) Endothelial cells"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1248,7 +1248,7 @@
                         "C) Forms the structural framework of a clot",
                         "D) Breaks down clots after healing"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1261,7 +1261,7 @@
                         "C) Killer T-cells",
                         "D) Suppressor T-cells"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1274,7 +1274,7 @@
                         "C) The hiding of antigens from the immune system",
                         "D) The removal of antigens from the body"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1287,7 +1287,7 @@
                         "C) By directly killing pathogens",
                         "D) By regulating body temperature"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1300,7 +1300,7 @@
                         "C) It decreases blood clotting",
                         "D) It is formed outside the vascular system"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1313,7 +1313,7 @@
                         "C) Innate responses are immediate and non-specific",
                         "D) Adaptive responses do not remember pathogens"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1326,7 +1326,7 @@
                         "C) They encourage the immune system to remember pathogens",
                         "D) They suppress the immune system to prevent overreaction"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1339,7 +1339,7 @@
                         "C) They remember past infections",
                         "D) They kill infected cells"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1352,7 +1352,7 @@
                         "C) It causes inflammation and bronchoconstriction",
                         "D) It heals the affected tissues"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1365,7 +1365,7 @@
                         "C) B-lymphocytes",
                         "D) Macrophages"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1378,7 +1378,7 @@
                         "C) The immune system produces excess antibodies",
                         "D) The immune system stops producing white blood cells"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1391,7 +1391,7 @@
                         "C) Antibiotics are used to treat infections; vaccines are used to prevent them",
                         "D) Antibiotics are natural; vaccines are synthetic"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1404,7 +1404,7 @@
                         "C) When the body becomes immune to antibiotics",
                         "D) When antibiotics are taken with vaccines"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1417,7 +1417,7 @@
                         "C) To remember pathogens and respond faster upon re-exposure",
                         "D) To regulate blood clotting during infection"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1430,7 +1430,7 @@
                         "C) To produce mucus",
                         "D) To absorb moisture"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1443,7 +1443,7 @@
                         "C) It produces sound",
                         "D) It cools the body down"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1456,7 +1456,7 @@
                         "C) It opens the esophagus",
                         "D) It vibrates to produce sounds"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1469,7 +1469,7 @@
                         "C) Alveoli",
                         "D) Larynx"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1482,7 +1482,7 @@
                         "C) Pectorals",
                         "D) Gluteals"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1495,7 +1495,7 @@
                         "C) To trap dust and microbes",
                         "D) To humidify the room"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1508,7 +1508,7 @@
                         "C) Esophagus",
                         "D) Pharynx"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1521,7 +1521,7 @@
                         "C) Gas exchange",
                         "D) Moistening air"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1534,7 +1534,7 @@
                         "C) Bronchioles",
                         "D) Alveoli"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1547,7 +1547,7 @@
                         "C) It increases their number",
                         "D) It changes their color"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1560,7 +1560,7 @@
                         "C) Skeletal",
                         "D) Elastic"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1573,7 +1573,7 @@
                         "C) Excessive mucus production",
                         "D) Air from escaping"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1586,7 +1586,7 @@
                         "C) Bronchi",
                         "D) Larynx"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1599,7 +1599,7 @@
                         "C) Diaphragm",
                         "D) Abdominal cavity"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1612,7 +1612,7 @@
                         "C) It stays the same",
                         "D) It fluctuates rapidly"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1625,7 +1625,7 @@
                         "C) The volume of air inhaled in a normal breath",
                         "D) The total volume of the lungs"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1638,7 +1638,7 @@
                         "C) Through the lymphatic system",
                         "D) Encapsulated in red blood cells"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1651,7 +1651,7 @@
                         "C) They stabilize the rib cage",
                         "D) They are not involved"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1664,7 +1664,7 @@
                         "C) It converts oxygen into carbon dioxide",
                         "D) It expels oxygen from the bloodstream"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1677,7 +1677,7 @@
                         "C) It increases mucus production",
                         "D) Both B and C"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -1690,7 +1690,7 @@
                         "C) The maximum exhale after normal inhale",
                         "D) The minimum inhale after a maximum exhale"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1703,7 +1703,7 @@
                         "C) It filters air before it enters the lungs",
                         "D) It warms the air entering the lungs"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1716,7 +1716,7 @@
                         "C) Increased number of alveoli",
                         "D) Decreased mucus production"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1729,7 +1729,7 @@
                         "C) It stays the same",
                         "D) It rotates"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1742,7 +1742,7 @@
                         "C) It cannot be measured directly by spirometry",
                         "D) By calculating the difference between total lung capacity and vital capacity"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1755,7 +1755,7 @@
                         "C) The additional air exhaled after a normal exhale",
                         "D) The air remaining after a forceful exhale"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1768,7 +1768,7 @@
                         "C) Carbon dioxide levels in the blood",
                         "D) Hydrogen levels in the blood"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1781,7 +1781,7 @@
                         "C) Blood pressure drops",
                         "D) Blood becomes more alkaline"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1794,7 +1794,7 @@
                         "C) Blood flow to the lungs",
                         "D) Filtering of air"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1807,7 +1807,7 @@
                         "C) It increases the number of alveoli",
                         "D) It has no effect on gas exchange"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1820,7 +1820,7 @@
                         "C) By increasing heart rate only",
                         "D) By decreasing blood pressure"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1833,7 +1833,7 @@
                         "C) The total air exhaled after a forced inhalation",
                         "D) The normal volume of air inhaled and exhaled"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1846,7 +1846,7 @@
                         "C) It remains constant",
                         "D) It fluctuates"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1859,7 +1859,7 @@
                         "C) They stabilize the spine",
                         "D) They decrease the thoracic cavity volume"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1872,7 +1872,7 @@
                         "C) Attached to white blood cells",
                         "D) Encapsulated within platelets"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1885,7 +1885,7 @@
                         "C) The size of the alveoli",
                         "D) The number of red blood cells"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1898,7 +1898,7 @@
                         "C) To regulate blood pressure",
                         "D) To filter toxins from the air"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1911,7 +1911,7 @@
                         "C) They enhance the oxygen-carrying capacity of the blood",
                         "D) They decrease the rate of respiration"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1924,7 +1924,7 @@
                         "C) Pressure remains constant as volume changes",
                         "D) Pressure decreases as volume decreases"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -1937,7 +1937,7 @@
                         "C) Has no effect on elasticity",
                         "D) Temporarily increases elasticity before permanently decreasing it"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1950,7 +1950,7 @@
                         "C) Thickening of the bronchial walls",
                         "D) Increase in the number of alveoli"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -1963,7 +1963,7 @@
                         "C) Unchanged breathing rate",
                         "D) Periodic breathing patterns"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1976,7 +1976,7 @@
                         "C) It affects the transport of oxygen only",
                         "D) It regulates blood temperature"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -1989,7 +1989,7 @@
                         "C) Vital capacity",
                         "D) Total lung capacity"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2002,7 +2002,7 @@
                         "C) To convert food into nutrients",
                         "D) To remove waste from the body"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2015,7 +2015,7 @@
                         "C) Large intestine",
                         "D) Liver"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2028,7 +2028,7 @@
                         "C) To absorb nutrients",
                         "D) To produce bile"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2041,7 +2041,7 @@
                         "C) Gall bladder",
                         "D) Pancreas"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2054,7 +2054,7 @@
                         "C) Bicarbonate ion",
                         "D) Pepsinogen"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2067,7 +2067,7 @@
                         "C) It emulsifies fats",
                         "D) It breaks down carbohydrates"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2080,7 +2080,7 @@
                         "C) Jejunum",
                         "D) Colon"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2093,7 +2093,7 @@
                         "C) To secrete bile",
                         "D) To move food along the intestine"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2106,7 +2106,7 @@
                         "C) Pepsin",
                         "D) Insulin"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2119,7 +2119,7 @@
                         "C) Insulin",
                         "D) Gastric juice"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2132,7 +2132,7 @@
                         "C) The presence of fatty acids and amino acids in the duodenum",
                         "D) The stretching of the stomach walls"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2145,7 +2145,7 @@
                         "C) Jejunum",
                         "D) Colon"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2158,7 +2158,7 @@
                         "C) To protect the stomach lining",
                         "D) To emulsify fats"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2171,7 +2171,7 @@
                         "C) It neutralizes the acid chyme from the stomach",
                         "D) It stimulates the gall bladder to release bile"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2184,7 +2184,7 @@
                         "C) The villi secrete hydrochloric acid to further break down food",
                         "D) The villi pump water from the intestine to concentrate food substances"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2197,7 +2197,7 @@
                         "C) Monosaccharides",
                         "D) Nucleotides"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2210,7 +2210,7 @@
                         "C) Sucrose",
                         "D) Lactose"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2223,7 +2223,7 @@
                         "C) To speed up chemical reactions",
                         "D) To form cell structures"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2236,7 +2236,7 @@
                         "C) Biuret Test",
                         "D) Lipid Test"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2249,7 +2249,7 @@
                         "C) Trans fats",
                         "D) Monounsaturated fats"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2262,7 +2262,7 @@
                         "C) Complex carbohydrates",
                         "D) Basic units of proteins"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2275,7 +2275,7 @@
                         "C) It identifies proteins",
                         "D) It shows the presence of vitamins"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2288,7 +2288,7 @@
                         "C) Converting proteins into fatty acids",
                         "D) Synthesizing new proteins"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2301,7 +2301,7 @@
                         "C) Saturated fats",
                         "D) Trans fats"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2314,7 +2314,7 @@
                         "C) Proteins",
                         "D) Lipids"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2327,7 +2327,7 @@
                         "C) Glycogen",
                         "D) Chitin"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2340,7 +2340,7 @@
                         "C) Unsaturated fats have one or more carbon-carbon double bonds",
                         "D) Unsaturated fats are composed of shorter carbon chains"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2353,7 +2353,7 @@
                         "C) Tertiary structure",
                         "D) Quaternary structure"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2366,7 +2366,7 @@
                         "C) Lipid-Density Lipoprotein",
                         "D) Linear-Density Lipoprotein"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2379,7 +2379,7 @@
                         "C) To eliminate waste products",
                         "D) To produce hormones"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2392,7 +2392,7 @@
                         "C) Left ventricle",
                         "D) Right ventricle"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2405,7 +2405,7 @@
                         "C) Capillaries",
                         "D) Venules"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2418,7 +2418,7 @@
                         "C) Brain",
                         "D) Liver"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2431,7 +2431,7 @@
                         "C) Ventricles",
                         "D) Septum"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2444,7 +2444,7 @@
                         "C) The volume of blood in the heart",
                         "D) Resistance of blood flow in arteries"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2457,7 +2457,7 @@
                         "C) Myocardial infarction",
                         "D) Angina"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2470,7 +2470,7 @@
                         "C) Small blood vessels where gas exchange occurs.",
                         "D) Valves that prevent backflow of blood."
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2483,7 +2483,7 @@
                         "C) Right ventricle",
                         "D) Left ventricle"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2496,7 +2496,7 @@
                         "C) Aneurysm",
                         "D) Hypertension"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2509,7 +2509,7 @@
                         "C) Cardiac output adjustment",
                         "D) Sinoatrial node pacing"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2522,7 +2522,7 @@
                         "C) Decreasing heart rate",
                         "D) Synthesizing red blood cells"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2535,7 +2535,7 @@
                         "C) There is an excessive buildup of cholesterol in the body",
                         "D) Blood flow to a part of the heart is blocked"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -2548,7 +2548,7 @@
                         "C) Left atrium",
                         "D) Left ventricle"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -2561,7 +2561,7 @@
                         "C) Autoregulation",
                         "D) Cardiac circulation"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2574,7 +2574,7 @@
                         "C) Red blood cells",
                         "D) Plasma"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2587,7 +2587,7 @@
                         "C) Arteries",
                         "D) Capillaries"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2600,7 +2600,7 @@
                         "C) Capillaries",
                         "D) Arterioles"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2613,7 +2613,7 @@
                         "C) Heart itself",
                         "D) Brain only"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2626,7 +2626,7 @@
                         "C) Entire body",
                         "D) Left atrium"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2639,7 +2639,7 @@
                         "C) Vessels that carry blood back to the heart",
                         "D) Small branches of veins"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2652,7 +2652,7 @@
                         "C) Pressure in the arteries during a heartbeat",
                         "D) Pressure required to open the heart valves"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2665,7 +2665,7 @@
                         "C) Heart",
                         "D) Liver"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2678,7 +2678,7 @@
                         "C) Hypertension",
                         "D) Hemophilia"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2691,7 +2691,7 @@
                         "C) Slow down the electrical signal before it enters the ventricles",
                         "D) Direct blood flow from the ventricles to the arteries"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2704,7 +2704,7 @@
                         "C) Ventricular septum",
                         "D) Pulmonary valve"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2717,7 +2717,7 @@
                         "C) Day",
                         "D) Beat"
                     ],
-                    "anwser": 0,
+                    "answer": 0,
                     "picture": null
                 },
                 {
@@ -2730,7 +2730,7 @@
                         "C) Not affecting it",
                         "D) Periodically reversing it"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2743,7 +2743,7 @@
                         "C) Carotid arteries and aorta",
                         "D) Veins and venules"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2756,7 +2756,7 @@
                         "C) Excessive bleeding from a major artery",
                         "D) Sudden decrease in heart rate"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2769,7 +2769,7 @@
                         "C) Increase blood pressure",
                         "D) Have no effect on the heart"
                     ],
-                    "anwser": 1,
+                    "answer": 1,
                     "picture": null
                 },
                 {
@@ -2782,7 +2782,7 @@
                         "C) Diameter of the arteriole",
                         "D) Blood type"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2795,7 +2795,7 @@
                         "C) Hypotension",
                         "D) Vasodilation"
                     ],
-                    "anwser": 3,
+                    "answer": 3,
                     "picture": null
                 },
                 {
@@ -2808,7 +2808,7 @@
                         "C) Cardiac output, blood volume, and arteriolar resistance",
                         "D) Emotional state only"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 },
                 {
@@ -2821,7 +2821,7 @@
                         "C) SA node → atria → AV node → ventricles",
                         "D) Ventricles → SA node → AV node → atria"
                     ],
-                    "anwser": 2,
+                    "answer": 2,
                     "picture": null
                 }
             ]
