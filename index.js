@@ -460,9 +460,16 @@ function buildQuestion() {
                 let nextDragboxes = () => reloadPage();
                 dragNextBtn.addEventListener("click", nextDragboxes);
             } else if (type == 3) { //sorting question
-
+                for (var i = 0; i < unit[questionNum].totalBlocks; i++) {
+                    const draggables = document.createElement("div");
+                    const dropbox = document.createElement("div");
+                    const number = document.createElement("p");
+                    field.appendChild(dropbox);
+                    number.innerHTML = i;
+                    dropbox.appendChild(number);
+                }
             } else if (type == 4) { //numeric response question
-
+                
             }
         })
         .catch(error => console.error('Failed to fetch data: ', error));
