@@ -344,7 +344,7 @@ function buildQuestion() {
             let questionNum = Math.floor(Math.random() * unit.length);
             question.innerHTML = unit[questionNum].question;
 
-            if (unit[questionNum].type == 0) {
+            if (unit[questionNum].type == 0) { //multiple choice question
                 const imgField = document.getElementById("box");
                 const pict = document.createElement('img');
                 if (unit[questionNum].picture != null) {
@@ -406,7 +406,7 @@ function buildQuestion() {
                                 h.style.backgroundColor = "red";
                                 field.appendChild(document.createElement('br'));
                                 const correctAns = document.createElement('p');
-                                correctAns.innerHTML = opts[unit[question].answer];
+                                correctAns.innerHTML = opts[unit[questionNum].answer];
                                 field.appendChild(correntAns);
                             };
                         }
@@ -414,9 +414,9 @@ function buildQuestion() {
                 }
                 let nextMultChoice = () => reloadPage();
                 next.addEventListener("click", nextMultChoice);
-            } else if (unit[questionNum].type == 1) {
+            } else if (unit[questionNum].type == 1) { //single word answer question
 
-            } if (unit[questionNum].type == 2) {
+            } if (unit[questionNum].type == 2) { //drag and drop question
                 for (var i = 0; i < unit[questionNum].totalElements; i++) {
                     const draggables = document.createElement('div');
                     const dropboxes = document.createElement('div');
@@ -459,6 +459,10 @@ function buildQuestion() {
                 dragSubmitBtn.addEventListener("click", submitDragboxes);
                 let nextDragboxes = () => reloadPage();
                 dragNextBtn.addEventListener("click", nextDragboxes);
+            } else if (type == 3) { //sorting question
+
+            } else if (type == 4) { //numeric response question
+
             }
         })
         .catch(error => console.error('Failed to fetch data: ', error));
