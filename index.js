@@ -36,6 +36,15 @@ localStorage.setItem("showAnsSetting", true);
 
 document.getElementById("UnitSelector").value = topic;
 
+function randomize(n) {
+    const order = new Set();
+    while (order.size < n) {
+        let r = Math.floor(Math.random() * n);
+        order.add(r);
+    }
+    return Array.from(order);
+}
+
 function hide(element, hide) {
     if (hide == true) return element.style.display = "none";
     if (hide == false) return element.style.display = "block";
@@ -460,11 +469,12 @@ function buildQuestion() {
                 let nextDragboxes = () => reloadPage();
                 dragNextBtn.addEventListener("click", nextDragboxes);
             } else if (type == 3) { //sorting question
-                for (var i = 0; i < unit[questionNum].totalBlocks; i++) {
+                for (var i = 0; i < unit[questionNum].totalElements; i++) {
                     const draggables = document.createElement("div");
                     const dropbox = document.createElement("div");
                     const number = document.createElement("p");
                     field.appendChild(dropbox);
+                    draggables.draggable = true;
                     number.innerHTML = i;
                     dropbox.appendChild(number);
                 }
