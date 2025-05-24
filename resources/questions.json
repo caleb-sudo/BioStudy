@@ -120,7 +120,7 @@
                 {
                     "type": 3,
                     "catagory": "evolution",
-                    "totalDefinitions": 8,
+                    "totalElements": 8,
                     "question": "Order the Taxonomic hierarcy to the correct orientation.",
                     "definitions": [
                         "<b>Domain</b>",
