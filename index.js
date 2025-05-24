@@ -508,7 +508,7 @@ function buildQuestion() {
                     draggables.addEventListener("dragstart", function(event) {
                         dragStart(event);
                     });
-                    draggables.innerHTML = unit[questionNum].elements[r[i]];
+                    draggables.innerHTML = unit[questionNum].definitions[r[i]];
                     draggables.classList = "draggables";
                     draggables.id = "draggable" + i;
                     number.innerHTML = i;
