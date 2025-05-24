@@ -16,11 +16,15 @@ const getscore = localStorage.getItem("score");
 const getstrk = localStorage.getItem("streak");
 const getHighscore = localStorage.getItem("highscore");
 const getHighestStrk = localStorage.getItem("highestStreak");
+const getTotalAnsweredCorrect = localStorage.getItem("totalAnsweredCorrect");
+const getTotalAnswered = localStorage.getItem("totalAnswered");
 const getShowAnsSetting = localStorage.getItem("showAnsSetting");
 var score = parseInt(getscore);
 var strk = parseInt(getstrk);
 var highscore = parseInt(getHighscore);
 var highestStrk = parseInt(getHighestStrk);
+var totalAnsweredCorrect = parseInt(getTotalAnsweredCorrect);
+var totalAnswered = parseInt(getTotalAnswered);
 var topic = gettopic;
 if (getscore == null) {
     localStorage.setItem("score", 0);
@@ -29,6 +33,8 @@ if (getscore == null) {
 if (getstrk == null) localStorage.setItem("streak", 0);
 if (getHighscore == null) localStorage.setItem("highscore", 0);
 if (getHighestStrk == null) localStorage.setItem("highestStreak", 0);
+if (getTotalAnsweredCorrect == null) localStorage.setItem("totalAnsweredCorrect", 0);
+if (getTotalAnswered == null) localStorage.setItem("totalAnswered", 0);
 localStorage.setItem("topic", gettopic);
 localStorage.setItem("username", getUsername);
 localStorage.setItem("showAnsSetting", true);
@@ -390,37 +396,45 @@ function buildQuestion() {
                 field.appendChild(submitBtn);
                 submitBtn.addEventListener("click", submitMultChoice);
                 function submitMultChoice() {
-                    const h = document.createElement('h2');
+                    let h = document.createElement('h2');
                     h.style.textAlign = "center";
                     h.style.width = "200px";
                     nextBtn.innerHTML = "next";
                     nextBtn.classList = "nextBtn";
                     for (let i = 0; i < 4; i++) {
+                        radios[i].disabled = true;
                         if (radios[i].checked == true) {
-                            field.appendChild(h);
+                            let span = document.createElement("span");
+                            span.style.fontSize = "25px";
+                            let label = document.getElementsByClassName("radioLabel");
                             field.appendChild(nextBtn);
                             field.appendChild(document.createElement('br'));
-                            if (i == unit[questionNum].answer) {
+                            localStorage.setItem("totalAnswered", totalAnswered + 1);
+                            let checkedIndex = [... document.querySelectorAll("input[name=opts]")].findIndex(e=>e.checked);
+                            if (checkedIndex == unit[questionNum].answer) {
                                 localStorage.setItem("streak", strk + 1);
                                 localStorage.setItem("score", score + 1);
-                                h.innerHTML = "Correct";
-                                h.style.backgroundColor = "green";
+                                localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + 1);
+                                span.innerHTML = "✓";
+                                span.style.color = "green";
+                                label[checkedIndex].appendChild(span);
                             } else {
                                 strk = 0;
                                 localStorage.setItem("streak", strk);
                                 localStorage.setItem("score", score - 1);
-                                h.innerHTML = "Incorrect";
-                                h.style.backgroundColor = "red";
-                                field.appendChild(document.createElement('br'));
-                                let correctAns = document.createElement('p');
-                                correctAns.innerHTML = "The correct answer " + opts[unit[questionNum].answer];
-                                field.appendChild(correctAns);
-                            };
+                                span.innerHTML = "✗";
+                                span.style.color = "red";
+                                label[checkedIndex].appendChild(span);
+                                let correctAnsSpan = document.createElement("span");
+                                correctAnsSpan.innerHTML = "✓";
+                                correctAnsSpan.style.color = "green";
+                                correctAnsSpan.style.fontSize = "25px";
+                                label[unit[questionNum].answer].appendChild(correctAnsSpan);
+                            }
                         }
                     }
                 }
-                let nextMultChoice = () => reloadPage();
-                nextBtn.addEventListener("click", nextMultChoice);
+                nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 1) { //single word answer question
 
             } if (unit[questionNum].type == 2) { //drag and drop question
@@ -462,17 +476,25 @@ function buildQuestion() {
                 nextBtn.classList = "nextBtn";
                 
                 function submitDragboxes() {
+                    let correct = 0;
                     field.appendChild(nextBtn);
+                    for (var i = 0; i < unit[questionNum].totalElements; i++) {
+                        let draggables = document.getElementsByClassName("draggables");
+                        let p = document.getElementsByClassName("dropboxParas");
+                        let checker = document.createElement("span");
+                        if (draggables[i].innderHTML == unit[questionNum].definitions[i][0]) {
+                        }
+                    }
                 }
                 submitBtn.addEventListener("click", submitDragboxes);
-                let nextDragboxes = () => reloadPage();
-                nextBtn.addEventListener("click", nextDragboxes);
+                nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 3) { //sorting question
                 let r = randomize(unit[questionNum].totalElements);
                 for (var i = 0; i < unit[questionNum].totalElements; i++) {
                     let draggables = document.createElement("div");
                     let dropboxes = document.createElement("div");
-                    let number = document.createElement("p");
+                    let number = document.createElement("span");
+                    number.classList = "labels";
                     dropboxes.classList = "dropboxes";
                     dropboxes.id = "dropbox" + i;
                     dropboxes.addEventListener("drop", function(event) {
@@ -493,6 +515,45 @@ function buildQuestion() {
                     dropboxes.appendChild(number);
                     dropboxes.appendChild(draggables);
                 }
+                let submitBtn = document.createElement('button');
+                submitBtn.innerHTML = "Submit";
+                submitBtn.classList = "submitBtn";
+                field.appendChild(submitBtn);
+
+                let nextBtn = document.createElement('button');
+                nextBtn.innerHTML = "Next";
+                nextBtn.classList = "nextBtn";
+
+                function submitSort() {
+                    let h = document.createElement('h2');
+                    h.style.textAlign = "center";
+                    h.style.width = "200px";
+                    let correct = 0;
+                    field.appendChild(nextBtn);
+                    for (var i = 0; i < unit[questionNum].totalDefinitions; i++) {
+                        let draggables = document.getElementsByClassName("draggables");
+                        let checker = document.createElement("span");
+                        draggables.draggable = false;
+                        localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalDefinitions)
+                        if (draggables[i].innerHTML == unit[questionNum].definitions[i]) {
+                            checker.style.color = "green";
+                            checker.innerHTML = "✓";
+                            correct++;
+                            localStorage.setItem("score", score + correct);
+                            localStorage.setItem("streak", strk + 1);
+                            localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + correct);
+                        } else {
+                            checker.style.color = "red";
+                            checker.innerHTML = "✗";
+                            localStorage.setItem("streak", 0);
+                        }
+                        draggables[i].appendChild(checker);
+                    }
+                    alert(correct);
+                }
+                submitBtn.addEventListener("click", submitSort);
+
+                nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 4) { //numeric response question
                 
             }
