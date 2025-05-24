@@ -430,7 +430,7 @@ function buildQuestion() {
                     let dropboxes = document.createElement('div');
                     let p = document.createElement('p');
                     draggables.draggable = true;
-                    draggables.innerHTML = unit[questionNum].definitions[r[0][i]];
+                    draggables.innerHTML = unit[questionNum].definitions[r[i]][0];
                     draggables.classList = "draggables";
                     draggables.id = "draggable" + i;
                     draggables.addEventListener("dragstart", function(event) {
@@ -447,7 +447,7 @@ function buildQuestion() {
                     qField.appendChild(draggables);
                     field.appendChild(dropboxes);
                     field.appendChild(document.createElement('br'));
-                    p.innerHTML = unit[questionNum].definitions[r[1][i]];
+                    p.innerHTML = unit[questionNum].definitions[r[i]][1];
                     p.classList = "dropboxParas";
                     p.id = "dropboxPara" + i;
                     dropboxes.appendChild(p);
