@@ -530,11 +530,11 @@ function buildQuestion() {
                     h.style.width = "200px";
                     let correct = 0;
                     field.appendChild(nextBtn);
-                    for (var i = 0; i < unit[questionNum].totalDefinitions; i++) {
+                    for (var i = 0; i < unit[questionNum].totalElements; i++) {
                         let draggables = document.getElementsByClassName("draggables");
                         let checker = document.createElement("span");
                         draggables.draggable = false;
-                        localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalDefinitions)
+                        localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalElements)
                         if (draggables[i].innerHTML == unit[questionNum].definitions[i]) {
                             checker.style.color = "green";
                             checker.innerHTML = "✓";
@@ -549,7 +549,6 @@ function buildQuestion() {
                         }
                         draggables[i].appendChild(checker);
                     }
-                    alert(correct);
                 }
                 submitBtn.addEventListener("click", submitSort);
 
