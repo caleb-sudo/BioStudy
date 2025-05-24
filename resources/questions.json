@@ -121,7 +121,7 @@
                     "type": 3,
                     "catagory": "evelution",
                     "totalElements": 8,
-                    "question": "Order the Taxonomic hierarcy to the correct orientation",
+                    "question": "Order the Taxonomic hierarcy to the correct orientation.",
                     "elements": [
                         "Domain",
                         "Kingdom",
@@ -440,38 +440,43 @@
                     "type": 2,
                     "catagory": "kidneys",
                     "question": "Match each structure of the nephron to their functions/definitions in the kidney.",
-                    "leftElements": [
-                        "Afferent Arteriole",
-                        "Efferent Arteriole",
-                        "Glomerulus",
-                        "Bowman's Capsule",
-                        "Proximal Convoluted Tubule (PCT)",
-                        "Loop of Henle",
-                        "Peritubular Capillaries",
-                        "Distal Convoluted Tubule (DCT)",
-                        "Collecting Duct"
-                    ],
-                    "rightElements": [
-                        "<b>Reabsorbes</b> every thing that is <b>Not Waste</b>.",
-                        "The <b>Arteriole</b> that leads to the Glomerulus to be filtered.",
-                        "The part of the nephron that moves down to the Medulla to filter water and salts out of the blood.",
-                        "The Part of the nephron that drains all of the filtrate towards the Renal Pelvis.",
-                        "The <b>Arteriole</b> that contains the filtered blood that moves out of the Glomerulus.",
-                        "The <b>tubule</b> that starts of the reabsorption process.",
-                        "The <b>tubule</b> that finalizes the reabsorption process.",
-                        "The part of the nephron that filters everything except for the blood cells and large protien molecules.",
-                        "The part of the nephron the the filtrate moves to after being filtered in the Glomerulus."
-                    ],
-                    "answers": [
-                        [0, 1],
-                        [1, 4],
-                        [2, 8],
-                        [3, 7],
-                        [4, 5],
-                        [5, 2],
-                        [6, 0],
-                        [7, 6],
-                        [8, 3]
+                    "definitions": [
+                        [
+                            "Afferent Arteriole",
+                            "The <b>Arteriole</b> that leads to the Glomerulus to be filtered."
+                        ],
+                        [
+                            "Efferent Arteriole",
+                            "The <b>Arteriole</b> that contains the filtered blood that moves out of the Glomerulus."
+                        ],
+                        [
+                            "Glomerulus",
+                            "The part of the nephron that filters everything except for the blood cells and large protien molecules."
+                        ],
+                        [
+                            "Bowman's Capsule",
+                            "The part of the nephron that the filtrate moves too after being filtered in the Glomerulus."
+                        ],
+                        [
+                            "Proximal Convoluted Tubule (PCT)",
+                            "The <b>tubule</b> that starts of the reabsorption process."
+                        ],
+                        [
+                            "Loop of Henle",
+                            "The part of the nephron that moves down to the Medulla to filter water and salts out of the blood."
+                        ],
+                        [
+                            "Peritubular Capillaries",
+                            "<b>Reabsorbes</b> every thing that is <b>Not Waste</b>."
+                        ],
+                        [
+                            "Distal Convoluted Tubule (DCT)",
+                            "The <b>tubule</b> that finalizes the reabsorption process."
+                        ],
+                        [
+                            "Collecting Duct",
+                            "The Part of the nephron that drains all of the filtrate towards the Renal Pelvis."
+                        ]
                     ],
                     "possiblePts": 9
                 },
@@ -3057,26 +3062,27 @@
                     "type": 2,
                     "question": "Match the following Items from the Nationalism spectrum to there apropriate definitions",
                     "totalElements": 5,
-                    "leftElements": [
-                        "Internationalist",
-                        "Enlightened National Interest",
-                        "Moderate Nationalist",
-                        "Narrow National Interest",
-                        "Ultranationalist"
-                    ],
-                    "rightElements": [
-                        "Extreme Nationalism that promotes the interests of the state above all other interests.",
-                        "Promotion of interests of a nation.",
-                        "Has no loyalty to the nation.",
-                        "Isolationism and supremacy of a nation.",
-                        "Further the interests of others provided they also further your own interests."
-                    ],
-                    "answers": [
-                        [0,2],
-                        [1,4],
-                        [2,1],
-                        [3,3],
-                        [4,0]
+                    "definitions": [
+                        [
+                            "Internationalist",
+                            "Has no loyalty to the nation."
+                        ],
+                        [
+                            "Enlightened National Interest",
+                            "Further the interests of others provided they also further your own interests."
+                        ],
+                        [
+                            "Moderate Nationalist",
+                            "Promotion of interests of a nation."
+                        ],
+                        [
+                            "Narrow National Interest",
+                            "Isolationism and supremacy of a nation."
+                        ],
+                        [
+                            "Ultranationalist",
+                            "Extreme Nationalism that promotes the interests of the state above all other interests."
+                        ]
                     ],
                     "possiblePts": 5
                 }

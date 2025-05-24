@@ -348,8 +348,6 @@ function buildQuestion() {
             const qField = document.getElementById("box");
             const field = document.getElementById("box2");
 
-            const multChoiceSubmitBtn = document.createElement('button');
-
             let questionNum = Math.floor(Math.random() * unit.length);
             question.innerHTML = unit[questionNum].question;
 
@@ -384,23 +382,23 @@ function buildQuestion() {
                 }
 
                 const radios = document.getElementsByClassName("radios");
-                const written = document.getElementsByClassName("written");
-                const next = document.createElement('button');
+                let submitBtn = document.createElement('button');
+                let nextBtn = document.createElement('button');
 
-                multChoiceSubmitBtn.innerHTML = "Submit";
-                multChoiceSubmitBtn.classList = "submitBtn";
-                field.appendChild(multChoiceSubmitBtn);
-                multChoiceSubmitBtn.addEventListener("click", submitMultChoice);
+                submitBtn.innerHTML = "Submit";
+                submitBtn.classList = "submitBtn";
+                field.appendChild(submitBtn);
+                submitBtn.addEventListener("click", submitMultChoice);
                 function submitMultChoice() {
                     const h = document.createElement('h2');
                     h.style.textAlign = "center";
                     h.style.width = "200px";
-                    next.innerHTML = "next";
-                    next.classList = "nextBtn";
+                    nextBtn.innerHTML = "next";
+                    nextBtn.classList = "nextBtn";
                     for (let i = 0; i < 4; i++) {
                         if (radios[i].checked == true) {
                             field.appendChild(h);
-                            field.appendChild(next);
+                            field.appendChild(nextBtn);
                             field.appendChild(document.createElement('br'));
                             if (i == unit[questionNum].answer) {
                                 localStorage.setItem("streak", strk + 1);
@@ -414,24 +412,25 @@ function buildQuestion() {
                                 h.innerHTML = "Incorrect";
                                 h.style.backgroundColor = "red";
                                 field.appendChild(document.createElement('br'));
-                                const correctAns = document.createElement('p');
-                                correctAns.innerHTML = opts[unit[questionNum].answer];
-                                field.appendChild(correntAns);
+                                let correctAns = document.createElement('p');
+                                correctAns.innerHTML = "The correct answer " + opts[unit[questionNum].answer];
+                                field.appendChild(correctAns);
                             };
                         }
                     }
                 }
                 let nextMultChoice = () => reloadPage();
-                next.addEventListener("click", nextMultChoice);
+                nextBtn.addEventListener("click", nextMultChoice);
             } else if (unit[questionNum].type == 1) { //single word answer question
 
             } if (unit[questionNum].type == 2) { //drag and drop question
+                let r = randomize(unit[questionNum].totalElements);
                 for (var i = 0; i < unit[questionNum].totalElements; i++) {
-                    const draggables = document.createElement('div');
-                    const dropboxes = document.createElement('div');
-                    const p = document.createElement('p');
+                    let draggables = document.createElement('div');
+                    let dropboxes = document.createElement('div');
+                    let p = document.createElement('p');
                     draggables.draggable = true;
-                    draggables.innerHTML = unit[questionNum].leftElements[i];
+                    draggables.innerHTML = unit[questionNum].definitions[r[0][i]];
                     draggables.classList = "draggables";
                     draggables.id = "draggable" + i;
                     draggables.addEventListener("dragstart", function(event) {
@@ -448,37 +447,53 @@ function buildQuestion() {
                     qField.appendChild(draggables);
                     field.appendChild(dropboxes);
                     field.appendChild(document.createElement('br'));
-                    p.innerHTML = unit[questionNum].rightElements[i];
+                    p.innerHTML = unit[questionNum].definitions[r[1][i]];
                     p.classList = "dropboxParas";
                     p.id = "dropboxPara" + i;
                     dropboxes.appendChild(p);
                 }
-                const dragSubmitBtn = document.createElement('button');
-                dragSubmitBtn.innerHTML = "Submit";
-                dragSubmitBtn.classList = "submitBtn";
-                field.appendChild(dragSubmitBtn);
+                let submitBtn = document.createElement('button');
+                submitBtn.innerHTML = "Submit";
+                submitBtn.classList = "submitBtn";
+                field.appendChild(submitBtn);
 
-                const dragNextBtn = document.createElement('button');
-                dragNextBtn.innerHTML = "Next";
-                dragNextBtn.classList = "nextBtn";
+                let nextBtn = document.createElement('button');
+                nextBtn.innerHTML = "Next";
+                nextBtn.classList = "nextBtn";
                 
                 function submitDragboxes() {
-                    field.appendChild(dragNextBtn);
+                    field.appendChild(nextBtn);
                 }
-                dragSubmitBtn.addEventListener("click", submitDragboxes);
+                submitBtn.addEventListener("click", submitDragboxes);
                 let nextDragboxes = () => reloadPage();
-                dragNextBtn.addEventListener("click", nextDragboxes);
-            } else if (type == 3) { //sorting question
+                nextBtn.addEventListener("click", nextDragboxes);
+            } else if (unit[questionNum].type == 3) { //sorting question
+                let r = randomize(unit[questionNum].totalElements);
                 for (var i = 0; i < unit[questionNum].totalElements; i++) {
-                    const draggables = document.createElement("div");
-                    const dropbox = document.createElement("div");
-                    const number = document.createElement("p");
-                    field.appendChild(dropbox);
+                    let draggables = document.createElement("div");
+                    let dropboxes = document.createElement("div");
+                    let number = document.createElement("p");
+                    dropboxes.classList = "dropboxes";
+                    dropboxes.id = "dropbox" + i;
+                    dropboxes.addEventListener("drop", function(event) {
+                        drop(event);
+                    });
+                    dropboxes.addEventListener("dragover", function(event) {
+                        allowDrop(event);
+                    });
+                    field.appendChild(dropboxes);
                     draggables.draggable = true;
+                    draggables.addEventListener("dragstart", function(event) {
+                        dragStart(event);
+                    });
+                    draggables.innerHTML = unit[questionNum].elements[r[i]];
+                    draggables.classList = "draggables";
+                    draggables.id = "draggable" + i;
                     number.innerHTML = i;
-                    dropbox.appendChild(number);
+                    dropboxes.appendChild(number);
+                    dropboxes.appendChild(draggables);
                 }
-            } else if (type == 4) { //numeric response question
+            } else if (unit[questionNum].type == 4) { //numeric response question
                 
             }
         })
