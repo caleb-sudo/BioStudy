@@ -115,13 +115,6 @@ highestStreakText.innerHTML = "Your highest Streak: <b class='scoresText'>" + ge
 if (score >= highscore) localStorage.setItem("highscore", score);
 if (strk >= highestStrk) localStorage.setItem("highestStreak", strk);
 
-const opts = [
-    "A)",
-    "B)",
-    "C)",
-    "D)"
-];
-
 if (score > 0) {
     scoreText.style.color = "green";
 } else if (score < 0) {
@@ -360,6 +353,7 @@ function buildQuestion() {
             if (unit[questionNum].type == 0) { //multiple choice question
                 const imgField = document.getElementById("box");
                 const pict = document.createElement('img');
+
                 if (unit[questionNum].picture != null) {
                     pict.src = unit[questionNum].picture;
                     pict.style.width = '98%';
@@ -368,6 +362,13 @@ function buildQuestion() {
                     imgField.appendChild(document.createElement('br'));
                 }
 
+                let r = randomize(4);
+                const opts = [
+                    "A) ",
+                    "B) ",
+                    "C) ",
+                    "D) "
+                ];
                 for (let i = 0; i < 4; i++) {
                     const div = document.createElement('div');
                     div.classList = "radioBox";
@@ -376,11 +377,10 @@ function buildQuestion() {
                     const lab = document.createElement('label');
                     radio.type = "radio";
                     radio.name = "opts";
-                    radio.innerHTML = "hello";
                     radio.id = 'r' + i;
                     radio.className = "radios";
                     lab.htmlFor = 'r' + i;
-                    lab.innerHTML = unit[questionNum].options[i];
+                    lab.innerHTML = opts[i] + unit[questionNum].options[i];
                     lab.className = "radioLabel";
                     div.appendChild(radio);
                     div.appendChild(lab);
@@ -394,39 +394,37 @@ function buildQuestion() {
                 submitBtn.innerHTML = "Submit";
                 submitBtn.classList = "submitBtn";
                 field.appendChild(submitBtn);
-                submitBtn.addEventListener("click", submitMultChoice);
+
+                nextBtn.innerHTML = "next";
+                nextBtn.classList = "nextBtn";
+                
                 function submitMultChoice() {
-                    let h = document.createElement('h2');
-                    h.style.textAlign = "center";
-                    h.style.width = "200px";
-                    nextBtn.innerHTML = "next";
-                    nextBtn.classList = "nextBtn";
                     for (let i = 0; i < 4; i++) {
-                        radios[i].disabled = true;
                         if (radios[i].checked == true) {
+                            radios.disabled = true;
+                            submitBtn.style.display = "none";
+                            field.appendChild(nextBtn);
                             let span = document.createElement("span");
                             span.style.fontSize = "25px";
                             let label = document.getElementsByClassName("radioLabel");
-                            field.appendChild(nextBtn);
-                            field.appendChild(document.createElement('br'));
                             localStorage.setItem("totalAnswered", totalAnswered + 1);
-                            let checkedIndex = [... document.querySelectorAll("input[name=opts]")].findIndex(e=>e.checked);
+                            let checkedIndex = [...document.querySelectorAll("input[name=opts]")].findIndex(e=>e.checked);
                             if (checkedIndex == unit[questionNum].answer) {
                                 localStorage.setItem("streak", strk + 1);
                                 localStorage.setItem("score", score + 1);
                                 localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + 1);
-                                span.innerHTML = "✓";
+                                span.innerHTML = "&check;";
                                 span.style.color = "green";
                                 label[checkedIndex].appendChild(span);
                             } else {
                                 strk = 0;
                                 localStorage.setItem("streak", strk);
                                 localStorage.setItem("score", score - 1);
-                                span.innerHTML = "✗";
+                                span.innerHTML = "&cross;";
                                 span.style.color = "red";
                                 label[checkedIndex].appendChild(span);
                                 let correctAnsSpan = document.createElement("span");
-                                correctAnsSpan.innerHTML = "✓";
+                                correctAnsSpan.innerHTML = "&check;";
                                 correctAnsSpan.style.color = "green";
                                 correctAnsSpan.style.fontSize = "25px";
                                 label[unit[questionNum].answer].appendChild(correctAnsSpan);
@@ -434,6 +432,7 @@ function buildQuestion() {
                         }
                     }
                 }
+                submitBtn.addEventListener("click", submitMultChoice);
                 nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 1) { //single word answer question
 
@@ -477,6 +476,7 @@ function buildQuestion() {
                 
                 function submitDragboxes() {
                     let correct = 0;
+                    submitBtn.style.display = "none";
                     field.appendChild(nextBtn);
                     for (var i = 0; i < unit[questionNum].totalElements; i++) {
                         let draggables = document.getElementsByClassName("draggables");
@@ -525,11 +525,10 @@ function buildQuestion() {
                 nextBtn.classList = "nextBtn";
 
                 function submitSort() {
-                    let h = document.createElement('h2');
-                    h.style.textAlign = "center";
-                    h.style.width = "200px";
                     let correct = 0;
+                    submitBtn.style.display = "none";
                     field.appendChild(nextBtn);
+                    localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalElements);
                     for (var i = 0; i < unit[questionNum].totalElements; i++) {
                         let draggables = document.getElementsByClassName("draggables");
                         let checker = document.createElement("span");
@@ -537,14 +536,15 @@ function buildQuestion() {
                         localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalElements)
                         if (draggables[i].innerHTML == unit[questionNum].definitions[i]) {
                             checker.style.color = "green";
-                            checker.innerHTML = "✓";
+                            checker.innerHTML = "&check;";
                             correct++;
                             localStorage.setItem("score", score + correct);
                             localStorage.setItem("streak", strk + 1);
                             localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + correct);
                         } else {
                             checker.style.color = "red";
-                            checker.innerHTML = "✗";
+                            checker.innerHTML = "&cross;";
+                            localStorage.setItem("score", score - (unit[questionNum].totalElements - correct));
                             localStorage.setItem("streak", 0);
                         }
                         draggables[i].appendChild(checker);
@@ -555,6 +555,8 @@ function buildQuestion() {
                 nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 4) { //numeric response question
                 
+            } else if (unit[questionNum].type == 5) { //true or false
+
             }
         })
         .catch(error => console.error('Failed to fetch data: ', error));
