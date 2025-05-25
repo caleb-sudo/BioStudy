@@ -493,15 +493,15 @@
                         "The Part of the nephron that drains all of the filtrate towards the Renal Pelvis."
                     ],
                     "terms": [
-                        "<b>Afferent Arteriole</b>",
-                        "<b>Efferent Arteriole</b>",
+                        "<b>Afferent_Arteriole</b>",
+                        "<b>Efferent_Arteriole</b>",
                         "<b>Glomerulus</b>",
-                        "<b>Bowman's Capsule</b>",
-                        "<b>Proximal Convoluted Tubule (PCT)</b>",
-                        "<b>Loop of Henle</b>",
-                        "<b>Peritubular Capillaries</b>",
-                        "<b>Distal Convoluted Tubule (DCT)</b>",
-                        "<b>Collecting Duct</b>"
+                        "<b>Bowman's_Capsule</b>",
+                        "<b>Proximal_Convoluted_Tubule(PCT)</b>",
+                        "<b>Loop_of_Henle</b>",
+                        "<b>Peritubular_Capillaries</b>",
+                        "<b>Distal_Convoluted_Tubule(DCT)</b>",
+                        "<b>Collecting_Duct</b>"
                     ]
                 },
                 {
@@ -3095,9 +3095,9 @@
                     ],
                     "terms": [
                         "<b>Internationalist</b>",
-                        "<b>Enlightened National Interest</b>",
-                        "<b>Moderate Nationalist</b>",
-                        "<b>Narrow National Interest</b>",
+                        "<b>Enlightened_National_Interest</b>",
+                        "<b>Moderate_Nationalist</b>",
+                        "<b>Narrow_National_Interest</b>",
                         "<b>Ultranationalist</b>"
                     ]
                 },
