@@ -14,7 +14,12 @@
 
             ],
             "UnitD": [
-
+                {
+                    "type": 4,
+                    "question": "Nitrogen in the cylinder of a car reacts with oxygen to produce the pollutant nitrogen monoxide. How many moles of nitrogen monoxide are produced from the combustion of <b>1.52 mol of nitrogen</b>?",
+                    "answer": 3.04,
+                    "unit": "mol"
+                }
             ]
         },
         "Chem30": {
