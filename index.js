@@ -441,9 +441,10 @@ function buildQuestion() {
                 for (var i = 0; i < unit[questionNum].totalElements; i++) {
                     let draggables = document.createElement('div');
                     let dropboxes = document.createElement('div');
+                    let droppers = document.createElement('div');
                     let p = document.createElement('p');
                     draggables.draggable = true;
-                    draggables.innerHTML = unit[questionNum].definitions[r[i]][0];
+                    draggables.innerHTML = unit[questionNum].terms[r[i]];
                     draggables.classList = "draggables";
                     draggables.id = "draggable" + i;
                     draggables.addEventListener("dragstart", function(event) {
@@ -451,20 +452,24 @@ function buildQuestion() {
                     });
                     dropboxes.classList = "dropboxes";
                     dropboxes.id = "dropbox" + i;
-                    dropboxes.addEventListener("drop", function(event) {
+                    droppers.addEventListener("drop", function(event) {
                         drop(event);
                     });
-                    dropboxes.addEventListener("dragover", function(event) {
+                    droppers.addEventListener("dragover", function(event) {
                         allowDrop(event);
                     });
+                    droppers.classList = "droppers";
+                    droppers.id = "dropper" + i;
                     qField.appendChild(draggables);
                     field.appendChild(dropboxes);
                     field.appendChild(document.createElement('br'));
-                    p.innerHTML = unit[questionNum].definitions[r[i]][1];
+                    p.innerHTML = unit[questionNum].definitions[r[i]];
                     p.classList = "dropboxParas";
                     p.id = "dropboxPara" + i;
                     dropboxes.appendChild(p);
+                    dropboxes.appendChild(droppers);
                 }
+
                 let submitBtn = document.createElement('button');
                 submitBtn.innerHTML = "Submit";
                 submitBtn.classList = "submitBtn";
@@ -478,12 +483,28 @@ function buildQuestion() {
                     let correct = 0;
                     submitBtn.style.display = "none";
                     field.appendChild(nextBtn);
+                    localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalElements);
                     for (var i = 0; i < unit[questionNum].totalElements; i++) {
                         let draggables = document.getElementsByClassName("draggables");
                         let p = document.getElementsByClassName("dropboxParas");
                         let checker = document.createElement("span");
-                        if (draggables[i].innderHTML == unit[questionNum].definitions[i][0]) {
+                        //terms.indexOf(d[i].innerHTML) == definitions.indexOf(p[i].innerHTML
+                        let terms = unit[questionNum].terms;
+                        let definitions = unit[questionNum].definitions;
+                        if (terms.indexOf(draggables[i].innerHTML) == definitions.indexOf(p[i].innerHTML)) {
+                            checker.style.color = "green";
+                            checker.innerHTML = "&check;";
+                            correct++;
+                            localStorage.setItem("score", score + correct);
+                            localStorage.setItem("streak", strk + correct);
+                            localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + correct);
+                        } else {
+                            checker.style.color = "red";
+                            checker.innerHTML = "&cross;";
+                            localStorage.setItem("score", score - (unit[questionNum].totalElements - correct));
+                            localStorage.setItem("streak", 0);
                         }
+                        draggables[i].appendChild(checker);
                     }
                 }
                 submitBtn.addEventListener("click", submitDragboxes);
