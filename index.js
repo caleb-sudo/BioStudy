@@ -575,7 +575,46 @@ function buildQuestion() {
 
                 nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 4) { //numeric response question
-                
+                let sidePanel = document.getElementById("sidePanel");
+                sidePanel.style.width = "100%";
+                let ansBox = document.getElementById("answerBox");
+                ansBox.style.display = "none";
+
+                let responseBox = document.createElement('input');
+                responseBox.type = "text";
+                responseBox.id = "response";
+                qField.appendChild(responseBox);
+
+                let submitBtn = document.createElement('button');
+                submitBtn.innerHTML = "Submit";
+                submitBtn.classList = "submitBtn";
+                qField.appendChild(submitBtn);
+
+                let nextBtn = document.createElement('button');
+                nextBtn.innerHTML = "Next";
+                nextBtn.classList = "nextBtn";
+
+                function submitNumeric() {
+                    submitBtn.style.display = "none";
+                    qField.appendChild(nextBtn);
+                    let value = responseBox.value;
+                    let answer = unit[questionNum].answer;
+                    let u = unit[questionNum].unit;
+                    localStorage.setItem("totalAnswered", totalAnswered + 1);
+                    if (value.search(answer) != -1 && value.search(u) == -1) {
+                        localStorage.setItem("score", score + 0.5);
+                        localStorage.setItem("streak", strk + 1);
+                        localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + 0.5);
+                    } else if (value.search(answer) != -1 && value.search(u) != -1) {
+                        localStorage.setItem("score", score + 1);
+                        localStorage.setItem("streak", strk + 1);
+                        localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + 1);
+                    } else {
+                        localStorage.setItem("streak", 0);
+                    }
+                }
+                submitBtn.addEventListener("click", submitNumeric);
+                nextBtn.addEventListener("click", reloadPage);
             } else if (unit[questionNum].type == 5) { //true or false
 
             }

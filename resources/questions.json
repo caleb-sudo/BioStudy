@@ -16,9 +16,87 @@
             "UnitD": [
                 {
                     "type": 4,
-                    "question": "Nitrogen in the cylinder of a car reacts with oxygen to produce the pollutant nitrogen monoxide. How many moles of nitrogen monoxide are produced from the combustion of <b>1.52 mol of nitrogen</b>?",
+                    "question": "Nitrogen in the cylinder of a car reacts with oxygen to produce the pollutant nitrogen monoxide. How many moles of nitrogen monoxide are produced from the combustion of 1.52 mol of nitrogen?",
+                    "formula": "N<sub>2</sub> + O<sub>2</sub> &rarr; 2NO",
                     "answer": 3.04,
                     "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "Lithium metal reacts with nitrogen from the air to produce a black solid. How many moles of nitrogen are required to react with 1.83mol of lithium?",
+                    "formula": "6Li + N<sub>2</sub> &rarr; 2Li<sub>3</sub>N",
+                    "answer": 0.31,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "An orange-brown precipitate can be produced from the reaction of ammonium hydroxide with iron (III) nitrate. Determine the number of moles of ammonium hydroxide required to produce 0.13mol of precipitate.",
+                    "formula": "3NH<sub>4</sub>OH + Fe(NO<sub>3</sub>)<sub>3</sub> &rarr; Fe(OH)<sub>3</sub> + 3NH<sub>4</sub>NO<sub>3</sub>",
+                    "answer": 0.39,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "The first step in the production of nitric acid (for fertilizer production) is the reaction of ammonia with oxygen from the air to produce nitrogen monoxide and water. How many moles of nitrogen monoxide will be produced from the reaction of 200mol of ammonia?",
+                    "formula": "4NH<sub>3</sub> + 5O<sub>2</sub> &rarr; 4NO + 6H<sub>2</sub>",
+                    "answer": 0.2,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "The mixture of gasoline and air in the carburetor of an engine is very important to the performance of the engine. How many moles of oxygen are required for the complete combustion of 6.14mol of gasoline, C<sub>8</sub>H<sub>18</sub>?",
+                    "formula": "2C<sub>8</sub>H<sub>18</sub> + 25O<sub>2</sub> &rarr; 16CO<sub>2</sub> + 18H<sub>2</sub>",
+                    "answer": 76.75,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "Sodium metal reacts rapidly with water in a single replacement reaction. What mass of sodium metal must react with water to produce 0.540mol of hydrogen gas?",
+                    "formula": "2Na + 2HOH &rarr; 2NaOH + H<sub>2</sub>",
+                    "answer": 24.83,
+                    "unit": "g"
+                },
+                {
+                    "type": 4,
+                    "question": "Slaked lime may be used for white washing or in mortar for brick laying. In both cases the solid slaked lime reacts with carbon dioxide in the air to produce calcium carbonate and water. What mass of calcium carbonate will be produced by the reaction of 0.962mol of calcium hydroxide(slaked lime) with carbon dioxide.",
+                    "formula": "Ca(OH)<sub>s</sub> + CO<sub>2</sub> &rarr; CaCO<sub>3</sub> + H<sub>2</sub>",
+                    "answer": 96.3,
+                    "unit": "g"
+                },
+                {
+                    "type": 4,
+                    "question": "Phosphoric acid is produced by reacting rock phosphorus with sulfuric acid. Determine the number of moles of sulfuric acid required to react with 62.0g of calcium phosphate.",
+                    "formula": "P<sub>4</sub> + 6H<sub>2</sub> &rarr; 4H<sub>3</sub>PO<sub>4<sub> + 6S<sub>8</sub>",
+                    "answer": 0.6,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "In the first step in the production of sulfuric acid, sulfur is burned in air to produce sulfur dioxide. How many moles of oxygen is required to react with 160g of sulfur?",
+                    "formula": "S<sub>8</sub> + 8O<sub>2</sub> &rarr; 8SO<sub>2</sub>",
+                    "answer": 4.992,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "Hydrofluoric acid may be produced in the lab and used to etch glass. How many moles of hydrofluoric acid may be produced by the addition of sufficient sulfuric acid to 7.81g of solid calcium fluoride?",
+                    "formula": "CaF<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> &rarr; CaSO<sub>4</sub> + 2HF",
+                    "answer": 0.2,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "Ammonia for the production of fertilizers may be produced by the reaction of hydrogen with nitrogen from the air. Determine the number of moles of hydrogen gas required to react with excess nitrogen to prepare 6020g of ammonia?",
+                    "formula": "H<sub>2</sub> + N<sub>2</sub> &rarr; NH<sub>3</sub>",
+                    "answer": 530,
+                    "unit": "mol"
+                },
+                {
+                    "type": 4,
+                    "question": "Passing a spark through a mixture of hydrogen and oxygen gas causes water to be produced. Calculate the mass of hydrogen needed to completely convert 4.00g of oxygen into water.",
+                    "formula": "H<sub>2</sub> + O<sub>2</sub> &rarr; H<sub>2</sub>O",
+                    "answer": 0.505,
+                    "unit": "g"
                 }
             ]
         },

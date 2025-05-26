@@ -209,19 +209,31 @@
                 <div id="userInfoContainer">
                     <button class="btn arrow" id="userInfoDownArrow" onclick="openUserInfoModal()">
                         <div>
-                            &#11167;
+                            &DownArrowBar;
                         </div>
                     </button>
                     <div class="modal" id="userInfoModal">
                         <div id="scores" class="userInfoText">
-                            <span id="score"></span>
-                            <span id="highscore"></span>
-                            <br>
-                            <span id="streak"></span>
-                            <span id="highestStreak"></span>
-                            <br>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <span id="score"></span>
+                                    </td>
+                                    <td>
+                                        <span id="highscore"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span id="streak"></span>
+                                    </td>
+                                    <td>
+                                        <span id="highestStreak"></span>
+                                    </td>
+                                </tr>
+                            </table>
                             <button class="btn arrow" id="userInfoUpArrow" onclick="closeUserInfoModal()">
-                                &#11165;
+                                &UpArrowBar;
                             </button>
                             <span>
                                 <button id="fixxer" onclick="resetUserScores()">
@@ -235,12 +247,12 @@
         </header>
         <br>
         <section>
-            <span style="width:50%;">
+            <span id="sidePanel">
                 <p id="question" style="color:white;"></p>
                 <div id="box" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
             </span>
-            <article>
-                <div id="box2" class="droptarget"></div>
+            <article id="answerBox">
+                <div id="box2"></div>
             </article>
         </section>
         <select name="Unit" id="UnitSelector">
