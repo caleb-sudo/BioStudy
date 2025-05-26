@@ -488,6 +488,7 @@ function buildQuestion() {
                         let draggables = document.getElementsByClassName("draggables");
                         let p = document.getElementsByClassName("dropboxParas");
                         let checker = document.createElement("span");
+                        checker.classList = "checker";
                         //terms.indexOf(d[i].innerHTML) == definitions.indexOf(p[i].innerHTML
                         let terms = unit[questionNum].terms;
                         let definitions = unit[questionNum].definitions;
@@ -553,6 +554,7 @@ function buildQuestion() {
                     for (var i = 0; i < unit[questionNum].totalElements; i++) {
                         let draggables = document.getElementsByClassName("draggables");
                         let checker = document.createElement("span");
+                        checker.classList = "checker";
                         draggables.draggable = false;
                         localStorage.setItem("totalAnswered", totalAnswered + unit[questionNum].totalElements)
                         if (draggables[i].innerHTML == unit[questionNum].definitions[i]) {
@@ -600,18 +602,36 @@ function buildQuestion() {
                     let value = responseBox.value;
                     let answer = unit[questionNum].answer;
                     let u = unit[questionNum].unit;
+                    let checker = document.createElement('span');
+                    checker.classList = "checker";
+                    let color = document.createElement('span');
                     localStorage.setItem("totalAnswered", totalAnswered + 1);
+                    qField.appendChild(document.createElement('br'));
                     if (value.search(answer) != -1 && value.search(u) == -1) {
                         localStorage.setItem("score", score + 0.5);
                         localStorage.setItem("streak", strk + 1);
                         localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + 0.5);
+                        checker.innerHTML = "You forgot you're units";
+                        checker.style.color = "white";
+                        checker.style.fontSize = "20px";
+                        checker.appendChild(document.createElement('br'));
+                        color.style.fontSize = "25px";
+                        color.style.color = "green";
+                        color.innerHTML = "&check;";
+                        checker.appendChild(color);
                     } else if (value.search(answer) != -1 && value.search(u) != -1) {
                         localStorage.setItem("score", score + 1);
                         localStorage.setItem("streak", strk + 1);
                         localStorage.setItem("totalAnsweredCorrect", totalAnsweredCorrect + 1);
+                        checker.style.color = "green";
+                        checker.innerHTML = "&check;";
                     } else {
+                        localStorage.setItem("score", score - 1);
                         localStorage.setItem("streak", 0);
+                        checker.style.color = "red";
+                        checker.innerHTML = "&cross;";
                     }
+                    qField.appendChild(checker);
                 }
                 submitBtn.addEventListener("click", submitNumeric);
                 nextBtn.addEventListener("click", reloadPage);

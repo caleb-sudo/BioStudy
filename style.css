@@ -264,3 +264,7 @@ table {
 #sidePanel {
     width: 50%;
 }
+
+.checker {
+    font-size: 25px;
+}
