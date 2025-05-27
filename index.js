@@ -460,6 +460,11 @@ function buildQuestion() {
                     droppers.addEventListener("dragover", function(event) {
                         allowDrop(event);
                     });
+                    if (droppers.innerHTML != dropText) {
+                        dropText.style.display = "none";
+                    } else {
+                        dropText.style.display = "block";
+                    }
                     droppers.classList = "droppers";
                     droppers.id = "dropper" + i;
                     qField.appendChild(draggables);
