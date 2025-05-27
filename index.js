@@ -443,6 +443,7 @@ function buildQuestion() {
                     let dropboxes = document.createElement('div');
                     let droppers = document.createElement('div');
                     let p = document.createElement('p');
+                    let dropText = document.createElement('span');
                     draggables.draggable = true;
                     draggables.innerHTML = unit[questionNum].terms[r[i]];
                     draggables.classList = "draggables";
@@ -452,6 +453,7 @@ function buildQuestion() {
                     });
                     dropboxes.classList = "dropboxes";
                     dropboxes.id = "dropbox" + i;
+                    dropText.innerHTML = "Drop the draggable blocks here";
                     droppers.addEventListener("drop", function(event) {
                         drop(event);
                     });
@@ -468,6 +470,7 @@ function buildQuestion() {
                     p.id = "dropboxPara" + i;
                     dropboxes.appendChild(p);
                     dropboxes.appendChild(droppers);
+                    droppers.appendChild(dropText);
                 }
 
                 let submitBtn = document.createElement('button');
@@ -519,7 +522,6 @@ function buildQuestion() {
                     number.classList = "labels";
                     dropboxes.classList = "dropboxes";
                     dropboxes.id = "dropbox" + i;
-                    dropboxes.innerHTML = "Drop the draggable blocks here";
                     dropboxes.addEventListener("drop", function(event) {
                         drop(event);
                     });
