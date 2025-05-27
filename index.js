@@ -519,6 +519,7 @@ function buildQuestion() {
                     number.classList = "labels";
                     dropboxes.classList = "dropboxes";
                     dropboxes.id = "dropbox" + i;
+                    dropboxes.innerHTML = "Drop the draggable blocks here";
                     dropboxes.addEventListener("drop", function(event) {
                         drop(event);
                     });
