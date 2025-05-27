@@ -582,13 +582,21 @@ function buildQuestion() {
             } else if (unit[questionNum].type == 4) { //numeric response question
                 let sidePanel = document.getElementById("sidePanel");
                 sidePanel.style.width = "100%";
+                sidePanel.style.textAlign = "center";
+                sidePanel.style.paddingLeft = "5%";
+                sidePanel.style.paddingRight = "5%";
                 let ansBox = document.getElementById("answerBox");
                 ansBox.style.display = "none";
+
+                let checker = document.createElement('span');
+                checker.classList = "checker";
 
                 let responseBox = document.createElement('input');
                 responseBox.type = "text";
                 responseBox.id = "response";
                 qField.appendChild(responseBox);
+                qField.appendChild(checker);
+                qField.appendChild(document.createElement('br'));
 
                 let submitBtn = document.createElement('button');
                 submitBtn.innerHTML = "Submit";
@@ -601,12 +609,11 @@ function buildQuestion() {
 
                 function submitNumeric() {
                     submitBtn.style.display = "none";
-                    qField.appendChild(nextBtn);
                     let value = responseBox.value;
                     let answer = unit[questionNum].answer;
                     let u = unit[questionNum].unit;
-                    let checker = document.createElement('span');
-                    checker.classList = "checker";
+                    let correctAns = document.createElement('span');
+                    correctAns.style.color = "white";
                     let color = document.createElement('span');
                     localStorage.setItem("totalAnswered", totalAnswered + 1);
                     qField.appendChild(document.createElement('br'));
@@ -633,8 +640,11 @@ function buildQuestion() {
                         localStorage.setItem("streak", 0);
                         checker.style.color = "red";
                         checker.innerHTML = "&cross;";
+                        correctAns.innerHTML = "The correct was <b>&asymp;" + answer + u + "</b>";
+                        qField.appendChild(correctAns);
                     }
-                    qField.appendChild(checker);
+                    qField.appendChild(document.createElement('br'));
+                    qField.appendChild(nextBtn);
                 }
                 submitBtn.addEventListener("click", submitNumeric);
                 nextBtn.addEventListener("click", reloadPage);
