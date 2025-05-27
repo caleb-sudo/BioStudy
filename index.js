@@ -456,13 +456,14 @@ function buildQuestion() {
                     dropText.innerHTML = "Drop the draggable blocks here";
                     dropText.classList = "dropText";
                     dropText.id = "dropText" + i;
+                    dropText.style.display = "block";
                     droppers.addEventListener("drop", function(event) {
                         drop(event);
                     });
                     droppers.addEventListener("dragover", function(event) {
                         allowDrop(event);
                     });
-                    if (droppers.innerHTML != dropText) {
+                    if (droppers[i].innerText != dropText[i].innerText) {
                         dropText.style.display = "none";
                     } else {
                         dropText.style.display = "block";
