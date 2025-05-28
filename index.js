@@ -474,6 +474,11 @@ function buildQuestion() {
                     dropboxes.appendChild(p);
                     dropboxes.appendChild(droppers);
                     droppers.appendChild(dropText);
+                    if (dropText[i].innerHTML.toString() != droppers[i].innerText.toString()) {
+                        dropText[i].style.display = "none";
+                    } else {
+                        dropText[i].style.display = "block";
+                    }
                 }
 
                 let submitBtn = document.createElement('button');
