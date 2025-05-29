@@ -5,7 +5,48 @@
 
             ],
             "UnitB": [
-
+                {
+                    "type": 4,
+                    "question": "Small amounts of hydrogen are conveniently prepared by reacting zinc with hydrochloric acid. What mass zinc is required to prepare 2.50L of hydrogen gas at 765mmHg and 22&deg;C?",
+                    "formula" null,
+                    "answer": 6.8,
+                    "unit": "g"
+                },
+                {
+                    "type": 4,
+                    "question": "When carbon dioxide is bubbled into a solution of calcium hydroxide, calcium carbonate precipitates and water is formed. During a particular experiment 2.35g of calcium carbonate were formed. What volume of carbon dioxide at 15&deg;C and 775mmHg must have been bubbled into a solution of calcium hydroxide to give this quantity of calcium carbonate?",
+                    "formula": null,
+                    "answer": 0.546,
+                    "unit": L
+                },
+                {
+                    "type": 4,
+                    "question": "Liquid oxygen was first prepared by heating potassium chlorate in a closed vessel to obtain oxygen at high pressure; the only other product is potassium chloride. If 85.0g of potassium chlorate react in a 2.50L vessel, which was initially evacuated, what pressure of oxygen will be attained when the temperature is finally cooled to 21&deg;C. Ignore the volume of the solid product.",
+                    "formula": null,
+                    "answer": "1.02x10<sup>3</sub>",
+                    "unit": "kPa"
+                },
+                {
+                    "type": 4,
+                    "question": "Carbon dioxide can be prepared by dropping hydrochloric acid into marble chips (calcium carbonate). The products of the reaction are calcium chloride, water and carbon dioxide. What mass of calcium carbonate are required to prepare 3.75L of carbon dioxide at 885mmHg and 26&deg;C?",
+                    "formula": null,
+                    "answer": 18.2,
+                    "unit": "g"
+                },
+                {
+                    "type": 4,
+                    "question": "In the Solvay process, ammonia and carbon dioxide are passed into a solution of sodium chloride. Sodium bicarbonate precipitates from solution. What volume of ammonia at 5.00&deg;C and 2.00atm are required to produce 1.00kg of sodium bicarbonate.",
+                    "formula": "NH<sub>3(g)</sub> + CO<sub>2(g)</sub> + H<sub>2</sub>O<sub>(l)</sub> &rarr; NaCl<sub>(aq)</sub> → NaHCO<sub>3(s)</sub> + NH<sub>4</sub>Cl<sub>(aq)</sub>",
+                    "answer": 0.135,
+                    "unit": "L"
+                },
+                {
+                    "type": 4,
+                    "question": "Pyruvic acid, HC3H3O3 (aq), is involved in cell metabolism. The amount of pyruvic acid can be determined using a yeast enzyme. The enzyme makes the following reaction go to completion. If a sample containing pyruvic acid gives 20.3 mL of carbon dioxide gas at 343 torr and 30&deg;C, what mass of pyruvic acid was present in the sample?",
+                    "formula": "HC<sub>3</sub>H<sub>3</sub>O<sub>3(aq)</sub> &rarr; C<sub>2</sub>H<sub>4</sub>O<sub>(aq)</sub> + CO<sub>2(g)</sub>",
+                    "answer": 0.0324,
+                    "unit": "g"
+                }
             ],
             "UnitCa": [
 
@@ -14,18 +55,21 @@
                 {
                     "type": 4,
                     "question": "If a solution has a pH of 3.78, what is the concentration(mol/L) of H<sub>3</sub>O<sup>+</sup>?<br>To answer the question with scientific notation please use the superscript button below.",
+                    "formula": null,
                     "answer": "1.7x10<sup>-4</sup>",
                     "unit": "mol/L"
                 },
                 {
                     "type": 4,
                     "question": "If a solution has a H<sub>3</sub>O<sup>+</sup> concentration of 3.89x10<sup>-4</sup>mol/L, what is the pH of this solution?",
+                    "formula": null,
                     "answer": "3.41",
                     "unit": null
                 },
                 {
                     "type": 4,
                     "question": "If a solution has a pH of 8.81, what is the concentration(mol/L) of H<sub>3</sub>O<sup>+</sup>?<br>To answer the question with scientific notation please use the superscript button below.",
+                    "formula": null,
                     "answer": "1.6x10<sup>-9</sup>",
                     "unit": "mol/L"
                 },
@@ -38,12 +82,14 @@
                 {
                     "type": 4,
                     "question": "If a solution has a pH of 8.46, what is the concentration(mol/L) of H<sub>3</sub>O<sup>+</sup>?<br>To answer the question with scientific notation please use the superscript button below.",
+                    "formula": null,
                     "answer": "3.5x10<sup>-9</sup>",
                     "unit": "mol/L"
                 },
                 {
                     "type": 4,
                     "question": "If a solution has a H<sub>3</sub>O<sup>+</sup> concentration of 8.45x10<sup>-13</sup>mol/L, what is the pH of this solution?",
+                    "formula": null,
                     "answer": 12.073,
                     "unit": null
                 }
