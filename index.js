@@ -618,6 +618,9 @@ function buildQuestion() {
                 function submitNumeric() {
                     submitBtn.style.display = "none";
                     let value = responseBox.value;
+                    let val = parseFloat(value);
+                    let valMin = val - 1;
+                    let valMax = val + 1;
                     let answer = unit[questionNum].answer;
                     let u = unit[questionNum].unit;
                     let correctAns = document.createElement('span');
@@ -625,6 +628,7 @@ function buildQuestion() {
                     let color = document.createElement('span');
                     localStorage.setItem("totalAnswered", totalAnswered + 1);
                     qField.appendChild(document.createElement('br'));
+                        
                     if (value.search(answer) != -1 && value.search(u[0]) == -1) {
                         localStorage.setItem("score", score + 0.5);
                         localStorage.setItem("streak", strk + 1);
