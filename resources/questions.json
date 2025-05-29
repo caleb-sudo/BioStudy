@@ -8,7 +8,7 @@
                 {
                     "type": 4,
                     "question": "Small amounts of hydrogen are conveniently prepared by reacting zinc with hydrochloric acid. What mass zinc is required to prepare 2.50L of hydrogen gas at 765mmHg and 22&deg;C?",
-                    "formula" null,
+                    "formula": null,
                     "answer": 6.8,
                     "unit": "g"
                 },
@@ -17,7 +17,7 @@
                     "question": "When carbon dioxide is bubbled into a solution of calcium hydroxide, calcium carbonate precipitates and water is formed. During a particular experiment 2.35g of calcium carbonate were formed. What volume of carbon dioxide at 15&deg;C and 775mmHg must have been bubbled into a solution of calcium hydroxide to give this quantity of calcium carbonate?",
                     "formula": null,
                     "answer": 0.546,
-                    "unit": L
+                    "unit": "L"
                 },
                 {
                     "type": 4,
