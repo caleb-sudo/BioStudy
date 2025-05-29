@@ -619,7 +619,7 @@ function buildQuestion() {
                     submitBtn.style.display = "none";
                     let value = responseBox.value;
                     let answer = unit[questionNum].answer;
-                    let u = unit[questionNum].units;
+                    let u = unit[questionNum].unit;
                     let correctAns = document.createElement('span');
                     correctAns.style.color = "white";
                     let color = document.createElement('span');
